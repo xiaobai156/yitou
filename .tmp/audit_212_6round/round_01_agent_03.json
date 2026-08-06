@@ -1,0 +1,1795 @@
+{
+  "schema_version": "audit_212_6round.v1",
+  "audit_mode": "read_only_real_fetch",
+  "project": "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版",
+  "round": 1,
+  "agent": 3,
+  "target_period": "212期",
+  "scope": "只统计每个站点专属区块内全部真实212期记录，不执行top/bottom取位，不跨source_block/document合并",
+  "assigned_count": 13,
+  "processed_count": 13,
+  "omitted_indices": [],
+  "duplicate_indices": [],
+  "count_by_status": {
+    "ok": 13
+  },
+  "total_target_records": 14,
+  "sites": [
+    {
+      "index": 26,
+      "section": "水漫金山",
+      "url": "https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/250682.html",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "content_hint": "水漫金山",
+      "parse_hint": "full_period_list",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/07/114996ee66f58f32.js",
+          "count": 1,
+          "values": [
+            "0头"
+          ],
+          "value_conflict": false,
+          "documents": [
+            "script||https://xia03.cosds.ahsccn.com/upload/script/07/114996ee66f58f32.js|||script:https://xia03.cosds.ahsccn.com/upload/script/07/114996ee66f58f32.js"
+          ],
+          "routes": [
+            "script"
+          ],
+          "records": [
+            {
+              "period": "212期",
+              "value": "0头",
+              "raw_line": "212期：☛绝杀一头☚【000】开00准站长宣言:本网站绝不带一丝参假料!如遇改料,假料,马后炮资料,一经查实,直接封号封IP.大神无处不在,真金不怕火炼,实力万人见证!",
+              "original_position": 133,
+              "document_order": 3,
+              "block_order": 133,
+              "record_order": 133,
+              "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/07/114996ee66f58f32.js",
+              "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/07/114996ee66f58f32.js|||script:https://xia03.cosds.ahsccn.com/upload/script/07/114996ee66f58f32.js",
+              "source_route": "script",
+              "source_url": "https://xia03.cosds.ahsccn.com/upload/script/07/114996ee66f58f32.js",
+              "source_api_url": "",
+              "source_record_id": "",
+              "source_record_path": "",
+              "source_identity": "",
+              "source_title": "",
+              "source_author": ""
+            }
+          ]
+        }
+      ],
+      "source_document_count": 5,
+      "source_documents": [
+        {
+          "document_key": "page||https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/250682.html|||page:https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/250682.html:0",
+          "route": "page",
+          "url": "https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/250682.html",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "page:https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/250682.html:0",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/07/5bbeefde620b01b0.js|||script:https://xia01.cosds.ahsccn.com/upload/script/07/5bbeefde620b01b0.js",
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/07/5bbeefde620b01b0.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/07/5bbeefde620b01b0.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia02.cosds.ahsccn.com/upload/script/07/60c74166a2529dbb.js|||script:https://xia02.cosds.ahsccn.com/upload/script/07/60c74166a2529dbb.js",
+          "route": "script",
+          "url": "https://xia02.cosds.ahsccn.com/upload/script/07/60c74166a2529dbb.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia02.cosds.ahsccn.com/upload/script/07/60c74166a2529dbb.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/07/114996ee66f58f32.js|||script:https://xia03.cosds.ahsccn.com/upload/script/07/114996ee66f58f32.js",
+          "route": "script",
+          "url": "https://xia03.cosds.ahsccn.com/upload/script/07/114996ee66f58f32.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/07/114996ee66f58f32.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/07/2d2cb72762d16940.js|||script:https://xia01.cosds.ahsccn.com/upload/script/07/2d2cb72762d16940.js",
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/07/2d2cb72762d16940.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/07/2d2cb72762d16940.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        }
+      ],
+      "error_reason": "",
+      "request_method": "GET",
+      "http_status": 200,
+      "page_bytes": 2663,
+      "elapsed_ms": 4371,
+      "block_conflict": false,
+      "same_block_value_conflict": false
+    },
+    {
+      "index": 27,
+      "section": "精准资料",
+      "url": "https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/250867.html",
+      "field": "精杀一头",
+      "position": "尾部",
+      "content_hint": "精杀一头精准",
+      "parse_hint": "strict_position_three_miaosha",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/35de84b420aa3f2a.js",
+          "count": 1,
+          "values": [
+            "3头"
+          ],
+          "value_conflict": false,
+          "documents": [
+            "script||https://xia05.cosds.ahsccn.com/upload/script/08/35de84b420aa3f2a.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/35de84b420aa3f2a.js"
+          ],
+          "routes": [
+            "script"
+          ],
+          "records": [
+            {
+              "period": "212期",
+              "value": "3头",
+              "raw_line": "212期㊣秒杀【3头】开牛06对",
+              "original_position": 100,
+              "document_order": 3,
+              "block_order": 100,
+              "record_order": 100,
+              "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/35de84b420aa3f2a.js",
+              "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/08/35de84b420aa3f2a.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/35de84b420aa3f2a.js",
+              "source_route": "script",
+              "source_url": "https://xia05.cosds.ahsccn.com/upload/script/08/35de84b420aa3f2a.js",
+              "source_api_url": "",
+              "source_record_id": "",
+              "source_record_path": "",
+              "source_identity": "",
+              "source_title": "",
+              "source_author": ""
+            }
+          ]
+        }
+      ],
+      "source_document_count": 5,
+      "source_documents": [
+        {
+          "document_key": "page||https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/250867.html|||page:https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/250867.html:0",
+          "route": "page",
+          "url": "https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/250867.html",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "page:https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/250867.html:0",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/08/5bbeefde620b01b0.js|||script:https://xia03.cosds.ahsccn.com/upload/script/08/5bbeefde620b01b0.js",
+          "route": "script",
+          "url": "https://xia03.cosds.ahsccn.com/upload/script/08/5bbeefde620b01b0.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/08/5bbeefde620b01b0.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia02.cosds.ahsccn.com/upload/script/08/60c74166a2529dbb.js|||script:https://xia02.cosds.ahsccn.com/upload/script/08/60c74166a2529dbb.js",
+          "route": "script",
+          "url": "https://xia02.cosds.ahsccn.com/upload/script/08/60c74166a2529dbb.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia02.cosds.ahsccn.com/upload/script/08/60c74166a2529dbb.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/08/35de84b420aa3f2a.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/35de84b420aa3f2a.js",
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/08/35de84b420aa3f2a.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/35de84b420aa3f2a.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/08/2d2cb72762d16940.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/2d2cb72762d16940.js",
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/08/2d2cb72762d16940.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/2d2cb72762d16940.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        }
+      ],
+      "error_reason": "",
+      "request_method": "GET",
+      "http_status": 200,
+      "page_bytes": 2663,
+      "elapsed_ms": 6844,
+      "block_conflict": false,
+      "same_block_value_conflict": false
+    },
+    {
+      "index": 28,
+      "section": "东风浩荡",
+      "url": "https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/223644.html",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "content_hint": "东风浩荡",
+      "parse_hint": "full_period_list",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/b84e51b8d12d450c.js",
+          "count": 1,
+          "values": [
+            "0头"
+          ],
+          "value_conflict": false,
+          "documents": [
+            "script||https://xia05.cosds.ahsccn.com/upload/script/08/b84e51b8d12d450c.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/b84e51b8d12d450c.js"
+          ],
+          "routes": [
+            "script"
+          ],
+          "records": [
+            {
+              "period": "212期",
+              "value": "0头",
+              "raw_line": "212期：绝杀一头（0头）开牛06错",
+              "original_position": 1,
+              "document_order": 2,
+              "block_order": 1,
+              "record_order": 1,
+              "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/b84e51b8d12d450c.js",
+              "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/08/b84e51b8d12d450c.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/b84e51b8d12d450c.js",
+              "source_route": "script",
+              "source_url": "https://xia05.cosds.ahsccn.com/upload/script/08/b84e51b8d12d450c.js",
+              "source_api_url": "",
+              "source_record_id": "",
+              "source_record_path": "",
+              "source_identity": "",
+              "source_title": "",
+              "source_author": ""
+            }
+          ]
+        }
+      ],
+      "source_document_count": 5,
+      "source_documents": [
+        {
+          "document_key": "page||https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/223644.html|||page:https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/223644.html:0",
+          "route": "page",
+          "url": "https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/223644.html",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "page:https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/223644.html:0",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/08/91c554dd2ef9d41c.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/91c554dd2ef9d41c.js",
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/08/91c554dd2ef9d41c.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/91c554dd2ef9d41c.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/08/b84e51b8d12d450c.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/b84e51b8d12d450c.js",
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/08/b84e51b8d12d450c.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/b84e51b8d12d450c.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/08/24726a6084a9adb5.js|||script:https://xia03.cosds.ahsccn.com/upload/script/08/24726a6084a9adb5.js",
+          "route": "script",
+          "url": "https://xia03.cosds.ahsccn.com/upload/script/08/24726a6084a9adb5.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/08/24726a6084a9adb5.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/08/822a4755a0b57957.js|||script:https://xia01.cosds.ahsccn.com/upload/script/08/822a4755a0b57957.js",
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/08/822a4755a0b57957.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/08/822a4755a0b57957.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        }
+      ],
+      "error_reason": "",
+      "request_method": "GET",
+      "http_status": 200,
+      "page_bytes": 3123,
+      "elapsed_ms": 7074,
+      "block_conflict": false,
+      "same_block_value_conflict": false
+    },
+    {
+      "index": 29,
+      "section": "发家致富",
+      "url": "https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/205817.html",
+      "field": "稳杀一头",
+      "position": "顶部",
+      "content_hint": "发家致富",
+      "parse_hint": "full_period_list",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia02.cosds.ahsccn.com/upload/script/08/39bd167f87a2b364.js",
+          "count": 1,
+          "values": [
+            "1头"
+          ],
+          "value_conflict": false,
+          "documents": [
+            "script||https://xia02.cosds.ahsccn.com/upload/script/08/39bd167f87a2b364.js|||script:https://xia02.cosds.ahsccn.com/upload/script/08/39bd167f87a2b364.js"
+          ],
+          "routes": [
+            "script"
+          ],
+          "records": [
+            {
+              "period": "212期",
+              "value": "1头",
+              "raw_line": "212期【稳杀一头】【杀1头】开:牛06准",
+              "original_position": 1,
+              "document_order": 2,
+              "block_order": 1,
+              "record_order": 1,
+              "source_block_id": "script:https://xia02.cosds.ahsccn.com/upload/script/08/39bd167f87a2b364.js",
+              "document_key": "script||https://xia02.cosds.ahsccn.com/upload/script/08/39bd167f87a2b364.js|||script:https://xia02.cosds.ahsccn.com/upload/script/08/39bd167f87a2b364.js",
+              "source_route": "script",
+              "source_url": "https://xia02.cosds.ahsccn.com/upload/script/08/39bd167f87a2b364.js",
+              "source_api_url": "",
+              "source_record_id": "",
+              "source_record_path": "",
+              "source_identity": "",
+              "source_title": "",
+              "source_author": ""
+            }
+          ]
+        }
+      ],
+      "source_document_count": 5,
+      "source_documents": [
+        {
+          "document_key": "page||https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/205817.html|||page:https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/205817.html:0",
+          "route": "page",
+          "url": "https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/205817.html",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "page:https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/205817.html:0",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/08/2e6fda201bbafb06.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/2e6fda201bbafb06.js",
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/08/2e6fda201bbafb06.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/2e6fda201bbafb06.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia02.cosds.ahsccn.com/upload/script/08/39bd167f87a2b364.js|||script:https://xia02.cosds.ahsccn.com/upload/script/08/39bd167f87a2b364.js",
+          "route": "script",
+          "url": "https://xia02.cosds.ahsccn.com/upload/script/08/39bd167f87a2b364.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia02.cosds.ahsccn.com/upload/script/08/39bd167f87a2b364.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/08/8585654d01249101.js|||script:https://xia03.cosds.ahsccn.com/upload/script/08/8585654d01249101.js",
+          "route": "script",
+          "url": "https://xia03.cosds.ahsccn.com/upload/script/08/8585654d01249101.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/08/8585654d01249101.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/08/416e4ab6e0094831.js|||script:https://xia01.cosds.ahsccn.com/upload/script/08/416e4ab6e0094831.js",
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/08/416e4ab6e0094831.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/08/416e4ab6e0094831.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        }
+      ],
+      "error_reason": "",
+      "request_method": "GET",
+      "http_status": 200,
+      "page_bytes": 3123,
+      "elapsed_ms": 5180,
+      "block_conflict": false,
+      "same_block_value_conflict": false
+    },
+    {
+      "index": 30,
+      "section": "杀码榜",
+      "url": "https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/205670.html",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "content_hint": "杀料榜",
+      "parse_hint": "strict_position_three",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 2,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/63755c733114e172.js",
+          "count": 2,
+          "values": [
+            "3头"
+          ],
+          "value_conflict": false,
+          "documents": [
+            "script||https://xia05.cosds.ahsccn.com/upload/script/08/63755c733114e172.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/63755c733114e172.js"
+          ],
+          "routes": [
+            "script"
+          ],
+          "records": [
+            {
+              "period": "212期",
+              "value": "3头",
+              "raw_line": "212期:【绝杀一头】··【333头】开:0000对",
+              "original_position": 0,
+              "document_order": 2,
+              "block_order": 0,
+              "record_order": 0,
+              "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/63755c733114e172.js",
+              "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/08/63755c733114e172.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/63755c733114e172.js",
+              "source_route": "script",
+              "source_url": "https://xia05.cosds.ahsccn.com/upload/script/08/63755c733114e172.js",
+              "source_api_url": "",
+              "source_record_id": "",
+              "source_record_path": "",
+              "source_identity": "",
+              "source_title": "",
+              "source_author": ""
+            },
+            {
+              "period": "212期",
+              "value": "3头",
+              "raw_line": "212期:【绝杀一头】··【333头】开:鼠18对",
+              "original_position": 365,
+              "document_order": 2,
+              "block_order": 365,
+              "record_order": 365,
+              "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/63755c733114e172.js",
+              "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/08/63755c733114e172.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/63755c733114e172.js",
+              "source_route": "script",
+              "source_url": "https://xia05.cosds.ahsccn.com/upload/script/08/63755c733114e172.js",
+              "source_api_url": "",
+              "source_record_id": "",
+              "source_record_path": "",
+              "source_identity": "",
+              "source_title": "",
+              "source_author": ""
+            }
+          ]
+        }
+      ],
+      "source_document_count": 5,
+      "source_documents": [
+        {
+          "document_key": "page||https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/205670.html|||page:https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/205670.html:0",
+          "route": "page",
+          "url": "https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/205670.html",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "page:https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/205670.html:0",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/e9f63afff1fee014.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/e9f63afff1fee014.js",
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/08/e9f63afff1fee014.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/e9f63afff1fee014.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/08/63755c733114e172.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/63755c733114e172.js",
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/08/63755c733114e172.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/63755c733114e172.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/08/07419c4f1f77a42e.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/07419c4f1f77a42e.js",
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/08/07419c4f1f77a42e.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/07419c4f1f77a42e.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/4d12a14ed8a66899.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/4d12a14ed8a66899.js",
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/08/4d12a14ed8a66899.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/4d12a14ed8a66899.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        }
+      ],
+      "error_reason": "",
+      "request_method": "GET",
+      "http_status": 200,
+      "page_bytes": 3123,
+      "elapsed_ms": 4346,
+      "block_conflict": false,
+      "same_block_value_conflict": false
+    },
+    {
+      "index": 31,
+      "section": "万里长城",
+      "url": "https://fszatrw.xhwqs-gffny-zzdfsq.work:16677/topic/678234.html",
+      "field": "必杀一头",
+      "position": "尾部",
+      "content_hint": "万里长城",
+      "parse_hint": "full_period_list",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/07/75765e086da9eead.js",
+          "count": 1,
+          "values": [
+            "0头"
+          ],
+          "value_conflict": false,
+          "documents": [
+            "script||https://xia03.cosds.ahsccn.com/upload/script/07/75765e086da9eead.js|||script:https://xia03.cosds.ahsccn.com/upload/script/07/75765e086da9eead.js"
+          ],
+          "routes": [
+            "script"
+          ],
+          "records": [
+            {
+              "period": "212期",
+              "value": "0头",
+              "raw_line": "212期（必杀一头）【0】开00准上一篇：高手料",
+              "original_position": 115,
+              "document_order": 2,
+              "block_order": 115,
+              "record_order": 115,
+              "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/07/75765e086da9eead.js",
+              "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/07/75765e086da9eead.js|||script:https://xia03.cosds.ahsccn.com/upload/script/07/75765e086da9eead.js",
+              "source_route": "script",
+              "source_url": "https://xia03.cosds.ahsccn.com/upload/script/07/75765e086da9eead.js",
+              "source_api_url": "",
+              "source_record_id": "",
+              "source_record_path": "",
+              "source_identity": "",
+              "source_title": "",
+              "source_author": ""
+            }
+          ]
+        }
+      ],
+      "source_document_count": 4,
+      "source_documents": [
+        {
+          "document_key": "page||https://fszatrw.xhwqs-gffny-zzdfsq.work:16677/topic/678234.html|||page:https://fszatrw.xhwqs-gffny-zzdfsq.work:16677/topic/678234.html:0",
+          "route": "page",
+          "url": "https://fszatrw.xhwqs-gffny-zzdfsq.work:16677/topic/678234.html",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "page:https://fszatrw.xhwqs-gffny-zzdfsq.work:16677/topic/678234.html:0",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/07/d0f51a89cd2359ba.js|||script:https://xia01.cosds.ahsccn.com/upload/script/07/d0f51a89cd2359ba.js",
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/07/d0f51a89cd2359ba.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/07/d0f51a89cd2359ba.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/07/75765e086da9eead.js|||script:https://xia03.cosds.ahsccn.com/upload/script/07/75765e086da9eead.js",
+          "route": "script",
+          "url": "https://xia03.cosds.ahsccn.com/upload/script/07/75765e086da9eead.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/07/75765e086da9eead.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/07/76cc8dcf53ee53a5.js|||script:https://xia03.cosds.ahsccn.com/upload/script/07/76cc8dcf53ee53a5.js",
+          "route": "script",
+          "url": "https://xia03.cosds.ahsccn.com/upload/script/07/76cc8dcf53ee53a5.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/07/76cc8dcf53ee53a5.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        }
+      ],
+      "error_reason": "",
+      "request_method": "GET",
+      "http_status": 200,
+      "page_bytes": 2579,
+      "elapsed_ms": 3118,
+      "block_conflict": false,
+      "same_block_value_conflict": false
+    },
+    {
+      "index": 32,
+      "section": "兄弟情深",
+      "url": "https://jldzuea.0xkqd-q7ng5-boerfb.xyz:16677/topic/455519.html",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "content_hint": "兄弟情深",
+      "parse_hint": "full_period_list",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/07/3a774cba2485d2d9.js",
+          "count": 1,
+          "values": [
+            "0头"
+          ],
+          "value_conflict": false,
+          "documents": [
+            "script||https://xia05.cosds.ahsccn.com/upload/script/07/3a774cba2485d2d9.js|||script:https://xia05.cosds.ahsccn.com/upload/script/07/3a774cba2485d2d9.js"
+          ],
+          "routes": [
+            "script"
+          ],
+          "records": [
+            {
+              "period": "212期",
+              "value": "0头",
+              "raw_line": "212期：☛绝杀一头☚【000】开00准上一篇：",
+              "original_position": 348,
+              "document_order": 2,
+              "block_order": 348,
+              "record_order": 348,
+              "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/07/3a774cba2485d2d9.js",
+              "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/07/3a774cba2485d2d9.js|||script:https://xia05.cosds.ahsccn.com/upload/script/07/3a774cba2485d2d9.js",
+              "source_route": "script",
+              "source_url": "https://xia05.cosds.ahsccn.com/upload/script/07/3a774cba2485d2d9.js",
+              "source_api_url": "",
+              "source_record_id": "",
+              "source_record_path": "",
+              "source_identity": "",
+              "source_title": "",
+              "source_author": ""
+            }
+          ]
+        }
+      ],
+      "source_document_count": 4,
+      "source_documents": [
+        {
+          "document_key": "page||https://jldzuea.0xkqd-q7ng5-boerfb.xyz:16677/topic/455519.html|||page:https://jldzuea.0xkqd-q7ng5-boerfb.xyz:16677/topic/455519.html:0",
+          "route": "page",
+          "url": "https://jldzuea.0xkqd-q7ng5-boerfb.xyz:16677/topic/455519.html",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "page:https://jldzuea.0xkqd-q7ng5-boerfb.xyz:16677/topic/455519.html:0",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/07/381ffe947fe3c3c2.js|||script:https://xia01.cosds.ahsccn.com/upload/script/07/381ffe947fe3c3c2.js",
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/07/381ffe947fe3c3c2.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/07/381ffe947fe3c3c2.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/07/3a774cba2485d2d9.js|||script:https://xia05.cosds.ahsccn.com/upload/script/07/3a774cba2485d2d9.js",
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/07/3a774cba2485d2d9.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/07/3a774cba2485d2d9.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/07/dcb37f22afc51207.js|||script:https://xia05.cosds.ahsccn.com/upload/script/07/dcb37f22afc51207.js",
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/07/dcb37f22afc51207.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/07/dcb37f22afc51207.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        }
+      ],
+      "error_reason": "",
+      "request_method": "GET",
+      "http_status": 200,
+      "page_bytes": 4861,
+      "elapsed_ms": 4053,
+      "block_conflict": false,
+      "same_block_value_conflict": false
+    },
+    {
+      "index": 33,
+      "section": "广西仔",
+      "url": "https://jldzuea.0xkqd-q7ng5-boerfb.xyz:16677/topic/677574.html",
+      "field": "稳杀一头",
+      "position": "顶部",
+      "content_hint": "本站推荐",
+      "parse_hint": "full_period_list",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/07/a6587013d1cd72d5.js",
+          "count": 1,
+          "values": [
+            "4头"
+          ],
+          "value_conflict": false,
+          "documents": [
+            "script||https://xia04.cosds.ahsccn.com/upload/script/07/a6587013d1cd72d5.js|||script:https://xia04.cosds.ahsccn.com/upload/script/07/a6587013d1cd72d5.js"
+          ],
+          "routes": [
+            "script"
+          ],
+          "records": [
+            {
+              "period": "212期",
+              "value": "4头",
+              "raw_line": "212期：稳杀一头（4头）开0000准",
+              "original_position": 0,
+              "document_order": 2,
+              "block_order": 0,
+              "record_order": 0,
+              "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/07/a6587013d1cd72d5.js",
+              "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/07/a6587013d1cd72d5.js|||script:https://xia04.cosds.ahsccn.com/upload/script/07/a6587013d1cd72d5.js",
+              "source_route": "script",
+              "source_url": "https://xia04.cosds.ahsccn.com/upload/script/07/a6587013d1cd72d5.js",
+              "source_api_url": "",
+              "source_record_id": "",
+              "source_record_path": "",
+              "source_identity": "",
+              "source_title": "",
+              "source_author": ""
+            }
+          ]
+        }
+      ],
+      "source_document_count": 4,
+      "source_documents": [
+        {
+          "document_key": "page||https://jldzuea.0xkqd-q7ng5-boerfb.xyz:16677/topic/677574.html|||page:https://jldzuea.0xkqd-q7ng5-boerfb.xyz:16677/topic/677574.html:0",
+          "route": "page",
+          "url": "https://jldzuea.0xkqd-q7ng5-boerfb.xyz:16677/topic/677574.html",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "page:https://jldzuea.0xkqd-q7ng5-boerfb.xyz:16677/topic/677574.html:0",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/07/8c55b94a004701cf.js|||script:https://xia04.cosds.ahsccn.com/upload/script/07/8c55b94a004701cf.js",
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/07/8c55b94a004701cf.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/07/8c55b94a004701cf.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/07/a6587013d1cd72d5.js|||script:https://xia04.cosds.ahsccn.com/upload/script/07/a6587013d1cd72d5.js",
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/07/a6587013d1cd72d5.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/07/a6587013d1cd72d5.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia02.cosds.ahsccn.com/upload/script/07/553ae7bf008e33b8.js|||script:https://xia02.cosds.ahsccn.com/upload/script/07/553ae7bf008e33b8.js",
+          "route": "script",
+          "url": "https://xia02.cosds.ahsccn.com/upload/script/07/553ae7bf008e33b8.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia02.cosds.ahsccn.com/upload/script/07/553ae7bf008e33b8.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        }
+      ],
+      "error_reason": "",
+      "request_method": "GET",
+      "http_status": 200,
+      "page_bytes": 2743,
+      "elapsed_ms": 2756,
+      "block_conflict": false,
+      "same_block_value_conflict": false
+    },
+    {
+      "index": 34,
+      "section": "维鸠居之",
+      "url": "https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/248016.html",
+      "field": "大杀一头",
+      "position": "尾部",
+      "content_hint": "",
+      "parse_hint": "full_period_list",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/08/380e305329c4a47d.js",
+          "count": 1,
+          "values": [
+            "2头"
+          ],
+          "value_conflict": false,
+          "documents": [
+            "script||https://xia01.cosds.ahsccn.com/upload/script/08/380e305329c4a47d.js|||script:https://xia01.cosds.ahsccn.com/upload/script/08/380e305329c4a47d.js"
+          ],
+          "routes": [
+            "script"
+          ],
+          "records": [
+            {
+              "period": "212期",
+              "value": "2头",
+              "raw_line": "212期大杀一头『2头』开：0000准",
+              "original_position": 0,
+              "document_order": 2,
+              "block_order": 0,
+              "record_order": 0,
+              "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/08/380e305329c4a47d.js",
+              "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/08/380e305329c4a47d.js|||script:https://xia01.cosds.ahsccn.com/upload/script/08/380e305329c4a47d.js",
+              "source_route": "script",
+              "source_url": "https://xia01.cosds.ahsccn.com/upload/script/08/380e305329c4a47d.js",
+              "source_api_url": "",
+              "source_record_id": "",
+              "source_record_path": "",
+              "source_identity": "",
+              "source_title": "",
+              "source_author": ""
+            }
+          ]
+        }
+      ],
+      "source_document_count": 6,
+      "source_documents": [
+        {
+          "document_key": "page||https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/248016.html|||page:https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/248016.html:0",
+          "route": "page",
+          "url": "https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/248016.html",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "page:https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/248016.html:0",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/08/6ce695d3016db672.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/6ce695d3016db672.js",
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/08/6ce695d3016db672.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/6ce695d3016db672.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/08/380e305329c4a47d.js|||script:https://xia01.cosds.ahsccn.com/upload/script/08/380e305329c4a47d.js",
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/08/380e305329c4a47d.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/08/380e305329c4a47d.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/08/a0b08ea24af48dec.js|||script:https://xia03.cosds.ahsccn.com/upload/script/08/a0b08ea24af48dec.js",
+          "route": "script",
+          "url": "https://xia03.cosds.ahsccn.com/upload/script/08/a0b08ea24af48dec.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/08/a0b08ea24af48dec.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/08/4a593389b6a6b6ac.js|||script:https://xia01.cosds.ahsccn.com/upload/script/08/4a593389b6a6b6ac.js",
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/08/4a593389b6a6b6ac.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/08/4a593389b6a6b6ac.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/fc1b8d65b7c8ce67.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/fc1b8d65b7c8ce67.js",
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/08/fc1b8d65b7c8ce67.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/fc1b8d65b7c8ce67.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        }
+      ],
+      "error_reason": "",
+      "request_method": "GET",
+      "http_status": 200,
+      "page_bytes": 2718,
+      "elapsed_ms": 6677,
+      "block_conflict": false,
+      "same_block_value_conflict": false
+    },
+    {
+      "index": 35,
+      "section": "人心所向-绝杀一头",
+      "url": "https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/248031.html",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "content_hint": "大杀一头",
+      "parse_hint": "full_period_list",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/08/992403223f2ca746.js",
+          "count": 1,
+          "values": [
+            "1头"
+          ],
+          "value_conflict": false,
+          "documents": [
+            "script||https://xia01.cosds.ahsccn.com/upload/script/08/992403223f2ca746.js|||script:https://xia01.cosds.ahsccn.com/upload/script/08/992403223f2ca746.js"
+          ],
+          "routes": [
+            "script"
+          ],
+          "records": [
+            {
+              "period": "212期",
+              "value": "1头",
+              "raw_line": "212期绝杀一头『1头』开0000准",
+              "original_position": 0,
+              "document_order": 2,
+              "block_order": 0,
+              "record_order": 0,
+              "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/08/992403223f2ca746.js",
+              "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/08/992403223f2ca746.js|||script:https://xia01.cosds.ahsccn.com/upload/script/08/992403223f2ca746.js",
+              "source_route": "script",
+              "source_url": "https://xia01.cosds.ahsccn.com/upload/script/08/992403223f2ca746.js",
+              "source_api_url": "",
+              "source_record_id": "",
+              "source_record_path": "",
+              "source_identity": "",
+              "source_title": "",
+              "source_author": ""
+            }
+          ]
+        }
+      ],
+      "source_document_count": 6,
+      "source_documents": [
+        {
+          "document_key": "page||https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/248031.html|||page:https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/248031.html:0",
+          "route": "page",
+          "url": "https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/248031.html",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "page:https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/248031.html:0",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/08/6ce695d3016db672.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/6ce695d3016db672.js",
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/08/6ce695d3016db672.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/6ce695d3016db672.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/08/992403223f2ca746.js|||script:https://xia01.cosds.ahsccn.com/upload/script/08/992403223f2ca746.js",
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/08/992403223f2ca746.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/08/992403223f2ca746.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/9a449d8e99d740ce.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/9a449d8e99d740ce.js",
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/08/9a449d8e99d740ce.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/9a449d8e99d740ce.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/08/4a593389b6a6b6ac.js|||script:https://xia01.cosds.ahsccn.com/upload/script/08/4a593389b6a6b6ac.js",
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/08/4a593389b6a6b6ac.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/08/4a593389b6a6b6ac.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/fc1b8d65b7c8ce67.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/fc1b8d65b7c8ce67.js",
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/08/fc1b8d65b7c8ce67.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/fc1b8d65b7c8ce67.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        }
+      ],
+      "error_reason": "",
+      "request_method": "GET",
+      "http_status": 200,
+      "page_bytes": 2718,
+      "elapsed_ms": 5202,
+      "block_conflict": false,
+      "same_block_value_conflict": false
+    },
+    {
+      "index": 36,
+      "section": "义无反顾",
+      "url": "https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/481766.html",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "content_hint": "",
+      "parse_hint": "full_period_list",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/724ee6bd7691ed0d.js",
+          "count": 1,
+          "values": [
+            "4头"
+          ],
+          "value_conflict": false,
+          "documents": [
+            "script||https://xia04.cosds.ahsccn.com/upload/script/08/724ee6bd7691ed0d.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/724ee6bd7691ed0d.js"
+          ],
+          "routes": [
+            "script"
+          ],
+          "records": [
+            {
+              "period": "212期",
+              "value": "4头",
+              "raw_line": "212期（绝杀一头）【4】（开0000准）",
+              "original_position": 0,
+              "document_order": 2,
+              "block_order": 0,
+              "record_order": 0,
+              "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/724ee6bd7691ed0d.js",
+              "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/724ee6bd7691ed0d.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/724ee6bd7691ed0d.js",
+              "source_route": "script",
+              "source_url": "https://xia04.cosds.ahsccn.com/upload/script/08/724ee6bd7691ed0d.js",
+              "source_api_url": "",
+              "source_record_id": "",
+              "source_record_path": "",
+              "source_identity": "",
+              "source_title": "",
+              "source_author": ""
+            }
+          ]
+        }
+      ],
+      "source_document_count": 6,
+      "source_documents": [
+        {
+          "document_key": "page||https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/481766.html|||page:https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/481766.html:0",
+          "route": "page",
+          "url": "https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/481766.html",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "page:https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/481766.html:0",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/08/6ce695d3016db672.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/6ce695d3016db672.js",
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/08/6ce695d3016db672.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/6ce695d3016db672.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/724ee6bd7691ed0d.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/724ee6bd7691ed0d.js",
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/08/724ee6bd7691ed0d.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/724ee6bd7691ed0d.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/08/2e90e159caae9afb.js|||script:https://xia01.cosds.ahsccn.com/upload/script/08/2e90e159caae9afb.js",
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/08/2e90e159caae9afb.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/08/2e90e159caae9afb.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/08/4a593389b6a6b6ac.js|||script:https://xia01.cosds.ahsccn.com/upload/script/08/4a593389b6a6b6ac.js",
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/08/4a593389b6a6b6ac.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/08/4a593389b6a6b6ac.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/fc1b8d65b7c8ce67.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/fc1b8d65b7c8ce67.js",
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/08/fc1b8d65b7c8ce67.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/fc1b8d65b7c8ce67.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        }
+      ],
+      "error_reason": "",
+      "request_method": "GET",
+      "http_status": 200,
+      "page_bytes": 2718,
+      "elapsed_ms": 4992,
+      "block_conflict": false,
+      "same_block_value_conflict": false
+    },
+    {
+      "index": 37,
+      "section": "信封",
+      "url": "https://ptnvme.qlxrj-8q89y-qhwafv.xyz:16677/",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "content_hint": "『绝杀一头』",
+      "parse_hint": "strict_position_three",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/07/d9bf598213434bb1.js",
+          "count": 1,
+          "values": [
+            "4头"
+          ],
+          "value_conflict": false,
+          "documents": [
+            "script||https://xia05.cosds.ahsccn.com/upload/script/07/d9bf598213434bb1.js|||script:https://xia05.cosds.ahsccn.com/upload/script/07/d9bf598213434bb1.js"
+          ],
+          "routes": [
+            "script"
+          ],
+          "records": [
+            {
+              "period": "212期",
+              "value": "4头",
+              "raw_line": "212期绝杀一头【4头】开:？00准",
+              "original_position": 0,
+              "document_order": 5,
+              "block_order": 0,
+              "record_order": 0,
+              "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/07/d9bf598213434bb1.js",
+              "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/07/d9bf598213434bb1.js|||script:https://xia05.cosds.ahsccn.com/upload/script/07/d9bf598213434bb1.js",
+              "source_route": "script",
+              "source_url": "https://xia05.cosds.ahsccn.com/upload/script/07/d9bf598213434bb1.js",
+              "source_api_url": "",
+              "source_record_id": "",
+              "source_record_path": "",
+              "source_identity": "",
+              "source_title": "",
+              "source_author": ""
+            }
+          ]
+        }
+      ],
+      "source_document_count": 19,
+      "source_documents": [
+        {
+          "document_key": "page||https://ptnvme.qlxrj-8q89y-qhwafv.xyz:16677/|||page:https://ptnvme.qlxrj-8q89y-qhwafv.xyz:16677/:0",
+          "route": "page",
+          "url": "https://ptnvme.qlxrj-8q89y-qhwafv.xyz:16677/",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "page:https://ptnvme.qlxrj-8q89y-qhwafv.xyz:16677/:0",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/07/8079775158ec7094.js|||script:https://xia04.cosds.ahsccn.com/upload/script/07/8079775158ec7094.js",
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/07/8079775158ec7094.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/07/8079775158ec7094.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/07/72a3b075d40fb2f2.js|||script:https://xia05.cosds.ahsccn.com/upload/script/07/72a3b075d40fb2f2.js",
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/07/72a3b075d40fb2f2.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/07/72a3b075d40fb2f2.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia02.cosds.ahsccn.com/upload/script/07/75692f89a69723e2.js|||script:https://xia02.cosds.ahsccn.com/upload/script/07/75692f89a69723e2.js",
+          "route": "script",
+          "url": "https://xia02.cosds.ahsccn.com/upload/script/07/75692f89a69723e2.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia02.cosds.ahsccn.com/upload/script/07/75692f89a69723e2.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia06.cosds.ahsccn.com/upload/script/07/f16128efff192519.js|||script:https://xia06.cosds.ahsccn.com/upload/script/07/f16128efff192519.js",
+          "route": "script",
+          "url": "https://xia06.cosds.ahsccn.com/upload/script/07/f16128efff192519.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia06.cosds.ahsccn.com/upload/script/07/f16128efff192519.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/07/d9bf598213434bb1.js|||script:https://xia05.cosds.ahsccn.com/upload/script/07/d9bf598213434bb1.js",
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/07/d9bf598213434bb1.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/07/d9bf598213434bb1.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/07/540aa7d3fadea9e2.js|||script:https://xia04.cosds.ahsccn.com/upload/script/07/540aa7d3fadea9e2.js",
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/07/540aa7d3fadea9e2.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/07/540aa7d3fadea9e2.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia06.cosds.ahsccn.com/upload/script/07/04f3f6a0301aa473.js|||script:https://xia06.cosds.ahsccn.com/upload/script/07/04f3f6a0301aa473.js",
+          "route": "script",
+          "url": "https://xia06.cosds.ahsccn.com/upload/script/07/04f3f6a0301aa473.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia06.cosds.ahsccn.com/upload/script/07/04f3f6a0301aa473.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia06.cosds.ahsccn.com/upload/script/07/ef49e98b8b4fe6a3.js|||script:https://xia06.cosds.ahsccn.com/upload/script/07/ef49e98b8b4fe6a3.js",
+          "route": "script",
+          "url": "https://xia06.cosds.ahsccn.com/upload/script/07/ef49e98b8b4fe6a3.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia06.cosds.ahsccn.com/upload/script/07/ef49e98b8b4fe6a3.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/07/6e5cfc85b4edaff5.js|||script:https://xia05.cosds.ahsccn.com/upload/script/07/6e5cfc85b4edaff5.js",
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/07/6e5cfc85b4edaff5.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/07/6e5cfc85b4edaff5.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/07/bb680d8bad38ec39.js|||script:https://xia04.cosds.ahsccn.com/upload/script/07/bb680d8bad38ec39.js",
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/07/bb680d8bad38ec39.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/07/bb680d8bad38ec39.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/07/bde16e160b3c6ed5.js|||script:https://xia04.cosds.ahsccn.com/upload/script/07/bde16e160b3c6ed5.js",
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/07/bde16e160b3c6ed5.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/07/bde16e160b3c6ed5.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/07/c847959762e0790f.js|||script:https://xia05.cosds.ahsccn.com/upload/script/07/c847959762e0790f.js",
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/07/c847959762e0790f.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/07/c847959762e0790f.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/07/0346a6c7ee759617.js|||script:https://xia05.cosds.ahsccn.com/upload/script/07/0346a6c7ee759617.js",
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/07/0346a6c7ee759617.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/07/0346a6c7ee759617.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/07/e7984da8e6df85f4.js|||script:https://xia01.cosds.ahsccn.com/upload/script/07/e7984da8e6df85f4.js",
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/07/e7984da8e6df85f4.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/07/e7984da8e6df85f4.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia02.cosds.ahsccn.com/upload/script/07/d469bbdadbd6ec1e.js|||script:https://xia02.cosds.ahsccn.com/upload/script/07/d469bbdadbd6ec1e.js",
+          "route": "script",
+          "url": "https://xia02.cosds.ahsccn.com/upload/script/07/d469bbdadbd6ec1e.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia02.cosds.ahsccn.com/upload/script/07/d469bbdadbd6ec1e.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/07/0cd64cec39b1fa94.js|||script:https://xia03.cosds.ahsccn.com/upload/script/07/0cd64cec39b1fa94.js",
+          "route": "script",
+          "url": "https://xia03.cosds.ahsccn.com/upload/script/07/0cd64cec39b1fa94.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/07/0cd64cec39b1fa94.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia02.cosds.ahsccn.com/upload/script/07/9422e5b13148d060.js|||script:https://xia02.cosds.ahsccn.com/upload/script/07/9422e5b13148d060.js",
+          "route": "script",
+          "url": "https://xia02.cosds.ahsccn.com/upload/script/07/9422e5b13148d060.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia02.cosds.ahsccn.com/upload/script/07/9422e5b13148d060.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia06.cosds.ahsccn.com/upload/script/07/23e5a9df78c30073.js|||script:https://xia06.cosds.ahsccn.com/upload/script/07/23e5a9df78c30073.js",
+          "route": "script",
+          "url": "https://xia06.cosds.ahsccn.com/upload/script/07/23e5a9df78c30073.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia06.cosds.ahsccn.com/upload/script/07/23e5a9df78c30073.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        }
+      ],
+      "error_reason": "",
+      "request_method": "GET",
+      "http_status": 200,
+      "page_bytes": 5724,
+      "elapsed_ms": 11034,
+      "block_conflict": false,
+      "same_block_value_conflict": false
+    },
+    {
+      "index": 38,
+      "section": "志在四方",
+      "url": "https://ptnvme.qlxrj-8q89y-qhwafv.xyz:16677/topic/309645.html",
+      "field": "必杀一头",
+      "position": "顶部",
+      "content_hint": "志在四方",
+      "parse_hint": "full_period_list",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/07/41939e1d1f0fbb03.js",
+          "count": 1,
+          "values": [
+            "3头"
+          ],
+          "value_conflict": false,
+          "documents": [
+            "script||https://xia05.cosds.ahsccn.com/upload/script/07/41939e1d1f0fbb03.js|||script:https://xia05.cosds.ahsccn.com/upload/script/07/41939e1d1f0fbb03.js"
+          ],
+          "routes": [
+            "script"
+          ],
+          "records": [
+            {
+              "period": "212期",
+              "value": "3头",
+              "raw_line": "212期〖必杀一头〗《333头》开:0000准",
+              "original_position": 0,
+              "document_order": 1,
+              "block_order": 0,
+              "record_order": 0,
+              "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/07/41939e1d1f0fbb03.js",
+              "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/07/41939e1d1f0fbb03.js|||script:https://xia05.cosds.ahsccn.com/upload/script/07/41939e1d1f0fbb03.js",
+              "source_route": "script",
+              "source_url": "https://xia05.cosds.ahsccn.com/upload/script/07/41939e1d1f0fbb03.js",
+              "source_api_url": "",
+              "source_record_id": "",
+              "source_record_path": "",
+              "source_identity": "",
+              "source_title": "",
+              "source_author": ""
+            }
+          ]
+        }
+      ],
+      "source_document_count": 2,
+      "source_documents": [
+        {
+          "document_key": "page||https://ptnvme.qlxrj-8q89y-qhwafv.xyz:16677/topic/309645.html|||page:https://ptnvme.qlxrj-8q89y-qhwafv.xyz:16677/topic/309645.html:0",
+          "route": "page",
+          "url": "https://ptnvme.qlxrj-8q89y-qhwafv.xyz:16677/topic/309645.html",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "page:https://ptnvme.qlxrj-8q89y-qhwafv.xyz:16677/topic/309645.html:0",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        },
+        {
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/07/41939e1d1f0fbb03.js|||script:https://xia05.cosds.ahsccn.com/upload/script/07/41939e1d1f0fbb03.js",
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/07/41939e1d1f0fbb03.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/07/41939e1d1f0fbb03.js",
+          "source_identity": "",
+          "title": "",
+          "author": "",
+          "resource_error": ""
+        }
+      ],
+      "error_reason": "",
+      "request_method": "GET",
+      "http_status": 200,
+      "page_bytes": 3770,
+      "elapsed_ms": 2171,
+      "block_conflict": false,
+      "same_block_value_conflict": false
+    }
+  ],
+  "formal_write_policy": "本报告以外不写入任何配置、缓存、成功TXT或失败TXT",
+  "generated_at_utc": "2026-07-31T16:48:25.055730+00:00"
+}

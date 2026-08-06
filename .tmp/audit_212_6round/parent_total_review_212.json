@@ -1,0 +1,3847 @@
+{
+  "schema_version": 1,
+  "audit_type": "parent_total_review_212",
+  "project": "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版",
+  "target_period": "212期",
+  "generated_at": "2026-07-31T17:38:30.0615623Z",
+  "rounds": 6,
+  "agents_per_round": 3,
+  "report_count": 18,
+  "coverage": {
+    "expected": 238,
+    "processed": 238,
+    "unique": 238,
+    "missing": [],
+    "duplicates": [],
+    "extra": [],
+    "missing_report_pairs": []
+  },
+  "status_counts": {
+    "ok": 231,
+    "fetch_failed": 2,
+    "zero": 5
+  },
+  "total_target_records": 249,
+  "multi_target_site_count": 18,
+  "conflict_site_count": 15,
+  "abnormal_sites": [
+    {
+      "index": 94,
+      "section": "无名侠客",
+      "field": "特码四头",
+      "position": "顶部",
+      "status": "zero",
+      "count": 0,
+      "url": "https://mm.737799b.com:1888/art_gsb/8160",
+      "reason": "真实专属区块内未解析出212期记录"
+    },
+    {
+      "index": 125,
+      "section": "管家婆",
+      "field": "特码四头",
+      "position": "顶部",
+      "status": "zero",
+      "count": 0,
+      "url": "https://22.868393c.com:1888/",
+      "reason": "真实专属区块内未解析出212期记录"
+    },
+    {
+      "index": 127,
+      "section": "我见犹怜",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "fetch_failed",
+      "count": 0,
+      "url": "https://xozgdo.um2zi-vbge0-emngyq.work:29422/article/admin/6a1402b34346bc68aea4ef09?url=sgnn",
+      "reason": "浏览器未返回唯一且匹配详情URL的目标记录"
+    },
+    {
+      "index": 198,
+      "section": "受宠若惊",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "fetch_failed",
+      "count": 0,
+      "url": "https://nwrkkmv.rx287-rkrai-jsjccc.xyz:29499/article/manager/6a55caa6f447e21b02daa581?url=ggz",
+      "reason": "浏览器未返回唯一且匹配详情URL的目标记录"
+    },
+    {
+      "index": 227,
+      "section": "刚猛面食",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "zero",
+      "count": 0,
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1204",
+      "reason": "真实专属区块内未解析出212期记录"
+    },
+    {
+      "index": 228,
+      "section": "亲切典礼",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "zero",
+      "count": 0,
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46114",
+      "reason": "真实专属区块内未解析出212期记录"
+    },
+    {
+      "index": 233,
+      "section": "主要针",
+      "field": "精杀一头",
+      "position": "顶部",
+      "status": "zero",
+      "count": 0,
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1747",
+      "reason": "真实专属区块内未解析出212期记录"
+    }
+  ],
+  "conflict_sites": [
+    {
+      "index": 7,
+      "section": "谢天谢地",
+      "count": 2,
+      "values": [
+        "3头",
+        "4头"
+      ],
+      "url": "https://6f4poq.b5z56-on5kp-vinkkj.work/topic/485596.html"
+    },
+    {
+      "index": 19,
+      "section": "呼风唤雨",
+      "count": 2,
+      "values": [
+        "0头",
+        "1头"
+      ],
+      "url": "https://cpvqejp.avdja-la48l-xnsdva.xyz:16677/topic/336770.html"
+    },
+    {
+      "index": 21,
+      "section": "天高云淡",
+      "count": 2,
+      "values": [
+        "0头",
+        "4头"
+      ],
+      "url": "https://ntvjzt.gau41-qu6jy-sotyug.work:16677/topic/309348.html"
+    },
+    {
+      "index": 39,
+      "section": "藏锋敛锐",
+      "count": 2,
+      "values": [
+        "1头",
+        "2头"
+      ],
+      "url": "https://s4wqb.8w0uz-fax7y-jbdqiy.xyz/topic/226653.html"
+    },
+    {
+      "index": 47,
+      "section": "关怀备至",
+      "count": 2,
+      "values": [
+        "0头",
+        "3头"
+      ],
+      "url": "https://fqvgyzlp.sr7yu-gvk7e-xhdhyf.xyz:16677/topic/450402.html"
+    },
+    {
+      "index": 61,
+      "section": "骄横跋扈",
+      "count": 2,
+      "values": [
+        "1头",
+        "2头"
+      ],
+      "url": "https://pjaliv.o53jc-9p80e-xxbelu.xyz:16677/topic/625513.html"
+    },
+    {
+      "index": 64,
+      "section": "德高望重",
+      "count": 2,
+      "values": [
+        "1头",
+        "4头"
+      ],
+      "url": "https://pjaliv.o53jc-9p80e-xxbelu.xyz:16677/topic/626100.html"
+    },
+    {
+      "index": 76,
+      "section": "破甑生尘",
+      "count": 2,
+      "values": [
+        "3头",
+        "4头"
+      ],
+      "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/291127.html"
+    },
+    {
+      "index": 89,
+      "section": "钱能通神",
+      "count": 2,
+      "values": [
+        "0头",
+        "4头"
+      ],
+      "url": "https://kfkxqua.vohzh-s0pbh-vhwsal.xyz:16677/topic/247428.html"
+    },
+    {
+      "index": 112,
+      "section": "风声鹤唳",
+      "count": 2,
+      "values": [
+        "111头",
+        "222头"
+      ],
+      "url": "https://kxhnibht.49x6o-xyonh-swqkpv.xyz:16677/topic/263501.html"
+    },
+    {
+      "index": 152,
+      "section": "浩如烟海",
+      "count": 2,
+      "values": [
+        "3头",
+        "4头"
+      ],
+      "url": "https://qarppl.154bo-trld9-qppors.xyz:16677/topic/326554.html"
+    },
+    {
+      "index": 155,
+      "section": "天下为笼",
+      "count": 2,
+      "values": [
+        "2头",
+        "3头"
+      ],
+      "url": "https://akqasqa.drr11-soh5x-jcaafg.xyz:16677/topic/543256.html"
+    },
+    {
+      "index": 177,
+      "section": "链路聚合",
+      "count": 2,
+      "values": [
+        "0头",
+        "4头"
+      ],
+      "url": "https://bbuueerm.pxcma-jyfok-mvduyw.xyz:16633/topic/455099.html"
+    },
+    {
+      "index": 184,
+      "section": "宁波商人",
+      "count": 2,
+      "values": [
+        "1头",
+        "3头"
+      ],
+      "url": "https://xmdrbud.eqpr2-6tpvi-pjqztv.xyz:16677/topic/503025.html"
+    },
+    {
+      "index": 230,
+      "section": "鼓舞泥堆",
+      "count": 2,
+      "values": [
+        "3头",
+        "4头"
+      ],
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971"
+    }
+  ],
+  "issues": [],
+  "formal_files_unchanged": true,
+  "formal_changes": [],
+  "report_files": [
+    "round_01_agent_01.json",
+    "round_01_agent_02.json",
+    "round_01_agent_03.json",
+    "round_02_agent_01.json",
+    "round_02_agent_02.json",
+    "round_02_agent_03.json",
+    "round_03_agent_01.json",
+    "round_03_agent_02.json",
+    "round_03_agent_03.json",
+    "round_04_agent_01.json",
+    "round_04_agent_02.json",
+    "round_04_agent_03.json",
+    "round_05_agent_01.json",
+    "round_05_agent_02.json",
+    "round_05_agent_03.json",
+    "round_06_agent_01.json",
+    "round_06_agent_02.json",
+    "round_06_agent_03.json"
+  ],
+  "sites": [
+    {
+      "index": 0,
+      "round": 1,
+      "agent": 1,
+      "section": "熊出没",
+      "field": "禁一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://sadoleu.rznla-fgwyr-nzqalp.xyz:16677/",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 1,
+      "round": 1,
+      "agent": 1,
+      "section": "平特综合",
+      "field": "禁一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://tulprhfc.wghcb-bnmgm-hyymaz.work:16655/",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 2,
+      "round": 1,
+      "agent": 1,
+      "section": "智能",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://jjlachsn.4fk3e-i2rpf-vgknlh.work:16677/",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 3,
+      "round": 1,
+      "agent": 1,
+      "section": "震撼六和界",
+      "field": "稳杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://jjlachsn.4fk3e-i2rpf-vgknlh.work:16677/topic/661948.html",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 4,
+      "round": 1,
+      "agent": 1,
+      "section": "天下彩",
+      "field": "砍杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://eqyyanu.4rfyf-h2bx5-oxsbom.xyz:16677/",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 5,
+      "round": 1,
+      "agent": 1,
+      "section": "花开浅夏",
+      "field": "稳杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://eqyyanu.4rfyf-h2bx5-oxsbom.xyz:16677/topic/157527.html",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 6,
+      "round": 1,
+      "agent": 1,
+      "section": "鸟语花香",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://gboqrz.pjedz-evdz7-ftlrkx.work/topic/470627.html",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 7,
+      "round": 1,
+      "agent": 1,
+      "section": "谢天谢地",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 2,
+      "url": "https://6f4poq.b5z56-on5kp-vinkkj.work/topic/485596.html",
+      "reason": "",
+      "values": [
+        "3头",
+        "4头"
+      ]
+    },
+    {
+      "index": 8,
+      "round": 1,
+      "agent": 1,
+      "section": "一团和气",
+      "field": "精杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://w4shq9.me9lh-curg4-fwdzzw.work/topic/453615.html",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 9,
+      "round": 1,
+      "agent": 1,
+      "section": "阪上走丸",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://qygfz.6yyij-749bz-xqmbjc.xyz/topic/232084.html",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 10,
+      "round": 1,
+      "agent": 1,
+      "section": "来情去意",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://gboqrz.pjedz-evdz7-ftlrkx.work/topic/224119.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 11,
+      "round": 1,
+      "agent": 1,
+      "section": "没精打采",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://bqipgah.pvib6-ptrqe-ihcefh.xyz:16677/topic/268612.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 12,
+      "round": 1,
+      "agent": 1,
+      "section": "凤毛麟角",
+      "field": "一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://bqipgah.pvib6-ptrqe-ihcefh.xyz:16677/topic/268615.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 13,
+      "round": 1,
+      "agent": 2,
+      "section": "男人味",
+      "field": "杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://rmrcjqk.6ln2t-46k8t-kuthoe.xyz:16677/",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 14,
+      "round": 1,
+      "agent": 2,
+      "section": "蓝月亮",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://zwhzkjo.fc4fh-otded-nvhceu.xyz:16677/",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 15,
+      "round": 1,
+      "agent": 2,
+      "section": "好好先生",
+      "field": "稳杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://jogavu.6bl6s-ilo1w-yfnvvl.work:16677/topic/678115.html",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 16,
+      "round": 1,
+      "agent": 2,
+      "section": "爱琴浪漫",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://zdwcig.iyo4d-81klf-udwkqg.work:16677/topic/522186.html",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 17,
+      "round": 1,
+      "agent": 2,
+      "section": "水果爷爷",
+      "field": "绝杀①头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://zdwcig.iyo4d-81klf-udwkqg.work:16677/",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 18,
+      "round": 1,
+      "agent": 2,
+      "section": "金牌谜语",
+      "field": "稳杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://scbnsyz.3dl0e-87g6y-coruzs.xyz:16677/topic/273120.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 19,
+      "round": 1,
+      "agent": 2,
+      "section": "呼风唤雨",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 2,
+      "url": "https://cpvqejp.avdja-la48l-xnsdva.xyz:16677/topic/336770.html",
+      "reason": "",
+      "values": [
+        "0头",
+        "1头"
+      ]
+    },
+    {
+      "index": 20,
+      "round": 1,
+      "agent": 2,
+      "section": "踏雪",
+      "field": "杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://ntvjzt.gau41-qu6jy-sotyug.work:16677/",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 21,
+      "round": 1,
+      "agent": 2,
+      "section": "天高云淡",
+      "field": "精杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 2,
+      "url": "https://ntvjzt.gau41-qu6jy-sotyug.work:16677/topic/309348.html",
+      "reason": "",
+      "values": [
+        "0头",
+        "4头"
+      ]
+    },
+    {
+      "index": 22,
+      "round": 1,
+      "agent": 2,
+      "section": "王中王",
+      "field": "禁一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 23,
+      "round": 1,
+      "agent": 2,
+      "section": "佶屈聱牙",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://lihpcb.sf21s-zracb-gtfpub.work:16677/topic/322360.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 24,
+      "round": 1,
+      "agent": 2,
+      "section": "众矢之的",
+      "field": "精杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://iboatq.pjgpm-epbf7-lxpezb.work:16677/topic/324657.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 25,
+      "round": 1,
+      "agent": 2,
+      "section": "一步到位",
+      "field": "精杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/250661.html",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 26,
+      "round": 1,
+      "agent": 3,
+      "section": "水漫金山",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/250682.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 27,
+      "round": 1,
+      "agent": 3,
+      "section": "精准资料",
+      "field": "精杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/250867.html",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 28,
+      "round": 1,
+      "agent": 3,
+      "section": "东风浩荡",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/223644.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 29,
+      "round": 1,
+      "agent": 3,
+      "section": "发家致富",
+      "field": "稳杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/205817.html",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 30,
+      "round": 1,
+      "agent": 3,
+      "section": "杀码榜",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 2,
+      "url": "https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/205670.html",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 31,
+      "round": 1,
+      "agent": 3,
+      "section": "万里长城",
+      "field": "必杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://fszatrw.xhwqs-gffny-zzdfsq.work:16677/topic/678234.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 32,
+      "round": 1,
+      "agent": 3,
+      "section": "兄弟情深",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://jldzuea.0xkqd-q7ng5-boerfb.xyz:16677/topic/455519.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 33,
+      "round": 1,
+      "agent": 3,
+      "section": "广西仔",
+      "field": "稳杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://jldzuea.0xkqd-q7ng5-boerfb.xyz:16677/topic/677574.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 34,
+      "round": 1,
+      "agent": 3,
+      "section": "维鸠居之",
+      "field": "大杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/248016.html",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 35,
+      "round": 1,
+      "agent": 3,
+      "section": "人心所向-绝杀一头",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/248031.html",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 36,
+      "round": 1,
+      "agent": 3,
+      "section": "义无反顾",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/481766.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 37,
+      "round": 1,
+      "agent": 3,
+      "section": "信封",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://ptnvme.qlxrj-8q89y-qhwafv.xyz:16677/",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 38,
+      "round": 1,
+      "agent": 3,
+      "section": "志在四方",
+      "field": "必杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://ptnvme.qlxrj-8q89y-qhwafv.xyz:16677/topic/309645.html",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 39,
+      "round": 2,
+      "agent": 1,
+      "section": "藏锋敛锐",
+      "field": "杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 2,
+      "url": "https://s4wqb.8w0uz-fax7y-jbdqiy.xyz/topic/226653.html",
+      "reason": "",
+      "values": [
+        "1头",
+        "2头"
+      ]
+    },
+    {
+      "index": 40,
+      "round": 2,
+      "agent": 1,
+      "section": "东望西观",
+      "field": "稳杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://t3zvj.4b4tw-2u3l3-tigwym.xyz/topic/224106.html",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 41,
+      "round": 2,
+      "agent": 1,
+      "section": "三分酒意",
+      "field": "精杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://111.246004.com:9066/Article.Aspx?ListId=247&id=53506",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 42,
+      "round": 2,
+      "agent": 1,
+      "section": "致富经",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://979585.com.9795.in:1888/bbs/135.html",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 43,
+      "round": 2,
+      "agent": 1,
+      "section": "美意延年",
+      "field": "精杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://zdtssflb.am9a6-vk0h6-lwbxab.xyz:16677/topic/324649.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 44,
+      "round": 2,
+      "agent": 1,
+      "section": "不得不爱",
+      "field": "精杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://zdtssflb.am9a6-vk0h6-lwbxab.xyz:16677/topic/306458.html",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 45,
+      "round": 2,
+      "agent": 1,
+      "section": "沙里淘金",
+      "field": "期期杀①头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://kxglojup.fao5v-9u0oz-okhubb.work:16677/topic/466188.html",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 46,
+      "round": 2,
+      "agent": 1,
+      "section": "瞽旷之耳",
+      "field": "杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://mjnrsqwu.c3kef-jhnm5-opjvvz.xyz:16677/topic/213705.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 47,
+      "round": 2,
+      "agent": 1,
+      "section": "关怀备至",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 2,
+      "url": "https://fqvgyzlp.sr7yu-gvk7e-xhdhyf.xyz:16677/topic/450402.html",
+      "reason": "",
+      "values": [
+        "0头",
+        "3头"
+      ]
+    },
+    {
+      "index": 48,
+      "round": 2,
+      "agent": 1,
+      "section": "老鼠报",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://jnumbamb.jgzeo-7yaht-bagdzs.xyz/topic/764759.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 49,
+      "round": 2,
+      "agent": 1,
+      "section": "澳门公证",
+      "field": "杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://uhaxnrzx.q76gf-deec8-zqckeo.xyz:16677/",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 50,
+      "round": 2,
+      "agent": 1,
+      "section": "千变万化",
+      "field": "精杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://uhaxnrzx.q76gf-deec8-zqckeo.xyz:16677/topic/610301.html",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 51,
+      "round": 2,
+      "agent": 1,
+      "section": "关云长",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://lxbwvnfv.3gwtt-z9y8n-wsxdfy.xyz:16677/",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 52,
+      "round": 2,
+      "agent": 2,
+      "section": "五点来料",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://ehqtty.tvtyn-iojf9-seeocb.xyz:16677/",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 53,
+      "round": 2,
+      "agent": 2,
+      "section": "举足轻重",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://nxtoep.9at21-abkka-svfjrm.xyz:16677/topic/547511.html",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 54,
+      "round": 2,
+      "agent": 2,
+      "section": "猪八戒",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://kxglojup.fao5v-9u0oz-okhubb.work:16677/",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 55,
+      "round": 2,
+      "agent": 2,
+      "section": "大吉大利",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://mhpayza.30mg9-m9j7l-obwrmb.xyz/topic/766659.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 56,
+      "round": 2,
+      "agent": 2,
+      "section": "洪七公",
+      "field": "绝杀①头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://jtmjfqq.ewlkg-dp3xr-hebqil.xyz:16677/",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 57,
+      "round": 2,
+      "agent": 2,
+      "section": "前程似锦",
+      "field": "精杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://avfzesda.v3g7d-e00td-idgbab.xyz:16677/topic/464136.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 58,
+      "round": 2,
+      "agent": 2,
+      "section": "今日闲情",
+      "field": "杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://gabqzzz.ahv8c-6713g-otpeiy.xyz:16677/",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 59,
+      "round": 2,
+      "agent": 2,
+      "section": "广东八二",
+      "field": "稳杀(1)头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://cdlmrp.etrum-l5k1c-wcasxz.work:16677/#am",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 60,
+      "round": 2,
+      "agent": 2,
+      "section": "花团锦簇",
+      "field": "精杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://pjaliv.o53jc-9p80e-xxbelu.xyz:16677/topic/626096.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 61,
+      "round": 2,
+      "agent": 2,
+      "section": "骄横跋扈",
+      "field": "精杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 2,
+      "url": "https://pjaliv.o53jc-9p80e-xxbelu.xyz:16677/topic/625513.html",
+      "reason": "",
+      "values": [
+        "1头",
+        "2头"
+      ]
+    },
+    {
+      "index": 62,
+      "round": 2,
+      "agent": 2,
+      "section": "名列前茅",
+      "field": "精杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://pjaliv.o53jc-9p80e-xxbelu.xyz:16677/topic/625993.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 63,
+      "round": 2,
+      "agent": 2,
+      "section": "一衣带水",
+      "field": "精杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://pjaliv.o53jc-9p80e-xxbelu.xyz:16677/topic/626032.html",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 64,
+      "round": 2,
+      "agent": 2,
+      "section": "德高望重",
+      "field": "精杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 2,
+      "url": "https://pjaliv.o53jc-9p80e-xxbelu.xyz:16677/topic/626100.html",
+      "reason": "",
+      "values": [
+        "1头",
+        "4头"
+      ]
+    },
+    {
+      "index": 65,
+      "round": 2,
+      "agent": 2,
+      "section": "错过的她",
+      "field": "精杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://pjaliv.o53jc-9p80e-xxbelu.xyz:16677/topic/626067.html",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 66,
+      "round": 2,
+      "agent": 3,
+      "section": "三阳开泰",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://estsghu.t7gsm-xl1x8-uohlna.xyz:16677/topic/356092.html",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 67,
+      "round": 2,
+      "agent": 3,
+      "section": "聪明绝顶",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://wdkcwvg.ihm0v-x2ge2-muiqdd.xyz:16677/topic/236456.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 68,
+      "round": 2,
+      "agent": 3,
+      "section": "角力中原",
+      "field": "绝杀①头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://wdkcwvg.ihm0v-x2ge2-muiqdd.xyz:16677/topic/209429.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 69,
+      "round": 2,
+      "agent": 3,
+      "section": "奋起直追",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/admin/6a1437ef4346bc68aea4f091?url=lqz",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 70,
+      "round": 2,
+      "agent": 3,
+      "section": "澳彩传奇",
+      "field": "大杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://rqvvaxwq.w30m7-xd23l-ebrbbj.xyz/topic/768567.html",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 71,
+      "round": 2,
+      "agent": 3,
+      "section": "福星抱抱",
+      "field": "必杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15356509",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 72,
+      "round": 2,
+      "agent": 3,
+      "section": "惠泽咯",
+      "field": "绝杀①头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357872",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 73,
+      "round": 2,
+      "agent": 3,
+      "section": "澳门挂椅",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357866",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 74,
+      "round": 2,
+      "agent": 3,
+      "section": "直木必伐",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/272923.html",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 75,
+      "round": 2,
+      "agent": 3,
+      "section": "讨恶翦暴",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/272723.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 76,
+      "round": 2,
+      "agent": 3,
+      "section": "破甑生尘",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 2,
+      "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/291127.html",
+      "reason": "",
+      "values": [
+        "3头",
+        "4头"
+      ]
+    },
+    {
+      "index": 77,
+      "round": 2,
+      "agent": 3,
+      "section": "叔季之世",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/291136.html",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 78,
+      "round": 2,
+      "agent": 3,
+      "section": "财运必通",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://vqxzuc.fggtp-huz0q-sbrraa.xyz:16677/topic/458658.html",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 79,
+      "round": 3,
+      "agent": 1,
+      "section": "離別之前",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://vqxzuc.fggtp-huz0q-sbrraa.xyz:16677/topic/383843.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 80,
+      "round": 3,
+      "agent": 1,
+      "section": "老中医生",
+      "field": "精杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://vqxzuc.fggtp-huz0q-sbrraa.xyz:16677/topic/457529.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 81,
+      "round": 3,
+      "agent": 1,
+      "section": "肆言如狂",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://ryfbdty.p4a53-f1hew-diwcrg.xyz:16677/topic/244751.html",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 82,
+      "round": 3,
+      "agent": 1,
+      "section": "段干益浮",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://gjyzpnkx.1r42a-pilbo-hfynxw.xyz:16677/topic/680680.html",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 83,
+      "round": 3,
+      "agent": 1,
+      "section": "六玄",
+      "field": "绝杀①头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://tjetrfr.jocy8-cy4wk-fmpeer.xyz:16677/",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 84,
+      "round": 3,
+      "agent": 1,
+      "section": "赤兔",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://zwpwuwq.fxnb4-uer1b-uftjcw.work:16677/#am",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 85,
+      "round": 3,
+      "agent": 1,
+      "section": "呆头呆脚",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://zwpwuwq.fxnb4-uer1b-uftjcw.work:16677/topic/556287.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 86,
+      "round": 3,
+      "agent": 1,
+      "section": "花天酒地",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://uixhmfb.1fxgs-oj4yy-fzfkdw.work:16677/",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 87,
+      "round": 3,
+      "agent": 1,
+      "section": "横行霸道",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://uvfsumi.v1t4x-1wx9k-vlvefm.xyz:16677/topic/249383.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 88,
+      "round": 3,
+      "agent": 1,
+      "section": "顺其自然",
+      "field": "稳杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://qgstvun.sp1n9-txvca-jmfjgh.work:16677/topic/649642.html",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 89,
+      "round": 3,
+      "agent": 1,
+      "section": "钱能通神",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 2,
+      "url": "https://kfkxqua.vohzh-s0pbh-vhwsal.xyz:16677/topic/247428.html",
+      "reason": "",
+      "values": [
+        "0头",
+        "4头"
+      ]
+    },
+    {
+      "index": 90,
+      "round": 3,
+      "agent": 1,
+      "section": "绝世一战",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://kfkxqua.vohzh-s0pbh-vhwsal.xyz:16677/topic/247459.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 91,
+      "round": 3,
+      "agent": 1,
+      "section": "爱憎分明",
+      "field": "绝杀①头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://kfkxqua.vohzh-s0pbh-vhwsal.xyz:16677/topic/247453.html",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 92,
+      "round": 3,
+      "agent": 2,
+      "section": "辽城鹤化",
+      "field": "大杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://shuqhbq.654o7-lyreu-rzcudi.xyz:16677/topic/687157.html",
+      "reason": "",
+      "values": [
+        "444头"
+      ]
+    },
+    {
+      "index": 93,
+      "round": 3,
+      "agent": 2,
+      "section": "温婉如水",
+      "field": "特码(4)头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://akqasqa.drr11-soh5x-jcaafg.xyz:16677/",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 94,
+      "round": 3,
+      "agent": 2,
+      "section": "无名侠客",
+      "field": "特码四头",
+      "position": "顶部",
+      "status": "zero",
+      "count": 0,
+      "url": "https://mm.737799b.com:1888/art_gsb/8160",
+      "reason": "真实专属区块内未解析出212期记录",
+      "values": []
+    },
+    {
+      "index": 95,
+      "round": 3,
+      "agent": 2,
+      "section": "神童资讯",
+      "field": "四头中特",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://77.969353m.com:1888/",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 96,
+      "round": 3,
+      "agent": 2,
+      "section": "老五主",
+      "field": "四头中特",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://77.969353m.com:1888/",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 97,
+      "round": 3,
+      "agent": 2,
+      "section": "似水柔情",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://rwraojf.l54vq-9httr-cmdnip.work:29477/article/admin/6a041b284ea5c20141013dc6?url=xdr",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 98,
+      "round": 3,
+      "agent": 2,
+      "section": "送福推荐",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://fymxwnyg.ttmzc-muvns-udlfln.work:29455/article/admin/6a096fa5291caff3edcb8c19?url=lhbd",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 99,
+      "round": 3,
+      "agent": 2,
+      "section": "人心所向-④头中特",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://aszmkf.c3z3l-qrlqm-mwgccr.work:29411/article/admin/6a0837b308adb5ed7357efc9?url=lhw",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 100,
+      "round": 3,
+      "agent": 2,
+      "section": "金彩报喜",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://aszmkf.c3z3l-qrlqm-mwgccr.work:29411/article/admin/6a083cd708adb5ed7357f032?url=lhw",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 101,
+      "round": 3,
+      "agent": 2,
+      "section": "火爆全网",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://zxlfxpp.2n0je-9ecrg-kadbbu.work:29411/article/admin/6a1417e74346bc68aea4ef91?url=tmw",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 102,
+      "round": 3,
+      "agent": 2,
+      "section": "水泄不通",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://zqrtppa.9swju-6haxn-dlkint.work:29455/article/admin/6a33a647dfa16552b923cb17?url=yjs",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 103,
+      "round": 3,
+      "agent": 2,
+      "section": "高手如林",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://sndaygl.egjtc-sgs8w-taclan.work:29400/article/admin/6a140f13597e16d57eacb4b2?url=nmw",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 104,
+      "round": 3,
+      "agent": 2,
+      "section": "卡布奇诺",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a04340f4ea5c20141013e2c?url=qdz",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 105,
+      "round": 3,
+      "agent": 3,
+      "section": "悬崖峭壁",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02da196bedb2a8313d5863?url=home",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 106,
+      "round": 3,
+      "agent": 3,
+      "section": "玩彩相公",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a031f7e56a1d26b77744555?url=hj",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 107,
+      "round": 3,
+      "agent": 3,
+      "section": "洁白晶莹",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a03409acd2fbc900f6db842?url=hj",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 108,
+      "round": 3,
+      "agent": 3,
+      "section": "偏听偏信",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://yqjfwqsc.1dayz-aetgp-kbjidr.xyz:16677/topic/677893.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 109,
+      "round": 3,
+      "agent": 3,
+      "section": "绝杀一头",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://zwpwuwq.fxnb4-uer1b-uftjcw.work:16677/topic/556287.html",
+      "reason": "",
+      "values": [
+        "000头"
+      ]
+    },
+    {
+      "index": 110,
+      "round": 3,
+      "agent": 3,
+      "section": "秋收冬藏",
+      "field": "四头中特",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://znnpwd.p42g1-zqmsb-jjrsfg.xyz:16677/topic/476485.html",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 111,
+      "round": 3,
+      "agent": 3,
+      "section": "丘壑泾渭",
+      "field": "四头中特",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://akqasqa.drr11-soh5x-jcaafg.xyz:16677/topic/543239.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 112,
+      "round": 3,
+      "agent": 3,
+      "section": "风声鹤唳",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 2,
+      "url": "https://kxhnibht.49x6o-xyonh-swqkpv.xyz:16677/topic/263501.html",
+      "reason": "",
+      "values": [
+        "111头",
+        "222头"
+      ]
+    },
+    {
+      "index": 113,
+      "round": 3,
+      "agent": 3,
+      "section": "精神抖擞",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://xeyzmutd.ulazy-l7v28-mgqrqs.xyz:16677/topic/470790.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 114,
+      "round": 3,
+      "agent": 3,
+      "section": "开心果",
+      "field": "禁头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://ykkpjdgv.d1ju4-kbfjr-zexdzd.xyz:16677/",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 115,
+      "round": 3,
+      "agent": 3,
+      "section": "特码输尽光",
+      "field": "特码输尽光",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://bemgrnty.o1uab-4e5oe-yyddxc.xyz:16677/",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 116,
+      "round": 3,
+      "agent": 3,
+      "section": "牛头马面",
+      "field": "稳杀(1)头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://yqjfwqsc.1dayz-aetgp-kbjidr.xyz:16677/",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 117,
+      "round": 3,
+      "agent": 3,
+      "section": "姜太公白姐輸盡光",
+      "field": "白姐輸盡光",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://mhbrhe.yng6t-7rqul-ximlot.xyz:16677/",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 118,
+      "round": 3,
+      "agent": 3,
+      "section": "输尽光玄机",
+      "field": "输尽光玄机",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://ocnrhq.du156-vb27w-tmhsed.xyz:16677/",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 119,
+      "round": 4,
+      "agent": 1,
+      "section": "全网最准",
+      "field": "四头中特",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://estsghu.t7gsm-xl1x8-uohlna.xyz:16677/",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 120,
+      "round": 4,
+      "agent": 1,
+      "section": "全网最准综合",
+      "field": "杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://estsghu.t7gsm-xl1x8-uohlna.xyz:16677/",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 121,
+      "round": 4,
+      "agent": 1,
+      "section": "猜特输尽光",
+      "field": "猜特输尽光",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://gjyzpnkx.1r42a-pilbo-hfynxw.xyz:16677/",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 122,
+      "round": 4,
+      "agent": 1,
+      "section": "满堂红输尽光玄机",
+      "field": "输尽光玄机",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://znnpwd.p42g1-zqmsb-jjrsfg.xyz:16677/",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 123,
+      "round": 4,
+      "agent": 1,
+      "section": "满堂红稳杀一头",
+      "field": "稳杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://znnpwd.p42g1-zqmsb-jjrsfg.xyz:16677/",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 124,
+      "round": 4,
+      "agent": 1,
+      "section": "港澳彩资讯网",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://azvlnfh.sl965-zqdd3-igdewf.xyz:16677/",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 125,
+      "round": 4,
+      "agent": 1,
+      "section": "管家婆",
+      "field": "特码四头",
+      "position": "顶部",
+      "status": "zero",
+      "count": 0,
+      "url": "https://22.868393c.com:1888/",
+      "reason": "真实专属区块内未解析出212期记录",
+      "values": []
+    },
+    {
+      "index": 126,
+      "round": 4,
+      "agent": 1,
+      "section": "赚发中彩",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://xozgdo.um2zi-vbge0-emngyq.work:29422/article/admin/6a1413a5bf0a6cb1dd38fa17?url=sgnn",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 127,
+      "round": 4,
+      "agent": 1,
+      "section": "我见犹怜",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "fetch_failed",
+      "count": 0,
+      "url": "https://xozgdo.um2zi-vbge0-emngyq.work:29422/article/admin/6a1402b34346bc68aea4ef09?url=sgnn",
+      "reason": "浏览器未返回唯一且匹配详情URL的目标记录",
+      "values": []
+    },
+    {
+      "index": 128,
+      "round": 4,
+      "agent": 1,
+      "section": "心照不宣",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://czcvzk.4n5g7-o871g-hqmkwz.work:29422/article/admin/6a0969cb291caff3edcb8b72?url=tsp",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 129,
+      "round": 4,
+      "agent": 1,
+      "section": "神算通天",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://zqrtppa.9swju-6haxn-dlkint.work:29455/article/admin/6a33a175dfa16552b923cae3?url=yjs",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 130,
+      "round": 4,
+      "agent": 1,
+      "section": "横财计算",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://ifnkblf.e4kce-krr7o-vuvqhd.work:29411/article/admin/6a145d4a31b8505dcf06200f?url=scyd",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 131,
+      "round": 4,
+      "agent": 1,
+      "section": "金玉良缘",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://ifnkblf.e4kce-krr7o-vuvqhd.work:29411/article/admin/6a143f8fbf0a6cb1dd38fb91?url=scyd",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 132,
+      "round": 4,
+      "agent": 2,
+      "section": "对方过后",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a2ec734de36e960239c6d47?url=fcw",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 133,
+      "round": 4,
+      "agent": 2,
+      "section": "周而复始",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a106caf45d22fb4b70fa8ce?url=fcw",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 134,
+      "round": 4,
+      "agent": 2,
+      "section": "招财进宝",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a09b435291caff3edcb90ab?url=fcw",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 135,
+      "round": 4,
+      "agent": 2,
+      "section": "日益精进",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://dgjdlk.0hrwo-8qjsc-spwvba.xyz:29411/article/admin/6a12e3d1741e3e91a04e5238?url=cf",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 136,
+      "round": 4,
+      "agent": 2,
+      "section": "月亮弯弯",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a0441144ea5c20141013e6c?url=qdz",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 137,
+      "round": 4,
+      "agent": 2,
+      "section": "吉祥特码",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a04465e4ea5c20141013e86?url=qdz",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 138,
+      "round": 4,
+      "agent": 2,
+      "section": "弦歌不辍",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/article/admin/6a02d06b8bad0a3579e9f744?url=tdg",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 139,
+      "round": 4,
+      "agent": 2,
+      "section": "万彩资料",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02d3b18bad0a3579e9f75a?url=home",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 140,
+      "round": 4,
+      "agent": 2,
+      "section": "花朵之蓝",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a040fcd4ea5c20141013d94?url=lbw",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 141,
+      "round": 4,
+      "agent": 2,
+      "section": "财宝霸业",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04121c4ea5c20141013da1?url=lbw",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 142,
+      "round": 4,
+      "agent": 2,
+      "section": "同舟共济",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04198c4ea5c20141013dbd?url=lbw",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 143,
+      "round": 4,
+      "agent": 2,
+      "section": "万中无一",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://uqdccnri.oy2bh-swrfr-gvzxkk.work:29499/article/admin/6a03349fe09a39d316b223bb?url=lcz",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 144,
+      "round": 4,
+      "agent": 2,
+      "section": "高屋建瓴",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a0326f7e09a39d316b2239f?url=hj",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 145,
+      "round": 4,
+      "agent": 3,
+      "section": "扬眉吐气",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/admin/6a144dffbf0a6cb1dd38fbf3?url=lqz",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 146,
+      "round": 4,
+      "agent": 3,
+      "section": "不吐不快-杀一头",
+      "field": "杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://993345.com/gsb1.aspx?id=2266",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 147,
+      "round": 4,
+      "agent": 3,
+      "section": "国色天香",
+      "field": "杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://993345.com/gsb1.aspx?id=2509",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 148,
+      "round": 4,
+      "agent": 3,
+      "section": "声气相求#1",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://njkzdcwj.nql6i-8t6su-hytife.xyz:16677/topic/308315.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 149,
+      "round": 4,
+      "agent": 3,
+      "section": "张嘴结舌",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://ykkpjdgv.d1ju4-kbfjr-zexdzd.xyz:16677/topic/681948.html",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 150,
+      "round": 4,
+      "agent": 3,
+      "section": "漆雕墨染",
+      "field": "杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://msbqxti.zhx2n-7v5x3-ivdpud.xyz:16677/topic/682734.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 151,
+      "round": 4,
+      "agent": 3,
+      "section": "十成九稳",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://estsghu.t7gsm-xl1x8-uohlna.xyz:16677/topic/356083.html",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 152,
+      "round": 4,
+      "agent": 3,
+      "section": "浩如烟海",
+      "field": "杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 2,
+      "url": "https://qarppl.154bo-trld9-qppors.xyz:16677/topic/326554.html",
+      "reason": "",
+      "values": [
+        "3头",
+        "4头"
+      ]
+    },
+    {
+      "index": 153,
+      "round": 4,
+      "agent": 3,
+      "section": "东奔西走",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://xoxtpupt.bvptr-i3mv8-pbjxin.work:17455/topic/792915.html",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 154,
+      "round": 4,
+      "agent": 3,
+      "section": "高风峻节",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://akqasqa.drr11-soh5x-jcaafg.xyz:16677/topic/543285.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 155,
+      "round": 4,
+      "agent": 3,
+      "section": "天下为笼",
+      "field": "四头中特",
+      "position": "顶部",
+      "status": "ok",
+      "count": 2,
+      "url": "https://akqasqa.drr11-soh5x-jcaafg.xyz:16677/topic/543256.html",
+      "reason": "",
+      "values": [
+        "2头",
+        "3头"
+      ]
+    },
+    {
+      "index": 156,
+      "round": 4,
+      "agent": 3,
+      "section": "金多宝四头中特",
+      "field": "必中四头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://993345.com/",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 157,
+      "round": 4,
+      "agent": 3,
+      "section": "七剑下天山",
+      "field": "第四剑",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://kcyeko.bzx7a-tl1us-cfcaei.xyz:16677/",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 158,
+      "round": 5,
+      "agent": 1,
+      "section": "竞星剑",
+      "field": "中四头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://ykeejph.z9koz-18xjn-pvglgy.xyz:16677/",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 159,
+      "round": 5,
+      "agent": 1,
+      "section": "彩吧",
+      "field": "杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://kxhnibht.49x6o-xyonh-swqkpv.xyz:16677/",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 160,
+      "round": 5,
+      "agent": 1,
+      "section": "八步毛哥",
+      "field": "杀头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://2.www39169b.com:888/#62111",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 161,
+      "round": 5,
+      "agent": 1,
+      "section": "横财富",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://a.995546.com/",
+      "reason": "",
+      "values": [
+        "四头"
+      ]
+    },
+    {
+      "index": 162,
+      "round": 5,
+      "agent": 1,
+      "section": "夜不闭户",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://18118.73829.com/read.php?tid=642",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 163,
+      "round": 5,
+      "agent": 1,
+      "section": "富丽堂皇",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://szfzml.mfuw8-bnsfa-gdaxhk.xyz/view.php?id=253",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 164,
+      "round": 5,
+      "agent": 1,
+      "section": "如坐春风",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://szfzml.mfuw8-bnsfa-gdaxhk.xyz/view.php?id=294",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 165,
+      "round": 5,
+      "agent": 1,
+      "section": "吉星照耀",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://flllxn.8w08j-eua1c-atygor.xyz/view.php?id=96",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 166,
+      "round": 5,
+      "agent": 1,
+      "section": "千呼后拥",
+      "field": "中特四头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://kcyeko.bzx7a-tl1us-cfcaei.xyz:16677/topic/466586.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 167,
+      "round": 5,
+      "agent": 1,
+      "section": "执笔抒情",
+      "field": "必中一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://zdwcig.iyo4d-81klf-udwkqg.work:16677/topic/350544.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 168,
+      "round": 5,
+      "agent": 1,
+      "section": "大难不死",
+      "field": "四头中特",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://cxmdjok.8wtwc-boven-glylvt.xyz:16677/topic/437791.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 169,
+      "round": 5,
+      "agent": 1,
+      "section": "一望无边",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://ymkakun.dwgml-7jbcy-ohrbrq.xyz:16677/topic/547537.html",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 170,
+      "round": 5,
+      "agent": 1,
+      "section": "梦醒时分",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://ninbwa.7bmc7-mxwy9-uwkcem.xyz:16677/topic/283452.html",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 171,
+      "round": 5,
+      "agent": 2,
+      "section": "大显身手",
+      "field": "四头中特",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://wmdhoki.6su07-7lpw6-gudkzl.xyz:16677/topic/727505.html",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 172,
+      "round": 5,
+      "agent": 2,
+      "section": "无可取代",
+      "field": "四头中特",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://kk.375737m.com:1888/art_zhuanqu/7497.html",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 173,
+      "round": 5,
+      "agent": 2,
+      "section": "好好学习",
+      "field": "四头中特",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://cxmdjok.8wtwc-boven-glylvt.xyz:16677/topic/437726.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 174,
+      "round": 5,
+      "agent": 2,
+      "section": "取长补短",
+      "field": "四头中特",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://cxmdjok.8wtwc-boven-glylvt.xyz:16677/topic/437773.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 175,
+      "round": 5,
+      "agent": 2,
+      "section": "琪花瑶草",
+      "field": "精英四头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://fszatrw.xhwqs-gffny-zzdfsq.work:16677/topic/678174.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 176,
+      "round": 5,
+      "agent": 2,
+      "section": "白鹤晾翅",
+      "field": "精准四头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/451543.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 177,
+      "round": 5,
+      "agent": 2,
+      "section": "链路聚合",
+      "field": "四头中特",
+      "position": "顶部",
+      "status": "ok",
+      "count": 2,
+      "url": "https://bbuueerm.pxcma-jyfok-mvduyw.xyz:16633/topic/455099.html",
+      "reason": "",
+      "values": [
+        "0头",
+        "4头"
+      ]
+    },
+    {
+      "index": 178,
+      "round": 5,
+      "agent": 2,
+      "section": "大智若愚",
+      "field": "四头中特",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://hnzbrzl.2n783-iuaof-dczvqm.xyz/topic/764767.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 179,
+      "round": 5,
+      "agent": 2,
+      "section": "倾暖未颜",
+      "field": "四头中特",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://huqtzej.vvlq2-j4i8n-lisghq.xyz:16677/topic/463771.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 180,
+      "round": 5,
+      "agent": 2,
+      "section": "功成名就",
+      "field": "精杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://huqtzej.vvlq2-j4i8n-lisghq.xyz:16677/topic/281521.html",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 181,
+      "round": 5,
+      "agent": 2,
+      "section": "自取灭亡",
+      "field": "精杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://huqtzej.vvlq2-j4i8n-lisghq.xyz:16677/topic/327050.html",
+      "reason": "",
+      "values": [
+        "222头"
+      ]
+    },
+    {
+      "index": 182,
+      "round": 5,
+      "agent": 2,
+      "section": "悠然自得",
+      "field": "④头中特",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://peubwtt.t3vdj-h3294-qpbmtj.work:16677/topic/453381.html",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 183,
+      "round": 5,
+      "agent": 2,
+      "section": "闭月羞花",
+      "field": "四头中特",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://cdlmrp.etrum-l5k1c-wcasxz.work:16677/topic/440103.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 184,
+      "round": 5,
+      "agent": 2,
+      "section": "宁波商人",
+      "field": "公式四头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 2,
+      "url": "https://xmdrbud.eqpr2-6tpvi-pjqztv.xyz:16677/topic/503025.html",
+      "reason": "",
+      "values": [
+        "1头",
+        "3头"
+      ]
+    },
+    {
+      "index": 185,
+      "round": 5,
+      "agent": 3,
+      "section": "张三李四",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://yaaxgud.xg0eu-qjubd-yneksw.xyz:16677/topic/436706.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 186,
+      "round": 5,
+      "agent": 3,
+      "section": "尽释前嫌",
+      "field": "四头中特",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://qygfz.g0e5q-ese45-poafdu.xyz/topic/215971.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 187,
+      "round": 5,
+      "agent": 3,
+      "section": "小沈怕怕",
+      "field": "特码四头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://kk.212557a.com:1888/art_zhuanqu/8160.html",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 188,
+      "round": 5,
+      "agent": 3,
+      "section": "喜欢药",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://zcphjs.ce83x-ms2rz-orwude.work:12277/#/users/3727",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 189,
+      "round": 5,
+      "agent": 3,
+      "section": "不如离去",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://mxiscni.nkh6s-vfni4-lwgfvw.xyz:16677/topic/257907.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 190,
+      "round": 5,
+      "agent": 3,
+      "section": "随风细雨",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://drxgkjt.uu1oc-eyjpt-uxyccu.xyz:29400/article/manager/6a33e74bdfa16552b923d2b9?url=jyb",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 191,
+      "round": 5,
+      "agent": 3,
+      "section": "澳彩内幕",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://nwrkkmv.rx287-rkrai-jsjccc.xyz:29499/article/manager/6a33d39ddfa16552b923d0c7?url=ggz",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 192,
+      "round": 5,
+      "agent": 3,
+      "section": "助民辉煌",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://hquomm.20t3f-0yztv-jiozun.xyz:29444/article/manager/6a3285864cb61e74064be55a?url=dgd",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 193,
+      "round": 5,
+      "agent": 3,
+      "section": "手疾眼快",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://fansiggg.jc2q8-whfmg-vajjui.xyz:29433/article/manager/6a096c28291caff3edcb8bc9?url=dyj",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 194,
+      "round": 5,
+      "agent": 3,
+      "section": "只见远方",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://fansiggg.jc2q8-whfmg-vajjui.xyz:29433/article/manager/6a4fb8cd36d4c8395e576938?url=dyj",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 195,
+      "round": 5,
+      "agent": 3,
+      "section": "一举两得",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://fansiggg.jc2q8-whfmg-vajjui.xyz:29433/article/manager/6a096934291caff3edcb8b60?url=dyj",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 196,
+      "round": 5,
+      "agent": 3,
+      "section": "山高水长",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://vnxqseiu.ymm13-381iq-zcgmtu.xyz:29400/article/manager/6a505f0c5e6c7637a3f4a9cf?url=jdb",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 197,
+      "round": 5,
+      "agent": 3,
+      "section": "义形于色",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://hcsuuoy.nimo7-9bgj4-fmspxt.xyz:29466/article/manager/6a3145f249afa07fb590ec69?url=cww",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 198,
+      "round": 6,
+      "agent": 1,
+      "section": "受宠若惊",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "fetch_failed",
+      "count": 0,
+      "url": "https://nwrkkmv.rx287-rkrai-jsjccc.xyz:29499/article/manager/6a55caa6f447e21b02daa581?url=ggz",
+      "reason": "浏览器未返回唯一且匹配详情URL的目标记录",
+      "values": []
+    },
+    {
+      "index": 199,
+      "round": 6,
+      "agent": 1,
+      "section": "点点灯光",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://mbsqhpk.8ivvt-u3cx5-enwlld.xyz:29400/article/manager/6a33d1cbdfa16552b923d091?url=lhzj",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 200,
+      "round": 6,
+      "agent": 1,
+      "section": "桀骜不驯",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://mbsqhpk.8ivvt-u3cx5-enwlld.xyz:29400/article/manager/6a33d115dfa16552b923d079?url=lhzj",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 201,
+      "round": 6,
+      "agent": 1,
+      "section": "金融主任",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://hl.90216a.com/read.php?tid=727",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 202,
+      "round": 6,
+      "agent": 1,
+      "section": "酒精泡芙",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://xjsjbkv.b3e4x-wxhjo-lbdbjg.xyz:29477/article/manager/6a327e6e87ee9d0e75aaf19f?url=jbx",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 203,
+      "round": 6,
+      "agent": 1,
+      "section": "逢赌必开",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://8818.www73261a.com/read.php?tid=561",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 204,
+      "round": 6,
+      "agent": 1,
+      "section": "港陆精英",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://zqrtppa.9swju-6haxn-dlkint.work:29455/article/manager/6a33a1bedfa16552b923cae7?url=yjs",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 205,
+      "round": 6,
+      "agent": 1,
+      "section": "赛马会料",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://aszmkf.c3z3l-qrlqm-mwgccr.work:29411/article/manager/6a083d7708adb5ed7357f042?url=lhw",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 206,
+      "round": 6,
+      "agent": 1,
+      "section": "耿耿于怀",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://aszmkf.c3z3l-qrlqm-mwgccr.work:29411/article/manager/6a0839ff08adb5ed7357f003?url=lhw",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 207,
+      "round": 6,
+      "agent": 1,
+      "section": "百無禁忌",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/manager/6a4bd51157dc857ae1c07150?url=lbw",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 208,
+      "round": 6,
+      "agent": 1,
+      "section": "刮目相看",
+      "field": "四头中特",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://wftkvim.2skgq-zrzcm-sjtjkq.xyz:16677/topic/465674.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 209,
+      "round": 6,
+      "agent": 1,
+      "section": "小喵酱@",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://pxeeptca.oc0g1-jyj04-onsfnv.xyz:16677/topic/539434.html",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 210,
+      "round": 6,
+      "agent": 1,
+      "section": "书生意气",
+      "field": "四头中特",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://opfeal.zbwno-faau4-zilwkd.xyz:16677/topic/930868.html",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 211,
+      "round": 6,
+      "agent": 2,
+      "section": "有始有终",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://opfeal.zbwno-faau4-zilwkd.xyz:16677/topic/930784.html",
+      "reason": "",
+      "values": [
+        "111头"
+      ]
+    },
+    {
+      "index": 212,
+      "round": 6,
+      "agent": 2,
+      "section": "相思何处",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://kk.375737m.com:1888/art_zhuanqu/7616.html",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 213,
+      "round": 6,
+      "agent": 2,
+      "section": "世事苍凉",
+      "field": "杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://kk.336868m.com:1888/art_zhuanqu/203.html",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 214,
+      "round": 6,
+      "agent": 2,
+      "section": "无敌金刚",
+      "field": "稳杀",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://kk.336868m.com:1888/art_zhuanqu/216.html",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 215,
+      "round": 6,
+      "agent": 2,
+      "section": "财神论坛",
+      "field": "必杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://kk.336868m.com:1888/art_zhuanqu/220.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 216,
+      "round": 6,
+      "agent": 2,
+      "section": "未来日记",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://kk.336868m.com:1888/art_zhuanqu/223.html",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 217,
+      "round": 6,
+      "agent": 2,
+      "section": "藕断丝连",
+      "field": "四头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://a.995546.com/gsb.aspx?id=amjyb052",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 218,
+      "round": 6,
+      "agent": 2,
+      "section": "唇红齿白",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://a.995546.com/gsb.aspx?id=amjyb056",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 219,
+      "round": 6,
+      "agent": 2,
+      "section": "恪守成式",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://xoxtpupt.bvptr-i3mv8-pbjxin.work:17455/topic/218073.html",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 220,
+      "round": 6,
+      "agent": 2,
+      "section": "黄粱美梦",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://xoxtpupt.bvptr-i3mv8-pbjxin.work:17455/topic/220575.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 221,
+      "round": 6,
+      "agent": 2,
+      "section": "王与贱民",
+      "field": "精杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://uvfsumi.v1t4x-1wx9k-vlvefm.xyz:16677/topic/249369.html",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 222,
+      "round": 6,
+      "agent": 2,
+      "section": "威震四方",
+      "field": "四头中特",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://rqvvaxwq.w30m7-xd23l-ebrbbj.xyz/topic/768565.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 223,
+      "round": 6,
+      "agent": 2,
+      "section": "常态胡荽",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1420",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 224,
+      "round": 6,
+      "agent": 3,
+      "section": "易逝婴儿",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 2,
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6025",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 225,
+      "round": 6,
+      "agent": 3,
+      "section": "华丽手相",
+      "field": "必杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46391",
+      "reason": "",
+      "values": [
+        "3头"
+      ]
+    },
+    {
+      "index": 226,
+      "round": 6,
+      "agent": 3,
+      "section": "五彩缤纷",
+      "field": "精杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/116129",
+      "reason": "",
+      "values": [
+        "0头"
+      ]
+    },
+    {
+      "index": 227,
+      "round": 6,
+      "agent": 3,
+      "section": "刚猛面食",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "zero",
+      "count": 0,
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1204",
+      "reason": "真实专属区块内未解析出212期记录",
+      "values": []
+    },
+    {
+      "index": 228,
+      "round": 6,
+      "agent": 3,
+      "section": "亲切典礼",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "zero",
+      "count": 0,
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46114",
+      "reason": "真实专属区块内未解析出212期记录",
+      "values": []
+    },
+    {
+      "index": 229,
+      "round": 6,
+      "agent": 3,
+      "section": "优秀服饰",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3741",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 230,
+      "round": 6,
+      "agent": 3,
+      "section": "鼓舞泥堆",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 2,
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971",
+      "reason": "",
+      "values": [
+        "3头",
+        "4头"
+      ]
+    },
+    {
+      "index": 231,
+      "round": 6,
+      "agent": 3,
+      "section": "害怕国王",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 2,
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3912",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 232,
+      "round": 6,
+      "agent": 3,
+      "section": "不幸月会",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6841",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 233,
+      "round": 6,
+      "agent": 3,
+      "section": "主要针",
+      "field": "精杀一头",
+      "position": "顶部",
+      "status": "zero",
+      "count": 0,
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1747",
+      "reason": "真实专属区块内未解析出212期记录",
+      "values": []
+    },
+    {
+      "index": 234,
+      "round": 6,
+      "agent": 3,
+      "section": "致富之路",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/article/manager/6a32a55b73fa32d0b73c0d0d?url=dfh",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    },
+    {
+      "index": 235,
+      "round": 6,
+      "agent": 3,
+      "section": "不可亵玩",
+      "field": "杀一头",
+      "position": "顶部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://kk.336868m.com:1888/art_zhuanqu/228.html",
+      "reason": "",
+      "values": [
+        "4头"
+      ]
+    },
+    {
+      "index": 236,
+      "round": 6,
+      "agent": 3,
+      "section": "财富高手论坛",
+      "field": "杀一头",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://x1rvueyk50.669332.shop/bbs/",
+      "reason": "",
+      "values": [
+        "1头"
+      ]
+    },
+    {
+      "index": 237,
+      "round": 6,
+      "agent": 3,
+      "section": "赢肖公式",
+      "field": "④头中特",
+      "position": "尾部",
+      "status": "ok",
+      "count": 1,
+      "url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/manager/6a5ee7d9f447e21b02dd5366?url=bxj",
+      "reason": "",
+      "values": [
+        "2头"
+      ]
+    }
+  ]
+}

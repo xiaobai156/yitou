@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "round": 6,
+  "agent_reports": [
+    "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版\\.tmp\\audit_212_6round\\round_06_agent_01.json",
+    "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版\\.tmp\\audit_212_6round\\round_06_agent_02.json",
+    "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版\\.tmp\\audit_212_6round\\round_06_agent_03.json"
+  ],
+  "expected_count": 40,
+  "assigned_count": 40,
+  "processed_count": 40,
+  "coverage_count": 40,
+  "missing_indices": [],
+  "duplicate_indices": [],
+  "extra_indices": [],
+  "coverage_ok": true,
+  "status_totals": {
+    "fetch_failed": 1,
+    "ok": 36,
+    "zero": 3
+  },
+  "total_target_records": 39,
+  "formal_files_unchanged": true
+}

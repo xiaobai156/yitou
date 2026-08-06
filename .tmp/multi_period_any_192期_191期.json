@@ -1,0 +1,13 @@
+[
+  {
+    "url": "https://example.test/",
+    "position": "顶部",
+    "section": "测试",
+    "field": "绝杀一头",
+    "period": "",
+    "value": "",
+    "raw_line": "",
+    "status": "failed",
+    "error": "解析失败"
+  }
+]

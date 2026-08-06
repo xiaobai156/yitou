@@ -1,0 +1,80 @@
+{
+  "schema": "lottery_head_archived_sites.v1",
+  "sites": [
+    {
+      "url": "https://xozgdo.um2zi-vbge0-emngyq.work:29422/article/admin/6a1402b34346bc68aea4ef09?url=sgnn",
+      "position": "尾部",
+      "section": "我见犹怜",
+      "field": "四头中特",
+      "content_hint": "我见犹怜",
+      "parse_hint": "missing_head_from_four_combo",
+      "code": "135",
+      "archived_at": "2026-08-01",
+      "reason": "用户要求封存，不在抓取"
+    },
+    {
+      "url": "https://kk.375737m.com:1888/art_zhuanqu/7497.html",
+      "position": "顶部",
+      "section": "无可取代",
+      "field": "四头中特",
+      "content_hint": "无可取代",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "code": "184",
+      "archived_at": "2026-08-01",
+      "reason": "用户要求封存，不在抓取"
+    },
+    {
+      "url": "https://nwrkkmv.rx287-rkrai-jsjccc.xyz:29499/article/manager/6a55caa6f447e21b02daa581?url=ggz",
+      "position": "尾部",
+      "section": "受宠若惊",
+      "field": "④头中特",
+      "content_hint": "受宠若惊",
+      "parse_hint": "manager_anchored_missing_head_from_four_combo",
+      "archived_at": "2026-08-01",
+      "reason": "用户要求封存，不在抓取"
+    },
+    {
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15724422",
+      "position": "顶部",
+      "section": "福星抱抱",
+      "field": "必杀一头",
+      "content_hint": "福星报",
+      "parse_hint": "full_period_list",
+      "code": "79",
+      "archived_at": "2026-08-03",
+      "reason": "用户要求封存，不在抓取"
+    },
+    {
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15728545",
+      "position": "顶部",
+      "section": "惠泽咯",
+      "field": "绝杀①头",
+      "content_hint": "绝杀①头",
+      "parse_hint": "full_period_list",
+      "code": "80",
+      "archived_at": "2026-08-03",
+      "reason": "用户要求封存，不在抓取"
+    },
+    {
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15728537",
+      "position": "顶部",
+      "section": "澳门挂椅",
+      "field": "绝杀一头",
+      "content_hint": "绝杀一头",
+      "parse_hint": "full_period_list",
+      "code": "81",
+      "archived_at": "2026-08-03",
+      "reason": "用户要求封存，不在抓取"
+    },
+    {
+      "url": "https://hquomm.20t3f-0yztv-jiozun.xyz:29444/article/manager/6a3285864cb61e74064be55a?url=dgd",
+      "position": "尾部",
+      "section": "助民辉煌",
+      "field": "四头中特",
+      "content_hint": "助民辉煌",
+      "parse_hint": "manager_anchored_missing_head_from_four_combo",
+      "archived_at": "2026-08-03",
+      "reason": "用户要求封存，不在抓取"
+    }
+  ]
+}

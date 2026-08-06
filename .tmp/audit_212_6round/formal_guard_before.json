@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-07-31T16:44:29.3380142Z",
+  "files": [
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版\\sites.json",
+      "exists": true,
+      "sha256": "F7914F2238B6CDF6D9CC01883EC2A68D179A513C441B41F4138DA21D15226ADB",
+      "length": 65435,
+      "last_write": "2026-07-30T10:48:50.9108594Z"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版\\.tmp\\recent_10_cache.json",
+      "exists": true,
+      "sha256": "02DD22AC9B60E89AB32CDEF81072F673C60D4150F1D3B65FAD6D2996CAF2325F",
+      "length": 550211,
+      "last_write": "2026-07-30T16:13:32.5586480Z"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版\\outputs\\212期-头.txt",
+      "exists": false,
+      "sha256": null,
+      "length": null,
+      "last_write": null
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\每天工具\\数据系列\\七类数据统一归纳\\212期-头.txt",
+      "exists": true,
+      "sha256": "672312D00B1965AB86F14289AEA7FD170279706A6383CD4ECAC21529A25EFAA9",
+      "length": 4374,
+      "last_write": "2026-07-31T12:33:02.9651588Z"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\每天工具\\数据系列\\七类数据统一归纳失败\\212期失败-一头.txt",
+      "exists": true,
+      "sha256": "9D7C14A8BC05BE9AED4A89973EC8D23EE7C48CD9DA1E7CE4211FD6F141141394",
+      "length": 1650,
+      "last_write": "2026-07-31T11:30:23.5421658Z"
+    }
+  ]
+}

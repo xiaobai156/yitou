@@ -1,0 +1,1612 @@
+{
+  "schema_version": 1,
+  "audit_type": "real_dedicated_block_period_count",
+  "project": "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版",
+  "round": 4,
+  "agent": 2,
+  "target_period": "212期",
+  "assigned_count": 13,
+  "processed_count": 13,
+  "assigned_indices": [
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144
+  ],
+  "processed_indices": [
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144
+  ],
+  "omitted_indices": [],
+  "duplicate_indices": [],
+  "count_by_status": {
+    "ok": 13
+  },
+  "total_target_records": 13,
+  "elapsed_seconds": 70.063,
+  "formal_files_unchanged": [
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版\\sites.json",
+      "before_exists": true,
+      "after_exists": true,
+      "before_sha256": "F7914F2238B6CDF6D9CC01883EC2A68D179A513C441B41F4138DA21D15226ADB",
+      "after_sha256": "F7914F2238B6CDF6D9CC01883EC2A68D179A513C441B41F4138DA21D15226ADB",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版\\.tmp\\recent_10_cache.json",
+      "before_exists": true,
+      "after_exists": true,
+      "before_sha256": "02DD22AC9B60E89AB32CDEF81072F673C60D4150F1D3B65FAD6D2996CAF2325F",
+      "after_sha256": "02DD22AC9B60E89AB32CDEF81072F673C60D4150F1D3B65FAD6D2996CAF2325F",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版\\outputs\\212期-头.txt",
+      "before_exists": false,
+      "after_exists": false,
+      "before_sha256": null,
+      "after_sha256": null,
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\每天工具\\数据系列\\七类数据统一归纳\\212期-头.txt",
+      "before_exists": true,
+      "after_exists": true,
+      "before_sha256": "672312D00B1965AB86F14289AEA7FD170279706A6383CD4ECAC21529A25EFAA9",
+      "after_sha256": "672312D00B1965AB86F14289AEA7FD170279706A6383CD4ECAC21529A25EFAA9",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\每天工具\\数据系列\\七类数据统一归纳失败\\212期失败-一头.txt",
+      "before_exists": true,
+      "after_exists": true,
+      "before_sha256": "9D7C14A8BC05BE9AED4A89973EC8D23EE7C48CD9DA1E7CE4211FD6F141141394",
+      "after_sha256": "9D7C14A8BC05BE9AED4A89973EC8D23EE7C48CD9DA1E7CE4211FD6F141141394",
+      "unchanged": true
+    }
+  ],
+  "sites": [
+    {
+      "index": 132,
+      "section": "对方过后",
+      "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a2ec734de36e960239c6d47?url=fcw",
+      "field": "④头中特",
+      "position": "尾部",
+      "content_hint": "对方过后",
+      "parse_hint": "missing_head_from_four_combo",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "admin:6a2ec734de36e960239c6d47",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "4头",
+              "raw_line": "212期:《对方过后》🎖️④头中特🎖️【1.0.2.3】开:06准",
+              "original_position": 45,
+              "document_order": 0,
+              "block_order": 45,
+              "record_order": 45,
+              "source_block_id": "admin:6a2ec734de36e960239c6d47",
+              "document_key": "admin_browser|6a2ec734de36e960239c6d47|https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a2ec734de36e960239c6d47?url=fcw|payload[3]$|article:6a2ec734de36e960239c6d47|admin:6a2ec734de36e960239c6d47",
+              "source_route": "admin_browser",
+              "source_url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a2ec734de36e960239c6d47?url=fcw",
+              "source_api_url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/api/proxy/manager-articles/6a2ec734de36e960239c6d47",
+              "source_record_id": "6a2ec734de36e960239c6d47",
+              "source_record_path": "payload[3]$",
+              "source_title": "<p><strong>213期：【④头中特】〓 千万富翁</strong></p>",
+              "source_author": "对方过后"
+            }
+          ],
+          "documents": [
+            {
+              "route": "admin_browser",
+              "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a2ec734de36e960239c6d47?url=fcw",
+              "record_id": "6a2ec734de36e960239c6d47",
+              "record_path": "payload[3]$",
+              "api_url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/api/proxy/manager-articles/6a2ec734de36e960239c6d47",
+              "title": "<p><strong>213期：【④头中特】〓 千万富翁</strong></p>",
+              "author": "对方过后",
+              "source_block_id": "admin:6a2ec734de36e960239c6d47",
+              "source_identity": "article:6a2ec734de36e960239c6d47",
+              "document_key": "admin_browser|6a2ec734de36e960239c6d47|https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a2ec734de36e960239c6d47?url=fcw|payload[3]$|article:6a2ec734de36e960239c6d47|admin:6a2ec734de36e960239c6d47",
+              "document_order": 0,
+              "source_list_position": -1,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "admin_browser",
+          "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a2ec734de36e960239c6d47?url=fcw",
+          "record_id": "6a2ec734de36e960239c6d47",
+          "record_path": "payload[3]$",
+          "api_url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/api/proxy/manager-articles/6a2ec734de36e960239c6d47",
+          "title": "<p><strong>213期：【④头中特】〓 千万富翁</strong></p>",
+          "author": "对方过后",
+          "source_block_id": "admin:6a2ec734de36e960239c6d47",
+          "source_identity": "article:6a2ec734de36e960239c6d47",
+          "document_key": "admin_browser|6a2ec734de36e960239c6d47|https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a2ec734de36e960239c6d47?url=fcw|payload[3]$|article:6a2ec734de36e960239c6d47|admin:6a2ec734de36e960239c6d47",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "4头",
+          "raw_line": "212期:《对方过后》🎖️④头中特🎖️【1.0.2.3】开:06准",
+          "original_position": 45,
+          "document_order": 0,
+          "block_order": 45,
+          "record_order": 45,
+          "source_block_id": "admin:6a2ec734de36e960239c6d47",
+          "document_key": "admin_browser|6a2ec734de36e960239c6d47|https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a2ec734de36e960239c6d47?url=fcw|payload[3]$|article:6a2ec734de36e960239c6d47|admin:6a2ec734de36e960239c6d47",
+          "source_route": "admin_browser",
+          "source_url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a2ec734de36e960239c6d47?url=fcw",
+          "source_api_url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/api/proxy/manager-articles/6a2ec734de36e960239c6d47",
+          "source_record_id": "6a2ec734de36e960239c6d47",
+          "source_record_path": "payload[3]$",
+          "source_title": "<p><strong>213期：【④头中特】〓 千万富翁</strong></p>",
+          "source_author": "对方过后"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a2ec734de36e960239c6d47?url=fcw",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "6a2ec734de36e960239c6d47",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 6.813,
+      "diagnostics": {
+        "fragment_count": 1,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "admin:6a2ec734de36e960239c6d47"
+        ],
+        "value_signatures": [
+          "4头"
+        ]
+      }
+    },
+    {
+      "index": 133,
+      "section": "周而复始",
+      "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a106caf45d22fb4b70fa8ce?url=fcw",
+      "field": "四头中特",
+      "position": "尾部",
+      "content_hint": "周而复始",
+      "parse_hint": "admin_anchored_missing_head_from_four_combo",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "admin:6a106caf45d22fb4b70fa8ce",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "0头",
+              "raw_line": "212期:【周而复始】🀄四头中特🀄【4.1.2.3】开:牛06错",
+              "original_position": 46,
+              "document_order": 0,
+              "block_order": 46,
+              "record_order": 46,
+              "source_block_id": "admin:6a106caf45d22fb4b70fa8ce",
+              "document_key": "admin_browser|6a106caf45d22fb4b70fa8ce|https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a106caf45d22fb4b70fa8ce?url=fcw|payload[3]$|article:6a106caf45d22fb4b70fa8ce|admin:6a106caf45d22fb4b70fa8ce",
+              "source_route": "admin_browser",
+              "source_url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a106caf45d22fb4b70fa8ce?url=fcw",
+              "source_api_url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/api/proxy/manager-articles/6a106caf45d22fb4b70fa8ce",
+              "source_record_id": "6a106caf45d22fb4b70fa8ce",
+              "source_record_path": "payload[3]$",
+              "source_title": "<p><strong>213期：【四头中特】〓 天天中奖</strong></p>",
+              "source_author": "周而复始"
+            }
+          ],
+          "documents": [
+            {
+              "route": "admin_browser",
+              "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a106caf45d22fb4b70fa8ce?url=fcw",
+              "record_id": "6a106caf45d22fb4b70fa8ce",
+              "record_path": "payload[3]$",
+              "api_url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/api/proxy/manager-articles/6a106caf45d22fb4b70fa8ce",
+              "title": "<p><strong>213期：【四头中特】〓 天天中奖</strong></p>",
+              "author": "周而复始",
+              "source_block_id": "admin:6a106caf45d22fb4b70fa8ce",
+              "source_identity": "article:6a106caf45d22fb4b70fa8ce",
+              "document_key": "admin_browser|6a106caf45d22fb4b70fa8ce|https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a106caf45d22fb4b70fa8ce?url=fcw|payload[3]$|article:6a106caf45d22fb4b70fa8ce|admin:6a106caf45d22fb4b70fa8ce",
+              "document_order": 0,
+              "source_list_position": -1,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "admin_browser",
+          "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a106caf45d22fb4b70fa8ce?url=fcw",
+          "record_id": "6a106caf45d22fb4b70fa8ce",
+          "record_path": "payload[3]$",
+          "api_url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/api/proxy/manager-articles/6a106caf45d22fb4b70fa8ce",
+          "title": "<p><strong>213期：【四头中特】〓 天天中奖</strong></p>",
+          "author": "周而复始",
+          "source_block_id": "admin:6a106caf45d22fb4b70fa8ce",
+          "source_identity": "article:6a106caf45d22fb4b70fa8ce",
+          "document_key": "admin_browser|6a106caf45d22fb4b70fa8ce|https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a106caf45d22fb4b70fa8ce?url=fcw|payload[3]$|article:6a106caf45d22fb4b70fa8ce|admin:6a106caf45d22fb4b70fa8ce",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "0头",
+          "raw_line": "212期:【周而复始】🀄四头中特🀄【4.1.2.3】开:牛06错",
+          "original_position": 46,
+          "document_order": 0,
+          "block_order": 46,
+          "record_order": 46,
+          "source_block_id": "admin:6a106caf45d22fb4b70fa8ce",
+          "document_key": "admin_browser|6a106caf45d22fb4b70fa8ce|https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a106caf45d22fb4b70fa8ce?url=fcw|payload[3]$|article:6a106caf45d22fb4b70fa8ce|admin:6a106caf45d22fb4b70fa8ce",
+          "source_route": "admin_browser",
+          "source_url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a106caf45d22fb4b70fa8ce?url=fcw",
+          "source_api_url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/api/proxy/manager-articles/6a106caf45d22fb4b70fa8ce",
+          "source_record_id": "6a106caf45d22fb4b70fa8ce",
+          "source_record_path": "payload[3]$",
+          "source_title": "<p><strong>213期：【四头中特】〓 天天中奖</strong></p>",
+          "source_author": "周而复始"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a106caf45d22fb4b70fa8ce?url=fcw",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "6a106caf45d22fb4b70fa8ce",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 5.391,
+      "diagnostics": {
+        "fragment_count": 1,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "admin:6a106caf45d22fb4b70fa8ce"
+        ],
+        "value_signatures": [
+          "0头"
+        ]
+      }
+    },
+    {
+      "index": 134,
+      "section": "招财进宝",
+      "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a09b435291caff3edcb90ab?url=fcw",
+      "field": "四头中特",
+      "position": "尾部",
+      "content_hint": "招财进宝",
+      "parse_hint": "admin_anchored_missing_head_from_four_combo",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "admin:6a09b435291caff3edcb90ab",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "4头",
+              "raw_line": "212期:〖招财进宝〗👚四头中特👚【1.0.2.3】开:06准",
+              "original_position": 49,
+              "document_order": 0,
+              "block_order": 49,
+              "record_order": 49,
+              "source_block_id": "admin:6a09b435291caff3edcb90ab",
+              "document_key": "admin_browser|6a09b435291caff3edcb90ab|https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a09b435291caff3edcb90ab?url=fcw|payload[3]$|article:6a09b435291caff3edcb90ab|admin:6a09b435291caff3edcb90ab",
+              "source_route": "admin_browser",
+              "source_url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a09b435291caff3edcb90ab?url=fcw",
+              "source_api_url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/api/proxy/manager-articles/6a09b435291caff3edcb90ab",
+              "source_record_id": "6a09b435291caff3edcb90ab",
+              "source_record_path": "payload[3]$",
+              "source_title": "<p><strong>213期：【四头中特】〓 手到擒来</strong></p>",
+              "source_author": "招财进宝"
+            }
+          ],
+          "documents": [
+            {
+              "route": "admin_browser",
+              "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a09b435291caff3edcb90ab?url=fcw",
+              "record_id": "6a09b435291caff3edcb90ab",
+              "record_path": "payload[3]$",
+              "api_url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/api/proxy/manager-articles/6a09b435291caff3edcb90ab",
+              "title": "<p><strong>213期：【四头中特】〓 手到擒来</strong></p>",
+              "author": "招财进宝",
+              "source_block_id": "admin:6a09b435291caff3edcb90ab",
+              "source_identity": "article:6a09b435291caff3edcb90ab",
+              "document_key": "admin_browser|6a09b435291caff3edcb90ab|https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a09b435291caff3edcb90ab?url=fcw|payload[3]$|article:6a09b435291caff3edcb90ab|admin:6a09b435291caff3edcb90ab",
+              "document_order": 0,
+              "source_list_position": -1,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "admin_browser",
+          "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a09b435291caff3edcb90ab?url=fcw",
+          "record_id": "6a09b435291caff3edcb90ab",
+          "record_path": "payload[3]$",
+          "api_url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/api/proxy/manager-articles/6a09b435291caff3edcb90ab",
+          "title": "<p><strong>213期：【四头中特】〓 手到擒来</strong></p>",
+          "author": "招财进宝",
+          "source_block_id": "admin:6a09b435291caff3edcb90ab",
+          "source_identity": "article:6a09b435291caff3edcb90ab",
+          "document_key": "admin_browser|6a09b435291caff3edcb90ab|https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a09b435291caff3edcb90ab?url=fcw|payload[3]$|article:6a09b435291caff3edcb90ab|admin:6a09b435291caff3edcb90ab",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "4头",
+          "raw_line": "212期:〖招财进宝〗👚四头中特👚【1.0.2.3】开:06准",
+          "original_position": 49,
+          "document_order": 0,
+          "block_order": 49,
+          "record_order": 49,
+          "source_block_id": "admin:6a09b435291caff3edcb90ab",
+          "document_key": "admin_browser|6a09b435291caff3edcb90ab|https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a09b435291caff3edcb90ab?url=fcw|payload[3]$|article:6a09b435291caff3edcb90ab|admin:6a09b435291caff3edcb90ab",
+          "source_route": "admin_browser",
+          "source_url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a09b435291caff3edcb90ab?url=fcw",
+          "source_api_url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/api/proxy/manager-articles/6a09b435291caff3edcb90ab",
+          "source_record_id": "6a09b435291caff3edcb90ab",
+          "source_record_path": "payload[3]$",
+          "source_title": "<p><strong>213期：【四头中特】〓 手到擒来</strong></p>",
+          "source_author": "招财进宝"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a09b435291caff3edcb90ab?url=fcw",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "6a09b435291caff3edcb90ab",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 4.672,
+      "diagnostics": {
+        "fragment_count": 1,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "admin:6a09b435291caff3edcb90ab"
+        ],
+        "value_signatures": [
+          "4头"
+        ]
+      }
+    },
+    {
+      "index": 135,
+      "section": "日益精进",
+      "url": "https://dgjdlk.0hrwo-8qjsc-spwvba.xyz:29411/article/admin/6a12e3d1741e3e91a04e5238?url=cf",
+      "field": "四头中特",
+      "position": "尾部",
+      "content_hint": "日益精进",
+      "parse_hint": "missing_head_from_four_combo",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "admin:6a12e3d1741e3e91a04e5238",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "0头",
+              "raw_line": "212期:《日益精进》😍四头中特😍【1.2.3.4】开:00准",
+              "original_position": 201,
+              "document_order": 0,
+              "block_order": 201,
+              "record_order": 201,
+              "source_block_id": "admin:6a12e3d1741e3e91a04e5238",
+              "document_key": "admin_browser|6a12e3d1741e3e91a04e5238|https://dgjdlk.0hrwo-8qjsc-spwvba.xyz:29411/article/admin/6a12e3d1741e3e91a04e5238?url=cf|payload[3]$|article:6a12e3d1741e3e91a04e5238|admin:6a12e3d1741e3e91a04e5238",
+              "source_route": "admin_browser",
+              "source_url": "https://dgjdlk.0hrwo-8qjsc-spwvba.xyz:29411/article/admin/6a12e3d1741e3e91a04e5238?url=cf",
+              "source_api_url": "https://dgjdlk.0hrwo-8qjsc-spwvba.xyz:29411/api/proxy/manager-articles/6a12e3d1741e3e91a04e5238",
+              "source_record_id": "6a12e3d1741e3e91a04e5238",
+              "source_record_path": "payload[3]$",
+              "source_title": "<p><strong>212期：【四头中特】〓 妙手回春 </strong></p>",
+              "source_author": "日益精进"
+            }
+          ],
+          "documents": [
+            {
+              "route": "admin_browser",
+              "url": "https://dgjdlk.0hrwo-8qjsc-spwvba.xyz:29411/article/admin/6a12e3d1741e3e91a04e5238?url=cf",
+              "record_id": "6a12e3d1741e3e91a04e5238",
+              "record_path": "payload[3]$",
+              "api_url": "https://dgjdlk.0hrwo-8qjsc-spwvba.xyz:29411/api/proxy/manager-articles/6a12e3d1741e3e91a04e5238",
+              "title": "<p><strong>212期：【四头中特】〓 妙手回春 </strong></p>",
+              "author": "日益精进",
+              "source_block_id": "admin:6a12e3d1741e3e91a04e5238",
+              "source_identity": "article:6a12e3d1741e3e91a04e5238",
+              "document_key": "admin_browser|6a12e3d1741e3e91a04e5238|https://dgjdlk.0hrwo-8qjsc-spwvba.xyz:29411/article/admin/6a12e3d1741e3e91a04e5238?url=cf|payload[3]$|article:6a12e3d1741e3e91a04e5238|admin:6a12e3d1741e3e91a04e5238",
+              "document_order": 0,
+              "source_list_position": -1,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "admin_browser",
+          "url": "https://dgjdlk.0hrwo-8qjsc-spwvba.xyz:29411/article/admin/6a12e3d1741e3e91a04e5238?url=cf",
+          "record_id": "6a12e3d1741e3e91a04e5238",
+          "record_path": "payload[3]$",
+          "api_url": "https://dgjdlk.0hrwo-8qjsc-spwvba.xyz:29411/api/proxy/manager-articles/6a12e3d1741e3e91a04e5238",
+          "title": "<p><strong>212期：【四头中特】〓 妙手回春 </strong></p>",
+          "author": "日益精进",
+          "source_block_id": "admin:6a12e3d1741e3e91a04e5238",
+          "source_identity": "article:6a12e3d1741e3e91a04e5238",
+          "document_key": "admin_browser|6a12e3d1741e3e91a04e5238|https://dgjdlk.0hrwo-8qjsc-spwvba.xyz:29411/article/admin/6a12e3d1741e3e91a04e5238?url=cf|payload[3]$|article:6a12e3d1741e3e91a04e5238|admin:6a12e3d1741e3e91a04e5238",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "0头",
+          "raw_line": "212期:《日益精进》😍四头中特😍【1.2.3.4】开:00准",
+          "original_position": 201,
+          "document_order": 0,
+          "block_order": 201,
+          "record_order": 201,
+          "source_block_id": "admin:6a12e3d1741e3e91a04e5238",
+          "document_key": "admin_browser|6a12e3d1741e3e91a04e5238|https://dgjdlk.0hrwo-8qjsc-spwvba.xyz:29411/article/admin/6a12e3d1741e3e91a04e5238?url=cf|payload[3]$|article:6a12e3d1741e3e91a04e5238|admin:6a12e3d1741e3e91a04e5238",
+          "source_route": "admin_browser",
+          "source_url": "https://dgjdlk.0hrwo-8qjsc-spwvba.xyz:29411/article/admin/6a12e3d1741e3e91a04e5238?url=cf",
+          "source_api_url": "https://dgjdlk.0hrwo-8qjsc-spwvba.xyz:29411/api/proxy/manager-articles/6a12e3d1741e3e91a04e5238",
+          "source_record_id": "6a12e3d1741e3e91a04e5238",
+          "source_record_path": "payload[3]$",
+          "source_title": "<p><strong>212期：【四头中特】〓 妙手回春 </strong></p>",
+          "source_author": "日益精进"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://dgjdlk.0hrwo-8qjsc-spwvba.xyz:29411/article/admin/6a12e3d1741e3e91a04e5238?url=cf",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "6a12e3d1741e3e91a04e5238",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 5.391,
+      "diagnostics": {
+        "fragment_count": 1,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "admin:6a12e3d1741e3e91a04e5238"
+        ],
+        "value_signatures": [
+          "0头"
+        ]
+      }
+    },
+    {
+      "index": 136,
+      "section": "月亮弯弯",
+      "url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a0441144ea5c20141013e6c?url=qdz",
+      "field": "④头中特",
+      "position": "尾部",
+      "content_hint": "月亮弯弯",
+      "parse_hint": "missing_head_from_four_combo",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "admin:6a0441144ea5c20141013e6c",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "4头",
+              "raw_line": "212期:【月亮弯弯】🎈④头中特🎈【0.1.2.3】开:06准",
+              "original_position": 103,
+              "document_order": 0,
+              "block_order": 103,
+              "record_order": 103,
+              "source_block_id": "admin:6a0441144ea5c20141013e6c",
+              "document_key": "admin_browser|6a0441144ea5c20141013e6c|https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a0441144ea5c20141013e6c?url=qdz|payload[3]$|article:6a0441144ea5c20141013e6c|admin:6a0441144ea5c20141013e6c",
+              "source_route": "admin_browser",
+              "source_url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a0441144ea5c20141013e6c?url=qdz",
+              "source_api_url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/api/proxy/manager-articles/6a0441144ea5c20141013e6c",
+              "source_record_id": "6a0441144ea5c20141013e6c",
+              "source_record_path": "payload[3]$",
+              "source_title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>213期：【④头中特】〓 布衣神算</strong></span></p>",
+              "source_author": "月亮弯弯"
+            }
+          ],
+          "documents": [
+            {
+              "route": "admin_browser",
+              "url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a0441144ea5c20141013e6c?url=qdz",
+              "record_id": "6a0441144ea5c20141013e6c",
+              "record_path": "payload[3]$",
+              "api_url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/api/proxy/manager-articles/6a0441144ea5c20141013e6c",
+              "title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>213期：【④头中特】〓 布衣神算</strong></span></p>",
+              "author": "月亮弯弯",
+              "source_block_id": "admin:6a0441144ea5c20141013e6c",
+              "source_identity": "article:6a0441144ea5c20141013e6c",
+              "document_key": "admin_browser|6a0441144ea5c20141013e6c|https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a0441144ea5c20141013e6c?url=qdz|payload[3]$|article:6a0441144ea5c20141013e6c|admin:6a0441144ea5c20141013e6c",
+              "document_order": 0,
+              "source_list_position": -1,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "admin_browser",
+          "url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a0441144ea5c20141013e6c?url=qdz",
+          "record_id": "6a0441144ea5c20141013e6c",
+          "record_path": "payload[3]$",
+          "api_url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/api/proxy/manager-articles/6a0441144ea5c20141013e6c",
+          "title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>213期：【④头中特】〓 布衣神算</strong></span></p>",
+          "author": "月亮弯弯",
+          "source_block_id": "admin:6a0441144ea5c20141013e6c",
+          "source_identity": "article:6a0441144ea5c20141013e6c",
+          "document_key": "admin_browser|6a0441144ea5c20141013e6c|https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a0441144ea5c20141013e6c?url=qdz|payload[3]$|article:6a0441144ea5c20141013e6c|admin:6a0441144ea5c20141013e6c",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "4头",
+          "raw_line": "212期:【月亮弯弯】🎈④头中特🎈【0.1.2.3】开:06准",
+          "original_position": 103,
+          "document_order": 0,
+          "block_order": 103,
+          "record_order": 103,
+          "source_block_id": "admin:6a0441144ea5c20141013e6c",
+          "document_key": "admin_browser|6a0441144ea5c20141013e6c|https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a0441144ea5c20141013e6c?url=qdz|payload[3]$|article:6a0441144ea5c20141013e6c|admin:6a0441144ea5c20141013e6c",
+          "source_route": "admin_browser",
+          "source_url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a0441144ea5c20141013e6c?url=qdz",
+          "source_api_url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/api/proxy/manager-articles/6a0441144ea5c20141013e6c",
+          "source_record_id": "6a0441144ea5c20141013e6c",
+          "source_record_path": "payload[3]$",
+          "source_title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>213期：【④头中特】〓 布衣神算</strong></span></p>",
+          "source_author": "月亮弯弯"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a0441144ea5c20141013e6c?url=qdz",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "6a0441144ea5c20141013e6c",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 5.656,
+      "diagnostics": {
+        "fragment_count": 1,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "admin:6a0441144ea5c20141013e6c"
+        ],
+        "value_signatures": [
+          "4头"
+        ]
+      }
+    },
+    {
+      "index": 137,
+      "section": "吉祥特码",
+      "url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a04465e4ea5c20141013e86?url=qdz",
+      "field": "④头中特",
+      "position": "尾部",
+      "content_hint": "吉祥特码",
+      "parse_hint": "missing_head_from_four_combo",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "admin:6a04465e4ea5c20141013e86",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "3头",
+              "raw_line": "212期:✨《吉祥特码》✨④头中特✨【0.1.2.4】开:06准",
+              "original_position": 103,
+              "document_order": 0,
+              "block_order": 103,
+              "record_order": 103,
+              "source_block_id": "admin:6a04465e4ea5c20141013e86",
+              "document_key": "admin_browser|6a04465e4ea5c20141013e86|https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a04465e4ea5c20141013e86?url=qdz|payload[3]$|article:6a04465e4ea5c20141013e86|admin:6a04465e4ea5c20141013e86",
+              "source_route": "admin_browser",
+              "source_url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a04465e4ea5c20141013e86?url=qdz",
+              "source_api_url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/api/proxy/manager-articles/6a04465e4ea5c20141013e86",
+              "source_record_id": "6a04465e4ea5c20141013e86",
+              "source_record_path": "payload[3]$",
+              "source_title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>213期：【④头中特】〓 免费发表</strong></span></p>",
+              "source_author": "吉祥特码"
+            }
+          ],
+          "documents": [
+            {
+              "route": "admin_browser",
+              "url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a04465e4ea5c20141013e86?url=qdz",
+              "record_id": "6a04465e4ea5c20141013e86",
+              "record_path": "payload[3]$",
+              "api_url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/api/proxy/manager-articles/6a04465e4ea5c20141013e86",
+              "title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>213期：【④头中特】〓 免费发表</strong></span></p>",
+              "author": "吉祥特码",
+              "source_block_id": "admin:6a04465e4ea5c20141013e86",
+              "source_identity": "article:6a04465e4ea5c20141013e86",
+              "document_key": "admin_browser|6a04465e4ea5c20141013e86|https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a04465e4ea5c20141013e86?url=qdz|payload[3]$|article:6a04465e4ea5c20141013e86|admin:6a04465e4ea5c20141013e86",
+              "document_order": 0,
+              "source_list_position": -1,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "admin_browser",
+          "url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a04465e4ea5c20141013e86?url=qdz",
+          "record_id": "6a04465e4ea5c20141013e86",
+          "record_path": "payload[3]$",
+          "api_url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/api/proxy/manager-articles/6a04465e4ea5c20141013e86",
+          "title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>213期：【④头中特】〓 免费发表</strong></span></p>",
+          "author": "吉祥特码",
+          "source_block_id": "admin:6a04465e4ea5c20141013e86",
+          "source_identity": "article:6a04465e4ea5c20141013e86",
+          "document_key": "admin_browser|6a04465e4ea5c20141013e86|https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a04465e4ea5c20141013e86?url=qdz|payload[3]$|article:6a04465e4ea5c20141013e86|admin:6a04465e4ea5c20141013e86",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "3头",
+          "raw_line": "212期:✨《吉祥特码》✨④头中特✨【0.1.2.4】开:06准",
+          "original_position": 103,
+          "document_order": 0,
+          "block_order": 103,
+          "record_order": 103,
+          "source_block_id": "admin:6a04465e4ea5c20141013e86",
+          "document_key": "admin_browser|6a04465e4ea5c20141013e86|https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a04465e4ea5c20141013e86?url=qdz|payload[3]$|article:6a04465e4ea5c20141013e86|admin:6a04465e4ea5c20141013e86",
+          "source_route": "admin_browser",
+          "source_url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a04465e4ea5c20141013e86?url=qdz",
+          "source_api_url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/api/proxy/manager-articles/6a04465e4ea5c20141013e86",
+          "source_record_id": "6a04465e4ea5c20141013e86",
+          "source_record_path": "payload[3]$",
+          "source_title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>213期：【④头中特】〓 免费发表</strong></span></p>",
+          "source_author": "吉祥特码"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a04465e4ea5c20141013e86?url=qdz",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "6a04465e4ea5c20141013e86",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 4.625,
+      "diagnostics": {
+        "fragment_count": 1,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "admin:6a04465e4ea5c20141013e86"
+        ],
+        "value_signatures": [
+          "3头"
+        ]
+      }
+    },
+    {
+      "index": 138,
+      "section": "弦歌不辍",
+      "url": "https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/article/admin/6a02d06b8bad0a3579e9f744?url=tdg",
+      "field": "④头中特",
+      "position": "尾部",
+      "content_hint": "弦歌不辍",
+      "parse_hint": "admin_anchored_missing_head_from_four_combo",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "admin:6a02d06b8bad0a3579e9f744",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "1头",
+              "raw_line": "212期:【弦歌不辍】😍④头中特😍【0.2.3.4】开:00准",
+              "original_position": 119,
+              "document_order": 0,
+              "block_order": 119,
+              "record_order": 119,
+              "source_block_id": "admin:6a02d06b8bad0a3579e9f744",
+              "document_key": "admin_browser|6a02d06b8bad0a3579e9f744|https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/article/admin/6a02d06b8bad0a3579e9f744?url=tdg|payload[3]$|article:6a02d06b8bad0a3579e9f744|admin:6a02d06b8bad0a3579e9f744",
+              "source_route": "admin_browser",
+              "source_url": "https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/article/admin/6a02d06b8bad0a3579e9f744?url=tdg",
+              "source_api_url": "https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/api/proxy/manager-articles/6a02d06b8bad0a3579e9f744",
+              "source_record_id": "6a02d06b8bad0a3579e9f744",
+              "source_record_path": "payload[3]$",
+              "source_title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>212期：【④头中特】〓 期期真实</strong></span></p>",
+              "source_author": "弦歌不辍"
+            }
+          ],
+          "documents": [
+            {
+              "route": "admin_browser",
+              "url": "https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/article/admin/6a02d06b8bad0a3579e9f744?url=tdg",
+              "record_id": "6a02d06b8bad0a3579e9f744",
+              "record_path": "payload[3]$",
+              "api_url": "https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/api/proxy/manager-articles/6a02d06b8bad0a3579e9f744",
+              "title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>212期：【④头中特】〓 期期真实</strong></span></p>",
+              "author": "弦歌不辍",
+              "source_block_id": "admin:6a02d06b8bad0a3579e9f744",
+              "source_identity": "article:6a02d06b8bad0a3579e9f744",
+              "document_key": "admin_browser|6a02d06b8bad0a3579e9f744|https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/article/admin/6a02d06b8bad0a3579e9f744?url=tdg|payload[3]$|article:6a02d06b8bad0a3579e9f744|admin:6a02d06b8bad0a3579e9f744",
+              "document_order": 0,
+              "source_list_position": -1,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "admin_browser",
+          "url": "https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/article/admin/6a02d06b8bad0a3579e9f744?url=tdg",
+          "record_id": "6a02d06b8bad0a3579e9f744",
+          "record_path": "payload[3]$",
+          "api_url": "https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/api/proxy/manager-articles/6a02d06b8bad0a3579e9f744",
+          "title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>212期：【④头中特】〓 期期真实</strong></span></p>",
+          "author": "弦歌不辍",
+          "source_block_id": "admin:6a02d06b8bad0a3579e9f744",
+          "source_identity": "article:6a02d06b8bad0a3579e9f744",
+          "document_key": "admin_browser|6a02d06b8bad0a3579e9f744|https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/article/admin/6a02d06b8bad0a3579e9f744?url=tdg|payload[3]$|article:6a02d06b8bad0a3579e9f744|admin:6a02d06b8bad0a3579e9f744",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "1头",
+          "raw_line": "212期:【弦歌不辍】😍④头中特😍【0.2.3.4】开:00准",
+          "original_position": 119,
+          "document_order": 0,
+          "block_order": 119,
+          "record_order": 119,
+          "source_block_id": "admin:6a02d06b8bad0a3579e9f744",
+          "document_key": "admin_browser|6a02d06b8bad0a3579e9f744|https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/article/admin/6a02d06b8bad0a3579e9f744?url=tdg|payload[3]$|article:6a02d06b8bad0a3579e9f744|admin:6a02d06b8bad0a3579e9f744",
+          "source_route": "admin_browser",
+          "source_url": "https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/article/admin/6a02d06b8bad0a3579e9f744?url=tdg",
+          "source_api_url": "https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/api/proxy/manager-articles/6a02d06b8bad0a3579e9f744",
+          "source_record_id": "6a02d06b8bad0a3579e9f744",
+          "source_record_path": "payload[3]$",
+          "source_title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>212期：【④头中特】〓 期期真实</strong></span></p>",
+          "source_author": "弦歌不辍"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/article/admin/6a02d06b8bad0a3579e9f744?url=tdg",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "6a02d06b8bad0a3579e9f744",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 5.641,
+      "diagnostics": {
+        "fragment_count": 1,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "admin:6a02d06b8bad0a3579e9f744"
+        ],
+        "value_signatures": [
+          "1头"
+        ]
+      }
+    },
+    {
+      "index": 139,
+      "section": "万彩资料",
+      "url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02d3b18bad0a3579e9f75a?url=home",
+      "field": "④头中特",
+      "position": "尾部",
+      "content_hint": "万彩资料",
+      "parse_hint": "missing_head_from_four_combo",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "admin:6a02d3b18bad0a3579e9f75a",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "4头",
+              "raw_line": "212期:【万彩资料】🥧④头中特🥧【0.1.2.3】开:06准",
+              "original_position": 61,
+              "document_order": 0,
+              "block_order": 61,
+              "record_order": 61,
+              "source_block_id": "admin:6a02d3b18bad0a3579e9f75a",
+              "document_key": "admin_browser|6a02d3b18bad0a3579e9f75a|https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02d3b18bad0a3579e9f75a?url=home|payload[3]$|article:6a02d3b18bad0a3579e9f75a|admin:6a02d3b18bad0a3579e9f75a",
+              "source_route": "admin_browser",
+              "source_url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02d3b18bad0a3579e9f75a?url=home",
+              "source_api_url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/api/proxy/manager-articles/6a02d3b18bad0a3579e9f75a",
+              "source_record_id": "6a02d3b18bad0a3579e9f75a",
+              "source_record_path": "payload[3]$",
+              "source_title": "<p><strong>213期：【④头中特】〓 赚钱秘籍</strong></p>",
+              "source_author": "万彩资料"
+            }
+          ],
+          "documents": [
+            {
+              "route": "admin_browser",
+              "url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02d3b18bad0a3579e9f75a?url=home",
+              "record_id": "6a02d3b18bad0a3579e9f75a",
+              "record_path": "payload[3]$",
+              "api_url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/api/proxy/manager-articles/6a02d3b18bad0a3579e9f75a",
+              "title": "<p><strong>213期：【④头中特】〓 赚钱秘籍</strong></p>",
+              "author": "万彩资料",
+              "source_block_id": "admin:6a02d3b18bad0a3579e9f75a",
+              "source_identity": "article:6a02d3b18bad0a3579e9f75a",
+              "document_key": "admin_browser|6a02d3b18bad0a3579e9f75a|https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02d3b18bad0a3579e9f75a?url=home|payload[3]$|article:6a02d3b18bad0a3579e9f75a|admin:6a02d3b18bad0a3579e9f75a",
+              "document_order": 0,
+              "source_list_position": -1,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "admin_browser",
+          "url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02d3b18bad0a3579e9f75a?url=home",
+          "record_id": "6a02d3b18bad0a3579e9f75a",
+          "record_path": "payload[3]$",
+          "api_url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/api/proxy/manager-articles/6a02d3b18bad0a3579e9f75a",
+          "title": "<p><strong>213期：【④头中特】〓 赚钱秘籍</strong></p>",
+          "author": "万彩资料",
+          "source_block_id": "admin:6a02d3b18bad0a3579e9f75a",
+          "source_identity": "article:6a02d3b18bad0a3579e9f75a",
+          "document_key": "admin_browser|6a02d3b18bad0a3579e9f75a|https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02d3b18bad0a3579e9f75a?url=home|payload[3]$|article:6a02d3b18bad0a3579e9f75a|admin:6a02d3b18bad0a3579e9f75a",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "4头",
+          "raw_line": "212期:【万彩资料】🥧④头中特🥧【0.1.2.3】开:06准",
+          "original_position": 61,
+          "document_order": 0,
+          "block_order": 61,
+          "record_order": 61,
+          "source_block_id": "admin:6a02d3b18bad0a3579e9f75a",
+          "document_key": "admin_browser|6a02d3b18bad0a3579e9f75a|https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02d3b18bad0a3579e9f75a?url=home|payload[3]$|article:6a02d3b18bad0a3579e9f75a|admin:6a02d3b18bad0a3579e9f75a",
+          "source_route": "admin_browser",
+          "source_url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02d3b18bad0a3579e9f75a?url=home",
+          "source_api_url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/api/proxy/manager-articles/6a02d3b18bad0a3579e9f75a",
+          "source_record_id": "6a02d3b18bad0a3579e9f75a",
+          "source_record_path": "payload[3]$",
+          "source_title": "<p><strong>213期：【④头中特】〓 赚钱秘籍</strong></p>",
+          "source_author": "万彩资料"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02d3b18bad0a3579e9f75a?url=home",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "6a02d3b18bad0a3579e9f75a",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 5.484,
+      "diagnostics": {
+        "fragment_count": 1,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "admin:6a02d3b18bad0a3579e9f75a"
+        ],
+        "value_signatures": [
+          "4头"
+        ]
+      }
+    },
+    {
+      "index": 140,
+      "section": "花朵之蓝",
+      "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a040fcd4ea5c20141013d94?url=lbw",
+      "field": "④头中特",
+      "position": "尾部",
+      "content_hint": "花朵之蓝",
+      "parse_hint": "missing_head_from_four_combo",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "admin:6a040fcd4ea5c20141013d94",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "3头",
+              "raw_line": "212期:【花朵之蓝】🍒④头中特🍒【0.1.2.4】开:00准",
+              "original_position": 112,
+              "document_order": 0,
+              "block_order": 112,
+              "record_order": 112,
+              "source_block_id": "admin:6a040fcd4ea5c20141013d94",
+              "document_key": "admin_browser|6a040fcd4ea5c20141013d94|https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a040fcd4ea5c20141013d94?url=lbw|payload[3]$|article:6a040fcd4ea5c20141013d94|admin:6a040fcd4ea5c20141013d94",
+              "source_route": "admin_browser",
+              "source_url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a040fcd4ea5c20141013d94?url=lbw",
+              "source_api_url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/api/proxy/manager-articles/6a040fcd4ea5c20141013d94",
+              "source_record_id": "6a040fcd4ea5c20141013d94",
+              "source_record_path": "payload[3]$",
+              "source_title": "<p><strong>212期：【④头中特】〓 发财之道</strong></p>",
+              "source_author": "花朵之蓝"
+            }
+          ],
+          "documents": [
+            {
+              "route": "admin_browser",
+              "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a040fcd4ea5c20141013d94?url=lbw",
+              "record_id": "6a040fcd4ea5c20141013d94",
+              "record_path": "payload[3]$",
+              "api_url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/api/proxy/manager-articles/6a040fcd4ea5c20141013d94",
+              "title": "<p><strong>212期：【④头中特】〓 发财之道</strong></p>",
+              "author": "花朵之蓝",
+              "source_block_id": "admin:6a040fcd4ea5c20141013d94",
+              "source_identity": "article:6a040fcd4ea5c20141013d94",
+              "document_key": "admin_browser|6a040fcd4ea5c20141013d94|https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a040fcd4ea5c20141013d94?url=lbw|payload[3]$|article:6a040fcd4ea5c20141013d94|admin:6a040fcd4ea5c20141013d94",
+              "document_order": 0,
+              "source_list_position": -1,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "admin_browser",
+          "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a040fcd4ea5c20141013d94?url=lbw",
+          "record_id": "6a040fcd4ea5c20141013d94",
+          "record_path": "payload[3]$",
+          "api_url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/api/proxy/manager-articles/6a040fcd4ea5c20141013d94",
+          "title": "<p><strong>212期：【④头中特】〓 发财之道</strong></p>",
+          "author": "花朵之蓝",
+          "source_block_id": "admin:6a040fcd4ea5c20141013d94",
+          "source_identity": "article:6a040fcd4ea5c20141013d94",
+          "document_key": "admin_browser|6a040fcd4ea5c20141013d94|https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a040fcd4ea5c20141013d94?url=lbw|payload[3]$|article:6a040fcd4ea5c20141013d94|admin:6a040fcd4ea5c20141013d94",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "3头",
+          "raw_line": "212期:【花朵之蓝】🍒④头中特🍒【0.1.2.4】开:00准",
+          "original_position": 112,
+          "document_order": 0,
+          "block_order": 112,
+          "record_order": 112,
+          "source_block_id": "admin:6a040fcd4ea5c20141013d94",
+          "document_key": "admin_browser|6a040fcd4ea5c20141013d94|https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a040fcd4ea5c20141013d94?url=lbw|payload[3]$|article:6a040fcd4ea5c20141013d94|admin:6a040fcd4ea5c20141013d94",
+          "source_route": "admin_browser",
+          "source_url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a040fcd4ea5c20141013d94?url=lbw",
+          "source_api_url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/api/proxy/manager-articles/6a040fcd4ea5c20141013d94",
+          "source_record_id": "6a040fcd4ea5c20141013d94",
+          "source_record_path": "payload[3]$",
+          "source_title": "<p><strong>212期：【④头中特】〓 发财之道</strong></p>",
+          "source_author": "花朵之蓝"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a040fcd4ea5c20141013d94?url=lbw",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "6a040fcd4ea5c20141013d94",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 5.422,
+      "diagnostics": {
+        "fragment_count": 1,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "admin:6a040fcd4ea5c20141013d94"
+        ],
+        "value_signatures": [
+          "3头"
+        ]
+      }
+    },
+    {
+      "index": 141,
+      "section": "财宝霸业",
+      "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04121c4ea5c20141013da1?url=lbw",
+      "field": "④头中特",
+      "position": "尾部",
+      "content_hint": "财宝霸业",
+      "parse_hint": "missing_head_from_four_combo",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "admin:6a04121c4ea5c20141013da1",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "3头",
+              "raw_line": "212期:【财宝霸业】♣️④头中特♣️【0.1.2.4】开:00准",
+              "original_position": 109,
+              "document_order": 0,
+              "block_order": 109,
+              "record_order": 109,
+              "source_block_id": "admin:6a04121c4ea5c20141013da1",
+              "document_key": "admin_browser|6a04121c4ea5c20141013da1|https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04121c4ea5c20141013da1?url=lbw|payload[3]$|article:6a04121c4ea5c20141013da1|admin:6a04121c4ea5c20141013da1",
+              "source_route": "admin_browser",
+              "source_url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04121c4ea5c20141013da1?url=lbw",
+              "source_api_url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/api/proxy/manager-articles/6a04121c4ea5c20141013da1",
+              "source_record_id": "6a04121c4ea5c20141013da1",
+              "source_record_path": "payload[3]$",
+              "source_title": "<p><strong>212期：【④头中特】〓 抓住机会</strong></p>",
+              "source_author": "财宝霸业"
+            }
+          ],
+          "documents": [
+            {
+              "route": "admin_browser",
+              "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04121c4ea5c20141013da1?url=lbw",
+              "record_id": "6a04121c4ea5c20141013da1",
+              "record_path": "payload[3]$",
+              "api_url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/api/proxy/manager-articles/6a04121c4ea5c20141013da1",
+              "title": "<p><strong>212期：【④头中特】〓 抓住机会</strong></p>",
+              "author": "财宝霸业",
+              "source_block_id": "admin:6a04121c4ea5c20141013da1",
+              "source_identity": "article:6a04121c4ea5c20141013da1",
+              "document_key": "admin_browser|6a04121c4ea5c20141013da1|https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04121c4ea5c20141013da1?url=lbw|payload[3]$|article:6a04121c4ea5c20141013da1|admin:6a04121c4ea5c20141013da1",
+              "document_order": 0,
+              "source_list_position": -1,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "admin_browser",
+          "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04121c4ea5c20141013da1?url=lbw",
+          "record_id": "6a04121c4ea5c20141013da1",
+          "record_path": "payload[3]$",
+          "api_url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/api/proxy/manager-articles/6a04121c4ea5c20141013da1",
+          "title": "<p><strong>212期：【④头中特】〓 抓住机会</strong></p>",
+          "author": "财宝霸业",
+          "source_block_id": "admin:6a04121c4ea5c20141013da1",
+          "source_identity": "article:6a04121c4ea5c20141013da1",
+          "document_key": "admin_browser|6a04121c4ea5c20141013da1|https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04121c4ea5c20141013da1?url=lbw|payload[3]$|article:6a04121c4ea5c20141013da1|admin:6a04121c4ea5c20141013da1",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "3头",
+          "raw_line": "212期:【财宝霸业】♣️④头中特♣️【0.1.2.4】开:00准",
+          "original_position": 109,
+          "document_order": 0,
+          "block_order": 109,
+          "record_order": 109,
+          "source_block_id": "admin:6a04121c4ea5c20141013da1",
+          "document_key": "admin_browser|6a04121c4ea5c20141013da1|https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04121c4ea5c20141013da1?url=lbw|payload[3]$|article:6a04121c4ea5c20141013da1|admin:6a04121c4ea5c20141013da1",
+          "source_route": "admin_browser",
+          "source_url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04121c4ea5c20141013da1?url=lbw",
+          "source_api_url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/api/proxy/manager-articles/6a04121c4ea5c20141013da1",
+          "source_record_id": "6a04121c4ea5c20141013da1",
+          "source_record_path": "payload[3]$",
+          "source_title": "<p><strong>212期：【④头中特】〓 抓住机会</strong></p>",
+          "source_author": "财宝霸业"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04121c4ea5c20141013da1?url=lbw",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "6a04121c4ea5c20141013da1",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 5.062,
+      "diagnostics": {
+        "fragment_count": 1,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "admin:6a04121c4ea5c20141013da1"
+        ],
+        "value_signatures": [
+          "3头"
+        ]
+      }
+    },
+    {
+      "index": 142,
+      "section": "同舟共济",
+      "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04198c4ea5c20141013dbd?url=lbw",
+      "field": "④头中特",
+      "position": "尾部",
+      "content_hint": "同舟共济",
+      "parse_hint": "missing_head_from_four_combo",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "admin:6a04198c4ea5c20141013dbd",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "3头",
+              "raw_line": "212期:【同舟共济】☘️④头中特☘️【0.1.2.4】开:00准",
+              "original_position": 110,
+              "document_order": 0,
+              "block_order": 110,
+              "record_order": 110,
+              "source_block_id": "admin:6a04198c4ea5c20141013dbd",
+              "document_key": "admin_browser|6a04198c4ea5c20141013dbd|https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04198c4ea5c20141013dbd?url=lbw|payload[3]$|article:6a04198c4ea5c20141013dbd|admin:6a04198c4ea5c20141013dbd",
+              "source_route": "admin_browser",
+              "source_url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04198c4ea5c20141013dbd?url=lbw",
+              "source_api_url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/api/proxy/manager-articles/6a04198c4ea5c20141013dbd",
+              "source_record_id": "6a04198c4ea5c20141013dbd",
+              "source_record_path": "payload[3]$",
+              "source_title": "<p><strong>212期：【④头中特】〓 赚钱机会</strong></p>",
+              "source_author": "同舟共济"
+            }
+          ],
+          "documents": [
+            {
+              "route": "admin_browser",
+              "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04198c4ea5c20141013dbd?url=lbw",
+              "record_id": "6a04198c4ea5c20141013dbd",
+              "record_path": "payload[3]$",
+              "api_url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/api/proxy/manager-articles/6a04198c4ea5c20141013dbd",
+              "title": "<p><strong>212期：【④头中特】〓 赚钱机会</strong></p>",
+              "author": "同舟共济",
+              "source_block_id": "admin:6a04198c4ea5c20141013dbd",
+              "source_identity": "article:6a04198c4ea5c20141013dbd",
+              "document_key": "admin_browser|6a04198c4ea5c20141013dbd|https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04198c4ea5c20141013dbd?url=lbw|payload[3]$|article:6a04198c4ea5c20141013dbd|admin:6a04198c4ea5c20141013dbd",
+              "document_order": 0,
+              "source_list_position": -1,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "admin_browser",
+          "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04198c4ea5c20141013dbd?url=lbw",
+          "record_id": "6a04198c4ea5c20141013dbd",
+          "record_path": "payload[3]$",
+          "api_url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/api/proxy/manager-articles/6a04198c4ea5c20141013dbd",
+          "title": "<p><strong>212期：【④头中特】〓 赚钱机会</strong></p>",
+          "author": "同舟共济",
+          "source_block_id": "admin:6a04198c4ea5c20141013dbd",
+          "source_identity": "article:6a04198c4ea5c20141013dbd",
+          "document_key": "admin_browser|6a04198c4ea5c20141013dbd|https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04198c4ea5c20141013dbd?url=lbw|payload[3]$|article:6a04198c4ea5c20141013dbd|admin:6a04198c4ea5c20141013dbd",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "3头",
+          "raw_line": "212期:【同舟共济】☘️④头中特☘️【0.1.2.4】开:00准",
+          "original_position": 110,
+          "document_order": 0,
+          "block_order": 110,
+          "record_order": 110,
+          "source_block_id": "admin:6a04198c4ea5c20141013dbd",
+          "document_key": "admin_browser|6a04198c4ea5c20141013dbd|https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04198c4ea5c20141013dbd?url=lbw|payload[3]$|article:6a04198c4ea5c20141013dbd|admin:6a04198c4ea5c20141013dbd",
+          "source_route": "admin_browser",
+          "source_url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04198c4ea5c20141013dbd?url=lbw",
+          "source_api_url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/api/proxy/manager-articles/6a04198c4ea5c20141013dbd",
+          "source_record_id": "6a04198c4ea5c20141013dbd",
+          "source_record_path": "payload[3]$",
+          "source_title": "<p><strong>212期：【④头中特】〓 赚钱机会</strong></p>",
+          "source_author": "同舟共济"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04198c4ea5c20141013dbd?url=lbw",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "6a04198c4ea5c20141013dbd",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 4.688,
+      "diagnostics": {
+        "fragment_count": 1,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "admin:6a04198c4ea5c20141013dbd"
+        ],
+        "value_signatures": [
+          "3头"
+        ]
+      }
+    },
+    {
+      "index": 143,
+      "section": "万中无一",
+      "url": "https://uqdccnri.oy2bh-swrfr-gvzxkk.work:29499/article/admin/6a03349fe09a39d316b223bb?url=lcz",
+      "field": "④头中特",
+      "position": "尾部",
+      "content_hint": "万中无一",
+      "parse_hint": "missing_head_from_four_combo",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "admin:6a03349fe09a39d316b223bb",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "4头",
+              "raw_line": "212期:【万中无一】🍒④头中特🍒【0.1.2.3】开:00准",
+              "original_position": 78,
+              "document_order": 0,
+              "block_order": 78,
+              "record_order": 78,
+              "source_block_id": "admin:6a03349fe09a39d316b223bb",
+              "document_key": "admin_browser|6a03349fe09a39d316b223bb|https://uqdccnri.oy2bh-swrfr-gvzxkk.work:29499/article/admin/6a03349fe09a39d316b223bb?url=lcz|payload[3]$|article:6a03349fe09a39d316b223bb|admin:6a03349fe09a39d316b223bb",
+              "source_route": "admin_browser",
+              "source_url": "https://uqdccnri.oy2bh-swrfr-gvzxkk.work:29499/article/admin/6a03349fe09a39d316b223bb?url=lcz",
+              "source_api_url": "https://uqdccnri.oy2bh-swrfr-gvzxkk.work:29499/api/proxy/manager-articles/6a03349fe09a39d316b223bb",
+              "source_record_id": "6a03349fe09a39d316b223bb",
+              "source_record_path": "payload[3]$",
+              "source_title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>212期：【④头中特】〓 信心百倍</strong></span></p>",
+              "source_author": "万中无一"
+            }
+          ],
+          "documents": [
+            {
+              "route": "admin_browser",
+              "url": "https://uqdccnri.oy2bh-swrfr-gvzxkk.work:29499/article/admin/6a03349fe09a39d316b223bb?url=lcz",
+              "record_id": "6a03349fe09a39d316b223bb",
+              "record_path": "payload[3]$",
+              "api_url": "https://uqdccnri.oy2bh-swrfr-gvzxkk.work:29499/api/proxy/manager-articles/6a03349fe09a39d316b223bb",
+              "title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>212期：【④头中特】〓 信心百倍</strong></span></p>",
+              "author": "万中无一",
+              "source_block_id": "admin:6a03349fe09a39d316b223bb",
+              "source_identity": "article:6a03349fe09a39d316b223bb",
+              "document_key": "admin_browser|6a03349fe09a39d316b223bb|https://uqdccnri.oy2bh-swrfr-gvzxkk.work:29499/article/admin/6a03349fe09a39d316b223bb?url=lcz|payload[3]$|article:6a03349fe09a39d316b223bb|admin:6a03349fe09a39d316b223bb",
+              "document_order": 0,
+              "source_list_position": -1,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "admin_browser",
+          "url": "https://uqdccnri.oy2bh-swrfr-gvzxkk.work:29499/article/admin/6a03349fe09a39d316b223bb?url=lcz",
+          "record_id": "6a03349fe09a39d316b223bb",
+          "record_path": "payload[3]$",
+          "api_url": "https://uqdccnri.oy2bh-swrfr-gvzxkk.work:29499/api/proxy/manager-articles/6a03349fe09a39d316b223bb",
+          "title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>212期：【④头中特】〓 信心百倍</strong></span></p>",
+          "author": "万中无一",
+          "source_block_id": "admin:6a03349fe09a39d316b223bb",
+          "source_identity": "article:6a03349fe09a39d316b223bb",
+          "document_key": "admin_browser|6a03349fe09a39d316b223bb|https://uqdccnri.oy2bh-swrfr-gvzxkk.work:29499/article/admin/6a03349fe09a39d316b223bb?url=lcz|payload[3]$|article:6a03349fe09a39d316b223bb|admin:6a03349fe09a39d316b223bb",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "4头",
+          "raw_line": "212期:【万中无一】🍒④头中特🍒【0.1.2.3】开:00准",
+          "original_position": 78,
+          "document_order": 0,
+          "block_order": 78,
+          "record_order": 78,
+          "source_block_id": "admin:6a03349fe09a39d316b223bb",
+          "document_key": "admin_browser|6a03349fe09a39d316b223bb|https://uqdccnri.oy2bh-swrfr-gvzxkk.work:29499/article/admin/6a03349fe09a39d316b223bb?url=lcz|payload[3]$|article:6a03349fe09a39d316b223bb|admin:6a03349fe09a39d316b223bb",
+          "source_route": "admin_browser",
+          "source_url": "https://uqdccnri.oy2bh-swrfr-gvzxkk.work:29499/article/admin/6a03349fe09a39d316b223bb?url=lcz",
+          "source_api_url": "https://uqdccnri.oy2bh-swrfr-gvzxkk.work:29499/api/proxy/manager-articles/6a03349fe09a39d316b223bb",
+          "source_record_id": "6a03349fe09a39d316b223bb",
+          "source_record_path": "payload[3]$",
+          "source_title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>212期：【④头中特】〓 信心百倍</strong></span></p>",
+          "source_author": "万中无一"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://uqdccnri.oy2bh-swrfr-gvzxkk.work:29499/article/admin/6a03349fe09a39d316b223bb?url=lcz",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "6a03349fe09a39d316b223bb",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 5.203,
+      "diagnostics": {
+        "fragment_count": 1,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "admin:6a03349fe09a39d316b223bb"
+        ],
+        "value_signatures": [
+          "4头"
+        ]
+      }
+    },
+    {
+      "index": 144,
+      "section": "高屋建瓴",
+      "url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a0326f7e09a39d316b2239f?url=hj",
+      "field": "四头中特",
+      "position": "尾部",
+      "content_hint": "高屋建瓴",
+      "parse_hint": "missing_head_from_four_combo",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "admin:6a0326f7e09a39d316b2239f",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "2头",
+              "raw_line": "212期:『高屋建瓴』🎈四头中特🎈【0.1.3.4】开:06准",
+              "original_position": 112,
+              "document_order": 0,
+              "block_order": 112,
+              "record_order": 112,
+              "source_block_id": "admin:6a0326f7e09a39d316b2239f",
+              "document_key": "admin_browser|6a0326f7e09a39d316b2239f|https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a0326f7e09a39d316b2239f?url=hj|payload[3]$|article:6a0326f7e09a39d316b2239f|admin:6a0326f7e09a39d316b2239f",
+              "source_route": "admin_browser",
+              "source_url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a0326f7e09a39d316b2239f?url=hj",
+              "source_api_url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/api/proxy/manager-articles/6a0326f7e09a39d316b2239f",
+              "source_record_id": "6a0326f7e09a39d316b2239f",
+              "source_record_path": "payload[3]$",
+              "source_title": "<p><span style=\"font-family: &quot;Microsoft YaHei&quot;; font-size: 16px; color: rgb(244, 1, 130);\"><strong>213期：🀄️四头中特🀄️💯实力公开✔专业赚钱</strong></span></p>",
+              "source_author": "高屋建瓴"
+            }
+          ],
+          "documents": [
+            {
+              "route": "admin_browser",
+              "url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a0326f7e09a39d316b2239f?url=hj",
+              "record_id": "6a0326f7e09a39d316b2239f",
+              "record_path": "payload[3]$",
+              "api_url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/api/proxy/manager-articles/6a0326f7e09a39d316b2239f",
+              "title": "<p><span style=\"font-family: &quot;Microsoft YaHei&quot;; font-size: 16px; color: rgb(244, 1, 130);\"><strong>213期：🀄️四头中特🀄️💯实力公开✔专业赚钱</strong></span></p>",
+              "author": "高屋建瓴",
+              "source_block_id": "admin:6a0326f7e09a39d316b2239f",
+              "source_identity": "article:6a0326f7e09a39d316b2239f",
+              "document_key": "admin_browser|6a0326f7e09a39d316b2239f|https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a0326f7e09a39d316b2239f?url=hj|payload[3]$|article:6a0326f7e09a39d316b2239f|admin:6a0326f7e09a39d316b2239f",
+              "document_order": 0,
+              "source_list_position": -1,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "admin_browser",
+          "url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a0326f7e09a39d316b2239f?url=hj",
+          "record_id": "6a0326f7e09a39d316b2239f",
+          "record_path": "payload[3]$",
+          "api_url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/api/proxy/manager-articles/6a0326f7e09a39d316b2239f",
+          "title": "<p><span style=\"font-family: &quot;Microsoft YaHei&quot;; font-size: 16px; color: rgb(244, 1, 130);\"><strong>213期：🀄️四头中特🀄️💯实力公开✔专业赚钱</strong></span></p>",
+          "author": "高屋建瓴",
+          "source_block_id": "admin:6a0326f7e09a39d316b2239f",
+          "source_identity": "article:6a0326f7e09a39d316b2239f",
+          "document_key": "admin_browser|6a0326f7e09a39d316b2239f|https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a0326f7e09a39d316b2239f?url=hj|payload[3]$|article:6a0326f7e09a39d316b2239f|admin:6a0326f7e09a39d316b2239f",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "2头",
+          "raw_line": "212期:『高屋建瓴』🎈四头中特🎈【0.1.3.4】开:06准",
+          "original_position": 112,
+          "document_order": 0,
+          "block_order": 112,
+          "record_order": 112,
+          "source_block_id": "admin:6a0326f7e09a39d316b2239f",
+          "document_key": "admin_browser|6a0326f7e09a39d316b2239f|https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a0326f7e09a39d316b2239f?url=hj|payload[3]$|article:6a0326f7e09a39d316b2239f|admin:6a0326f7e09a39d316b2239f",
+          "source_route": "admin_browser",
+          "source_url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a0326f7e09a39d316b2239f?url=hj",
+          "source_api_url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/api/proxy/manager-articles/6a0326f7e09a39d316b2239f",
+          "source_record_id": "6a0326f7e09a39d316b2239f",
+          "source_record_path": "payload[3]$",
+          "source_title": "<p><span style=\"font-family: &quot;Microsoft YaHei&quot;; font-size: 16px; color: rgb(244, 1, 130);\"><strong>213期：🀄️四头中特🀄️💯实力公开✔专业赚钱</strong></span></p>",
+          "source_author": "高屋建瓴"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a0326f7e09a39d316b2239f?url=hj",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "6a0326f7e09a39d316b2239f",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 5.688,
+      "diagnostics": {
+        "fragment_count": 1,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "admin:6a0326f7e09a39d316b2239f"
+        ],
+        "value_signatures": [
+          "2头"
+        ]
+      }
+    }
+  ]
+}

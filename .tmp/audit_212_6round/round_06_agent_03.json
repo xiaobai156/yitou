@@ -1,0 +1,1835 @@
+{
+  "schema_version": 1,
+  "audit_type": "real_dedicated_block_period_count",
+  "project": "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版",
+  "round": 6,
+  "agent": 3,
+  "target_period": "212期",
+  "assigned_count": 14,
+  "processed_count": 14,
+  "assigned_indices": [
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237
+  ],
+  "processed_indices": [
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237
+  ],
+  "omitted_indices": [],
+  "duplicate_indices": [],
+  "count_by_status": {
+    "ok": 11,
+    "zero": 3
+  },
+  "total_target_records": 14,
+  "elapsed_seconds": 26.047,
+  "formal_files_unchanged": [
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版\\sites.json",
+      "before_exists": true,
+      "after_exists": true,
+      "before_sha256": "F7914F2238B6CDF6D9CC01883EC2A68D179A513C441B41F4138DA21D15226ADB",
+      "after_sha256": "F7914F2238B6CDF6D9CC01883EC2A68D179A513C441B41F4138DA21D15226ADB",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版\\.tmp\\recent_10_cache.json",
+      "before_exists": true,
+      "after_exists": true,
+      "before_sha256": "02DD22AC9B60E89AB32CDEF81072F673C60D4150F1D3B65FAD6D2996CAF2325F",
+      "after_sha256": "02DD22AC9B60E89AB32CDEF81072F673C60D4150F1D3B65FAD6D2996CAF2325F",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版\\outputs\\212期-头.txt",
+      "before_exists": false,
+      "after_exists": false,
+      "before_sha256": null,
+      "after_sha256": null,
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\每天工具\\数据系列\\七类数据统一归纳\\212期-头.txt",
+      "before_exists": true,
+      "after_exists": true,
+      "before_sha256": "672312D00B1965AB86F14289AEA7FD170279706A6383CD4ECAC21529A25EFAA9",
+      "after_sha256": "672312D00B1965AB86F14289AEA7FD170279706A6383CD4ECAC21529A25EFAA9",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\每天工具\\数据系列\\七类数据统一归纳失败\\212期失败-一头.txt",
+      "before_exists": true,
+      "after_exists": true,
+      "before_sha256": "9D7C14A8BC05BE9AED4A89973EC8D23EE7C48CD9DA1E7CE4211FD6F141141394",
+      "after_sha256": "9D7C14A8BC05BE9AED4A89973EC8D23EE7C48CD9DA1E7CE4211FD6F141141394",
+      "unchanged": true
+    }
+  ],
+  "sites": [
+    {
+      "index": 224,
+      "section": "易逝婴儿",
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6025",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "content_hint": "易逝婴儿",
+      "parse_hint": "user_kill_head",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 2,
+      "block_count_details": [
+        {
+          "source_block_id": "user:6025:forum:15721819",
+          "count": 2,
+          "records": [
+            {
+              "period": "212期",
+              "value": "1头",
+              "raw_line": "212期：【杀一头】《3头》开:00准",
+              "original_position": 0,
+              "document_order": 0,
+              "block_order": 0,
+              "record_order": 0,
+              "source_block_id": "user:6025:forum:15721819",
+              "document_key": "user_forum|15721819|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6025|$[0]|user:6025:forum:15721819|user:6025:forum:15721819",
+              "source_route": "user_forum",
+              "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6025",
+              "source_api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/6025/forums",
+              "source_record_id": "15721819",
+              "source_record_path": "$[0]",
+              "source_title": "绝杀一头",
+              "source_author": "易逝婴儿"
+            },
+            {
+              "period": "212期",
+              "value": "1头",
+              "raw_line": "212期：【杀一头】《3头》开:鼠18准",
+              "original_position": 365,
+              "document_order": 0,
+              "block_order": 365,
+              "record_order": 365,
+              "source_block_id": "user:6025:forum:15721819",
+              "document_key": "user_forum|15721819|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6025|$[0]|user:6025:forum:15721819|user:6025:forum:15721819",
+              "source_route": "user_forum",
+              "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6025",
+              "source_api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/6025/forums",
+              "source_record_id": "15721819",
+              "source_record_path": "$[0]",
+              "source_title": "绝杀一头",
+              "source_author": "易逝婴儿"
+            }
+          ],
+          "documents": [
+            {
+              "route": "user_forum",
+              "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6025",
+              "record_id": "15721819",
+              "record_path": "$[0]",
+              "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/6025/forums",
+              "title": "绝杀一头",
+              "author": "易逝婴儿",
+              "source_block_id": "user:6025:forum:15721819",
+              "source_identity": "user:6025:forum:15721819",
+              "document_key": "user_forum|15721819|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6025|$[0]|user:6025:forum:15721819|user:6025:forum:15721819",
+              "document_order": 0,
+              "source_list_position": 0,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "page",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6025",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "source_block_id": "page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6025:0",
+          "source_identity": "",
+          "document_key": "page||https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6025|||page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6025:0",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        },
+        {
+          "route": "user_forum",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6025",
+          "record_id": "15721819",
+          "record_path": "$[0]",
+          "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/6025/forums",
+          "title": "绝杀一头",
+          "author": "易逝婴儿",
+          "source_block_id": "user:6025:forum:15721819",
+          "source_identity": "user:6025:forum:15721819",
+          "document_key": "user_forum|15721819|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6025|$[0]|user:6025:forum:15721819|user:6025:forum:15721819",
+          "document_order": 0,
+          "source_list_position": 0,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "1头",
+          "raw_line": "212期：【杀一头】《3头》开:00准",
+          "original_position": 0,
+          "document_order": 0,
+          "block_order": 0,
+          "record_order": 0,
+          "source_block_id": "user:6025:forum:15721819",
+          "document_key": "user_forum|15721819|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6025|$[0]|user:6025:forum:15721819|user:6025:forum:15721819",
+          "source_route": "user_forum",
+          "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6025",
+          "source_api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/6025/forums",
+          "source_record_id": "15721819",
+          "source_record_path": "$[0]",
+          "source_title": "绝杀一头",
+          "source_author": "易逝婴儿"
+        },
+        {
+          "period": "212期",
+          "value": "1头",
+          "raw_line": "212期：【杀一头】《3头》开:鼠18准",
+          "original_position": 365,
+          "document_order": 0,
+          "block_order": 365,
+          "record_order": 365,
+          "source_block_id": "user:6025:forum:15721819",
+          "document_key": "user_forum|15721819|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6025|$[0]|user:6025:forum:15721819|user:6025:forum:15721819",
+          "source_route": "user_forum",
+          "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6025",
+          "source_api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/6025/forums",
+          "source_record_id": "15721819",
+          "source_record_path": "$[0]",
+          "source_title": "绝杀一头",
+          "source_author": "易逝婴儿"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6025",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 2.75,
+      "diagnostics": {
+        "fragment_count": 2,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "user:6025:forum:15721819"
+        ],
+        "value_signatures": [
+          "1头"
+        ]
+      }
+    },
+    {
+      "index": 225,
+      "section": "华丽手相",
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46391",
+      "field": "必杀一头",
+      "position": "顶部",
+      "content_hint": "华丽手相",
+      "parse_hint": "user_kill_head",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "user:46391:forum:15721036",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "3头",
+              "raw_line": "212期（必杀一头）【3】头（开00准）",
+              "original_position": 0,
+              "document_order": 0,
+              "block_order": 0,
+              "record_order": 0,
+              "source_block_id": "user:46391:forum:15721036",
+              "document_key": "user_forum|15721036|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46391|$[0]|user:46391:forum:15721036|user:46391:forum:15721036",
+              "source_route": "user_forum",
+              "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46391",
+              "source_api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/46391/forums",
+              "source_record_id": "15721036",
+              "source_record_path": "$[0]",
+              "source_title": "必杀一头",
+              "source_author": "华丽手相"
+            }
+          ],
+          "documents": [
+            {
+              "route": "user_forum",
+              "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46391",
+              "record_id": "15721036",
+              "record_path": "$[0]",
+              "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/46391/forums",
+              "title": "必杀一头",
+              "author": "华丽手相",
+              "source_block_id": "user:46391:forum:15721036",
+              "source_identity": "user:46391:forum:15721036",
+              "document_key": "user_forum|15721036|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46391|$[0]|user:46391:forum:15721036|user:46391:forum:15721036",
+              "document_order": 0,
+              "source_list_position": 0,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "page",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46391",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "source_block_id": "page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46391:0",
+          "source_identity": "",
+          "document_key": "page||https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46391|||page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46391:0",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        },
+        {
+          "route": "user_forum",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46391",
+          "record_id": "15721036",
+          "record_path": "$[0]",
+          "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/46391/forums",
+          "title": "必杀一头",
+          "author": "华丽手相",
+          "source_block_id": "user:46391:forum:15721036",
+          "source_identity": "user:46391:forum:15721036",
+          "document_key": "user_forum|15721036|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46391|$[0]|user:46391:forum:15721036|user:46391:forum:15721036",
+          "document_order": 0,
+          "source_list_position": 0,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "3头",
+          "raw_line": "212期（必杀一头）【3】头（开00准）",
+          "original_position": 0,
+          "document_order": 0,
+          "block_order": 0,
+          "record_order": 0,
+          "source_block_id": "user:46391:forum:15721036",
+          "document_key": "user_forum|15721036|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46391|$[0]|user:46391:forum:15721036|user:46391:forum:15721036",
+          "source_route": "user_forum",
+          "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46391",
+          "source_api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/46391/forums",
+          "source_record_id": "15721036",
+          "source_record_path": "$[0]",
+          "source_title": "必杀一头",
+          "source_author": "华丽手相"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46391",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 0.609,
+      "diagnostics": {
+        "fragment_count": 2,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "user:46391:forum:15721036"
+        ],
+        "value_signatures": [
+          "3头"
+        ]
+      }
+    },
+    {
+      "index": 226,
+      "section": "五彩缤纷",
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/116129",
+      "field": "精杀一头",
+      "position": "顶部",
+      "content_hint": "五彩缤纷",
+      "parse_hint": "user_kill_head",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "user:116129:forum:15721729",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "0头",
+              "raw_line": "212期:◆精杀一头◆【0头】开？？准",
+              "original_position": 0,
+              "document_order": 1,
+              "block_order": 0,
+              "record_order": 0,
+              "source_block_id": "user:116129:forum:15721729",
+              "document_key": "user_forum|15721729|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/116129|$[1]|user:116129:forum:15721729|user:116129:forum:15721729",
+              "source_route": "user_forum",
+              "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/116129",
+              "source_api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/116129/forums",
+              "source_record_id": "15721729",
+              "source_record_path": "$[1]",
+              "source_title": "212期:【精杀一头】",
+              "source_author": "五彩缤纷"
+            }
+          ],
+          "documents": [
+            {
+              "route": "user_forum",
+              "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/116129",
+              "record_id": "15721729",
+              "record_path": "$[1]",
+              "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/116129/forums",
+              "title": "212期:【精杀一头】",
+              "author": "五彩缤纷",
+              "source_block_id": "user:116129:forum:15721729",
+              "source_identity": "user:116129:forum:15721729",
+              "document_key": "user_forum|15721729|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/116129|$[1]|user:116129:forum:15721729|user:116129:forum:15721729",
+              "document_order": 1,
+              "source_list_position": 1,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "page",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/116129",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "source_block_id": "page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/116129:0",
+          "source_identity": "",
+          "document_key": "page||https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/116129|||page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/116129:0",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        },
+        {
+          "route": "user_forum",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/116129",
+          "record_id": "15721729",
+          "record_path": "$[1]",
+          "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/116129/forums",
+          "title": "212期:【精杀一头】",
+          "author": "五彩缤纷",
+          "source_block_id": "user:116129:forum:15721729",
+          "source_identity": "user:116129:forum:15721729",
+          "document_key": "user_forum|15721729|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/116129|$[1]|user:116129:forum:15721729|user:116129:forum:15721729",
+          "document_order": 1,
+          "source_list_position": 1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "0头",
+          "raw_line": "212期:◆精杀一头◆【0头】开？？准",
+          "original_position": 0,
+          "document_order": 1,
+          "block_order": 0,
+          "record_order": 0,
+          "source_block_id": "user:116129:forum:15721729",
+          "document_key": "user_forum|15721729|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/116129|$[1]|user:116129:forum:15721729|user:116129:forum:15721729",
+          "source_route": "user_forum",
+          "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/116129",
+          "source_api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/116129/forums",
+          "source_record_id": "15721729",
+          "source_record_path": "$[1]",
+          "source_title": "212期:【精杀一头】",
+          "source_author": "五彩缤纷"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/116129",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 0.703,
+      "diagnostics": {
+        "fragment_count": 2,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "user:116129:forum:15721729"
+        ],
+        "value_signatures": [
+          "0头"
+        ]
+      }
+    },
+    {
+      "index": 227,
+      "section": "刚猛面食",
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1204",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "content_hint": "刚猛面食",
+      "parse_hint": "user_kill_head",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "zero",
+      "target_count": 0,
+      "block_count_details": [],
+      "source_documents": [
+        {
+          "route": "page",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1204",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "source_block_id": "page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1204:0",
+          "source_identity": "",
+          "document_key": "page||https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1204|||page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1204:0",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        },
+        {
+          "route": "user_forum",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1204",
+          "record_id": "15719195",
+          "record_path": "$[1]",
+          "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/1204/forums",
+          "title": "绝杀一头",
+          "author": "刚猛面食",
+          "source_block_id": "user:1204:forum:15719195",
+          "source_identity": "user:1204:forum:15719195",
+          "document_key": "user_forum|15719195|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1204|$[1]|user:1204:forum:15719195|user:1204:forum:15719195",
+          "document_order": 1,
+          "source_list_position": 1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [],
+      "error_reason": "真实专属区块内未解析出212期记录",
+      "request": {
+        "method": "GET",
+        "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1204",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 0.703,
+      "diagnostics": {
+        "fragment_count": 2,
+        "anchor_document_count": 1,
+        "parsed_document_count": 0,
+        "nonempty_block_count": 0,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [],
+        "value_signatures": []
+      }
+    },
+    {
+      "index": 228,
+      "section": "亲切典礼",
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46114",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "content_hint": "亲切典礼",
+      "parse_hint": "user_kill_head",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "zero",
+      "target_count": 0,
+      "block_count_details": [],
+      "source_documents": [
+        {
+          "route": "page",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46114",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "source_block_id": "page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46114:0",
+          "source_identity": "",
+          "document_key": "page||https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46114|||page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46114:0",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        },
+        {
+          "route": "user_forum",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46114",
+          "record_id": "15721365",
+          "record_path": "$[1]",
+          "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/46114/forums",
+          "title": "绝杀一头",
+          "author": "亲切典礼",
+          "source_block_id": "user:46114:forum:15721365",
+          "source_identity": "user:46114:forum:15721365",
+          "document_key": "user_forum|15721365|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46114|$[1]|user:46114:forum:15721365|user:46114:forum:15721365",
+          "document_order": 1,
+          "source_list_position": 1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [],
+      "error_reason": "真实专属区块内未解析出212期记录",
+      "request": {
+        "method": "GET",
+        "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46114",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 2.407,
+      "diagnostics": {
+        "fragment_count": 2,
+        "anchor_document_count": 1,
+        "parsed_document_count": 0,
+        "nonempty_block_count": 0,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [],
+        "value_signatures": []
+      }
+    },
+    {
+      "index": 229,
+      "section": "优秀服饰",
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3741",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "content_hint": "优秀服装",
+      "parse_hint": "user_kill_head",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "user:3741:forum:15721455",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "2头",
+              "raw_line": "212期：绝杀一头（2头）开0000准",
+              "original_position": 0,
+              "document_order": 0,
+              "block_order": 0,
+              "record_order": 0,
+              "source_block_id": "user:3741:forum:15721455",
+              "document_key": "user_forum|15721455|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3741|$[0]|user:3741:forum:15721455|user:3741:forum:15721455",
+              "source_route": "user_forum",
+              "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3741",
+              "source_api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/3741/forums",
+              "source_record_id": "15721455",
+              "source_record_path": "$[0]",
+              "source_title": "【绝杀一头】",
+              "source_author": "优秀服装"
+            }
+          ],
+          "documents": [
+            {
+              "route": "user_forum",
+              "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3741",
+              "record_id": "15721455",
+              "record_path": "$[0]",
+              "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/3741/forums",
+              "title": "【绝杀一头】",
+              "author": "优秀服装",
+              "source_block_id": "user:3741:forum:15721455",
+              "source_identity": "user:3741:forum:15721455",
+              "document_key": "user_forum|15721455|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3741|$[0]|user:3741:forum:15721455|user:3741:forum:15721455",
+              "document_order": 0,
+              "source_list_position": 0,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "page",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3741",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "source_block_id": "page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3741:0",
+          "source_identity": "",
+          "document_key": "page||https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3741|||page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3741:0",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        },
+        {
+          "route": "user_forum",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3741",
+          "record_id": "15721455",
+          "record_path": "$[0]",
+          "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/3741/forums",
+          "title": "【绝杀一头】",
+          "author": "优秀服装",
+          "source_block_id": "user:3741:forum:15721455",
+          "source_identity": "user:3741:forum:15721455",
+          "document_key": "user_forum|15721455|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3741|$[0]|user:3741:forum:15721455|user:3741:forum:15721455",
+          "document_order": 0,
+          "source_list_position": 0,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "2头",
+          "raw_line": "212期：绝杀一头（2头）开0000准",
+          "original_position": 0,
+          "document_order": 0,
+          "block_order": 0,
+          "record_order": 0,
+          "source_block_id": "user:3741:forum:15721455",
+          "document_key": "user_forum|15721455|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3741|$[0]|user:3741:forum:15721455|user:3741:forum:15721455",
+          "source_route": "user_forum",
+          "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3741",
+          "source_api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/3741/forums",
+          "source_record_id": "15721455",
+          "source_record_path": "$[0]",
+          "source_title": "【绝杀一头】",
+          "source_author": "优秀服装"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3741",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 1.484,
+      "diagnostics": {
+        "fragment_count": 2,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "user:3741:forum:15721455"
+        ],
+        "value_signatures": [
+          "2头"
+        ]
+      }
+    },
+    {
+      "index": 230,
+      "section": "鼓舞泥堆",
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "content_hint": "鼓舞泥堆",
+      "parse_hint": "user_kill_head",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 2,
+      "block_count_details": [
+        {
+          "source_block_id": "user:5971:forum:15722425",
+          "count": 2,
+          "records": [
+            {
+              "period": "212期",
+              "value": "3头",
+              "raw_line": "212期：绝杀一头（3头）开00准",
+              "original_position": 0,
+              "document_order": 0,
+              "block_order": 0,
+              "record_order": 0,
+              "source_block_id": "user:5971:forum:15722425",
+              "document_key": "user_forum|15722425|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971|$[0]|user:5971:forum:15722425|user:5971:forum:15722425",
+              "source_route": "user_forum",
+              "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971",
+              "source_api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/5971/forums",
+              "source_record_id": "15722425",
+              "source_record_path": "$[0]",
+              "source_title": "绝杀一头",
+              "source_author": "鼓舞泥堆"
+            },
+            {
+              "period": "212期",
+              "value": "4头",
+              "raw_line": "212期：绝杀一头（4头）开鼠18准",
+              "original_position": 365,
+              "document_order": 0,
+              "block_order": 365,
+              "record_order": 365,
+              "source_block_id": "user:5971:forum:15722425",
+              "document_key": "user_forum|15722425|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971|$[0]|user:5971:forum:15722425|user:5971:forum:15722425",
+              "source_route": "user_forum",
+              "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971",
+              "source_api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/5971/forums",
+              "source_record_id": "15722425",
+              "source_record_path": "$[0]",
+              "source_title": "绝杀一头",
+              "source_author": "鼓舞泥堆"
+            }
+          ],
+          "documents": [
+            {
+              "route": "user_forum",
+              "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971",
+              "record_id": "15722425",
+              "record_path": "$[0]",
+              "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/5971/forums",
+              "title": "绝杀一头",
+              "author": "鼓舞泥堆",
+              "source_block_id": "user:5971:forum:15722425",
+              "source_identity": "user:5971:forum:15722425",
+              "document_key": "user_forum|15722425|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971|$[0]|user:5971:forum:15722425|user:5971:forum:15722425",
+              "document_order": 0,
+              "source_list_position": 0,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "page",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "source_block_id": "page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971:0",
+          "source_identity": "",
+          "document_key": "page||https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971|||page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971:0",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        },
+        {
+          "route": "user_forum",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971",
+          "record_id": "15722425",
+          "record_path": "$[0]",
+          "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/5971/forums",
+          "title": "绝杀一头",
+          "author": "鼓舞泥堆",
+          "source_block_id": "user:5971:forum:15722425",
+          "source_identity": "user:5971:forum:15722425",
+          "document_key": "user_forum|15722425|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971|$[0]|user:5971:forum:15722425|user:5971:forum:15722425",
+          "document_order": 0,
+          "source_list_position": 0,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "3头",
+          "raw_line": "212期：绝杀一头（3头）开00准",
+          "original_position": 0,
+          "document_order": 0,
+          "block_order": 0,
+          "record_order": 0,
+          "source_block_id": "user:5971:forum:15722425",
+          "document_key": "user_forum|15722425|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971|$[0]|user:5971:forum:15722425|user:5971:forum:15722425",
+          "source_route": "user_forum",
+          "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971",
+          "source_api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/5971/forums",
+          "source_record_id": "15722425",
+          "source_record_path": "$[0]",
+          "source_title": "绝杀一头",
+          "source_author": "鼓舞泥堆"
+        },
+        {
+          "period": "212期",
+          "value": "4头",
+          "raw_line": "212期：绝杀一头（4头）开鼠18准",
+          "original_position": 365,
+          "document_order": 0,
+          "block_order": 365,
+          "record_order": 365,
+          "source_block_id": "user:5971:forum:15722425",
+          "document_key": "user_forum|15722425|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971|$[0]|user:5971:forum:15722425|user:5971:forum:15722425",
+          "source_route": "user_forum",
+          "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971",
+          "source_api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/5971/forums",
+          "source_record_id": "15722425",
+          "source_record_path": "$[0]",
+          "source_title": "绝杀一头",
+          "source_author": "鼓舞泥堆"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 2.75,
+      "diagnostics": {
+        "fragment_count": 2,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "user:5971:forum:15722425"
+        ],
+        "value_signatures": [
+          "3头",
+          "4头"
+        ]
+      }
+    },
+    {
+      "index": 231,
+      "section": "害怕国王",
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3912",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "content_hint": "害怕国王",
+      "parse_hint": "user_kill_head",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 2,
+      "block_count_details": [
+        {
+          "source_block_id": "user:3912:forum:15721313",
+          "count": 2,
+          "records": [
+            {
+              "period": "212期",
+              "value": "1头",
+              "raw_line": "212期：【杀一头】《1头》开:00准",
+              "original_position": 0,
+              "document_order": 0,
+              "block_order": 0,
+              "record_order": 0,
+              "source_block_id": "user:3912:forum:15721313",
+              "document_key": "user_forum|15721313|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3912|$[0]|user:3912:forum:15721313|user:3912:forum:15721313",
+              "source_route": "user_forum",
+              "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3912",
+              "source_api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/3912/forums",
+              "source_record_id": "15721313",
+              "source_record_path": "$[0]",
+              "source_title": "绝杀一头",
+              "source_author": "害怕国王"
+            },
+            {
+              "period": "212期",
+              "value": "1头",
+              "raw_line": "212期：【杀一头】《1头》开:鼠18错",
+              "original_position": 365,
+              "document_order": 0,
+              "block_order": 365,
+              "record_order": 365,
+              "source_block_id": "user:3912:forum:15721313",
+              "document_key": "user_forum|15721313|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3912|$[0]|user:3912:forum:15721313|user:3912:forum:15721313",
+              "source_route": "user_forum",
+              "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3912",
+              "source_api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/3912/forums",
+              "source_record_id": "15721313",
+              "source_record_path": "$[0]",
+              "source_title": "绝杀一头",
+              "source_author": "害怕国王"
+            }
+          ],
+          "documents": [
+            {
+              "route": "user_forum",
+              "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3912",
+              "record_id": "15721313",
+              "record_path": "$[0]",
+              "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/3912/forums",
+              "title": "绝杀一头",
+              "author": "害怕国王",
+              "source_block_id": "user:3912:forum:15721313",
+              "source_identity": "user:3912:forum:15721313",
+              "document_key": "user_forum|15721313|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3912|$[0]|user:3912:forum:15721313|user:3912:forum:15721313",
+              "document_order": 0,
+              "source_list_position": 0,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "page",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3912",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "source_block_id": "page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3912:0",
+          "source_identity": "",
+          "document_key": "page||https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3912|||page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3912:0",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        },
+        {
+          "route": "user_forum",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3912",
+          "record_id": "15721313",
+          "record_path": "$[0]",
+          "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/3912/forums",
+          "title": "绝杀一头",
+          "author": "害怕国王",
+          "source_block_id": "user:3912:forum:15721313",
+          "source_identity": "user:3912:forum:15721313",
+          "document_key": "user_forum|15721313|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3912|$[0]|user:3912:forum:15721313|user:3912:forum:15721313",
+          "document_order": 0,
+          "source_list_position": 0,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "1头",
+          "raw_line": "212期：【杀一头】《1头》开:00准",
+          "original_position": 0,
+          "document_order": 0,
+          "block_order": 0,
+          "record_order": 0,
+          "source_block_id": "user:3912:forum:15721313",
+          "document_key": "user_forum|15721313|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3912|$[0]|user:3912:forum:15721313|user:3912:forum:15721313",
+          "source_route": "user_forum",
+          "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3912",
+          "source_api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/3912/forums",
+          "source_record_id": "15721313",
+          "source_record_path": "$[0]",
+          "source_title": "绝杀一头",
+          "source_author": "害怕国王"
+        },
+        {
+          "period": "212期",
+          "value": "1头",
+          "raw_line": "212期：【杀一头】《1头》开:鼠18错",
+          "original_position": 365,
+          "document_order": 0,
+          "block_order": 365,
+          "record_order": 365,
+          "source_block_id": "user:3912:forum:15721313",
+          "document_key": "user_forum|15721313|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3912|$[0]|user:3912:forum:15721313|user:3912:forum:15721313",
+          "source_route": "user_forum",
+          "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3912",
+          "source_api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/3912/forums",
+          "source_record_id": "15721313",
+          "source_record_path": "$[0]",
+          "source_title": "绝杀一头",
+          "source_author": "害怕国王"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3912",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 1.406,
+      "diagnostics": {
+        "fragment_count": 2,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "user:3912:forum:15721313"
+        ],
+        "value_signatures": [
+          "1头"
+        ]
+      }
+    },
+    {
+      "index": 232,
+      "section": "不幸月会",
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6841",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "content_hint": "不幸月会",
+      "parse_hint": "user_kill_head",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "user:6841:forum:15721323",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "1头",
+              "raw_line": "212期：【杀一头】《4头》开:00准",
+              "original_position": 0,
+              "document_order": 0,
+              "block_order": 0,
+              "record_order": 0,
+              "source_block_id": "user:6841:forum:15721323",
+              "document_key": "user_forum|15721323|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6841|$[0]|user:6841:forum:15721323|user:6841:forum:15721323",
+              "source_route": "user_forum",
+              "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6841",
+              "source_api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/6841/forums",
+              "source_record_id": "15721323",
+              "source_record_path": "$[0]",
+              "source_title": "绝杀一头",
+              "source_author": "不幸月会"
+            }
+          ],
+          "documents": [
+            {
+              "route": "user_forum",
+              "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6841",
+              "record_id": "15721323",
+              "record_path": "$[0]",
+              "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/6841/forums",
+              "title": "绝杀一头",
+              "author": "不幸月会",
+              "source_block_id": "user:6841:forum:15721323",
+              "source_identity": "user:6841:forum:15721323",
+              "document_key": "user_forum|15721323|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6841|$[0]|user:6841:forum:15721323|user:6841:forum:15721323",
+              "document_order": 0,
+              "source_list_position": 0,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "page",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6841",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "source_block_id": "page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6841:0",
+          "source_identity": "",
+          "document_key": "page||https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6841|||page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6841:0",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        },
+        {
+          "route": "user_forum",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6841",
+          "record_id": "15721323",
+          "record_path": "$[0]",
+          "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/6841/forums",
+          "title": "绝杀一头",
+          "author": "不幸月会",
+          "source_block_id": "user:6841:forum:15721323",
+          "source_identity": "user:6841:forum:15721323",
+          "document_key": "user_forum|15721323|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6841|$[0]|user:6841:forum:15721323|user:6841:forum:15721323",
+          "document_order": 0,
+          "source_list_position": 0,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "1头",
+          "raw_line": "212期：【杀一头】《4头》开:00准",
+          "original_position": 0,
+          "document_order": 0,
+          "block_order": 0,
+          "record_order": 0,
+          "source_block_id": "user:6841:forum:15721323",
+          "document_key": "user_forum|15721323|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6841|$[0]|user:6841:forum:15721323|user:6841:forum:15721323",
+          "source_route": "user_forum",
+          "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6841",
+          "source_api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/6841/forums",
+          "source_record_id": "15721323",
+          "source_record_path": "$[0]",
+          "source_title": "绝杀一头",
+          "source_author": "不幸月会"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6841",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 1.141,
+      "diagnostics": {
+        "fragment_count": 2,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "user:6841:forum:15721323"
+        ],
+        "value_signatures": [
+          "1头"
+        ]
+      }
+    },
+    {
+      "index": 233,
+      "section": "主要针",
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1747",
+      "field": "精杀一头",
+      "position": "顶部",
+      "content_hint": "主要针",
+      "parse_hint": "user_kill_head",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "zero",
+      "target_count": 0,
+      "block_count_details": [],
+      "source_documents": [
+        {
+          "route": "page",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1747",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "source_block_id": "page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1747:0",
+          "source_identity": "",
+          "document_key": "page||https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1747|||page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1747:0",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        },
+        {
+          "route": "user_forum",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1747",
+          "record_id": "15722779",
+          "record_path": "$[1]",
+          "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/users/1747/forums",
+          "title": "【精杀一头】",
+          "author": "主要针",
+          "source_block_id": "user:1747:forum:15722779",
+          "source_identity": "user:1747:forum:15722779",
+          "document_key": "user_forum|15722779|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1747|$[1]|user:1747:forum:15722779|user:1747:forum:15722779",
+          "document_order": 1,
+          "source_list_position": 1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [],
+      "error_reason": "真实专属区块内未解析出212期记录",
+      "request": {
+        "method": "GET",
+        "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1747",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 0.906,
+      "diagnostics": {
+        "fragment_count": 2,
+        "anchor_document_count": 1,
+        "parsed_document_count": 0,
+        "nonempty_block_count": 0,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [],
+        "value_signatures": []
+      }
+    },
+    {
+      "index": 234,
+      "section": "致富之路",
+      "url": "https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/article/manager/6a32a55b73fa32d0b73c0d0d?url=dfh",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "content_hint": "致富之路",
+      "parse_hint": "full_period_list",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "admin:6a32a55b73fa32d0b73c0d0d",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "2头",
+              "raw_line": "212期：绝杀一头《2》开？00准",
+              "original_position": 54,
+              "document_order": 0,
+              "block_order": 54,
+              "record_order": 54,
+              "source_block_id": "admin:6a32a55b73fa32d0b73c0d0d",
+              "document_key": "admin_api|6a32a55b73fa32d0b73c0d0d|https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/article/manager/6a32a55b73fa32d0b73c0d0d?url=dfh|$|article:6a32a55b73fa32d0b73c0d0d|admin:6a32a55b73fa32d0b73c0d0d",
+              "source_route": "admin_api",
+              "source_url": "https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/article/manager/6a32a55b73fa32d0b73c0d0d?url=dfh",
+              "source_api_url": "https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/api/proxy/manager-articles/6a32a55b73fa32d0b73c0d0d",
+              "source_record_id": "6a32a55b73fa32d0b73c0d0d",
+              "source_record_path": "$",
+              "source_title": "<p>212期【绝杀一头】已更新</p>",
+              "source_author": "致富之路"
+            }
+          ],
+          "documents": [
+            {
+              "route": "admin_api",
+              "url": "https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/article/manager/6a32a55b73fa32d0b73c0d0d?url=dfh",
+              "record_id": "6a32a55b73fa32d0b73c0d0d",
+              "record_path": "$",
+              "api_url": "https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/api/proxy/manager-articles/6a32a55b73fa32d0b73c0d0d",
+              "title": "<p>212期【绝杀一头】已更新</p>",
+              "author": "致富之路",
+              "source_block_id": "admin:6a32a55b73fa32d0b73c0d0d",
+              "source_identity": "article:6a32a55b73fa32d0b73c0d0d",
+              "document_key": "admin_api|6a32a55b73fa32d0b73c0d0d|https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/article/manager/6a32a55b73fa32d0b73c0d0d?url=dfh|$|article:6a32a55b73fa32d0b73c0d0d|admin:6a32a55b73fa32d0b73c0d0d",
+              "document_order": 0,
+              "source_list_position": -1,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "admin_api",
+          "url": "https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/article/manager/6a32a55b73fa32d0b73c0d0d?url=dfh",
+          "record_id": "6a32a55b73fa32d0b73c0d0d",
+          "record_path": "$",
+          "api_url": "https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/api/proxy/manager-articles/6a32a55b73fa32d0b73c0d0d",
+          "title": "<p>212期【绝杀一头】已更新</p>",
+          "author": "致富之路",
+          "source_block_id": "admin:6a32a55b73fa32d0b73c0d0d",
+          "source_identity": "article:6a32a55b73fa32d0b73c0d0d",
+          "document_key": "admin_api|6a32a55b73fa32d0b73c0d0d|https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/article/manager/6a32a55b73fa32d0b73c0d0d?url=dfh|$|article:6a32a55b73fa32d0b73c0d0d|admin:6a32a55b73fa32d0b73c0d0d",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "2头",
+          "raw_line": "212期：绝杀一头《2》开？00准",
+          "original_position": 54,
+          "document_order": 0,
+          "block_order": 54,
+          "record_order": 54,
+          "source_block_id": "admin:6a32a55b73fa32d0b73c0d0d",
+          "document_key": "admin_api|6a32a55b73fa32d0b73c0d0d|https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/article/manager/6a32a55b73fa32d0b73c0d0d?url=dfh|$|article:6a32a55b73fa32d0b73c0d0d|admin:6a32a55b73fa32d0b73c0d0d",
+          "source_route": "admin_api",
+          "source_url": "https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/article/manager/6a32a55b73fa32d0b73c0d0d?url=dfh",
+          "source_api_url": "https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/api/proxy/manager-articles/6a32a55b73fa32d0b73c0d0d",
+          "source_record_id": "6a32a55b73fa32d0b73c0d0d",
+          "source_record_path": "$",
+          "source_title": "<p>212期【绝杀一头】已更新</p>",
+          "source_author": "致富之路"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/article/manager/6a32a55b73fa32d0b73c0d0d?url=dfh",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "6a32a55b73fa32d0b73c0d0d",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 1.469,
+      "diagnostics": {
+        "fragment_count": 1,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "admin:6a32a55b73fa32d0b73c0d0d"
+        ],
+        "value_signatures": [
+          "2头"
+        ]
+      }
+    },
+    {
+      "index": 235,
+      "section": "不可亵玩",
+      "url": "https://kk.336868m.com:1888/art_zhuanqu/228.html",
+      "field": "杀一头",
+      "position": "顶部",
+      "content_hint": "不可亵玩",
+      "parse_hint": "full_period_list",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "page:https://kk.336868m.com:1888/art_zhuanqu/228.html:0",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "4头",
+              "raw_line": "212期：[不可亵玩㊣原创㊣杀一头]【4】开06准",
+              "original_position": 1,
+              "document_order": 0,
+              "block_order": 1,
+              "record_order": 1,
+              "source_block_id": "page:https://kk.336868m.com:1888/art_zhuanqu/228.html:0",
+              "document_key": "page||https://kk.336868m.com:1888/art_zhuanqu/228.html|||page:https://kk.336868m.com:1888/art_zhuanqu/228.html:0",
+              "source_route": "page",
+              "source_url": "https://kk.336868m.com:1888/art_zhuanqu/228.html",
+              "source_api_url": "",
+              "source_record_id": "",
+              "source_record_path": "",
+              "source_title": "",
+              "source_author": ""
+            }
+          ],
+          "documents": [
+            {
+              "route": "page",
+              "url": "https://kk.336868m.com:1888/art_zhuanqu/228.html",
+              "record_id": "",
+              "record_path": "",
+              "api_url": "",
+              "title": "",
+              "author": "",
+              "source_block_id": "page:https://kk.336868m.com:1888/art_zhuanqu/228.html:0",
+              "source_identity": "",
+              "document_key": "page||https://kk.336868m.com:1888/art_zhuanqu/228.html|||page:https://kk.336868m.com:1888/art_zhuanqu/228.html:0",
+              "document_order": 0,
+              "source_list_position": -1,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "page",
+          "url": "https://kk.336868m.com:1888/art_zhuanqu/228.html",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "source_block_id": "page:https://kk.336868m.com:1888/art_zhuanqu/228.html:0",
+          "source_identity": "",
+          "document_key": "page||https://kk.336868m.com:1888/art_zhuanqu/228.html|||page:https://kk.336868m.com:1888/art_zhuanqu/228.html:0",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "4头",
+          "raw_line": "212期：[不可亵玩㊣原创㊣杀一头]【4】开06准",
+          "original_position": 1,
+          "document_order": 0,
+          "block_order": 1,
+          "record_order": 1,
+          "source_block_id": "page:https://kk.336868m.com:1888/art_zhuanqu/228.html:0",
+          "document_key": "page||https://kk.336868m.com:1888/art_zhuanqu/228.html|||page:https://kk.336868m.com:1888/art_zhuanqu/228.html:0",
+          "source_route": "page",
+          "source_url": "https://kk.336868m.com:1888/art_zhuanqu/228.html",
+          "source_api_url": "",
+          "source_record_id": "",
+          "source_record_path": "",
+          "source_title": "",
+          "source_author": ""
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://kk.336868m.com:1888/art_zhuanqu/228.html",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 1.265,
+      "diagnostics": {
+        "fragment_count": 1,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "page:https://kk.336868m.com:1888/art_zhuanqu/228.html:0"
+        ],
+        "value_signatures": [
+          "4头"
+        ]
+      }
+    },
+    {
+      "index": 236,
+      "section": "财富高手论坛",
+      "url": "https://x1rvueyk50.669332.shop/bbs/",
+      "field": "杀一头",
+      "position": "尾部",
+      "content_hint": "澳门•财富高手论坛【绝杀专区】",
+      "parse_hint": "caifu_gaoshou_bottom_kill_head_table",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "page:https://x1rvueyk50.669332.shop/bbs/:0",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "1头",
+              "raw_line": "212期 马 3尾 1头 开: 0000 准",
+              "original_position": 10,
+              "document_order": 0,
+              "block_order": 10,
+              "record_order": 10,
+              "source_block_id": "page:https://x1rvueyk50.669332.shop/bbs/:0",
+              "document_key": "page||https://x1rvueyk50.669332.shop/bbs/|||page:https://x1rvueyk50.669332.shop/bbs/:0",
+              "source_route": "page",
+              "source_url": "https://x1rvueyk50.669332.shop/bbs/",
+              "source_api_url": "",
+              "source_record_id": "",
+              "source_record_path": "",
+              "source_title": "",
+              "source_author": ""
+            }
+          ],
+          "documents": [
+            {
+              "route": "page",
+              "url": "https://x1rvueyk50.669332.shop/bbs/",
+              "record_id": "",
+              "record_path": "",
+              "api_url": "",
+              "title": "",
+              "author": "",
+              "source_block_id": "page:https://x1rvueyk50.669332.shop/bbs/:0",
+              "source_identity": "",
+              "document_key": "page||https://x1rvueyk50.669332.shop/bbs/|||page:https://x1rvueyk50.669332.shop/bbs/:0",
+              "document_order": 0,
+              "source_list_position": -1,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "page",
+          "url": "https://x1rvueyk50.669332.shop/bbs/",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "source_block_id": "page:https://x1rvueyk50.669332.shop/bbs/:0",
+          "source_identity": "",
+          "document_key": "page||https://x1rvueyk50.669332.shop/bbs/|||page:https://x1rvueyk50.669332.shop/bbs/:0",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        },
+        {
+          "route": "iframe",
+          "url": "https://MAk.bbs3.top:28368/amkj.php",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "source_block_id": "iframe:https://MAk.bbs3.top:28368/amkj.php",
+          "source_identity": "",
+          "document_key": "iframe||https://MAk.bbs3.top:28368/amkj.php|||iframe:https://MAk.bbs3.top:28368/amkj.php",
+          "document_order": 1,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        },
+        {
+          "route": "iframe",
+          "url": "https://kswc88kkg0.99kjhi.app:2860/dh/amtuku.html",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "source_block_id": "iframe:https://kswc88kkg0.99kjhi.app:2860/dh/amtuku.html",
+          "source_identity": "",
+          "document_key": "iframe||https://kswc88kkg0.99kjhi.app:2860/dh/amtuku.html|||iframe:https://kswc88kkg0.99kjhi.app:2860/dh/amtuku.html",
+          "document_order": 2,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "1头",
+          "raw_line": "212期 马 3尾 1头 开: 0000 准",
+          "original_position": 10,
+          "document_order": 0,
+          "block_order": 10,
+          "record_order": 10,
+          "source_block_id": "page:https://x1rvueyk50.669332.shop/bbs/:0",
+          "document_key": "page||https://x1rvueyk50.669332.shop/bbs/|||page:https://x1rvueyk50.669332.shop/bbs/:0",
+          "source_route": "page",
+          "source_url": "https://x1rvueyk50.669332.shop/bbs/",
+          "source_api_url": "",
+          "source_record_id": "",
+          "source_record_path": "",
+          "source_title": "",
+          "source_author": ""
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://x1rvueyk50.669332.shop/bbs/",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 5.454,
+      "diagnostics": {
+        "fragment_count": 3,
+        "anchor_document_count": 0,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "page:https://x1rvueyk50.669332.shop/bbs/:0"
+        ],
+        "value_signatures": [
+          "1头"
+        ]
+      }
+    },
+    {
+      "index": 237,
+      "section": "赢肖公式",
+      "url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/manager/6a5ee7d9f447e21b02dd5366?url=bxj",
+      "field": "④头中特",
+      "position": "尾部",
+      "content_hint": "赢肖公式",
+      "parse_hint": "admin_anchored_missing_head_from_four_combo",
+      "api_url": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "admin:6a5ee7d9f447e21b02dd5366",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "2头",
+              "raw_line": "212期:〖赢肖公式〗🧧④头中特🧧【0.1.3.4】开:00准",
+              "original_position": 20,
+              "document_order": 0,
+              "block_order": 20,
+              "record_order": 20,
+              "source_block_id": "admin:6a5ee7d9f447e21b02dd5366",
+              "document_key": "admin_api|6a5ee7d9f447e21b02dd5366|https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/manager/6a5ee7d9f447e21b02dd5366?url=bxj|$|article:6a5ee7d9f447e21b02dd5366|admin:6a5ee7d9f447e21b02dd5366",
+              "source_route": "admin_api",
+              "source_url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/manager/6a5ee7d9f447e21b02dd5366?url=bxj",
+              "source_api_url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/api/proxy/manager-articles/6a5ee7d9f447e21b02dd5366",
+              "source_record_id": "6a5ee7d9f447e21b02dd5366",
+              "source_record_path": "$",
+              "source_title": "<p>212期：【④头中特】〓 连续中奖</p>",
+              "source_author": "赢肖公式"
+            }
+          ],
+          "documents": [
+            {
+              "route": "admin_api",
+              "url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/manager/6a5ee7d9f447e21b02dd5366?url=bxj",
+              "record_id": "6a5ee7d9f447e21b02dd5366",
+              "record_path": "$",
+              "api_url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/api/proxy/manager-articles/6a5ee7d9f447e21b02dd5366",
+              "title": "<p>212期：【④头中特】〓 连续中奖</p>",
+              "author": "赢肖公式",
+              "source_block_id": "admin:6a5ee7d9f447e21b02dd5366",
+              "source_identity": "article:6a5ee7d9f447e21b02dd5366",
+              "document_key": "admin_api|6a5ee7d9f447e21b02dd5366|https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/manager/6a5ee7d9f447e21b02dd5366?url=bxj|$|article:6a5ee7d9f447e21b02dd5366|admin:6a5ee7d9f447e21b02dd5366",
+              "document_order": 0,
+              "source_list_position": -1,
+              "resource_error": "",
+              "resource_required": false
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "route": "admin_api",
+          "url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/manager/6a5ee7d9f447e21b02dd5366?url=bxj",
+          "record_id": "6a5ee7d9f447e21b02dd5366",
+          "record_path": "$",
+          "api_url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/api/proxy/manager-articles/6a5ee7d9f447e21b02dd5366",
+          "title": "<p>212期：【④头中特】〓 连续中奖</p>",
+          "author": "赢肖公式",
+          "source_block_id": "admin:6a5ee7d9f447e21b02dd5366",
+          "source_identity": "article:6a5ee7d9f447e21b02dd5366",
+          "document_key": "admin_api|6a5ee7d9f447e21b02dd5366|https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/manager/6a5ee7d9f447e21b02dd5366?url=bxj|$|article:6a5ee7d9f447e21b02dd5366|admin:6a5ee7d9f447e21b02dd5366",
+          "document_order": 0,
+          "source_list_position": -1,
+          "resource_error": "",
+          "resource_required": false
+        }
+      ],
+      "raw_evidence": [
+        {
+          "period": "212期",
+          "value": "2头",
+          "raw_line": "212期:〖赢肖公式〗🧧④头中特🧧【0.1.3.4】开:00准",
+          "original_position": 20,
+          "document_order": 0,
+          "block_order": 20,
+          "record_order": 20,
+          "source_block_id": "admin:6a5ee7d9f447e21b02dd5366",
+          "document_key": "admin_api|6a5ee7d9f447e21b02dd5366|https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/manager/6a5ee7d9f447e21b02dd5366?url=bxj|$|article:6a5ee7d9f447e21b02dd5366|admin:6a5ee7d9f447e21b02dd5366",
+          "source_route": "admin_api",
+          "source_url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/manager/6a5ee7d9f447e21b02dd5366?url=bxj",
+          "source_api_url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/api/proxy/manager-articles/6a5ee7d9f447e21b02dd5366",
+          "source_record_id": "6a5ee7d9f447e21b02dd5366",
+          "source_record_path": "$",
+          "source_title": "<p>212期：【④头中特】〓 连续中奖</p>",
+          "source_author": "赢肖公式"
+        }
+      ],
+      "error_reason": "",
+      "request": {
+        "method": "GET",
+        "url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/manager/6a5ee7d9f447e21b02dd5366?url=bxj",
+        "http_status": 200
+      },
+      "dynamic_target_record_id": "6a5ee7d9f447e21b02dd5366",
+      "dynamic_id_rejected_documents": [],
+      "elapsed_seconds": 2.359,
+      "diagnostics": {
+        "fragment_count": 1,
+        "anchor_document_count": 1,
+        "parsed_document_count": 1,
+        "nonempty_block_count": 1,
+        "dynamic_target_id_unique": null,
+        "target_block_ids": [
+          "admin:6a5ee7d9f447e21b02dd5366"
+        ],
+        "value_signatures": [
+          "2头"
+        ]
+      }
+    }
+  ]
+}

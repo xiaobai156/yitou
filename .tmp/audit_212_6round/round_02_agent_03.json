@@ -1,0 +1,1874 @@
+{
+  "schema_version": 1,
+  "audit_type": "real_single_period_dedicated_block_count",
+  "round": 2,
+  "agent": 3,
+  "target_period": "212期",
+  "project": "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版",
+  "assignment": {
+    "start_index": 66,
+    "end_index": 78,
+    "assigned_count": 13,
+    "assigned_indices": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78
+    ]
+  },
+  "rules": {
+    "count_all_target_records_in_dedicated_block": true,
+    "ignore_top_bottom_for_count": true,
+    "no_cross_document_merge": true,
+    "dynamic_id_boundary_required": true,
+    "cache_used": false,
+    "formal_outputs_written": false
+  },
+  "started_at": "2026-08-01T00:59:09+0800",
+  "finished_at": "2026-08-01T00:59:52+0800",
+  "results": [
+    {
+      "index": 66,
+      "section": "三阳开泰",
+      "url": "https://estsghu.t7gsm-xl1x8-uohlna.xyz:16677/topic/356092.html",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "parse_hint": "bracket_field_head",
+      "content_hint": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/edfd5e8ccc3b369d.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/edfd5e8ccc3b369d.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/edfd5e8ccc3b369d.js",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "3头",
+              "raw_line": "212期【绝杀一头】【333】开0000准",
+              "original_position": 0,
+              "source_route": "script",
+              "source_url": "https://xia04.cosds.ahsccn.com/upload/script/08/edfd5e8ccc3b369d.js",
+              "source_record_id": "",
+              "source_record_path": ""
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "document_index": 0,
+          "route": "page",
+          "url": "https://estsghu.t7gsm-xl1x8-uohlna.xyz:16677/topic/356092.html",
+          "source_block_id": "page:https://estsghu.t7gsm-xl1x8-uohlna.xyz:16677/topic/356092.html:0",
+          "document_key": "page||https://estsghu.t7gsm-xl1x8-uohlna.xyz:16677/topic/356092.html|||page:https://estsghu.t7gsm-xl1x8-uohlna.xyz:16677/topic/356092.html:0",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 1,
+          "route": "script",
+          "url": "https://xia03.cosds.ahsccn.com/upload/script/08/35442a16e55d7faf.js",
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/08/35442a16e55d7faf.js",
+          "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/08/35442a16e55d7faf.js|||script:https://xia03.cosds.ahsccn.com/upload/script/08/35442a16e55d7faf.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 2,
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/08/edfd5e8ccc3b369d.js",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/edfd5e8ccc3b369d.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/edfd5e8ccc3b369d.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/edfd5e8ccc3b369d.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": true,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": [
+            {
+              "period": "212期",
+              "value": "3头",
+              "raw_line": "212期【绝杀一头】【333】开0000准",
+              "original_position": 0,
+              "record_order": 0
+            }
+          ]
+        },
+        {
+          "document_index": 3,
+          "route": "script",
+          "url": "https://xia06.cosds.ahsccn.com/upload/script/08/435682a6f13ae7c8.js",
+          "source_block_id": "script:https://xia06.cosds.ahsccn.com/upload/script/08/435682a6f13ae7c8.js",
+          "document_key": "script||https://xia06.cosds.ahsccn.com/upload/script/08/435682a6f13ae7c8.js|||script:https://xia06.cosds.ahsccn.com/upload/script/08/435682a6f13ae7c8.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        }
+      ],
+      "raw_evidence": [
+        {
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/edfd5e8ccc3b369d.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/edfd5e8ccc3b369d.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/edfd5e8ccc3b369d.js",
+          "period": "212期",
+          "value": "3头",
+          "raw_line": "212期【绝杀一头】【333】开0000准",
+          "original_position": 0
+        }
+      ],
+      "http_requests": [
+        {
+          "method": "GET",
+          "kind": "page",
+          "url": "https://estsghu.t7gsm-xl1x8-uohlna.xyz:16677/topic/356092.html",
+          "status_code": 200
+        }
+      ],
+      "error_reason": "",
+      "elapsed_seconds": 4.266,
+      "anchor_document_count": 1,
+      "field_document_count": 1
+    },
+    {
+      "index": 67,
+      "section": "聪明绝顶",
+      "url": "https://wdkcwvg.ihm0v-x2ge2-muiqdd.xyz:16677/topic/236456.html",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "parse_hint": "strict_position_three",
+      "content_hint": "作者:聪明绝顶",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/bdbe9e57a4e0e8ed.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/bdbe9e57a4e0e8ed.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/bdbe9e57a4e0e8ed.js",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "0头",
+              "raw_line": "212期◀绝杀一头◀【000头】开0000准",
+              "original_position": 0,
+              "source_route": "script",
+              "source_url": "https://xia04.cosds.ahsccn.com/upload/script/08/bdbe9e57a4e0e8ed.js",
+              "source_record_id": "",
+              "source_record_path": ""
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "document_index": 0,
+          "route": "page",
+          "url": "https://wdkcwvg.ihm0v-x2ge2-muiqdd.xyz:16677/topic/236456.html",
+          "source_block_id": "page:https://wdkcwvg.ihm0v-x2ge2-muiqdd.xyz:16677/topic/236456.html:0",
+          "document_key": "page||https://wdkcwvg.ihm0v-x2ge2-muiqdd.xyz:16677/topic/236456.html|||page:https://wdkcwvg.ihm0v-x2ge2-muiqdd.xyz:16677/topic/236456.html:0",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 1,
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/08/3fbabd84f3930926.js",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/3fbabd84f3930926.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/3fbabd84f3930926.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/3fbabd84f3930926.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 2,
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/08/c9dee222d46b5f42.js",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/08/c9dee222d46b5f42.js",
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/08/c9dee222d46b5f42.js|||script:https://xia01.cosds.ahsccn.com/upload/script/08/c9dee222d46b5f42.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 3,
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/08/bdbe9e57a4e0e8ed.js",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/bdbe9e57a4e0e8ed.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/bdbe9e57a4e0e8ed.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/bdbe9e57a4e0e8ed.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": true,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": [
+            {
+              "period": "212期",
+              "value": "0头",
+              "raw_line": "212期◀绝杀一头◀【000头】开0000准",
+              "original_position": 0,
+              "record_order": 0
+            }
+          ]
+        },
+        {
+          "document_index": 4,
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/08/a5c8f8c63a133907.js",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/08/a5c8f8c63a133907.js",
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/08/a5c8f8c63a133907.js|||script:https://xia01.cosds.ahsccn.com/upload/script/08/a5c8f8c63a133907.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 5,
+          "route": "script",
+          "url": "https://xia03.cosds.ahsccn.com/upload/script/08/aa18429e827220df.js",
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/08/aa18429e827220df.js",
+          "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/08/aa18429e827220df.js|||script:https://xia03.cosds.ahsccn.com/upload/script/08/aa18429e827220df.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 6,
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/08/0a415be33adf5d15.js",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/0a415be33adf5d15.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/0a415be33adf5d15.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/0a415be33adf5d15.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        }
+      ],
+      "raw_evidence": [
+        {
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/bdbe9e57a4e0e8ed.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/bdbe9e57a4e0e8ed.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/bdbe9e57a4e0e8ed.js",
+          "period": "212期",
+          "value": "0头",
+          "raw_line": "212期◀绝杀一头◀【000头】开0000准",
+          "original_position": 0
+        }
+      ],
+      "http_requests": [
+        {
+          "method": "GET",
+          "kind": "page",
+          "url": "https://wdkcwvg.ihm0v-x2ge2-muiqdd.xyz:16677/topic/236456.html",
+          "status_code": 200
+        }
+      ],
+      "error_reason": "",
+      "elapsed_seconds": 3.719,
+      "anchor_document_count": 1,
+      "field_document_count": 2
+    },
+    {
+      "index": 68,
+      "section": "角力中原",
+      "url": "https://wdkcwvg.ihm0v-x2ge2-muiqdd.xyz:16677/topic/209429.html",
+      "field": "绝杀①头",
+      "position": "顶部",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "绝杀一头",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/08/8472bd3135aeeb76.js",
+          "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/08/8472bd3135aeeb76.js|||script:https://xia03.cosds.ahsccn.com/upload/script/08/8472bd3135aeeb76.js",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "0头",
+              "raw_line": "212期:绝杀①头杀「0头」开0000准",
+              "original_position": 0,
+              "source_route": "script",
+              "source_url": "https://xia03.cosds.ahsccn.com/upload/script/08/8472bd3135aeeb76.js",
+              "source_record_id": "",
+              "source_record_path": ""
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "document_index": 0,
+          "route": "page",
+          "url": "https://wdkcwvg.ihm0v-x2ge2-muiqdd.xyz:16677/topic/209429.html",
+          "source_block_id": "page:https://wdkcwvg.ihm0v-x2ge2-muiqdd.xyz:16677/topic/209429.html:0",
+          "document_key": "page||https://wdkcwvg.ihm0v-x2ge2-muiqdd.xyz:16677/topic/209429.html|||page:https://wdkcwvg.ihm0v-x2ge2-muiqdd.xyz:16677/topic/209429.html:0",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 1,
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/08/3fbabd84f3930926.js",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/3fbabd84f3930926.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/3fbabd84f3930926.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/3fbabd84f3930926.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 2,
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/08/2809d0f6296e8681.js",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/08/2809d0f6296e8681.js",
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/08/2809d0f6296e8681.js|||script:https://xia01.cosds.ahsccn.com/upload/script/08/2809d0f6296e8681.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 3,
+          "route": "script",
+          "url": "https://xia03.cosds.ahsccn.com/upload/script/08/8472bd3135aeeb76.js",
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/08/8472bd3135aeeb76.js",
+          "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/08/8472bd3135aeeb76.js|||script:https://xia03.cosds.ahsccn.com/upload/script/08/8472bd3135aeeb76.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": true,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": [
+            {
+              "period": "212期",
+              "value": "0头",
+              "raw_line": "212期:绝杀①头杀「0头」开0000准",
+              "original_position": 0,
+              "record_order": 0
+            }
+          ]
+        },
+        {
+          "document_index": 4,
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/08/d490222559378b68.js",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/d490222559378b68.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/d490222559378b68.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/d490222559378b68.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 5,
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/08/b4b5c0b4dd61c1c5.js",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/08/b4b5c0b4dd61c1c5.js",
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/08/b4b5c0b4dd61c1c5.js|||script:https://xia01.cosds.ahsccn.com/upload/script/08/b4b5c0b4dd61c1c5.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": true,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 6,
+          "route": "script",
+          "url": "https://xia02.cosds.ahsccn.com/upload/script/08/41bd3e5c2cfa3d3e.js",
+          "source_block_id": "script:https://xia02.cosds.ahsccn.com/upload/script/08/41bd3e5c2cfa3d3e.js",
+          "document_key": "script||https://xia02.cosds.ahsccn.com/upload/script/08/41bd3e5c2cfa3d3e.js|||script:https://xia02.cosds.ahsccn.com/upload/script/08/41bd3e5c2cfa3d3e.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        }
+      ],
+      "raw_evidence": [
+        {
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/08/8472bd3135aeeb76.js",
+          "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/08/8472bd3135aeeb76.js|||script:https://xia03.cosds.ahsccn.com/upload/script/08/8472bd3135aeeb76.js",
+          "period": "212期",
+          "value": "0头",
+          "raw_line": "212期:绝杀①头杀「0头」开0000准",
+          "original_position": 0
+        }
+      ],
+      "http_requests": [
+        {
+          "method": "GET",
+          "kind": "page",
+          "url": "https://wdkcwvg.ihm0v-x2ge2-muiqdd.xyz:16677/topic/209429.html",
+          "status_code": 200
+        }
+      ],
+      "error_reason": "",
+      "elapsed_seconds": 2.719,
+      "anchor_document_count": 2,
+      "field_document_count": 1
+    },
+    {
+      "index": 69,
+      "section": "奋起直追",
+      "url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/admin/6a1437ef4346bc68aea4f091?url=lqz",
+      "field": "④头中特",
+      "position": "尾部",
+      "parse_hint": "admin_anchored_missing_head_from_four_combo",
+      "content_hint": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "admin:6a1437ef4346bc68aea4f091",
+          "document_key": "admin_browser|6a1437ef4346bc68aea4f091|https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/admin/6a1437ef4346bc68aea4f091?url=lqz|payload[3]$|article:6a1437ef4346bc68aea4f091|admin:6a1437ef4346bc68aea4f091",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "1头",
+              "raw_line": "212期:《奋起直追》✨④头中特✨【0.2.3.4】开:06准",
+              "original_position": 51,
+              "source_route": "admin_browser",
+              "source_url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/admin/6a1437ef4346bc68aea4f091?url=lqz",
+              "source_record_id": "6a1437ef4346bc68aea4f091",
+              "source_record_path": "payload[3]$"
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "document_index": 0,
+          "route": "admin_browser",
+          "url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/admin/6a1437ef4346bc68aea4f091?url=lqz",
+          "source_block_id": "admin:6a1437ef4346bc68aea4f091",
+          "document_key": "admin_browser|6a1437ef4346bc68aea4f091|https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/admin/6a1437ef4346bc68aea4f091?url=lqz|payload[3]$|article:6a1437ef4346bc68aea4f091|admin:6a1437ef4346bc68aea4f091",
+          "record_id": "6a1437ef4346bc68aea4f091",
+          "record_path": "payload[3]$",
+          "api_url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/api/proxy/manager-articles/6a1437ef4346bc68aea4f091",
+          "title": "<p><strong>213期：【④头中特】抓住机会 </strong></p>",
+          "author": "奋起直追",
+          "anchor_ok": true,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": [
+            {
+              "period": "212期",
+              "value": "1头",
+              "raw_line": "212期:《奋起直追》✨④头中特✨【0.2.3.4】开:06准",
+              "original_position": 51,
+              "record_order": 51
+            }
+          ]
+        }
+      ],
+      "raw_evidence": [
+        {
+          "source_block_id": "admin:6a1437ef4346bc68aea4f091",
+          "document_key": "admin_browser|6a1437ef4346bc68aea4f091|https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/admin/6a1437ef4346bc68aea4f091?url=lqz|payload[3]$|article:6a1437ef4346bc68aea4f091|admin:6a1437ef4346bc68aea4f091",
+          "period": "212期",
+          "value": "1头",
+          "raw_line": "212期:《奋起直追》✨④头中特✨【0.2.3.4】开:06准",
+          "original_position": 51
+        }
+      ],
+      "http_requests": [
+        {
+          "method": "GET",
+          "kind": "page",
+          "url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/admin/6a1437ef4346bc68aea4f091?url=lqz",
+          "status_code": 200
+        },
+        {
+          "method": "GET",
+          "kind": "admin_browser",
+          "url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/api/proxy/manager-articles/6a1437ef4346bc68aea4f091",
+          "status_code": null,
+          "record_id": "6a1437ef4346bc68aea4f091",
+          "record_path": "payload[3]$",
+          "source_block_id": "admin:6a1437ef4346bc68aea4f091"
+        }
+      ],
+      "error_reason": "",
+      "elapsed_seconds": 6.406,
+      "anchor_document_count": 1,
+      "field_document_count": 1
+    },
+    {
+      "index": 70,
+      "section": "澳彩传奇",
+      "url": "https://rqvvaxwq.w30m7-xd23l-ebrbbj.xyz/topic/768567.html",
+      "field": "大杀一头",
+      "position": "顶部",
+      "parse_hint": "full_period_list",
+      "content_hint": "人心所向",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/07/59c776d89215ec7f.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/07/59c776d89215ec7f.js|||script:https://xia04.cosds.ahsccn.com/upload/script/07/59c776d89215ec7f.js",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "2头",
+              "raw_line": "212期:大杀一头《2头》开:0000准",
+              "original_position": 0,
+              "source_route": "script",
+              "source_url": "https://xia04.cosds.ahsccn.com/upload/script/07/59c776d89215ec7f.js",
+              "source_record_id": "",
+              "source_record_path": ""
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "document_index": 0,
+          "route": "page",
+          "url": "https://rqvvaxwq.w30m7-xd23l-ebrbbj.xyz/topic/768567.html",
+          "source_block_id": "page:https://rqvvaxwq.w30m7-xd23l-ebrbbj.xyz/topic/768567.html:0",
+          "document_key": "page||https://rqvvaxwq.w30m7-xd23l-ebrbbj.xyz/topic/768567.html|||page:https://rqvvaxwq.w30m7-xd23l-ebrbbj.xyz/topic/768567.html:0",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 1,
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/07/5e51eb75eebce431.js",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/07/5e51eb75eebce431.js",
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/07/5e51eb75eebce431.js|||script:https://xia01.cosds.ahsccn.com/upload/script/07/5e51eb75eebce431.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 2,
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/07/59c776d89215ec7f.js",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/07/59c776d89215ec7f.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/07/59c776d89215ec7f.js|||script:https://xia04.cosds.ahsccn.com/upload/script/07/59c776d89215ec7f.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": true,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": [
+            {
+              "period": "212期",
+              "value": "2头",
+              "raw_line": "212期:大杀一头《2头》开:0000准",
+              "original_position": 0,
+              "record_order": 0
+            }
+          ]
+        },
+        {
+          "document_index": 3,
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/07/e8e87428617f9cbf.js",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/07/e8e87428617f9cbf.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/07/e8e87428617f9cbf.js|||script:https://xia04.cosds.ahsccn.com/upload/script/07/e8e87428617f9cbf.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 4,
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/07/1a3182d934f1f575.js",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/07/1a3182d934f1f575.js",
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/07/1a3182d934f1f575.js|||script:https://xia01.cosds.ahsccn.com/upload/script/07/1a3182d934f1f575.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        }
+      ],
+      "raw_evidence": [
+        {
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/07/59c776d89215ec7f.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/07/59c776d89215ec7f.js|||script:https://xia04.cosds.ahsccn.com/upload/script/07/59c776d89215ec7f.js",
+          "period": "212期",
+          "value": "2头",
+          "raw_line": "212期:大杀一头《2头》开:0000准",
+          "original_position": 0
+        }
+      ],
+      "http_requests": [
+        {
+          "method": "GET",
+          "kind": "page",
+          "url": "https://rqvvaxwq.w30m7-xd23l-ebrbbj.xyz/topic/768567.html",
+          "status_code": 200
+        }
+      ],
+      "error_reason": "",
+      "elapsed_seconds": 3.359,
+      "anchor_document_count": 1,
+      "field_document_count": 1
+    },
+    {
+      "index": 71,
+      "section": "福星抱抱",
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15356509",
+      "field": "必杀一头",
+      "position": "顶部",
+      "parse_hint": "full_period_list",
+      "content_hint": "福星报",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "user:11984:forum:15716714",
+          "document_key": "forum_history|15716714|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15356509|$|user:11984:forum:15716714|user:11984:forum:15716714",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "3头",
+              "raw_line": "212期（必杀一头）【3】（开00准）",
+              "original_position": 0,
+              "source_route": "forum_history",
+              "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15356509",
+              "source_record_id": "15716714",
+              "source_record_path": "$"
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "document_index": 0,
+          "route": "page",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15356509",
+          "source_block_id": "page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15356509:0",
+          "document_key": "page||https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15356509|||page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15356509:0",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 1,
+          "route": "forum",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15356509",
+          "source_block_id": "user:11984:forum:15356509",
+          "document_key": "forum|15356509|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15356509|$|user:11984:forum:15356509|user:11984:forum:15356509",
+          "record_id": "15356509",
+          "record_path": "$",
+          "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/forums/15356509",
+          "title": "福星报 必杀一头",
+          "author": "11984",
+          "anchor_ok": true,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 2,
+          "route": "forum_history",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15356509",
+          "source_block_id": "user:11984:forum:15716714",
+          "document_key": "forum_history|15716714|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15356509|$|user:11984:forum:15716714|user:11984:forum:15716714",
+          "record_id": "15716714",
+          "record_path": "$",
+          "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/forums/15716714",
+          "title": "福星报 必杀一头",
+          "author": "11984",
+          "anchor_ok": true,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": [
+            {
+              "period": "212期",
+              "value": "3头",
+              "raw_line": "212期（必杀一头）【3】（开00准）",
+              "original_position": 0,
+              "record_order": 0
+            }
+          ]
+        }
+      ],
+      "raw_evidence": [
+        {
+          "source_block_id": "user:11984:forum:15716714",
+          "document_key": "forum_history|15716714|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15356509|$|user:11984:forum:15716714|user:11984:forum:15716714",
+          "period": "212期",
+          "value": "3头",
+          "raw_line": "212期（必杀一头）【3】（开00准）",
+          "original_position": 0
+        }
+      ],
+      "http_requests": [
+        {
+          "method": "GET",
+          "kind": "page",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15356509",
+          "status_code": 200
+        },
+        {
+          "method": "GET",
+          "kind": "forum",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/forums/15356509",
+          "status_code": null,
+          "record_id": "15356509",
+          "record_path": "$",
+          "source_block_id": "user:11984:forum:15356509"
+        },
+        {
+          "method": "GET",
+          "kind": "forum_history",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/forums/15716714",
+          "status_code": null,
+          "record_id": "15716714",
+          "record_path": "$",
+          "source_block_id": "user:11984:forum:15716714"
+        }
+      ],
+      "error_reason": "",
+      "elapsed_seconds": 1.688,
+      "anchor_document_count": 2,
+      "field_document_count": 2
+    },
+    {
+      "index": 72,
+      "section": "惠泽咯",
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357872",
+      "field": "绝杀①头",
+      "position": "顶部",
+      "parse_hint": "full_period_list",
+      "content_hint": "绝杀①头",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "user:4571:forum:15721532",
+          "document_key": "forum_history|15721532|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357872|$|user:4571:forum:15721532|user:4571:forum:15721532",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "4头",
+              "raw_line": "212期:绝杀①头杀「4头」开:0000准",
+              "original_position": 0,
+              "source_route": "forum_history",
+              "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357872",
+              "source_record_id": "15721532",
+              "source_record_path": "$"
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "document_index": 0,
+          "route": "page",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357872",
+          "source_block_id": "page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357872:0",
+          "document_key": "page||https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357872|||page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357872:0",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 1,
+          "route": "forum",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357872",
+          "source_block_id": "user:4571:forum:15357872",
+          "document_key": "forum|15357872|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357872|$|user:4571:forum:15357872|user:4571:forum:15357872",
+          "record_id": "15357872",
+          "record_path": "$",
+          "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/forums/15357872",
+          "title": "惠泽社群 绝杀①头",
+          "author": "4571",
+          "anchor_ok": true,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 2,
+          "route": "forum_history",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357872",
+          "source_block_id": "user:4571:forum:15721532",
+          "document_key": "forum_history|15721532|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357872|$|user:4571:forum:15721532|user:4571:forum:15721532",
+          "record_id": "15721532",
+          "record_path": "$",
+          "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/forums/15721532",
+          "title": "惠泽社群 绝杀①头",
+          "author": "4571",
+          "anchor_ok": true,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": [
+            {
+              "period": "212期",
+              "value": "4头",
+              "raw_line": "212期:绝杀①头杀「4头」开:0000准",
+              "original_position": 0,
+              "record_order": 0
+            }
+          ]
+        }
+      ],
+      "raw_evidence": [
+        {
+          "source_block_id": "user:4571:forum:15721532",
+          "document_key": "forum_history|15721532|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357872|$|user:4571:forum:15721532|user:4571:forum:15721532",
+          "period": "212期",
+          "value": "4头",
+          "raw_line": "212期:绝杀①头杀「4头」开:0000准",
+          "original_position": 0
+        }
+      ],
+      "http_requests": [
+        {
+          "method": "GET",
+          "kind": "page",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357872",
+          "status_code": 200
+        },
+        {
+          "method": "GET",
+          "kind": "forum",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/forums/15357872",
+          "status_code": null,
+          "record_id": "15357872",
+          "record_path": "$",
+          "source_block_id": "user:4571:forum:15357872"
+        },
+        {
+          "method": "GET",
+          "kind": "forum_history",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/forums/15721532",
+          "status_code": null,
+          "record_id": "15721532",
+          "record_path": "$",
+          "source_block_id": "user:4571:forum:15721532"
+        }
+      ],
+      "error_reason": "",
+      "elapsed_seconds": 0.875,
+      "anchor_document_count": 2,
+      "field_document_count": 2
+    },
+    {
+      "index": 73,
+      "section": "澳门挂椅",
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357866",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "parse_hint": "full_period_list",
+      "content_hint": "绝杀一头",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "user:4797:forum:15721522",
+          "document_key": "forum_history|15721522|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357866|$|user:4797:forum:15721522|user:4797:forum:15721522",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "4头",
+              "raw_line": "212期：《绝杀一头》【444头】开：000准",
+              "original_position": 0,
+              "source_route": "forum_history",
+              "source_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357866",
+              "source_record_id": "15721522",
+              "source_record_path": "$"
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "document_index": 0,
+          "route": "page",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357866",
+          "source_block_id": "page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357866:0",
+          "document_key": "page||https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357866|||page:https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357866:0",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 1,
+          "route": "forum",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357866",
+          "source_block_id": "user:4797:forum:15357866",
+          "document_key": "forum|15357866|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357866|$|user:4797:forum:15357866|user:4797:forum:15357866",
+          "record_id": "15357866",
+          "record_path": "$",
+          "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/forums/15357866",
+          "title": "澳门挂牌 绝杀一头",
+          "author": "4797",
+          "anchor_ok": true,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 2,
+          "route": "forum_history",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357866",
+          "source_block_id": "user:4797:forum:15721522",
+          "document_key": "forum_history|15721522|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357866|$|user:4797:forum:15721522|user:4797:forum:15721522",
+          "record_id": "15721522",
+          "record_path": "$",
+          "api_url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/forums/15721522",
+          "title": "澳门挂牌 绝杀一头",
+          "author": "4797",
+          "anchor_ok": true,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": [
+            {
+              "period": "212期",
+              "value": "4头",
+              "raw_line": "212期：《绝杀一头》【444头】开：000准",
+              "original_position": 0,
+              "record_order": 0
+            }
+          ]
+        }
+      ],
+      "raw_evidence": [
+        {
+          "source_block_id": "user:4797:forum:15721522",
+          "document_key": "forum_history|15721522|https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357866|$|user:4797:forum:15721522|user:4797:forum:15721522",
+          "period": "212期",
+          "value": "4头",
+          "raw_line": "212期：《绝杀一头》【444头】开：000准",
+          "original_position": 0
+        }
+      ],
+      "http_requests": [
+        {
+          "method": "GET",
+          "kind": "page",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357866",
+          "status_code": 200
+        },
+        {
+          "method": "GET",
+          "kind": "forum",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/forums/15357866",
+          "status_code": null,
+          "record_id": "15357866",
+          "record_path": "$",
+          "source_block_id": "user:4797:forum:15357866"
+        },
+        {
+          "method": "GET",
+          "kind": "forum_history",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/api/v1/forums/15721522",
+          "status_code": null,
+          "record_id": "15721522",
+          "record_path": "$",
+          "source_block_id": "user:4797:forum:15721522"
+        }
+      ],
+      "error_reason": "",
+      "elapsed_seconds": 0.89,
+      "anchor_document_count": 2,
+      "field_document_count": 2
+    },
+    {
+      "index": 74,
+      "section": "直木必伐",
+      "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/272923.html",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "parse_hint": "full_period_list",
+      "content_hint": "直木必伐",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/c405f7d1709880b3.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/c405f7d1709880b3.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/c405f7d1709880b3.js",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "2头",
+              "raw_line": "212期：【杀一头】《2头》开",
+              "original_position": 0,
+              "source_route": "script",
+              "source_url": "https://xia04.cosds.ahsccn.com/upload/script/08/c405f7d1709880b3.js",
+              "source_record_id": "",
+              "source_record_path": ""
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "document_index": 0,
+          "route": "page",
+          "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/272923.html",
+          "source_block_id": "page:https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/272923.html:0",
+          "document_key": "page||https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/272923.html|||page:https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/272923.html:0",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 1,
+          "route": "script",
+          "url": "https://xia03.cosds.ahsccn.com/upload/script/08/f5966f4c4d796fe5.js",
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/08/f5966f4c4d796fe5.js",
+          "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/08/f5966f4c4d796fe5.js|||script:https://xia03.cosds.ahsccn.com/upload/script/08/f5966f4c4d796fe5.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 2,
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/08/c405f7d1709880b3.js",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/c405f7d1709880b3.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/c405f7d1709880b3.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/c405f7d1709880b3.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": true,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": [
+            {
+              "period": "212期",
+              "value": "2头",
+              "raw_line": "212期：【杀一头】《2头》开",
+              "original_position": 0,
+              "record_order": 0
+            }
+          ]
+        },
+        {
+          "document_index": 3,
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/08/83f177d497b50b91.js",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/83f177d497b50b91.js",
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/08/83f177d497b50b91.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/83f177d497b50b91.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": []
+        }
+      ],
+      "raw_evidence": [
+        {
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/c405f7d1709880b3.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/c405f7d1709880b3.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/c405f7d1709880b3.js",
+          "period": "212期",
+          "value": "2头",
+          "raw_line": "212期：【杀一头】《2头》开",
+          "original_position": 0
+        }
+      ],
+      "http_requests": [
+        {
+          "method": "GET",
+          "kind": "page",
+          "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/272923.html",
+          "status_code": 200
+        }
+      ],
+      "error_reason": "",
+      "elapsed_seconds": 4.953,
+      "anchor_document_count": 1,
+      "field_document_count": 2
+    },
+    {
+      "index": 75,
+      "section": "讨恶翦暴",
+      "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/272723.html",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "parse_hint": "full_period_list",
+      "content_hint": "讨恶翦暴",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia02.cosds.ahsccn.com/upload/script/08/0b93fe649f6d75cc.js",
+          "document_key": "script||https://xia02.cosds.ahsccn.com/upload/script/08/0b93fe649f6d75cc.js|||script:https://xia02.cosds.ahsccn.com/upload/script/08/0b93fe649f6d75cc.js",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "0头",
+              "raw_line": "212期:【绝杀1头】【000】开:00准上一篇：精准杀料",
+              "original_position": 211,
+              "source_route": "script",
+              "source_url": "https://xia02.cosds.ahsccn.com/upload/script/08/0b93fe649f6d75cc.js",
+              "source_record_id": "",
+              "source_record_path": ""
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "document_index": 0,
+          "route": "page",
+          "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/272723.html",
+          "source_block_id": "page:https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/272723.html:0",
+          "document_key": "page||https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/272723.html|||page:https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/272723.html:0",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 1,
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/08/87663c8f60fdb5c5.js",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/87663c8f60fdb5c5.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/87663c8f60fdb5c5.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/87663c8f60fdb5c5.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 2,
+          "route": "script",
+          "url": "https://xia02.cosds.ahsccn.com/upload/script/08/0b93fe649f6d75cc.js",
+          "source_block_id": "script:https://xia02.cosds.ahsccn.com/upload/script/08/0b93fe649f6d75cc.js",
+          "document_key": "script||https://xia02.cosds.ahsccn.com/upload/script/08/0b93fe649f6d75cc.js|||script:https://xia02.cosds.ahsccn.com/upload/script/08/0b93fe649f6d75cc.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": true,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": [
+            {
+              "period": "212期",
+              "value": "0头",
+              "raw_line": "212期:【绝杀1头】【000】开:00准上一篇：精准杀料",
+              "original_position": 211,
+              "record_order": 211
+            }
+          ]
+        },
+        {
+          "document_index": 3,
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/08/71d1dfee2fbcc1d1.js",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/71d1dfee2fbcc1d1.js",
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/08/71d1dfee2fbcc1d1.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/71d1dfee2fbcc1d1.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": []
+        }
+      ],
+      "raw_evidence": [
+        {
+          "source_block_id": "script:https://xia02.cosds.ahsccn.com/upload/script/08/0b93fe649f6d75cc.js",
+          "document_key": "script||https://xia02.cosds.ahsccn.com/upload/script/08/0b93fe649f6d75cc.js|||script:https://xia02.cosds.ahsccn.com/upload/script/08/0b93fe649f6d75cc.js",
+          "period": "212期",
+          "value": "0头",
+          "raw_line": "212期:【绝杀1头】【000】开:00准上一篇：精准杀料",
+          "original_position": 211
+        }
+      ],
+      "http_requests": [
+        {
+          "method": "GET",
+          "kind": "page",
+          "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/272723.html",
+          "status_code": 200
+        }
+      ],
+      "error_reason": "",
+      "elapsed_seconds": 2.516,
+      "anchor_document_count": 1,
+      "field_document_count": 2
+    },
+    {
+      "index": 76,
+      "section": "破甑生尘",
+      "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/291127.html",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 2,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/08/d5ea0c7804fdfef0.js",
+          "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/08/d5ea0c7804fdfef0.js|||script:https://xia03.cosds.ahsccn.com/upload/script/08/d5ea0c7804fdfef0.js",
+          "count": 2,
+          "records": [
+            {
+              "period": "212期",
+              "value": "4头",
+              "raw_line": "212期【绝杀一头】444头开：牛06准",
+              "original_position": 1,
+              "source_route": "script",
+              "source_url": "https://xia03.cosds.ahsccn.com/upload/script/08/d5ea0c7804fdfef0.js",
+              "source_record_id": "",
+              "source_record_path": ""
+            },
+            {
+              "period": "212期",
+              "value": "3头",
+              "raw_line": "212期【绝杀一头】333头开：鼠18准",
+              "original_position": 366,
+              "source_route": "script",
+              "source_url": "https://xia03.cosds.ahsccn.com/upload/script/08/d5ea0c7804fdfef0.js",
+              "source_record_id": "",
+              "source_record_path": ""
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "document_index": 0,
+          "route": "page",
+          "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/291127.html",
+          "source_block_id": "page:https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/291127.html:0",
+          "document_key": "page||https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/291127.html|||page:https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/291127.html:0",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 1,
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/08/88995cbfb47648a0.js",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/88995cbfb47648a0.js",
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/08/88995cbfb47648a0.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/88995cbfb47648a0.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 2,
+          "route": "script",
+          "url": "https://xia03.cosds.ahsccn.com/upload/script/08/d5ea0c7804fdfef0.js",
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/08/d5ea0c7804fdfef0.js",
+          "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/08/d5ea0c7804fdfef0.js|||script:https://xia03.cosds.ahsccn.com/upload/script/08/d5ea0c7804fdfef0.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": true,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": [
+            {
+              "period": "212期",
+              "value": "4头",
+              "raw_line": "212期【绝杀一头】444头开：牛06准",
+              "original_position": 1,
+              "record_order": 1
+            },
+            {
+              "period": "212期",
+              "value": "3头",
+              "raw_line": "212期【绝杀一头】333头开：鼠18准",
+              "original_position": 366,
+              "record_order": 366
+            }
+          ]
+        },
+        {
+          "document_index": 3,
+          "route": "script",
+          "url": "https://xia02.cosds.ahsccn.com/upload/script/08/5f34cc5fd54ac9ed.js",
+          "source_block_id": "script:https://xia02.cosds.ahsccn.com/upload/script/08/5f34cc5fd54ac9ed.js",
+          "document_key": "script||https://xia02.cosds.ahsccn.com/upload/script/08/5f34cc5fd54ac9ed.js|||script:https://xia02.cosds.ahsccn.com/upload/script/08/5f34cc5fd54ac9ed.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": []
+        }
+      ],
+      "raw_evidence": [
+        {
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/08/d5ea0c7804fdfef0.js",
+          "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/08/d5ea0c7804fdfef0.js|||script:https://xia03.cosds.ahsccn.com/upload/script/08/d5ea0c7804fdfef0.js",
+          "period": "212期",
+          "value": "4头",
+          "raw_line": "212期【绝杀一头】444头开：牛06准",
+          "original_position": 1
+        },
+        {
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/08/d5ea0c7804fdfef0.js",
+          "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/08/d5ea0c7804fdfef0.js|||script:https://xia03.cosds.ahsccn.com/upload/script/08/d5ea0c7804fdfef0.js",
+          "period": "212期",
+          "value": "3头",
+          "raw_line": "212期【绝杀一头】333头开：鼠18准",
+          "original_position": 366
+        }
+      ],
+      "http_requests": [
+        {
+          "method": "GET",
+          "kind": "page",
+          "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/291127.html",
+          "status_code": 200
+        }
+      ],
+      "error_reason": "",
+      "elapsed_seconds": 2.734,
+      "anchor_document_count": 1,
+      "field_document_count": 2
+    },
+    {
+      "index": 77,
+      "section": "叔季之世",
+      "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/291136.html",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "parse_hint": "full_period_list",
+      "content_hint": "叔季之世",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/dfc8d8b4116cce40.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/dfc8d8b4116cce40.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/dfc8d8b4116cce40.js",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "2头",
+              "raw_line": "212期绝杀一头『2头』开000准",
+              "original_position": 0,
+              "source_route": "script",
+              "source_url": "https://xia04.cosds.ahsccn.com/upload/script/08/dfc8d8b4116cce40.js",
+              "source_record_id": "",
+              "source_record_path": ""
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "document_index": 0,
+          "route": "page",
+          "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/291136.html",
+          "source_block_id": "page:https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/291136.html:0",
+          "document_key": "page||https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/291136.html|||page:https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/291136.html:0",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 1,
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/08/d2fb14720f6ae530.js",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/08/d2fb14720f6ae530.js",
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/08/d2fb14720f6ae530.js|||script:https://xia01.cosds.ahsccn.com/upload/script/08/d2fb14720f6ae530.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 2,
+          "route": "script",
+          "url": "https://xia04.cosds.ahsccn.com/upload/script/08/dfc8d8b4116cce40.js",
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/dfc8d8b4116cce40.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/dfc8d8b4116cce40.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/dfc8d8b4116cce40.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": true,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": [
+            {
+              "period": "212期",
+              "value": "2头",
+              "raw_line": "212期绝杀一头『2头』开000准",
+              "original_position": 0,
+              "record_order": 0
+            }
+          ]
+        },
+        {
+          "document_index": 3,
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/08/91507bcf9d6b9758.js",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/08/91507bcf9d6b9758.js",
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/08/91507bcf9d6b9758.js|||script:https://xia01.cosds.ahsccn.com/upload/script/08/91507bcf9d6b9758.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": true,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": []
+        }
+      ],
+      "raw_evidence": [
+        {
+          "source_block_id": "script:https://xia04.cosds.ahsccn.com/upload/script/08/dfc8d8b4116cce40.js",
+          "document_key": "script||https://xia04.cosds.ahsccn.com/upload/script/08/dfc8d8b4116cce40.js|||script:https://xia04.cosds.ahsccn.com/upload/script/08/dfc8d8b4116cce40.js",
+          "period": "212期",
+          "value": "2头",
+          "raw_line": "212期绝杀一头『2头』开000准",
+          "original_position": 0
+        }
+      ],
+      "http_requests": [
+        {
+          "method": "GET",
+          "kind": "page",
+          "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/291136.html",
+          "status_code": 200
+        }
+      ],
+      "error_reason": "",
+      "elapsed_seconds": 4.188,
+      "anchor_document_count": 2,
+      "field_document_count": 2
+    },
+    {
+      "index": 78,
+      "section": "财运必通",
+      "url": "https://vqxzuc.fggtp-huz0q-sbrraa.xyz:16677/topic/458658.html",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "parse_hint": "full_period_list",
+      "content_hint": "财运必通",
+      "target_period": "212期",
+      "status": "ok",
+      "target_count": 1,
+      "block_count_details": [
+        {
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/3082ee3e1e18278c.js",
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/08/3082ee3e1e18278c.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/3082ee3e1e18278c.js",
+          "count": 1,
+          "records": [
+            {
+              "period": "212期",
+              "value": "1头",
+              "raw_line": "212期：【绝杀一头】《1头》开:0000准",
+              "original_position": 0,
+              "source_route": "script",
+              "source_url": "https://xia05.cosds.ahsccn.com/upload/script/08/3082ee3e1e18278c.js",
+              "source_record_id": "",
+              "source_record_path": ""
+            }
+          ]
+        }
+      ],
+      "source_documents": [
+        {
+          "document_index": 0,
+          "route": "page",
+          "url": "https://vqxzuc.fggtp-huz0q-sbrraa.xyz:16677/topic/458658.html",
+          "source_block_id": "page:https://vqxzuc.fggtp-huz0q-sbrraa.xyz:16677/topic/458658.html:0",
+          "document_key": "page||https://vqxzuc.fggtp-huz0q-sbrraa.xyz:16677/topic/458658.html|||page:https://vqxzuc.fggtp-huz0q-sbrraa.xyz:16677/topic/458658.html:0",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 1,
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/08/bd4ac0cad69e7e31.js",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/08/bd4ac0cad69e7e31.js",
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/08/bd4ac0cad69e7e31.js|||script:https://xia01.cosds.ahsccn.com/upload/script/08/bd4ac0cad69e7e31.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 2,
+          "route": "script",
+          "url": "https://xia01.cosds.ahsccn.com/upload/script/08/ad0363046cdcbf1c.js",
+          "source_block_id": "script:https://xia01.cosds.ahsccn.com/upload/script/08/ad0363046cdcbf1c.js",
+          "document_key": "script||https://xia01.cosds.ahsccn.com/upload/script/08/ad0363046cdcbf1c.js|||script:https://xia01.cosds.ahsccn.com/upload/script/08/ad0363046cdcbf1c.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        },
+        {
+          "document_index": 3,
+          "route": "script",
+          "url": "https://xia05.cosds.ahsccn.com/upload/script/08/3082ee3e1e18278c.js",
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/3082ee3e1e18278c.js",
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/08/3082ee3e1e18278c.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/3082ee3e1e18278c.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": true,
+          "field_ok": true,
+          "resource_error": "",
+          "target_records": [
+            {
+              "period": "212期",
+              "value": "1头",
+              "raw_line": "212期：【绝杀一头】《1头》开:0000准",
+              "original_position": 0,
+              "record_order": 0
+            }
+          ]
+        },
+        {
+          "document_index": 4,
+          "route": "script",
+          "url": "https://xia03.cosds.ahsccn.com/upload/script/08/d0de62b3a036895b.js",
+          "source_block_id": "script:https://xia03.cosds.ahsccn.com/upload/script/08/d0de62b3a036895b.js",
+          "document_key": "script||https://xia03.cosds.ahsccn.com/upload/script/08/d0de62b3a036895b.js|||script:https://xia03.cosds.ahsccn.com/upload/script/08/d0de62b3a036895b.js",
+          "record_id": "",
+          "record_path": "",
+          "api_url": "",
+          "title": "",
+          "author": "",
+          "anchor_ok": false,
+          "field_ok": false,
+          "resource_error": "",
+          "target_records": []
+        }
+      ],
+      "raw_evidence": [
+        {
+          "source_block_id": "script:https://xia05.cosds.ahsccn.com/upload/script/08/3082ee3e1e18278c.js",
+          "document_key": "script||https://xia05.cosds.ahsccn.com/upload/script/08/3082ee3e1e18278c.js|||script:https://xia05.cosds.ahsccn.com/upload/script/08/3082ee3e1e18278c.js",
+          "period": "212期",
+          "value": "1头",
+          "raw_line": "212期：【绝杀一头】《1头》开:0000准",
+          "original_position": 0
+        }
+      ],
+      "http_requests": [
+        {
+          "method": "GET",
+          "kind": "page",
+          "url": "https://vqxzuc.fggtp-huz0q-sbrraa.xyz:16677/topic/458658.html",
+          "status_code": 200
+        }
+      ],
+      "error_reason": "",
+      "elapsed_seconds": 4.719,
+      "anchor_document_count": 1,
+      "field_document_count": 1
+    }
+  ],
+  "assigned_count": 13,
+  "processed_count": 13,
+  "omitted_indices": [],
+  "duplicate_indices": [],
+  "count_by_status": {
+    "ok": 13
+  },
+  "total_target_records": 14,
+  "formal_file_guard": {
+    "before": {
+      "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版\\sites.json": {
+        "exists": true,
+        "sha256": "f7914f2238b6cdf6d9cc01883ec2a68d179a513c441b41f4138da21d15226adb",
+        "size": 65435,
+        "mtime_ns": 1785408530910859400
+      },
+      "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版\\.tmp\\recent_10_cache.json": {
+        "exists": true,
+        "sha256": "02dd22ac9b60e89ab32cdef81072f673c60d4150f1d3b65fad6d2996caf2325f",
+        "size": 550211,
+        "mtime_ns": 1785428012558648000
+      },
+      "C:\\Users\\Administrator\\Desktop\\每天工具\\数据系列\\七类数据统一归纳\\212期-头.txt": {
+        "exists": true,
+        "sha256": "672312d00b1965ab86f14289aea7fd170279706a6383cd4ecac21529a25efaa9",
+        "size": 4374,
+        "mtime_ns": 1785501182965158800
+      },
+      "C:\\Users\\Administrator\\Desktop\\每天工具\\数据系列\\七类数据统一归纳失败\\212期失败-一头.txt": {
+        "exists": true,
+        "sha256": "9d7c14a8bc05be9aed4a89973ec8d23ee7c48cd9da1e7ce4211fd6f141141394",
+        "size": 1650,
+        "mtime_ns": 1785497423542165800
+      }
+    },
+    "after": {
+      "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版\\sites.json": {
+        "exists": true,
+        "sha256": "f7914f2238b6cdf6d9cc01883ec2a68d179a513c441b41f4138da21d15226adb",
+        "size": 65435,
+        "mtime_ns": 1785408530910859400
+      },
+      "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版\\.tmp\\recent_10_cache.json": {
+        "exists": true,
+        "sha256": "02dd22ac9b60e89ab32cdef81072f673c60d4150f1d3b65fad6d2996caf2325f",
+        "size": 550211,
+        "mtime_ns": 1785428012558648000
+      },
+      "C:\\Users\\Administrator\\Desktop\\每天工具\\数据系列\\七类数据统一归纳\\212期-头.txt": {
+        "exists": true,
+        "sha256": "672312d00b1965ab86f14289aea7fd170279706a6383cd4ecac21529a25efaa9",
+        "size": 4374,
+        "mtime_ns": 1785501182965158800
+      },
+      "C:\\Users\\Administrator\\Desktop\\每天工具\\数据系列\\七类数据统一归纳失败\\212期失败-一头.txt": {
+        "exists": true,
+        "sha256": "9d7c14a8bc05be9aed4a89973ec8d23ee7c48cd9da1e7ce4211fd6f141141394",
+        "size": 1650,
+        "mtime_ns": 1785497423542165800
+      }
+    },
+    "unchanged": true
+  }
+}

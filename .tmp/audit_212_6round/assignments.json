@@ -1,0 +1,2771 @@
+{
+  "project": "C:\\Users\\Administrator\\Desktop\\每天工具\\爬虫合集\\杀一头_修复版",
+  "target_period": "212期",
+  "total_sites": 238,
+  "rounds": 6,
+  "agents_per_round": 3,
+  "groups": [
+    {
+      "round": 1,
+      "agent": 1,
+      "start_index": 0,
+      "end_index": 12,
+      "sites": [
+        {
+          "index": 0,
+          "name": "",
+          "section": "熊出没",
+          "url": "https://sadoleu.rznla-fgwyr-nzqalp.xyz:16677/",
+          "field": "禁一头",
+          "position": "顶部",
+          "content_hint": "特码绝杀区",
+          "parse_hint": "table_column",
+          "api_url": ""
+        },
+        {
+          "index": 1,
+          "name": "",
+          "section": "平特综合",
+          "url": "https://tulprhfc.wghcb-bnmgm-hyymaz.work:16655/",
+          "field": "禁一头",
+          "position": "尾部",
+          "content_hint": "综合绝杀",
+          "parse_hint": "table_column",
+          "api_url": ""
+        },
+        {
+          "index": 2,
+          "name": "",
+          "section": "智能",
+          "url": "https://jjlachsn.4fk3e-i2rpf-vgknlh.work:16677/",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "AI斩头",
+          "parse_hint": "AI斩头",
+          "api_url": ""
+        },
+        {
+          "index": 3,
+          "name": "",
+          "section": "震撼六和界",
+          "url": "https://jjlachsn.4fk3e-i2rpf-vgknlh.work:16677/topic/661948.html",
+          "field": "稳杀一头",
+          "position": "顶部",
+          "content_hint": "稳杀一头",
+          "parse_hint": "strict_position_three",
+          "api_url": ""
+        },
+        {
+          "index": 4,
+          "name": "",
+          "section": "天下彩",
+          "url": "https://eqyyanu.4rfyf-h2bx5-oxsbom.xyz:16677/",
+          "field": "砍杀一头",
+          "position": "顶部",
+          "content_hint": "天下彩",
+          "parse_hint": "bracket_sha_yi_tou",
+          "api_url": ""
+        },
+        {
+          "index": 5,
+          "name": "",
+          "section": "花开浅夏",
+          "url": "https://eqyyanu.4rfyf-h2bx5-oxsbom.xyz:16677/topic/157527.html",
+          "field": "稳杀一头",
+          "position": "顶部",
+          "content_hint": "绝杀①头",
+          "parse_hint": "绝杀①头",
+          "api_url": ""
+        },
+        {
+          "index": 6,
+          "name": "",
+          "section": "鸟语花香",
+          "url": "https://gboqrz.pjedz-evdz7-ftlrkx.work/topic/470627.html",
+          "field": "绝杀一头",
+          "position": "尾部",
+          "content_hint": "作者:鸟语花香",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 7,
+          "name": "",
+          "section": "谢天谢地",
+          "url": "https://6f4poq.b5z56-on5kp-vinkkj.work/topic/485596.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 8,
+          "name": "",
+          "section": "一团和气",
+          "url": "https://w4shq9.me9lh-curg4-fwdzzw.work/topic/453615.html",
+          "field": "精杀一头",
+          "position": "尾部",
+          "content_hint": "作者:一团和气",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 9,
+          "name": "",
+          "section": "阪上走丸",
+          "url": "https://qygfz.6yyij-749bz-xqmbjc.xyz/topic/232084.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "作者:阪上走丸",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 10,
+          "name": "",
+          "section": "来情去意",
+          "url": "https://gboqrz.pjedz-evdz7-ftlrkx.work/topic/224119.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "作者:来情去意",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 11,
+          "name": "",
+          "section": "没精打采",
+          "url": "https://bqipgah.pvib6-ptrqe-ihcefh.xyz:16677/topic/268612.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "没精打采 发表于",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 12,
+          "name": "",
+          "section": "凤毛麟角",
+          "url": "https://bqipgah.pvib6-ptrqe-ihcefh.xyz:16677/topic/268615.html",
+          "field": "一头",
+          "position": "顶部",
+          "content_hint": "凤毛麟角 发表于",
+          "parse_hint": "fengmaolinjiao_top_kill_head",
+          "api_url": ""
+        }
+      ]
+    },
+    {
+      "round": 1,
+      "agent": 2,
+      "start_index": 13,
+      "end_index": 25,
+      "sites": [
+        {
+          "index": 13,
+          "name": "",
+          "section": "男人味",
+          "url": "https://rmrcjqk.6ln2t-46k8t-kuthoe.xyz:16677/",
+          "field": "杀一头",
+          "position": "顶部",
+          "content_hint": "综合绝杀",
+          "parse_hint": "table_column",
+          "api_url": ""
+        },
+        {
+          "index": 14,
+          "name": "",
+          "section": "蓝月亮",
+          "url": "https://zwhzkjo.fc4fh-otded-nvhceu.xyz:16677/",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "澳门蓝月亮--绝杀一头",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 15,
+          "name": "",
+          "section": "好好先生",
+          "url": "https://jogavu.6bl6s-ilo1w-yfnvvl.work:16677/topic/678115.html",
+          "field": "稳杀一头",
+          "position": "顶部",
+          "content_hint": "好好先生",
+          "parse_hint": "bracket_field_head",
+          "api_url": ""
+        },
+        {
+          "index": 16,
+          "name": "",
+          "section": "爱琴浪漫",
+          "url": "https://zdwcig.iyo4d-81klf-udwkqg.work:16677/topic/522186.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "爱琴浪漫 发表于",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 17,
+          "name": "",
+          "section": "水果爷爷",
+          "url": "https://zdwcig.iyo4d-81klf-udwkqg.work:16677/",
+          "field": "绝杀①头",
+          "position": "顶部",
+          "content_hint": "绝杀①头",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 18,
+          "name": "",
+          "section": "金牌谜语",
+          "url": "https://scbnsyz.3dl0e-87g6y-coruzs.xyz:16677/topic/273120.html",
+          "field": "稳杀一头",
+          "position": "顶部",
+          "content_hint": "金牌谜语",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 19,
+          "name": "",
+          "section": "呼风唤雨",
+          "url": "https://cpvqejp.avdja-la48l-xnsdva.xyz:16677/topic/336770.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "作者:呼风唤雨",
+          "parse_hint": "strict_position_three",
+          "api_url": ""
+        },
+        {
+          "index": 20,
+          "name": "",
+          "section": "踏雪",
+          "url": "https://ntvjzt.gau41-qu6jy-sotyug.work:16677/",
+          "field": "杀一头",
+          "position": "顶部",
+          "content_hint": "综合绝杀区",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 21,
+          "name": "",
+          "section": "天高云淡",
+          "url": "https://ntvjzt.gau41-qu6jy-sotyug.work:16677/topic/309348.html",
+          "field": "精杀一头",
+          "position": "尾部",
+          "content_hint": "",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 22,
+          "name": "",
+          "section": "王中王",
+          "url": "https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/",
+          "field": "禁一头",
+          "position": "尾部",
+          "content_hint": "综合禁全区",
+          "parse_hint": "table_column",
+          "api_url": ""
+        },
+        {
+          "index": 23,
+          "name": "",
+          "section": "佶屈聱牙",
+          "url": "https://lihpcb.sf21s-zracb-gtfpub.work:16677/topic/322360.html",
+          "field": "绝杀一头",
+          "position": "尾部",
+          "content_hint": "佶屈聱牙",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 24,
+          "name": "",
+          "section": "众矢之的",
+          "url": "https://iboatq.pjgpm-epbf7-lxpezb.work:16677/topic/324657.html",
+          "field": "精杀一头",
+          "position": "顶部",
+          "content_hint": "众矢之的",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 25,
+          "name": "",
+          "section": "一步到位",
+          "url": "https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/250661.html",
+          "field": "精杀一头",
+          "position": "尾部",
+          "content_hint": "一步到位",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        }
+      ]
+    },
+    {
+      "round": 1,
+      "agent": 3,
+      "start_index": 26,
+      "end_index": 38,
+      "sites": [
+        {
+          "index": 26,
+          "name": "",
+          "section": "水漫金山",
+          "url": "https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/250682.html",
+          "field": "绝杀一头",
+          "position": "尾部",
+          "content_hint": "水漫金山",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 27,
+          "name": "",
+          "section": "精准资料",
+          "url": "https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/250867.html",
+          "field": "精杀一头",
+          "position": "尾部",
+          "content_hint": "精杀一头精准",
+          "parse_hint": "strict_position_three_miaosha",
+          "api_url": ""
+        },
+        {
+          "index": 28,
+          "name": "",
+          "section": "东风浩荡",
+          "url": "https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/223644.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "东风浩荡",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 29,
+          "name": "",
+          "section": "发家致富",
+          "url": "https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/205817.html",
+          "field": "稳杀一头",
+          "position": "顶部",
+          "content_hint": "发家致富",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 30,
+          "name": "",
+          "section": "杀码榜",
+          "url": "https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/205670.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "杀料榜",
+          "parse_hint": "strict_position_three",
+          "api_url": ""
+        },
+        {
+          "index": 31,
+          "name": "",
+          "section": "万里长城",
+          "url": "https://fszatrw.xhwqs-gffny-zzdfsq.work:16677/topic/678234.html",
+          "field": "必杀一头",
+          "position": "尾部",
+          "content_hint": "万里长城",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 32,
+          "name": "",
+          "section": "兄弟情深",
+          "url": "https://jldzuea.0xkqd-q7ng5-boerfb.xyz:16677/topic/455519.html",
+          "field": "绝杀一头",
+          "position": "尾部",
+          "content_hint": "兄弟情深",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 33,
+          "name": "",
+          "section": "广西仔",
+          "url": "https://jldzuea.0xkqd-q7ng5-boerfb.xyz:16677/topic/677574.html",
+          "field": "稳杀一头",
+          "position": "顶部",
+          "content_hint": "本站推荐",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 34,
+          "name": "",
+          "section": "维鸠居之",
+          "url": "https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/248016.html",
+          "field": "大杀一头",
+          "position": "尾部",
+          "content_hint": "",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 35,
+          "name": "",
+          "section": "人心所向-绝杀一头",
+          "url": "https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/248031.html",
+          "field": "绝杀一头",
+          "position": "尾部",
+          "content_hint": "大杀一头",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 36,
+          "name": "",
+          "section": "义无反顾",
+          "url": "https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/481766.html",
+          "field": "绝杀一头",
+          "position": "尾部",
+          "content_hint": "",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 37,
+          "name": "",
+          "section": "信封",
+          "url": "https://ptnvme.qlxrj-8q89y-qhwafv.xyz:16677/",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "『绝杀一头』",
+          "parse_hint": "strict_position_three",
+          "api_url": ""
+        },
+        {
+          "index": 38,
+          "name": "",
+          "section": "志在四方",
+          "url": "https://ptnvme.qlxrj-8q89y-qhwafv.xyz:16677/topic/309645.html",
+          "field": "必杀一头",
+          "position": "顶部",
+          "content_hint": "志在四方",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "agent": 1,
+      "start_index": 39,
+      "end_index": 51,
+      "sites": [
+        {
+          "index": 39,
+          "name": "",
+          "section": "藏锋敛锐",
+          "url": "https://s4wqb.8w0uz-fax7y-jbdqiy.xyz/topic/226653.html",
+          "field": "杀一头",
+          "position": "尾部",
+          "content_hint": "稳杀一头",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 40,
+          "name": "",
+          "section": "东望西观",
+          "url": "https://t3zvj.4b4tw-2u3l3-tigwym.xyz/topic/224106.html",
+          "field": "稳杀一头",
+          "position": "尾部",
+          "content_hint": "东望西观",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 41,
+          "name": "",
+          "section": "三分酒意",
+          "url": "https://111.246004.com:9066/Article.Aspx?ListId=247&id=53506",
+          "field": "精杀一头",
+          "position": "尾部",
+          "content_hint": "绝杀一头",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 42,
+          "name": "",
+          "section": "致富经",
+          "url": "https://979585.com.9795.in:1888/bbs/135.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "致富经",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 43,
+          "name": "",
+          "section": "美意延年",
+          "url": "https://zdtssflb.am9a6-vk0h6-lwbxab.xyz:16677/topic/324649.html",
+          "field": "精杀一头",
+          "position": "尾部",
+          "content_hint": "美意延年",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 44,
+          "name": "",
+          "section": "不得不爱",
+          "url": "https://zdtssflb.am9a6-vk0h6-lwbxab.xyz:16677/topic/306458.html",
+          "field": "精杀一头",
+          "position": "顶部",
+          "content_hint": "大杀一头",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 45,
+          "name": "",
+          "section": "沙里淘金",
+          "url": "https://kxglojup.fao5v-9u0oz-okhubb.work:16677/topic/466188.html",
+          "field": "期期杀①头",
+          "position": "尾部",
+          "content_hint": "期期杀一头",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 46,
+          "name": "",
+          "section": "瞽旷之耳",
+          "url": "https://mjnrsqwu.c3kef-jhnm5-opjvvz.xyz:16677/topic/213705.html",
+          "field": "杀一头",
+          "position": "尾部",
+          "content_hint": "作者:瞽旷之耳",
+          "parse_hint": "strict_position_three",
+          "api_url": ""
+        },
+        {
+          "index": 47,
+          "name": "",
+          "section": "关怀备至",
+          "url": "https://fqvgyzlp.sr7yu-gvk7e-xhdhyf.xyz:16677/topic/450402.html",
+          "field": "绝杀一头",
+          "position": "尾部",
+          "content_hint": "",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 48,
+          "name": "",
+          "section": "老鼠报",
+          "url": "https://jnumbamb.jgzeo-7yaht-bagdzs.xyz/topic/764759.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "精华区",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 49,
+          "name": "",
+          "section": "澳门公证",
+          "url": "https://uhaxnrzx.q76gf-deec8-zqckeo.xyz:16677/",
+          "field": "杀一头",
+          "position": "顶部",
+          "content_hint": "澳门公证处【综合绝杀】",
+          "parse_hint": "table_column",
+          "api_url": ""
+        },
+        {
+          "index": 50,
+          "name": "",
+          "section": "千变万化",
+          "url": "https://uhaxnrzx.q76gf-deec8-zqckeo.xyz:16677/topic/610301.html",
+          "field": "精杀一头",
+          "position": "顶部",
+          "content_hint": "千变万化 发表于",
+          "parse_hint": "strict_position_three",
+          "api_url": ""
+        },
+        {
+          "index": 51,
+          "name": "",
+          "section": "关云长",
+          "url": "https://lxbwvnfv.3gwtt-z9y8n-wsxdfy.xyz:16677/",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "agent": 2,
+      "start_index": 52,
+      "end_index": 65,
+      "sites": [
+        {
+          "index": 52,
+          "name": "",
+          "section": "五点来料",
+          "url": "https://ehqtty.tvtyn-iojf9-seeocb.xyz:16677/",
+          "field": "绝杀一头",
+          "position": "尾部",
+          "content_hint": "澳门五点来料域名",
+          "parse_hint": "table_column",
+          "api_url": ""
+        },
+        {
+          "index": 53,
+          "name": "",
+          "section": "举足轻重",
+          "url": "https://nxtoep.9at21-abkka-svfjrm.xyz:16677/topic/547511.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "举足轻重",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 54,
+          "name": "",
+          "section": "猪八戒",
+          "url": "https://kxglojup.fao5v-9u0oz-okhubb.work:16677/",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "猪八戒",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 55,
+          "name": "",
+          "section": "大吉大利",
+          "url": "https://mhpayza.30mg9-m9j7l-obwrmb.xyz/topic/766659.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "大吉大利",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 56,
+          "name": "",
+          "section": "洪七公",
+          "url": "https://jtmjfqq.ewlkg-dp3xr-hebqil.xyz:16677/",
+          "field": "绝杀①头",
+          "position": "顶部",
+          "content_hint": "洪七公",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 57,
+          "name": "",
+          "section": "前程似锦",
+          "url": "https://avfzesda.v3g7d-e00td-idgbab.xyz:16677/topic/464136.html",
+          "field": "精杀一头",
+          "position": "顶部",
+          "content_hint": "前程似锦",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 58,
+          "name": "",
+          "section": "今日闲情",
+          "url": "https://gabqzzz.ahv8c-6713g-otpeiy.xyz:16677/",
+          "field": "杀一头",
+          "position": "顶部",
+          "content_hint": "今日闲情《综合绝杀》",
+          "parse_hint": "table_column",
+          "api_url": ""
+        },
+        {
+          "index": 59,
+          "name": "",
+          "section": "广东八二",
+          "url": "https://cdlmrp.etrum-l5k1c-wcasxz.work:16677/#am",
+          "field": "稳杀(1)头",
+          "position": "顶部",
+          "content_hint": "绝杀一头",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 60,
+          "name": "",
+          "section": "花团锦簇",
+          "url": "https://pjaliv.o53jc-9p80e-xxbelu.xyz:16677/topic/626096.html",
+          "field": "精杀一头",
+          "position": "顶部",
+          "content_hint": "花团锦簇",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 61,
+          "name": "",
+          "section": "骄横跋扈",
+          "url": "https://pjaliv.o53jc-9p80e-xxbelu.xyz:16677/topic/625513.html",
+          "field": "精杀一头",
+          "position": "顶部",
+          "content_hint": "",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 62,
+          "name": "",
+          "section": "名列前茅",
+          "url": "https://pjaliv.o53jc-9p80e-xxbelu.xyz:16677/topic/625993.html",
+          "field": "精杀一头",
+          "position": "顶部",
+          "content_hint": "",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 63,
+          "name": "",
+          "section": "一衣带水",
+          "url": "https://pjaliv.o53jc-9p80e-xxbelu.xyz:16677/topic/626032.html",
+          "field": "精杀一头",
+          "position": "尾部",
+          "content_hint": "",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 64,
+          "name": "",
+          "section": "德高望重",
+          "url": "https://pjaliv.o53jc-9p80e-xxbelu.xyz:16677/topic/626100.html",
+          "field": "精杀一头",
+          "position": "顶部",
+          "content_hint": "",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 65,
+          "name": "",
+          "section": "错过的她",
+          "url": "https://pjaliv.o53jc-9p80e-xxbelu.xyz:16677/topic/626067.html",
+          "field": "精杀一头",
+          "position": "顶部",
+          "content_hint": "错过的她",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "agent": 3,
+      "start_index": 66,
+      "end_index": 78,
+      "sites": [
+        {
+          "index": 66,
+          "name": "",
+          "section": "三阳开泰",
+          "url": "https://estsghu.t7gsm-xl1x8-uohlna.xyz:16677/topic/356092.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "",
+          "parse_hint": "bracket_field_head",
+          "api_url": ""
+        },
+        {
+          "index": 67,
+          "name": "",
+          "section": "聪明绝顶",
+          "url": "https://wdkcwvg.ihm0v-x2ge2-muiqdd.xyz:16677/topic/236456.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "作者:聪明绝顶",
+          "parse_hint": "strict_position_three",
+          "api_url": ""
+        },
+        {
+          "index": 68,
+          "name": "",
+          "section": "角力中原",
+          "url": "https://wdkcwvg.ihm0v-x2ge2-muiqdd.xyz:16677/topic/209429.html",
+          "field": "绝杀①头",
+          "position": "顶部",
+          "content_hint": "绝杀一头",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 69,
+          "name": "",
+          "section": "奋起直追",
+          "url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/admin/6a1437ef4346bc68aea4f091?url=lqz",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "",
+          "parse_hint": "admin_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 70,
+          "name": "",
+          "section": "澳彩传奇",
+          "url": "https://rqvvaxwq.w30m7-xd23l-ebrbbj.xyz/topic/768567.html",
+          "field": "大杀一头",
+          "position": "顶部",
+          "content_hint": "人心所向",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 71,
+          "name": "",
+          "section": "福星抱抱",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15356509",
+          "field": "必杀一头",
+          "position": "顶部",
+          "content_hint": "福星报",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 72,
+          "name": "",
+          "section": "惠泽咯",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357872",
+          "field": "绝杀①头",
+          "position": "顶部",
+          "content_hint": "绝杀①头",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 73,
+          "name": "",
+          "section": "澳门挂椅",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357866",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "绝杀一头",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 74,
+          "name": "",
+          "section": "直木必伐",
+          "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/272923.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "直木必伐",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 75,
+          "name": "",
+          "section": "讨恶翦暴",
+          "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/272723.html",
+          "field": "绝杀一头",
+          "position": "尾部",
+          "content_hint": "讨恶翦暴",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 76,
+          "name": "",
+          "section": "破甑生尘",
+          "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/291127.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 77,
+          "name": "",
+          "section": "叔季之世",
+          "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/291136.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "叔季之世",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 78,
+          "name": "",
+          "section": "财运必通",
+          "url": "https://vqxzuc.fggtp-huz0q-sbrraa.xyz:16677/topic/458658.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "财运必通",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "agent": 1,
+      "start_index": 79,
+      "end_index": 91,
+      "sites": [
+        {
+          "index": 79,
+          "name": "",
+          "section": "離別之前",
+          "url": "https://vqxzuc.fggtp-huz0q-sbrraa.xyz:16677/topic/383843.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "離別之前",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 80,
+          "name": "",
+          "section": "老中医生",
+          "url": "https://vqxzuc.fggtp-huz0q-sbrraa.xyz:16677/topic/457529.html",
+          "field": "精杀一头",
+          "position": "顶部",
+          "content_hint": "老中医生",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 81,
+          "name": "",
+          "section": "肆言如狂",
+          "url": "https://ryfbdty.p4a53-f1hew-diwcrg.xyz:16677/topic/244751.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "肆言如狂",
+          "parse_hint": "top_primary_ten_periods",
+          "api_url": ""
+        },
+        {
+          "index": 82,
+          "name": "",
+          "section": "段干益浮",
+          "url": "https://gjyzpnkx.1r42a-pilbo-hfynxw.xyz:16677/topic/680680.html",
+          "field": "绝杀一头",
+          "position": "尾部",
+          "content_hint": "",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 83,
+          "name": "",
+          "section": "六玄",
+          "url": "https://tjetrfr.jocy8-cy4wk-fmpeer.xyz:16677/",
+          "field": "绝杀①头",
+          "position": "顶部",
+          "content_hint": "六玄",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 84,
+          "name": "",
+          "section": "赤兔",
+          "url": "https://zwpwuwq.fxnb4-uer1b-uftjcw.work:16677/#am",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "赤兔",
+          "parse_hint": "kill_head_phrase",
+          "api_url": ""
+        },
+        {
+          "index": 85,
+          "name": "",
+          "section": "呆头呆脚",
+          "url": "https://zwpwuwq.fxnb4-uer1b-uftjcw.work:16677/topic/556287.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "呆头呆脚",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 86,
+          "name": "",
+          "section": "花天酒地",
+          "url": "https://uixhmfb.1fxgs-oj4yy-fzfkdw.work:16677/",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "花天酒地",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 87,
+          "name": "",
+          "section": "横行霸道",
+          "url": "https://uvfsumi.v1t4x-1wx9k-vlvefm.xyz:16677/topic/249383.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "横行霸道",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 88,
+          "name": "",
+          "section": "顺其自然",
+          "url": "https://qgstvun.sp1n9-txvca-jmfjgh.work:16677/topic/649642.html",
+          "field": "稳杀一头",
+          "position": "顶部",
+          "content_hint": "顺其自然",
+          "parse_hint": "strict_position_three",
+          "api_url": ""
+        },
+        {
+          "index": 89,
+          "name": "",
+          "section": "钱能通神",
+          "url": "https://kfkxqua.vohzh-s0pbh-vhwsal.xyz:16677/topic/247428.html",
+          "field": "绝杀一头",
+          "position": "尾部",
+          "content_hint": "钱能通神",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 90,
+          "name": "",
+          "section": "绝世一战",
+          "url": "https://kfkxqua.vohzh-s0pbh-vhwsal.xyz:16677/topic/247459.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "绝世一战",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 91,
+          "name": "",
+          "section": "爱憎分明",
+          "url": "https://kfkxqua.vohzh-s0pbh-vhwsal.xyz:16677/topic/247453.html",
+          "field": "绝杀①头",
+          "position": "顶部",
+          "content_hint": "爱憎分明",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "agent": 2,
+      "start_index": 92,
+      "end_index": 104,
+      "sites": [
+        {
+          "index": 92,
+          "name": "",
+          "section": "辽城鹤化",
+          "url": "https://shuqhbq.654o7-lyreu-rzcudi.xyz:16677/topic/687157.html",
+          "field": "大杀一头",
+          "position": "顶部",
+          "content_hint": "辽城鹤化",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 93,
+          "name": "",
+          "section": "温婉如水",
+          "url": "https://akqasqa.drr11-soh5x-jcaafg.xyz:16677/",
+          "field": "特码(4)头",
+          "position": "顶部",
+          "content_hint": "温婉如水",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 94,
+          "name": "",
+          "section": "无名侠客",
+          "url": "https://mm.737799b.com:1888/art_gsb/8160",
+          "field": "特码四头",
+          "position": "顶部",
+          "content_hint": "作者：无名侠客",
+          "parse_hint": "anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 95,
+          "name": "",
+          "section": "神童资讯",
+          "url": "https://77.969353m.com:1888/",
+          "field": "四头中特",
+          "position": "顶部",
+          "content_hint": "神童资讯【四头中特】",
+          "parse_hint": "anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 96,
+          "name": "",
+          "section": "老五主",
+          "url": "https://77.969353m.com:1888/",
+          "field": "四头中特",
+          "position": "顶部",
+          "content_hint": "【老五主四头】",
+          "parse_hint": "anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 97,
+          "name": "",
+          "section": "似水柔情",
+          "url": "https://rwraojf.l54vq-9httr-cmdnip.work:29477/article/admin/6a041b284ea5c20141013dc6?url=xdr",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "似水柔情",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 98,
+          "name": "",
+          "section": "送福推荐",
+          "url": "https://fymxwnyg.ttmzc-muvns-udlfln.work:29455/article/admin/6a096fa5291caff3edcb8c19?url=lhbd",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "送福推荐",
+          "parse_hint": "admin_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 99,
+          "name": "",
+          "section": "人心所向-④头中特",
+          "url": "https://aszmkf.c3z3l-qrlqm-mwgccr.work:29411/article/admin/6a0837b308adb5ed7357efc9?url=lhw",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "人心所向",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 100,
+          "name": "",
+          "section": "金彩报喜",
+          "url": "https://aszmkf.c3z3l-qrlqm-mwgccr.work:29411/article/admin/6a083cd708adb5ed7357f032?url=lhw",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "金彩报喜",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 101,
+          "name": "",
+          "section": "火爆全网",
+          "url": "https://zxlfxpp.2n0je-9ecrg-kadbbu.work:29411/article/admin/6a1417e74346bc68aea4ef91?url=tmw",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "火爆全网",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 102,
+          "name": "",
+          "section": "水泄不通",
+          "url": "https://zqrtppa.9swju-6haxn-dlkint.work:29455/article/admin/6a33a647dfa16552b923cb17?url=yjs",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "水泄不通",
+          "parse_hint": "admin_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 103,
+          "name": "",
+          "section": "高手如林",
+          "url": "https://sndaygl.egjtc-sgs8w-taclan.work:29400/article/admin/6a140f13597e16d57eacb4b2?url=nmw",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "高手如林",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 104,
+          "name": "",
+          "section": "卡布奇诺",
+          "url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a04340f4ea5c20141013e2c?url=qdz",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "卡布奇诺",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "agent": 3,
+      "start_index": 105,
+      "end_index": 118,
+      "sites": [
+        {
+          "index": 105,
+          "name": "",
+          "section": "悬崖峭壁",
+          "url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02da196bedb2a8313d5863?url=home",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "悬崖峭壁",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 106,
+          "name": "",
+          "section": "玩彩相公",
+          "url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a031f7e56a1d26b77744555?url=hj",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "玩彩相公",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 107,
+          "name": "",
+          "section": "洁白晶莹",
+          "url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a03409acd2fbc900f6db842?url=hj",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "洁白晶莹",
+          "parse_hint": "admin_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 108,
+          "name": "",
+          "section": "偏听偏信",
+          "url": "https://yqjfwqsc.1dayz-aetgp-kbjidr.xyz:16677/topic/677893.html",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "偏听偏信",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 109,
+          "name": "",
+          "section": "绝杀一头",
+          "url": "https://zwpwuwq.fxnb4-uer1b-uftjcw.work:16677/topic/556287.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "绝杀一头",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 110,
+          "name": "",
+          "section": "秋收冬藏",
+          "url": "https://znnpwd.p42g1-zqmsb-jjrsfg.xyz:16677/topic/476485.html",
+          "field": "四头中特",
+          "position": "顶部",
+          "content_hint": "秋收冬藏",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 111,
+          "name": "",
+          "section": "丘壑泾渭",
+          "url": "https://akqasqa.drr11-soh5x-jcaafg.xyz:16677/topic/543239.html",
+          "field": "四头中特",
+          "position": "顶部",
+          "content_hint": "丘壑泾渭",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 112,
+          "name": "",
+          "section": "风声鹤唳",
+          "url": "https://kxhnibht.49x6o-xyonh-swqkpv.xyz:16677/topic/263501.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "风声鹤唳",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 113,
+          "name": "",
+          "section": "精神抖擞",
+          "url": "https://xeyzmutd.ulazy-l7v28-mgqrqs.xyz:16677/topic/470790.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "精神抖擞",
+          "parse_hint": "jingshendousou_kill_head_line",
+          "api_url": ""
+        },
+        {
+          "index": 114,
+          "name": "",
+          "section": "开心果",
+          "url": "https://ykkpjdgv.d1ju4-kbfjr-zexdzd.xyz:16677/",
+          "field": "禁头",
+          "position": "顶部",
+          "content_hint": "综合绝杀",
+          "parse_hint": "table_column",
+          "api_url": ""
+        },
+        {
+          "index": 115,
+          "name": "",
+          "section": "特码输尽光",
+          "url": "https://bemgrnty.o1uab-4e5oe-yyddxc.xyz:16677/",
+          "field": "特码输尽光",
+          "position": "顶部",
+          "content_hint": "特码输尽光",
+          "parse_hint": "head_tail_phrase",
+          "api_url": ""
+        },
+        {
+          "index": 116,
+          "name": "",
+          "section": "牛头马面",
+          "url": "https://yqjfwqsc.1dayz-aetgp-kbjidr.xyz:16677/",
+          "field": "稳杀(1)头",
+          "position": "顶部",
+          "content_hint": "稳杀(1)头",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 117,
+          "name": "",
+          "section": "姜太公白姐輸盡光",
+          "url": "https://mhbrhe.yng6t-7rqul-ximlot.xyz:16677/",
+          "field": "白姐輸盡光",
+          "position": "顶部",
+          "content_hint": "白姐輸盡光",
+          "parse_hint": "head_tail_phrase",
+          "api_url": ""
+        },
+        {
+          "index": 118,
+          "name": "",
+          "section": "输尽光玄机",
+          "url": "https://ocnrhq.du156-vb27w-tmhsed.xyz:16677/",
+          "field": "输尽光玄机",
+          "position": "顶部",
+          "content_hint": "输尽光玄机",
+          "parse_hint": "head_tail_phrase",
+          "api_url": ""
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "agent": 1,
+      "start_index": 119,
+      "end_index": 131,
+      "sites": [
+        {
+          "index": 119,
+          "name": "",
+          "section": "全网最准",
+          "url": "https://estsghu.t7gsm-xl1x8-uohlna.xyz:16677/",
+          "field": "四头中特",
+          "position": "顶部",
+          "content_hint": "四头中特",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 120,
+          "name": "",
+          "section": "全网最准综合",
+          "url": "https://estsghu.t7gsm-xl1x8-uohlna.xyz:16677/",
+          "field": "杀一头",
+          "position": "顶部",
+          "content_hint": "综合绝杀",
+          "parse_hint": "table_column",
+          "api_url": ""
+        },
+        {
+          "index": 121,
+          "name": "",
+          "section": "猜特输尽光",
+          "url": "https://gjyzpnkx.1r42a-pilbo-hfynxw.xyz:16677/",
+          "field": "猜特输尽光",
+          "position": "顶部",
+          "content_hint": "猜特输尽光",
+          "parse_hint": "head_tail_phrase",
+          "api_url": ""
+        },
+        {
+          "index": 122,
+          "name": "",
+          "section": "满堂红输尽光玄机",
+          "url": "https://znnpwd.p42g1-zqmsb-jjrsfg.xyz:16677/",
+          "field": "输尽光玄机",
+          "position": "顶部",
+          "content_hint": "输尽光玄机",
+          "parse_hint": "head_tail_phrase",
+          "api_url": ""
+        },
+        {
+          "index": 123,
+          "name": "",
+          "section": "满堂红稳杀一头",
+          "url": "https://znnpwd.p42g1-zqmsb-jjrsfg.xyz:16677/",
+          "field": "稳杀一头",
+          "position": "顶部",
+          "content_hint": "稳杀一头",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 124,
+          "name": "",
+          "section": "港澳彩资讯网",
+          "url": "https://azvlnfh.sl965-zqdd3-igdewf.xyz:16677/",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "绝杀一头",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 125,
+          "name": "",
+          "section": "管家婆",
+          "url": "https://22.868393c.com:1888/",
+          "field": "特码四头",
+          "position": "顶部",
+          "content_hint": "特码四头",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 126,
+          "name": "",
+          "section": "赚发中彩",
+          "url": "https://xozgdo.um2zi-vbge0-emngyq.work:29422/article/admin/6a1413a5bf0a6cb1dd38fa17?url=sgnn",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "赚发中彩",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 127,
+          "name": "",
+          "section": "我见犹怜",
+          "url": "https://xozgdo.um2zi-vbge0-emngyq.work:29422/article/admin/6a1402b34346bc68aea4ef09?url=sgnn",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "我见犹怜",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 128,
+          "name": "",
+          "section": "心照不宣",
+          "url": "https://czcvzk.4n5g7-o871g-hqmkwz.work:29422/article/admin/6a0969cb291caff3edcb8b72?url=tsp",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "心照不宣",
+          "parse_hint": "admin_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 129,
+          "name": "",
+          "section": "神算通天",
+          "url": "https://zqrtppa.9swju-6haxn-dlkint.work:29455/article/admin/6a33a175dfa16552b923cae3?url=yjs",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "神算通天",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 130,
+          "name": "",
+          "section": "横财计算",
+          "url": "https://ifnkblf.e4kce-krr7o-vuvqhd.work:29411/article/admin/6a145d4a31b8505dcf06200f?url=scyd",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "横财计算",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 131,
+          "name": "",
+          "section": "金玉良缘",
+          "url": "https://ifnkblf.e4kce-krr7o-vuvqhd.work:29411/article/admin/6a143f8fbf0a6cb1dd38fb91?url=scyd",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "金玉良缘",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "agent": 2,
+      "start_index": 132,
+      "end_index": 144,
+      "sites": [
+        {
+          "index": 132,
+          "name": "",
+          "section": "对方过后",
+          "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a2ec734de36e960239c6d47?url=fcw",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "对方过后",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 133,
+          "name": "",
+          "section": "周而复始",
+          "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a106caf45d22fb4b70fa8ce?url=fcw",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "周而复始",
+          "parse_hint": "admin_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 134,
+          "name": "",
+          "section": "招财进宝",
+          "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a09b435291caff3edcb90ab?url=fcw",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "招财进宝",
+          "parse_hint": "admin_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 135,
+          "name": "",
+          "section": "日益精进",
+          "url": "https://dgjdlk.0hrwo-8qjsc-spwvba.xyz:29411/article/admin/6a12e3d1741e3e91a04e5238?url=cf",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "日益精进",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 136,
+          "name": "",
+          "section": "月亮弯弯",
+          "url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a0441144ea5c20141013e6c?url=qdz",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "月亮弯弯",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 137,
+          "name": "",
+          "section": "吉祥特码",
+          "url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a04465e4ea5c20141013e86?url=qdz",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "吉祥特码",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 138,
+          "name": "",
+          "section": "弦歌不辍",
+          "url": "https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/article/admin/6a02d06b8bad0a3579e9f744?url=tdg",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "弦歌不辍",
+          "parse_hint": "admin_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 139,
+          "name": "",
+          "section": "万彩资料",
+          "url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02d3b18bad0a3579e9f75a?url=home",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "万彩资料",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 140,
+          "name": "",
+          "section": "花朵之蓝",
+          "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a040fcd4ea5c20141013d94?url=lbw",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "花朵之蓝",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 141,
+          "name": "",
+          "section": "财宝霸业",
+          "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04121c4ea5c20141013da1?url=lbw",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "财宝霸业",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 142,
+          "name": "",
+          "section": "同舟共济",
+          "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04198c4ea5c20141013dbd?url=lbw",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "同舟共济",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 143,
+          "name": "",
+          "section": "万中无一",
+          "url": "https://uqdccnri.oy2bh-swrfr-gvzxkk.work:29499/article/admin/6a03349fe09a39d316b223bb?url=lcz",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "万中无一",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 144,
+          "name": "",
+          "section": "高屋建瓴",
+          "url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a0326f7e09a39d316b2239f?url=hj",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "高屋建瓴",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "agent": 3,
+      "start_index": 145,
+      "end_index": 157,
+      "sites": [
+        {
+          "index": 145,
+          "name": "",
+          "section": "扬眉吐气",
+          "url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/admin/6a144dffbf0a6cb1dd38fbf3?url=lqz",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "扬眉吐气",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 146,
+          "name": "",
+          "section": "不吐不快-杀一头",
+          "url": "https://993345.com/gsb1.aspx?id=2266",
+          "field": "杀一头",
+          "position": "尾部",
+          "content_hint": "必杀一头",
+          "parse_hint": "bisha_yitou_plain",
+          "api_url": ""
+        },
+        {
+          "index": 147,
+          "name": "",
+          "section": "国色天香",
+          "url": "https://993345.com/gsb1.aspx?id=2509",
+          "field": "杀一头",
+          "position": "尾部",
+          "content_hint": "【必杀一头】",
+          "parse_hint": "bisha_yitou_bracket",
+          "api_url": ""
+        },
+        {
+          "index": 148,
+          "name": "",
+          "section": "声气相求#1",
+          "url": "https://njkzdcwj.nql6i-8t6su-hytife.xyz:16677/topic/308315.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "声气相求",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 149,
+          "name": "",
+          "section": "张嘴结舌",
+          "url": "https://ykkpjdgv.d1ju4-kbfjr-zexdzd.xyz:16677/topic/681948.html",
+          "field": "绝杀一头",
+          "position": "尾部",
+          "content_hint": "张嘴结舌",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 150,
+          "name": "",
+          "section": "漆雕墨染",
+          "url": "https://msbqxti.zhx2n-7v5x3-ivdpud.xyz:16677/topic/682734.html",
+          "field": "杀一头",
+          "position": "顶部",
+          "content_hint": "漆雕墨染",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 151,
+          "name": "",
+          "section": "十成九稳",
+          "url": "https://estsghu.t7gsm-xl1x8-uohlna.xyz:16677/topic/356083.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "十成九稳",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 152,
+          "name": "",
+          "section": "浩如烟海",
+          "url": "https://qarppl.154bo-trld9-qppors.xyz:16677/topic/326554.html",
+          "field": "杀一头",
+          "position": "顶部",
+          "content_hint": "浩如烟海",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 153,
+          "name": "",
+          "section": "东奔西走",
+          "url": "https://xoxtpupt.bvptr-i3mv8-pbjxin.work:17455/topic/792915.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "东奔西走",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 154,
+          "name": "",
+          "section": "高风峻节",
+          "url": "https://akqasqa.drr11-soh5x-jcaafg.xyz:16677/topic/543285.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "高风峻节",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 155,
+          "name": "",
+          "section": "天下为笼",
+          "url": "https://akqasqa.drr11-soh5x-jcaafg.xyz:16677/topic/543256.html",
+          "field": "四头中特",
+          "position": "顶部",
+          "content_hint": "天下为笼",
+          "parse_hint": "missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 156,
+          "name": "",
+          "section": "金多宝四头中特",
+          "url": "https://993345.com/",
+          "field": "必中四头",
+          "position": "顶部",
+          "content_hint": "【金多宝】四头中特",
+          "parse_hint": "anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 157,
+          "name": "",
+          "section": "七剑下天山",
+          "url": "https://kcyeko.bzx7a-tl1us-cfcaei.xyz:16677/",
+          "field": "第四剑",
+          "position": "顶部",
+          "content_hint": "七剑下天山",
+          "parse_hint": "sword_head",
+          "api_url": ""
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "agent": 1,
+      "start_index": 158,
+      "end_index": 170,
+      "sites": [
+        {
+          "index": 158,
+          "name": "",
+          "section": "竞星剑",
+          "url": "https://ykeejph.z9koz-18xjn-pvglgy.xyz:16677/",
+          "field": "中四头",
+          "position": "顶部",
+          "content_hint": "竞星剑",
+          "parse_hint": "four_combo_after_marker",
+          "api_url": ""
+        },
+        {
+          "index": 159,
+          "name": "",
+          "section": "彩吧",
+          "url": "https://kxhnibht.49x6o-xyonh-swqkpv.xyz:16677/",
+          "field": "杀一头",
+          "position": "顶部",
+          "content_hint": "澳门彩吧",
+          "parse_hint": "table_column",
+          "api_url": ""
+        },
+        {
+          "index": 160,
+          "name": "",
+          "section": "八步毛哥",
+          "url": "https://2.www39169b.com:888/#62111",
+          "field": "杀头",
+          "position": "顶部",
+          "content_hint": "八步毛哥",
+          "parse_hint": "table_column",
+          "api_url": ""
+        },
+        {
+          "index": 161,
+          "name": "",
+          "section": "横财富",
+          "url": "https://a.995546.com/",
+          "field": "绝杀一头",
+          "position": "尾部",
+          "content_hint": "绝杀一头",
+          "parse_hint": "period_bracket_head",
+          "api_url": ""
+        },
+        {
+          "index": 162,
+          "name": "",
+          "section": "夜不闭户",
+          "url": "https://18118.73829.com/read.php?tid=642",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "夜不闭户",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 163,
+          "name": "",
+          "section": "富丽堂皇",
+          "url": "https://szfzml.mfuw8-bnsfa-gdaxhk.xyz/view.php?id=253",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "富丽堂皇",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 164,
+          "name": "",
+          "section": "如坐春风",
+          "url": "https://szfzml.mfuw8-bnsfa-gdaxhk.xyz/view.php?id=294",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "如坐春风",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 165,
+          "name": "",
+          "section": "吉星照耀",
+          "url": "https://flllxn.8w08j-eua1c-atygor.xyz/view.php?id=96",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "吉星照耀",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 166,
+          "name": "",
+          "section": "千呼后拥",
+          "url": "https://kcyeko.bzx7a-tl1us-cfcaei.xyz:16677/topic/466586.html",
+          "field": "中特四头",
+          "position": "顶部",
+          "content_hint": "千呼后拥",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 167,
+          "name": "",
+          "section": "执笔抒情",
+          "url": "https://zdwcig.iyo4d-81klf-udwkqg.work:16677/topic/350544.html",
+          "field": "必中一头",
+          "position": "顶部",
+          "content_hint": "必中一头",
+          "parse_hint": "must_win_head",
+          "api_url": ""
+        },
+        {
+          "index": 168,
+          "name": "",
+          "section": "大难不死",
+          "url": "https://cxmdjok.8wtwc-boven-glylvt.xyz:16677/topic/437791.html",
+          "field": "四头中特",
+          "position": "顶部",
+          "content_hint": "大难不死",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 169,
+          "name": "",
+          "section": "一望无边",
+          "url": "https://ymkakun.dwgml-7jbcy-ohrbrq.xyz:16677/topic/547537.html",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "一望无边",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 170,
+          "name": "",
+          "section": "梦醒时分",
+          "url": "https://ninbwa.7bmc7-mxwy9-uwkcem.xyz:16677/topic/283452.html",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "梦醒时分",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "agent": 2,
+      "start_index": 171,
+      "end_index": 184,
+      "sites": [
+        {
+          "index": 171,
+          "name": "",
+          "section": "大显身手",
+          "url": "https://wmdhoki.6su07-7lpw6-gudkzl.xyz:16677/topic/727505.html",
+          "field": "四头中特",
+          "position": "顶部",
+          "content_hint": "大显身手",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 172,
+          "name": "",
+          "section": "无可取代",
+          "url": "https://kk.375737m.com:1888/art_zhuanqu/7497.html",
+          "field": "四头中特",
+          "position": "顶部",
+          "content_hint": "无可取代",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 173,
+          "name": "",
+          "section": "好好学习",
+          "url": "https://cxmdjok.8wtwc-boven-glylvt.xyz:16677/topic/437726.html",
+          "field": "四头中特",
+          "position": "顶部",
+          "content_hint": "好好学习",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 174,
+          "name": "",
+          "section": "取长补短",
+          "url": "https://cxmdjok.8wtwc-boven-glylvt.xyz:16677/topic/437773.html",
+          "field": "四头中特",
+          "position": "顶部",
+          "content_hint": "取长补短",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 175,
+          "name": "",
+          "section": "琪花瑶草",
+          "url": "https://fszatrw.xhwqs-gffny-zzdfsq.work:16677/topic/678174.html",
+          "field": "精英四头",
+          "position": "顶部",
+          "content_hint": "琪花瑶草",
+          "parse_hint": "topic_title_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 176,
+          "name": "",
+          "section": "白鹤晾翅",
+          "url": "https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/451543.html",
+          "field": "精准四头",
+          "position": "尾部",
+          "content_hint": "白鹤晾翅",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 177,
+          "name": "",
+          "section": "链路聚合",
+          "url": "https://bbuueerm.pxcma-jyfok-mvduyw.xyz:16633/topic/455099.html",
+          "field": "四头中特",
+          "position": "顶部",
+          "content_hint": "链路聚合",
+          "parse_hint": "strict_position_three_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 178,
+          "name": "",
+          "section": "大智若愚",
+          "url": "https://hnzbrzl.2n783-iuaof-dczvqm.xyz/topic/764767.html",
+          "field": "四头中特",
+          "position": "顶部",
+          "content_hint": "四头中特",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 179,
+          "name": "",
+          "section": "倾暖未颜",
+          "url": "https://huqtzej.vvlq2-j4i8n-lisghq.xyz:16677/topic/463771.html",
+          "field": "四头中特",
+          "position": "顶部",
+          "content_hint": "倾暖未颜",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 180,
+          "name": "",
+          "section": "功成名就",
+          "url": "https://huqtzej.vvlq2-j4i8n-lisghq.xyz:16677/topic/281521.html",
+          "field": "精杀一头",
+          "position": "顶部",
+          "content_hint": "功成名就",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 181,
+          "name": "",
+          "section": "自取灭亡",
+          "url": "https://huqtzej.vvlq2-j4i8n-lisghq.xyz:16677/topic/327050.html",
+          "field": "精杀一头",
+          "position": "顶部",
+          "content_hint": "自取灭亡",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 182,
+          "name": "",
+          "section": "悠然自得",
+          "url": "https://peubwtt.t3vdj-h3294-qpbmtj.work:16677/topic/453381.html",
+          "field": "④头中特",
+          "position": "顶部",
+          "content_hint": "悠然自得",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 183,
+          "name": "",
+          "section": "闭月羞花",
+          "url": "https://cdlmrp.etrum-l5k1c-wcasxz.work:16677/topic/440103.html",
+          "field": "四头中特",
+          "position": "顶部",
+          "content_hint": "闭月羞花",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 184,
+          "name": "",
+          "section": "宁波商人",
+          "url": "https://xmdrbud.eqpr2-6tpvi-pjqztv.xyz:16677/topic/503025.html",
+          "field": "公式四头",
+          "position": "顶部",
+          "content_hint": "宁波商人",
+          "parse_hint": "strict_position_three_missing_head_from_four_combo",
+          "api_url": ""
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "agent": 3,
+      "start_index": 185,
+      "end_index": 197,
+      "sites": [
+        {
+          "index": 185,
+          "name": "",
+          "section": "张三李四",
+          "url": "https://yaaxgud.xg0eu-qjubd-yneksw.xyz:16677/topic/436706.html",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "张三李四",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 186,
+          "name": "",
+          "section": "尽释前嫌",
+          "url": "https://qygfz.g0e5q-ese45-poafdu.xyz/topic/215971.html",
+          "field": "四头中特",
+          "position": "顶部",
+          "content_hint": "尽释前嫌",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 187,
+          "name": "",
+          "section": "小沈怕怕",
+          "url": "https://kk.212557a.com:1888/art_zhuanqu/8160.html",
+          "field": "特码四头",
+          "position": "顶部",
+          "content_hint": "小沈怕怕",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 188,
+          "name": "",
+          "section": "喜欢药",
+          "url": "https://zcphjs.ce83x-ms2rz-orwude.work:12277/#/users/3727",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "喜欢药",
+          "parse_hint": "user_kill_head",
+          "api_url": ""
+        },
+        {
+          "index": 189,
+          "name": "",
+          "section": "不如离去",
+          "url": "https://mxiscni.nkh6s-vfni4-lwgfvw.xyz:16677/topic/257907.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "不如离去",
+          "parse_hint": "period_title_detail",
+          "api_url": ""
+        },
+        {
+          "index": 190,
+          "name": "",
+          "section": "随风细雨",
+          "url": "https://drxgkjt.uu1oc-eyjpt-uxyccu.xyz:29400/article/manager/6a33e74bdfa16552b923d2b9?url=jyb",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "随风细雨",
+          "parse_hint": "manager_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 191,
+          "name": "",
+          "section": "澳彩内幕",
+          "url": "https://nwrkkmv.rx287-rkrai-jsjccc.xyz:29499/article/manager/6a33d39ddfa16552b923d0c7?url=ggz",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "澳彩内幕",
+          "parse_hint": "manager_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 192,
+          "name": "",
+          "section": "助民辉煌",
+          "url": "https://hquomm.20t3f-0yztv-jiozun.xyz:29444/article/manager/6a3285864cb61e74064be55a?url=dgd",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "助民辉煌",
+          "parse_hint": "manager_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 193,
+          "name": "",
+          "section": "手疾眼快",
+          "url": "https://fansiggg.jc2q8-whfmg-vajjui.xyz:29433/article/manager/6a096c28291caff3edcb8bc9?url=dyj",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "手疾眼快",
+          "parse_hint": "manager_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 194,
+          "name": "",
+          "section": "只见远方",
+          "url": "https://fansiggg.jc2q8-whfmg-vajjui.xyz:29433/article/manager/6a4fb8cd36d4c8395e576938?url=dyj",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "只见远方",
+          "parse_hint": "manager_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 195,
+          "name": "",
+          "section": "一举两得",
+          "url": "https://fansiggg.jc2q8-whfmg-vajjui.xyz:29433/article/manager/6a096934291caff3edcb8b60?url=dyj",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "一举两得",
+          "parse_hint": "manager_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 196,
+          "name": "",
+          "section": "山高水长",
+          "url": "https://vnxqseiu.ymm13-381iq-zcgmtu.xyz:29400/article/manager/6a505f0c5e6c7637a3f4a9cf?url=jdb",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "山高水长",
+          "parse_hint": "manager_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 197,
+          "name": "",
+          "section": "义形于色",
+          "url": "https://hcsuuoy.nimo7-9bgj4-fmspxt.xyz:29466/article/manager/6a3145f249afa07fb590ec69?url=cww",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "义形于色",
+          "parse_hint": "manager_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "agent": 1,
+      "start_index": 198,
+      "end_index": 210,
+      "sites": [
+        {
+          "index": 198,
+          "name": "",
+          "section": "受宠若惊",
+          "url": "https://nwrkkmv.rx287-rkrai-jsjccc.xyz:29499/article/manager/6a55caa6f447e21b02daa581?url=ggz",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "受宠若惊",
+          "parse_hint": "manager_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 199,
+          "name": "",
+          "section": "点点灯光",
+          "url": "https://mbsqhpk.8ivvt-u3cx5-enwlld.xyz:29400/article/manager/6a33d1cbdfa16552b923d091?url=lhzj",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "点点灯光",
+          "parse_hint": "manager_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 200,
+          "name": "",
+          "section": "桀骜不驯",
+          "url": "https://mbsqhpk.8ivvt-u3cx5-enwlld.xyz:29400/article/manager/6a33d115dfa16552b923d079?url=lhzj",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "桀骜不驯",
+          "parse_hint": "manager_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 201,
+          "name": "",
+          "section": "金融主任",
+          "url": "https://hl.90216a.com/read.php?tid=727",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "金融主任",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 202,
+          "name": "",
+          "section": "酒精泡芙",
+          "url": "https://xjsjbkv.b3e4x-wxhjo-lbdbjg.xyz:29477/article/manager/6a327e6e87ee9d0e75aaf19f?url=jbx",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "酒精泡芙",
+          "parse_hint": "manager_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 203,
+          "name": "",
+          "section": "逢赌必开",
+          "url": "https://8818.www73261a.com/read.php?tid=561",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "逢赌必开",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 204,
+          "name": "",
+          "section": "港陆精英",
+          "url": "https://zqrtppa.9swju-6haxn-dlkint.work:29455/article/manager/6a33a1bedfa16552b923cae7?url=yjs",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "港陆精英",
+          "parse_hint": "manager_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 205,
+          "name": "",
+          "section": "赛马会料",
+          "url": "https://aszmkf.c3z3l-qrlqm-mwgccr.work:29411/article/manager/6a083d7708adb5ed7357f042?url=lhw",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "赛马会料",
+          "parse_hint": "manager_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 206,
+          "name": "",
+          "section": "耿耿于怀",
+          "url": "https://aszmkf.c3z3l-qrlqm-mwgccr.work:29411/article/manager/6a0839ff08adb5ed7357f003?url=lhw",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "耿耿于怀",
+          "parse_hint": "manager_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 207,
+          "name": "",
+          "section": "百無禁忌",
+          "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/manager/6a4bd51157dc857ae1c07150?url=lbw",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "百無禁忌",
+          "parse_hint": "manager_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        },
+        {
+          "index": 208,
+          "name": "",
+          "section": "刮目相看",
+          "url": "https://wftkvim.2skgq-zrzcm-sjtjkq.xyz:16677/topic/465674.html",
+          "field": "四头中特",
+          "position": "顶部",
+          "content_hint": "刮目相看",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 209,
+          "name": "",
+          "section": "小喵酱@",
+          "url": "https://pxeeptca.oc0g1-jyj04-onsfnv.xyz:16677/topic/539434.html",
+          "field": "绝杀一头",
+          "position": "尾部",
+          "content_hint": "小喵酱@",
+          "parse_hint": "xiaomiao_kill_head_brackets",
+          "api_url": ""
+        },
+        {
+          "index": 210,
+          "name": "",
+          "section": "书生意气",
+          "url": "https://opfeal.zbwno-faau4-zilwkd.xyz:16677/topic/930868.html",
+          "field": "四头中特",
+          "position": "顶部",
+          "content_hint": "书生意气",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "agent": 2,
+      "start_index": 211,
+      "end_index": 223,
+      "sites": [
+        {
+          "index": 211,
+          "name": "",
+          "section": "有始有终",
+          "url": "https://opfeal.zbwno-faau4-zilwkd.xyz:16677/topic/930784.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "有始有终",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 212,
+          "name": "",
+          "section": "相思何处",
+          "url": "https://kk.375737m.com:1888/art_zhuanqu/7616.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "相思何处",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 213,
+          "name": "",
+          "section": "世事苍凉",
+          "url": "https://kk.336868m.com:1888/art_zhuanqu/203.html",
+          "field": "杀一头",
+          "position": "顶部",
+          "content_hint": "世事苍凉",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 214,
+          "name": "",
+          "section": "无敌金刚",
+          "url": "https://kk.336868m.com:1888/art_zhuanqu/216.html",
+          "field": "稳杀",
+          "position": "顶部",
+          "content_hint": "无敌金刚",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 215,
+          "name": "",
+          "section": "财神论坛",
+          "url": "https://kk.336868m.com:1888/art_zhuanqu/220.html",
+          "field": "必杀一头",
+          "position": "顶部",
+          "content_hint": "财神论坛",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 216,
+          "name": "",
+          "section": "未来日记",
+          "url": "https://kk.336868m.com:1888/art_zhuanqu/223.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "未来日记",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 217,
+          "name": "",
+          "section": "藕断丝连",
+          "url": "https://a.995546.com/gsb.aspx?id=amjyb052",
+          "field": "四头中特",
+          "position": "尾部",
+          "content_hint": "藕断丝连",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 218,
+          "name": "",
+          "section": "唇红齿白",
+          "url": "https://a.995546.com/gsb.aspx?id=amjyb056",
+          "field": "绝杀一头",
+          "position": "尾部",
+          "content_hint": "唇红齿白",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 219,
+          "name": "",
+          "section": "恪守成式",
+          "url": "https://xoxtpupt.bvptr-i3mv8-pbjxin.work:17455/topic/218073.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "恪守成式",
+          "parse_hint": "dash_head_phrase",
+          "api_url": ""
+        },
+        {
+          "index": 220,
+          "name": "",
+          "section": "黄粱美梦",
+          "url": "https://xoxtpupt.bvptr-i3mv8-pbjxin.work:17455/topic/220575.html",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "黄粱美梦",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 221,
+          "name": "",
+          "section": "王与贱民",
+          "url": "https://uvfsumi.v1t4x-1wx9k-vlvefm.xyz:16677/topic/249369.html",
+          "field": "精杀一头",
+          "position": "顶部",
+          "content_hint": "王与贱民",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 222,
+          "name": "",
+          "section": "威震四方",
+          "url": "https://rqvvaxwq.w30m7-xd23l-ebrbbj.xyz/topic/768565.html",
+          "field": "四头中特",
+          "position": "顶部",
+          "content_hint": "威震四方",
+          "parse_hint": "missing_head_from_four_combo_full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 223,
+          "name": "",
+          "section": "常态胡荽",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1420",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "常态胡荽",
+          "parse_hint": "user_kill_head",
+          "api_url": ""
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "agent": 3,
+      "start_index": 224,
+      "end_index": 237,
+      "sites": [
+        {
+          "index": 224,
+          "name": "",
+          "section": "易逝婴儿",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6025",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "易逝婴儿",
+          "parse_hint": "user_kill_head",
+          "api_url": ""
+        },
+        {
+          "index": 225,
+          "name": "",
+          "section": "华丽手相",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46391",
+          "field": "必杀一头",
+          "position": "顶部",
+          "content_hint": "华丽手相",
+          "parse_hint": "user_kill_head",
+          "api_url": ""
+        },
+        {
+          "index": 226,
+          "name": "",
+          "section": "五彩缤纷",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/116129",
+          "field": "精杀一头",
+          "position": "顶部",
+          "content_hint": "五彩缤纷",
+          "parse_hint": "user_kill_head",
+          "api_url": ""
+        },
+        {
+          "index": 227,
+          "name": "",
+          "section": "刚猛面食",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1204",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "刚猛面食",
+          "parse_hint": "user_kill_head",
+          "api_url": ""
+        },
+        {
+          "index": 228,
+          "name": "",
+          "section": "亲切典礼",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/46114",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "亲切典礼",
+          "parse_hint": "user_kill_head",
+          "api_url": ""
+        },
+        {
+          "index": 229,
+          "name": "",
+          "section": "优秀服饰",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3741",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "优秀服装",
+          "parse_hint": "user_kill_head",
+          "api_url": ""
+        },
+        {
+          "index": 230,
+          "name": "",
+          "section": "鼓舞泥堆",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/5971",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "鼓舞泥堆",
+          "parse_hint": "user_kill_head",
+          "api_url": ""
+        },
+        {
+          "index": 231,
+          "name": "",
+          "section": "害怕国王",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/3912",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "害怕国王",
+          "parse_hint": "user_kill_head",
+          "api_url": ""
+        },
+        {
+          "index": 232,
+          "name": "",
+          "section": "不幸月会",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/6841",
+          "field": "绝杀一头",
+          "position": "顶部",
+          "content_hint": "不幸月会",
+          "parse_hint": "user_kill_head",
+          "api_url": ""
+        },
+        {
+          "index": 233,
+          "name": "",
+          "section": "主要针",
+          "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/users/1747",
+          "field": "精杀一头",
+          "position": "顶部",
+          "content_hint": "主要针",
+          "parse_hint": "user_kill_head",
+          "api_url": ""
+        },
+        {
+          "index": 234,
+          "name": "",
+          "section": "致富之路",
+          "url": "https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/article/manager/6a32a55b73fa32d0b73c0d0d?url=dfh",
+          "field": "绝杀一头",
+          "position": "尾部",
+          "content_hint": "致富之路",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 235,
+          "name": "",
+          "section": "不可亵玩",
+          "url": "https://kk.336868m.com:1888/art_zhuanqu/228.html",
+          "field": "杀一头",
+          "position": "顶部",
+          "content_hint": "不可亵玩",
+          "parse_hint": "full_period_list",
+          "api_url": ""
+        },
+        {
+          "index": 236,
+          "name": "",
+          "section": "财富高手论坛",
+          "url": "https://x1rvueyk50.669332.shop/bbs/",
+          "field": "杀一头",
+          "position": "尾部",
+          "content_hint": "澳门•财富高手论坛【绝杀专区】",
+          "parse_hint": "caifu_gaoshou_bottom_kill_head_table",
+          "api_url": ""
+        },
+        {
+          "index": 237,
+          "name": "",
+          "section": "赢肖公式",
+          "url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/manager/6a5ee7d9f447e21b02dd5366?url=bxj",
+          "field": "④头中特",
+          "position": "尾部",
+          "content_hint": "赢肖公式",
+          "parse_hint": "admin_anchored_missing_head_from_four_combo",
+          "api_url": ""
+        }
+      ]
+    }
+  ]
+}

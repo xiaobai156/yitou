@@ -1,0 +1,23 @@
+{
+  "round": 3,
+  "report_count": 3,
+  "expected_count": 40,
+  "actual_count": 40,
+  "unique_count": 40,
+  "missing_indices": [],
+  "duplicate_indices": [],
+  "unexpected_indices": [],
+  "status_counts": {
+    "zero": 1,
+    "ok": 39
+  },
+  "site_count": 40,
+  "total_target_records": 41,
+  "errors": [],
+  "reports": [
+    "round_03_agent_01.json",
+    "round_03_agent_02.json",
+    "round_03_agent_03.json"
+  ],
+  "verified_at": "2026-07-31T17:26:17.0784184Z"
+}

@@ -1,0 +1,1650 @@
+{
+  "periods": [
+    "191期",
+    "190期",
+    "189期"
+  ],
+  "total": 33,
+  "success": 33,
+  "failed": 0,
+  "elapsed_seconds": 60.23,
+  "results": [
+    {
+      "section": "万中无一",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://uqdccnri.oy2bh-swrfr-gvzxkk.work:29499/article/admin/6a03349fe09a39d316b223bb?url=lcz",
+      "content_hint": "万中无一",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "190期",
+      "success_value": "0头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "0头",
+              "raw_line": "190期:【万中无一】🍒④头中特🍒【1.2.3.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "3头",
+              "raw_line": "189期:【万中无一】🍒④头中特🍒【0.1.2.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "success",
+          "value": "0头",
+          "record_period": "190期",
+          "error": "",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "0头",
+              "raw_line": "190期:【万中无一】🍒④头中特🍒【1.2.3.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "3头",
+              "raw_line": "189期:【万中无一】🍒④头中特🍒【0.1.2.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "190期:【万中无一】🍒④头中特🍒【1.2.3.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "万彩资料",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02d3b18bad0a3579e9f75a?url=home",
+      "content_hint": "万彩资料",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "191期",
+      "success_value": "0头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "success",
+          "value": "0头",
+          "record_period": "191期",
+          "error": "",
+          "period_values": {
+            "191期": {
+              "period": "191期",
+              "value": "0头",
+              "raw_line": "191期:【万彩资料】🥧④头中特🥧【1.2.3.4】开:00准"
+            },
+            "190期": {
+              "period": "190期",
+              "value": "0头",
+              "raw_line": "190期:【万彩资料】🥧④头中特🥧【1.2.3.4】开:16准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "0头",
+              "raw_line": "189期:【万彩资料】🥧④头中特🥧【1.2.3.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "191期:【万彩资料】🥧④头中特🥧【1.2.3.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "人心所向-④头中特",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://aszmkf.c3z3l-qrlqm-mwgccr.work:29411/article/admin/6a0837b308adb5ed7357efc9?url=lhw",
+      "content_hint": "人心所向",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "190期",
+      "success_value": "2头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "2头",
+              "raw_line": "190期:『人心所向』👉④头中特👉【0.4.1.3】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "4头",
+              "raw_line": "189期:『人心所向』👉④头中特👉【0.2.1.3】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "success",
+          "value": "2头",
+          "record_period": "190期",
+          "error": "",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "2头",
+              "raw_line": "190期:『人心所向』👉④头中特👉【0.4.1.3】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "4头",
+              "raw_line": "189期:『人心所向』👉④头中特👉【0.2.1.3】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "190期:『人心所向』👉④头中特👉【0.4.1.3】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "似水柔情",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://rwraojf.l54vq-9httr-cmdnip.work:29477/article/admin/6a041b284ea5c20141013dc6?url=xdr",
+      "content_hint": "似水柔情",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "191期",
+      "success_value": "2头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "success",
+          "value": "2头",
+          "record_period": "191期",
+          "error": "",
+          "period_values": {
+            "191期": {
+              "period": "191期",
+              "value": "2头",
+              "raw_line": "191期:《似水柔情》🎯四头中特🎯【0.1.3.4】开:00准"
+            },
+            "190期": {
+              "period": "190期",
+              "value": "2头",
+              "raw_line": "190期:《似水柔情》🎯四头中特🎯【0.1.3.4】开:16准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "0头",
+              "raw_line": "189期:《似水柔情》🎯四头中特🎯【1.2.3.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "191期:《似水柔情》🎯四头中特🎯【0.1.3.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "卡布奇诺",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a04340f4ea5c20141013e2c?url=qdz",
+      "content_hint": "卡布奇诺",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "191期",
+      "success_value": "0头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "success",
+          "value": "0头",
+          "record_period": "191期",
+          "error": "",
+          "period_values": {
+            "191期": {
+              "period": "191期",
+              "value": "0头",
+              "raw_line": "191期:《卡布奇诺》🌷④头中特🌷【1.2.3.4】开:00准"
+            },
+            "190期": {
+              "period": "190期",
+              "value": "1头",
+              "raw_line": "190期:《卡布奇诺》🌷④头中特🌷【0.2.3.4】开:16错"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "0头",
+              "raw_line": "189期:《卡布奇诺》🌷④头中特🌷【1.2.3.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "191期:《卡布奇诺》🌷④头中特🌷【1.2.3.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "吉祥特码",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a04465e4ea5c20141013e86?url=qdz",
+      "content_hint": "吉祥特码",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "191期",
+      "success_value": "0头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "success",
+          "value": "0头",
+          "record_period": "191期",
+          "error": "",
+          "period_values": {
+            "191期": {
+              "period": "191期",
+              "value": "0头",
+              "raw_line": "191期:✨《吉祥特码》✨④头中特✨【1.2.3.4】开:00准"
+            },
+            "190期": {
+              "period": "190期",
+              "value": "1头",
+              "raw_line": "190期:✨《吉祥特码》✨④头中特✨【0.2.3.4】开:16错"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "0头",
+              "raw_line": "189期:✨《吉祥特码》✨④头中特✨【1.2.3.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "191期:✨《吉祥特码》✨④头中特✨【1.2.3.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "同舟共济",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04198c4ea5c20141013dbd?url=lbw",
+      "content_hint": "同舟共济",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "190期",
+      "success_value": "4头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "4头",
+              "raw_line": "190期:【同舟共济】☘️④头中特☘️【0.1.2.3】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "4头",
+              "raw_line": "189期:【同舟共济】☘️④头中特☘️【0.1.2.3】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "success",
+          "value": "4头",
+          "record_period": "190期",
+          "error": "",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "4头",
+              "raw_line": "190期:【同舟共济】☘️④头中特☘️【0.1.2.3】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "4头",
+              "raw_line": "189期:【同舟共济】☘️④头中特☘️【0.1.2.3】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "190期:【同舟共济】☘️④头中特☘️【0.1.2.3】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "周而复始",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a106caf45d22fb4b70fa8ce?url=fcw",
+      "content_hint": "周而复始",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "190期",
+      "success_value": "1头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "admin文章接口未返回目标文章，无法读取目标原始内容",
+          "period_values": {},
+          "source": "target_article_missing"
+        },
+        {
+          "period": "190期",
+          "status": "success",
+          "value": "1头",
+          "record_period": "190期",
+          "error": "",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "1头",
+              "raw_line": "190期:【周而复始】🀄四头中特🀄【2.3.0.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "2头",
+              "raw_line": "189期:【周而复始】🀄四头中特🀄【3.0.4.1】开:龙15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "190期:【周而复始】🀄四头中特🀄【2.3.0.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "奋起直追",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/admin/6a1437ef4346bc68aea4f091?url=lqz",
+      "content_hint": "",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "190期",
+      "success_value": "3头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "3头",
+              "raw_line": "190期:《奋起直追》✨④头中特✨【0.1.2.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "1头",
+              "raw_line": "189期:《奋起直追》✨④头中特✨【0.2.3.4】开:15错"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "success",
+          "value": "3头",
+          "record_period": "190期",
+          "error": "",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "3头",
+              "raw_line": "190期:《奋起直追》✨④头中特✨【0.1.2.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "1头",
+              "raw_line": "189期:《奋起直追》✨④头中特✨【0.2.3.4】开:15错"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "190期:《奋起直追》✨④头中特✨【0.1.2.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "对方过后",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a2ec734de36e960239c6d47?url=fcw",
+      "content_hint": "对方过后",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "189期",
+      "success_value": "3头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "2头",
+              "raw_line": "190期:《对方过后》🎖️④头中特🎖️【3.4.0.1】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "3头",
+              "raw_line": "189期:《对方过后》🎖️④头中特🎖️【4.0.1.2】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "admin文章接口未返回目标文章，无法读取目标原始内容",
+          "period_values": {},
+          "source": "target_article_missing"
+        },
+        {
+          "period": "189期",
+          "status": "success",
+          "value": "3头",
+          "record_period": "189期",
+          "error": "",
+          "period_values": {
+            "189期": {
+              "period": "189期",
+              "value": "3头",
+              "raw_line": "189期:《对方过后》🎖️④头中特🎖️【4.0.1.2】开:15准"
+            },
+            "190期": {
+              "period": "190期",
+              "value": "2头",
+              "raw_line": "190期:《对方过后》🎖️④头中特🎖️【3.4.0.1】开:00准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "189期:《对方过后》🎖️④头中特🎖️【4.0.1.2】开:15准"
+        }
+      ]
+    },
+    {
+      "section": "弦歌不辍",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/article/admin/6a02d06b8bad0a3579e9f744?url=tdg",
+      "content_hint": "弦歌不辍",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "190期",
+      "success_value": "1头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "1头",
+              "raw_line": "190期:【弦歌不辍】😍④头中特😍【0.2.3.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "0头",
+              "raw_line": "189期:【弦歌不辍】😍④头中特😍【1.2.3.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "success",
+          "value": "1头",
+          "record_period": "190期",
+          "error": "",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "1头",
+              "raw_line": "190期:【弦歌不辍】😍④头中特😍【0.2.3.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "0头",
+              "raw_line": "189期:【弦歌不辍】😍④头中特😍【1.2.3.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "190期:【弦歌不辍】😍④头中特😍【0.2.3.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "心照不宣",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://czcvzk.4n5g7-o871g-hqmkwz.work:29422/article/admin/6a0969cb291caff3edcb8b72?url=tsp",
+      "content_hint": "心照不宣",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "190期",
+      "success_value": "3头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "3头",
+              "raw_line": "190期:『心照不宣』💄④头中特💄【0.1.2.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "3头",
+              "raw_line": "189期:『心照不宣』💄④头中特💄【0.1.2.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "success",
+          "value": "3头",
+          "record_period": "190期",
+          "error": "",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "3头",
+              "raw_line": "190期:『心照不宣』💄④头中特💄【0.1.2.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "3头",
+              "raw_line": "189期:『心照不宣』💄④头中特💄【0.1.2.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "190期:『心照不宣』💄④头中特💄【0.1.2.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "悬崖峭壁",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02da196bedb2a8313d5863?url=home",
+      "content_hint": "悬崖峭壁",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "191期",
+      "success_value": "0头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "success",
+          "value": "0头",
+          "record_period": "191期",
+          "error": "",
+          "period_values": {
+            "191期": {
+              "period": "191期",
+              "value": "0头",
+              "raw_line": "191期:『悬崖峭壁』🍗④头中特🍗【1.2.3.4】开:00准"
+            },
+            "190期": {
+              "period": "190期",
+              "value": "0头",
+              "raw_line": "190期:『悬崖峭壁』🍗④头中特🍗【1.2.3.4】开:16准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "3头",
+              "raw_line": "189期:『悬崖峭壁』🍗④头中特🍗【0.1.2.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "191期:『悬崖峭壁』🍗④头中特🍗【1.2.3.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "我见犹怜",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://xozgdo.um2zi-vbge0-emngyq.work:29422/article/admin/6a1402b34346bc68aea4ef09?url=sgnn",
+      "content_hint": "我见犹怜",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "191期",
+      "success_value": "4头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "success",
+          "value": "4头",
+          "record_period": "191期",
+          "error": "",
+          "period_values": {
+            "191期": {
+              "period": "191期",
+              "value": "4头",
+              "raw_line": "191期:『我见犹怜』🍧四头中特🍧【0.1.2.3】开:00准"
+            },
+            "190期": {
+              "period": "190期",
+              "value": "0头",
+              "raw_line": "190期:『我见犹怜』🍧四头中特🍧【1.2.3.4】开:16准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "1头",
+              "raw_line": "189期:『我见犹怜』🍧四头中特🍧【0.2.3.4】开:15错"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "191期:『我见犹怜』🍧四头中特🍧【0.1.2.3】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "扬眉吐气",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/admin/6a144dffbf0a6cb1dd38fbf3?url=lqz",
+      "content_hint": "扬眉吐气",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "189期",
+      "success_value": "0头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "admin文章接口未返回目标文章，无法读取目标原始内容",
+          "period_values": {},
+          "source": "target_article_missing"
+        },
+        {
+          "period": "190期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "admin文章接口未返回目标文章，无法读取目标原始内容",
+          "period_values": {},
+          "source": "target_article_missing"
+        },
+        {
+          "period": "189期",
+          "status": "success",
+          "value": "0头",
+          "record_period": "189期",
+          "error": "",
+          "period_values": {
+            "189期": {
+              "period": "189期",
+              "value": "0头",
+              "raw_line": "189期:〖扬眉吐气〗🧸四头中特🧸【1.2.3.4】开:15准"
+            },
+            "190期": {
+              "period": "190期",
+              "value": "3头",
+              "raw_line": "190期:〖扬眉吐气〗🧸四头中特🧸【0.1.2.4】开:00准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "189期:〖扬眉吐气〗🧸四头中特🧸【1.2.3.4】开:15准"
+        }
+      ]
+    },
+    {
+      "section": "招财进宝",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a09b435291caff3edcb90ab?url=fcw",
+      "content_hint": "招财进宝",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "189期",
+      "success_value": "3头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "2头",
+              "raw_line": "190期:〖招财进宝〗👚四头中特👚【3.0.4.1】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "3头",
+              "raw_line": "189期:〖招财进宝〗👚四头中特👚【0.4.1.2】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "admin文章接口未返回目标文章，无法读取目标原始内容",
+          "period_values": {},
+          "source": "target_article_missing"
+        },
+        {
+          "period": "189期",
+          "status": "success",
+          "value": "3头",
+          "record_period": "189期",
+          "error": "",
+          "period_values": {
+            "189期": {
+              "period": "189期",
+              "value": "3头",
+              "raw_line": "189期:〖招财进宝〗👚四头中特👚【0.4.1.2】开:15准"
+            },
+            "190期": {
+              "period": "190期",
+              "value": "2头",
+              "raw_line": "190期:〖招财进宝〗👚四头中特👚【3.0.4.1】开:00准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "189期:〖招财进宝〗👚四头中特👚【0.4.1.2】开:15准"
+        }
+      ]
+    },
+    {
+      "section": "日益精进",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://dgjdlk.0hrwo-8qjsc-spwvba.xyz:29411/article/admin/6a12e3d1741e3e91a04e5238?url=cf",
+      "content_hint": "日益精进",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "190期",
+      "success_value": "0头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "0头",
+              "raw_line": "190期:《日益精进》😍四头中特😍【1.2.3.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "3头",
+              "raw_line": "189期:《日益精进》😍四头中特😍【0.1.2.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "success",
+          "value": "0头",
+          "record_period": "190期",
+          "error": "",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "0头",
+              "raw_line": "190期:《日益精进》😍四头中特😍【1.2.3.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "3头",
+              "raw_line": "189期:《日益精进》😍四头中特😍【0.1.2.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "190期:《日益精进》😍四头中特😍【1.2.3.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "月亮弯弯",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a0441144ea5c20141013e6c?url=qdz",
+      "content_hint": "月亮弯弯",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "191期",
+      "success_value": "0头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "success",
+          "value": "0头",
+          "record_period": "191期",
+          "error": "",
+          "period_values": {
+            "191期": {
+              "period": "191期",
+              "value": "0头",
+              "raw_line": "191期:【月亮弯弯】🎈④头中特🎈【1.2.3.4】开:00准"
+            },
+            "190期": {
+              "period": "190期",
+              "value": "4头",
+              "raw_line": "190期:【月亮弯弯】🎈④头中特🎈【0.1.2.3】开:16准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "0头",
+              "raw_line": "189期:【月亮弯弯】🎈④头中特🎈【1.2.3.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "191期:【月亮弯弯】🎈④头中特🎈【1.2.3.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "横财计算",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://ifnkblf.e4kce-krr7o-vuvqhd.work:29411/article/admin/6a145d4a31b8505dcf06200f?url=scyd",
+      "content_hint": "横财计算",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "190期",
+      "success_value": "0头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "0头",
+              "raw_line": "190期:『横财计算』☘️四头中特☘️【1.2.3.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "1头",
+              "raw_line": "189期:『横财计算』☘️四头中特☘️【0.2.3.4】开:15错"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "success",
+          "value": "0头",
+          "record_period": "190期",
+          "error": "",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "0头",
+              "raw_line": "190期:『横财计算』☘️四头中特☘️【1.2.3.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "1头",
+              "raw_line": "189期:『横财计算』☘️四头中特☘️【0.2.3.4】开:15错"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "190期:『横财计算』☘️四头中特☘️【1.2.3.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "水泄不通",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://zqrtppa.9swju-6haxn-dlkint.work:29455/article/admin/6a33a647dfa16552b923cb17?url=yjs",
+      "content_hint": "水泄不通",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "190期",
+      "success_value": "4头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "4头",
+              "raw_line": "190期:🥼『水泄不通』🥼④头中特🥼【0.1.2.3】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "3头",
+              "raw_line": "189期:🥼『水泄不通』🥼④头中特🥼【0.1.2.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "success",
+          "value": "4头",
+          "record_period": "190期",
+          "error": "",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "4头",
+              "raw_line": "190期:🥼『水泄不通』🥼④头中特🥼【0.1.2.3】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "3头",
+              "raw_line": "189期:🥼『水泄不通』🥼④头中特🥼【0.1.2.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "190期:🥼『水泄不通』🥼④头中特🥼【0.1.2.3】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "洁白晶莹",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a03409acd2fbc900f6db842?url=hj",
+      "content_hint": "洁白晶莹",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "190期",
+      "success_value": "2头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "2头",
+              "raw_line": "190期:『洁白晶莹』🥠④头中特🥠【0.1.3.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "3头",
+              "raw_line": "189期:『洁白晶莹』🥠④头中特🥠【0.1.2.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "success",
+          "value": "2头",
+          "record_period": "190期",
+          "error": "",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "2头",
+              "raw_line": "190期:『洁白晶莹』🥠④头中特🥠【0.1.3.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "3头",
+              "raw_line": "189期:『洁白晶莹』🥠④头中特🥠【0.1.2.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "190期:『洁白晶莹』🥠④头中特🥠【0.1.3.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "火爆全网",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://zxlfxpp.2n0je-9ecrg-kadbbu.work:29411/article/admin/6a1417e74346bc68aea4ef91?url=tmw",
+      "content_hint": "火爆全网",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "190期",
+      "success_value": "0头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "0头",
+              "raw_line": "190期:《火爆全网》🏇④头中特🏇【2.3.1.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "4头",
+              "raw_line": "189期:《火爆全网》🏇④头中特🏇【2.3.1.0】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "success",
+          "value": "0头",
+          "record_period": "190期",
+          "error": "",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "0头",
+              "raw_line": "190期:《火爆全网》🏇④头中特🏇【2.3.1.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "4头",
+              "raw_line": "189期:《火爆全网》🏇④头中特🏇【2.3.1.0】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "190期:《火爆全网》🏇④头中特🏇【2.3.1.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "玩彩相公",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a031f7e56a1d26b77744555?url=hj",
+      "content_hint": "玩彩相公",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "190期",
+      "success_value": "4头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "4头",
+              "raw_line": "190期:『玩彩相公』🌷四头中特🌷【0.1.2.3】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "1头",
+              "raw_line": "189期:『玩彩相公』🌷四头中特🌷【0.2.3.4】开:16错"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "success",
+          "value": "4头",
+          "record_period": "190期",
+          "error": "",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "4头",
+              "raw_line": "190期:『玩彩相公』🌷四头中特🌷【0.1.2.3】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "1头",
+              "raw_line": "189期:『玩彩相公』🌷四头中特🌷【0.2.3.4】开:16错"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "190期:『玩彩相公』🌷四头中特🌷【0.1.2.3】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "神算通天",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://zqrtppa.9swju-6haxn-dlkint.work:29455/article/admin/6a33a175dfa16552b923cae3?url=yjs",
+      "content_hint": "神算通天",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "190期",
+      "success_value": "1头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "1头",
+              "raw_line": "190期:🚡『神算通天』🚡④头中特🚡【0.2.3.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "1头",
+              "raw_line": "189期:🚡『神算通天』🚡④头中特🚡【0.2.3.4】开:15错"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "success",
+          "value": "1头",
+          "record_period": "190期",
+          "error": "",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "1头",
+              "raw_line": "190期:🚡『神算通天』🚡④头中特🚡【0.2.3.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "1头",
+              "raw_line": "189期:🚡『神算通天』🚡④头中特🚡【0.2.3.4】开:15错"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "190期:🚡『神算通天』🚡④头中特🚡【0.2.3.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "聪明绝顶二版",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://qgyhdauu.avht7-lah7b-oavfmr.work:29444/article/admin/6a01a3309dbe5d9cedc4eb90?url=wzw",
+      "content_hint": "四头中特",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "190期",
+      "success_value": "1头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "1头",
+              "raw_line": "190期:【聪明绝顶】🧩四头中特🧩【0.2.3.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "1头",
+              "raw_line": "189期:【聪明绝顶】🧩四头中特🧩【0.2.3.4】开:15错"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "success",
+          "value": "1头",
+          "record_period": "190期",
+          "error": "",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "1头",
+              "raw_line": "190期:【聪明绝顶】🧩四头中特🧩【0.2.3.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "1头",
+              "raw_line": "189期:【聪明绝顶】🧩四头中特🧩【0.2.3.4】开:15错"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "190期:【聪明绝顶】🧩四头中特🧩【0.2.3.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "花朵之蓝",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a040fcd4ea5c20141013d94?url=lbw",
+      "content_hint": "花朵之蓝",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "190期",
+      "success_value": "1头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "1头",
+              "raw_line": "190期:【花朵之蓝】🍒④头中特🍒【0.2.3.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "0头",
+              "raw_line": "189期:【花朵之蓝】🍒④头中特🍒【1.2.3.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "success",
+          "value": "1头",
+          "record_period": "190期",
+          "error": "",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "1头",
+              "raw_line": "190期:【花朵之蓝】🍒④头中特🍒【0.2.3.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "0头",
+              "raw_line": "189期:【花朵之蓝】🍒④头中特🍒【1.2.3.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "190期:【花朵之蓝】🍒④头中特🍒【0.2.3.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "财宝霸业",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04121c4ea5c20141013da1?url=lbw",
+      "content_hint": "财宝霸业",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "190期",
+      "success_value": "0头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "0头",
+              "raw_line": "190期:【财宝霸业】♣️④头中特♣️【1.2.3.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "0头",
+              "raw_line": "189期:【财宝霸业】♣️④头中特♣️【1.2.3.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "success",
+          "value": "0头",
+          "record_period": "190期",
+          "error": "",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "0头",
+              "raw_line": "190期:【财宝霸业】♣️④头中特♣️【1.2.3.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "0头",
+              "raw_line": "189期:【财宝霸业】♣️④头中特♣️【1.2.3.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "190期:【财宝霸业】♣️④头中特♣️【1.2.3.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "赚发中彩",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://xozgdo.um2zi-vbge0-emngyq.work:29422/article/admin/6a1413a5bf0a6cb1dd38fa17?url=sgnn",
+      "content_hint": "赚发中彩",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "191期",
+      "success_value": "0头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "success",
+          "value": "0头",
+          "record_period": "191期",
+          "error": "",
+          "period_values": {
+            "191期": {
+              "period": "191期",
+              "value": "0头",
+              "raw_line": "191期:〖赚发中彩〗🍃④头中特🍃【1.2.3.4】开:00准"
+            },
+            "190期": {
+              "period": "190期",
+              "value": "4头",
+              "raw_line": "190期:〖赚发中彩〗🍃④头中特🍃【0.1.2.3】开:16准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "0头",
+              "raw_line": "189期:〖赚发中彩〗🍃④头中特🍃【1.2.3.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "191期:〖赚发中彩〗🍃④头中特🍃【1.2.3.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "送福推荐",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://fymxwnyg.ttmzc-muvns-udlfln.work:29455/article/admin/6a096fa5291caff3edcb8c19?url=lhbd",
+      "content_hint": "送福推荐",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "191期",
+      "success_value": "1头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "success",
+          "value": "1头",
+          "record_period": "191期",
+          "error": "",
+          "period_values": {
+            "191期": {
+              "period": "191期",
+              "value": "1头",
+              "raw_line": "191期:送福推荐🏃‍♀️四头中特🏃‍♀️【2.3.4.0】开:00准"
+            },
+            "190期": {
+              "period": "190期",
+              "value": "0头",
+              "raw_line": "190期:送福推荐🏃‍♀️四头中特🏃‍♀️【1.2.3.4】开:16准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "0头",
+              "raw_line": "189期:送福推荐🏃‍♀️四头中特🏃‍♀️【2.3.4.1】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "191期:送福推荐🏃‍♀️四头中特🏃‍♀️【2.3.4.0】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "金彩报喜",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://aszmkf.c3z3l-qrlqm-mwgccr.work:29411/article/admin/6a083cd708adb5ed7357f032?url=lhw",
+      "content_hint": "金彩报喜",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "190期",
+      "success_value": "0头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "0头",
+              "raw_line": "190期:《金彩报喜》🥬④头中特🥬【2.4.3.1】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "4头",
+              "raw_line": "189期:《金彩报喜》🥬④头中特🥬【2.0.3.1】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "success",
+          "value": "0头",
+          "record_period": "190期",
+          "error": "",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "0头",
+              "raw_line": "190期:《金彩报喜》🥬④头中特🥬【2.4.3.1】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "4头",
+              "raw_line": "189期:《金彩报喜》🥬④头中特🥬【2.0.3.1】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "190期:《金彩报喜》🥬④头中特🥬【2.4.3.1】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "金玉良缘",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://ifnkblf.e4kce-krr7o-vuvqhd.work:29411/article/admin/6a143f8fbf0a6cb1dd38fb91?url=scyd",
+      "content_hint": "金玉良缘",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "190期",
+      "success_value": "4头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "4头",
+              "raw_line": "190期:〖金玉良缘〗🐓④头中特🐓【0.1.2.3】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "3头",
+              "raw_line": "189期:〖金玉良缘〗🐓④头中特🐓【0.1.2.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "success",
+          "value": "4头",
+          "record_period": "190期",
+          "error": "",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "4头",
+              "raw_line": "190期:〖金玉良缘〗🐓④头中特🐓【0.1.2.3】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "3头",
+              "raw_line": "189期:〖金玉良缘〗🐓④头中特🐓【0.1.2.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "190期:〖金玉良缘〗🐓④头中特🐓【0.1.2.3】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "高屋建瓴",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a0326f7e09a39d316b2239f?url=hj",
+      "content_hint": "高屋建瓴",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "190期",
+      "success_value": "1头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "failed",
+          "value": "",
+          "record_period": "",
+          "error": "未更新到191期，最新为190期",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "1头",
+              "raw_line": "190期:『高屋建瓴』🎈四头中特🎈【0.2.3.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "4头",
+              "raw_line": "189期:『高屋建瓴』🎈四头中特🎈【0.1.2.3】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct"
+        },
+        {
+          "period": "190期",
+          "status": "success",
+          "value": "1头",
+          "record_period": "190期",
+          "error": "",
+          "period_values": {
+            "190期": {
+              "period": "190期",
+              "value": "1头",
+              "raw_line": "190期:『高屋建瓴』🎈四头中特🎈【0.2.3.4】开:00准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "4头",
+              "raw_line": "189期:『高屋建瓴』🎈四头中特🎈【0.1.2.3】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "190期:『高屋建瓴』🎈四头中特🎈【0.2.3.4】开:00准"
+        }
+      ]
+    },
+    {
+      "section": "高手如林",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://sndaygl.egjtc-sgs8w-taclan.work:29400/article/admin/6a140f13597e16d57eacb4b2?url=nmw",
+      "content_hint": "高手如林",
+      "parse_hint": "missing_head_from_four_combo",
+      "status": "success",
+      "success_period": "191期",
+      "success_value": "2头",
+      "tested": [
+        {
+          "period": "191期",
+          "status": "success",
+          "value": "2头",
+          "record_period": "191期",
+          "error": "",
+          "period_values": {
+            "191期": {
+              "period": "191期",
+              "value": "2头",
+              "raw_line": "191期:《高手如林》四头中特【0.1.3.4】开:00准"
+            },
+            "190期": {
+              "period": "190期",
+              "value": "2头",
+              "raw_line": "190期:《高手如林》四头中特【0.1.3.4】开:16准"
+            },
+            "189期": {
+              "period": "189期",
+              "value": "0头",
+              "raw_line": "189期:《高手如林》四头中特【1.2.3.4】开:15准"
+            }
+          },
+          "source": "landing_page_data_or_direct",
+          "raw_line": "191期:《高手如林》四头中特【0.1.3.4】开:00准"
+        }
+      ]
+    }
+  ]
+}

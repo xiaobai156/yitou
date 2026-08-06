@@ -1,0 +1,3788 @@
+{
+  "periods": [
+    "189期",
+    "188期",
+    "187期"
+  ],
+  "sites_count": 201,
+  "passed": 198,
+  "failed": 3,
+  "results": [
+    {
+      "index": 1,
+      "section": "熊出没",
+      "field": "禁一头",
+      "position": "顶部",
+      "url": "https://sadoleu.rznla-fgwyr-nzqalp.xyz:16677/",
+      "parse_hint": "table_column",
+      "content_hint": "特码绝杀区",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "3头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 2,
+      "section": "平特综合",
+      "field": "禁一头",
+      "position": "尾部",
+      "url": "https://tulprhfc.wghcb-bnmgm-hyymaz.work:16655/",
+      "parse_hint": "table_column",
+      "content_hint": "综合绝杀",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "2头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 3,
+      "section": "智能",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://jjlachsn.4fk3e-i2rpf-vgknlh.work:16677/",
+      "parse_hint": "AI斩头",
+      "content_hint": "AI斩头",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 4,
+      "section": "震撼六和界",
+      "field": "稳杀一头",
+      "position": "顶部",
+      "url": "https://jjlachsn.4fk3e-i2rpf-vgknlh.work:16677/topic/661948.html",
+      "parse_hint": "strict_position_three",
+      "content_hint": "稳杀一头",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "3头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 5,
+      "section": "天下彩",
+      "field": "砍杀一头",
+      "position": "顶部",
+      "url": "https://eqyyanu.4rfyf-h2bx5-oxsbom.xyz:16677/",
+      "parse_hint": "bracket_sha_yi_tou",
+      "content_hint": "天下彩",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "2头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 6,
+      "section": "花开浅夏",
+      "field": "稳杀一头",
+      "position": "顶部",
+      "url": "https://eqyyanu.4rfyf-h2bx5-oxsbom.xyz:16677/topic/157527.html",
+      "parse_hint": "绝杀①头",
+      "content_hint": "绝杀①头",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "3头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 7,
+      "section": "鸟语花香",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "url": "https://gboqrz.pjedz-evdz7-ftlrkx.work/topic/470627.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "作者:鸟语花香",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "4头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 8,
+      "section": "谢天谢地",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://6f4poq.b5z56-on5kp-vinkkj.work/topic/485596.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "3头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 9,
+      "section": "一团和气",
+      "field": "精杀一头",
+      "position": "尾部",
+      "url": "https://w4shq9.me9lh-curg4-fwdzzw.work/topic/453615.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "作者:一团和气",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "2头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 10,
+      "section": "阪上走丸",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://qygfz.6yyij-749bz-xqmbjc.xyz/topic/232084.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "作者:阪上走丸",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "3头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 11,
+      "section": "来情去意",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://gboqrz.pjedz-evdz7-ftlrkx.work/topic/224119.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "作者:来情去意",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "4头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 12,
+      "section": "没精打采",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://bqipgah.pvib6-ptrqe-ihcefh.xyz:16677/topic/268612.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "没精打采 发表于",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "1头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 13,
+      "section": "凤毛麟角",
+      "field": "一头",
+      "position": "顶部",
+      "url": "https://bqipgah.pvib6-ptrqe-ihcefh.xyz:16677/topic/268615.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "凤毛麟角 发表于",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 14,
+      "section": "男人味",
+      "field": "杀一头",
+      "position": "顶部",
+      "url": "https://rmrcjqk.6ln2t-46k8t-kuthoe.xyz:16677/",
+      "parse_hint": "table_column",
+      "content_hint": "综合绝杀",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "2头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 15,
+      "section": "蓝月亮",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://zwhzkjo.fc4fh-otded-nvhceu.xyz:16677/",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "澳门蓝月亮--绝杀一头",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "1头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 16,
+      "section": "好好先生",
+      "field": "稳杀一头",
+      "position": "顶部",
+      "url": "https://jogavu.6bl6s-ilo1w-yfnvvl.work:16677/topic/678115.html",
+      "parse_hint": "bracket_field_head",
+      "content_hint": "好好先生",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "0头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 17,
+      "section": "爱琴浪漫",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://zdwcig.iyo4d-81klf-udwkqg.work:16677/topic/522186.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "爱琴浪漫 发表于",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "1头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 18,
+      "section": "水果爷爷",
+      "field": "绝杀①头",
+      "position": "顶部",
+      "url": "https://zdwcig.iyo4d-81klf-udwkqg.work:16677/",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "绝杀①头",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "3头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 19,
+      "section": "金牌谜语",
+      "field": "稳杀一头",
+      "position": "顶部",
+      "url": "https://scbnsyz.3dl0e-87g6y-coruzs.xyz:16677/topic/273120.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "金牌谜语",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "2头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 20,
+      "section": "澳门姜太公",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://cpvqejp.avdja-la48l-xnsdva.xyz:16677/",
+      "parse_hint": "strict_position_three",
+      "content_hint": "☛绝杀一头☚",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 21,
+      "section": "呼风唤雨",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://cpvqejp.avdja-la48l-xnsdva.xyz:16677/topic/336770.html",
+      "parse_hint": "strict_position_three",
+      "content_hint": "作者:呼风唤雨",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 22,
+      "section": "踏雪",
+      "field": "杀一头",
+      "position": "顶部",
+      "url": "https://ntvjzt.gau41-qu6jy-sotyug.work:16677/",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "综合绝杀区",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 23,
+      "section": "天高云淡",
+      "field": "精杀一头",
+      "position": "尾部",
+      "url": "https://ntvjzt.gau41-qu6jy-sotyug.work:16677/topic/309348.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "4头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 24,
+      "section": "王者",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://iboatq.pjgpm-epbf7-lxpezb.work:16677/",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "絕殺一頭",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 25,
+      "section": "王中王",
+      "field": "禁一头",
+      "position": "尾部",
+      "url": "https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/",
+      "parse_hint": "table_column",
+      "content_hint": "综合禁全区",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "0头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 26,
+      "section": "佶屈聱牙",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "url": "https://lihpcb.sf21s-zracb-gtfpub.work:16677/topic/322360.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "佶屈聱牙",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "3头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 27,
+      "section": "众矢之的",
+      "field": "精杀一头",
+      "position": "顶部",
+      "url": "https://iboatq.pjgpm-epbf7-lxpezb.work:16677/topic/324657.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "众矢之的",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "4头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 28,
+      "section": "一步到位",
+      "field": "精杀一头",
+      "position": "尾部",
+      "url": "https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/250661.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "一步到位",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "3头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 29,
+      "section": "水漫金山",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "url": "https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/250682.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "水漫金山",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "2头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 30,
+      "section": "精准资料",
+      "field": "精杀一头",
+      "position": "尾部",
+      "url": "https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/250867.html",
+      "parse_hint": "strict_position_three_miaosha",
+      "content_hint": "精杀一头精准",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 31,
+      "section": "东风浩荡",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/223644.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "东风浩荡",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "3头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 32,
+      "section": "发家致富",
+      "field": "稳杀一头",
+      "position": "顶部",
+      "url": "https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/205817.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "发家致富",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "2头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 33,
+      "section": "杀码榜",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/205670.html",
+      "parse_hint": "strict_position_three",
+      "content_hint": "杀料榜",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "0头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 34,
+      "section": "万里长城",
+      "field": "必杀一头",
+      "position": "尾部",
+      "url": "https://fszatrw.xhwqs-gffny-zzdfsq.work:16677/topic/678234.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "万里长城",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "2头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 35,
+      "section": "兄弟情深",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "url": "https://jldzuea.0xkqd-q7ng5-boerfb.xyz:16677/topic/455519.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "兄弟情深",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "2头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 36,
+      "section": "广西仔",
+      "field": "稳杀一头",
+      "position": "顶部",
+      "url": "https://jldzuea.0xkqd-q7ng5-boerfb.xyz:16677/topic/677574.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "本站推荐",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "4头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 37,
+      "section": "维鸠居之",
+      "field": "大杀一头",
+      "position": "尾部",
+      "url": "https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/248016.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "3头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 38,
+      "section": "人心所向-绝杀一头",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "url": "https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/248031.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "大杀一头",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "1头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 39,
+      "section": "义无反顾",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "url": "https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/481766.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "1头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 40,
+      "section": "信封",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://ptnvme.qlxrj-8q89y-qhwafv.xyz:16677/",
+      "parse_hint": "strict_position_three",
+      "content_hint": "『绝杀一头』",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 41,
+      "section": "志在四方",
+      "field": "必杀一头",
+      "position": "顶部",
+      "url": "https://ptnvme.qlxrj-8q89y-qhwafv.xyz:16677/topic/309645.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "志在四方",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "0头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 42,
+      "section": "藏锋敛锐",
+      "field": "杀一头",
+      "position": "尾部",
+      "url": "https://s4wqb.8w0uz-fax7y-jbdqiy.xyz/topic/226653.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "稳杀一头",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "0头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 43,
+      "section": "东望西观",
+      "field": "稳杀一头",
+      "position": "尾部",
+      "url": "https://t3zvj.4b4tw-2u3l3-tigwym.xyz/topic/224106.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "东望西观",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "2头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 44,
+      "section": "三分酒意",
+      "field": "精杀一头",
+      "position": "尾部",
+      "url": "https://111.246004.com:9066/Article.Aspx?ListId=247&id=53506",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "绝杀一头",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "3头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 45,
+      "section": "致富经",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://979585.com.9795.in:1888/bbs/135.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "致富经",
+      "passed": true,
+      "hits": {
+        "189期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 46,
+      "section": "美意延年",
+      "field": "精杀一头",
+      "position": "尾部",
+      "url": "https://zdtssflb.am9a6-vk0h6-lwbxab.xyz:16677/topic/324649.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "美意延年",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "0头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 47,
+      "section": "不得不爱",
+      "field": "精杀一头",
+      "position": "顶部",
+      "url": "https://zdtssflb.am9a6-vk0h6-lwbxab.xyz:16677/topic/306458.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "大杀一头",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "2头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 48,
+      "section": "沙里淘金",
+      "field": "期期杀①头",
+      "position": "尾部",
+      "url": "https://kxglojup.fao5v-9u0oz-okhubb.work:16677/topic/466188.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "期期杀一头",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "3头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 49,
+      "section": "澳彩六玄",
+      "field": "绝杀①头",
+      "position": "顶部",
+      "url": "https://gwcfvd.6yyij-749bz-xqmbjc.xyz:16677/",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "绝杀①头",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "2头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 50,
+      "section": "瞽旷之耳",
+      "field": "杀一头",
+      "position": "尾部",
+      "url": "https://mjnrsqwu.c3kef-jhnm5-opjvvz.xyz:16677/topic/213705.html",
+      "parse_hint": "strict_position_three",
+      "content_hint": "作者:瞽旷之耳",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "0头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 51,
+      "section": "关怀备至",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "url": "https://fqvgyzlp.sr7yu-gvk7e-xhdhyf.xyz:16677/topic/450402.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "2头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 52,
+      "section": "老鼠报",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://jnumbamb.jgzeo-7yaht-bagdzs.xyz/topic/764759.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "精华区",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "2头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 53,
+      "section": "澳门公证",
+      "field": "杀一头",
+      "position": "顶部",
+      "url": "https://uhaxnrzx.q76gf-deec8-zqckeo.xyz:16677/",
+      "parse_hint": "table_column",
+      "content_hint": "澳门公证处【综合绝杀】",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "0头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 54,
+      "section": "千变万化",
+      "field": "精杀一头",
+      "position": "顶部",
+      "url": "https://uhaxnrzx.q76gf-deec8-zqckeo.xyz:16677/topic/610301.html",
+      "parse_hint": "strict_position_three",
+      "content_hint": "千变万化 发表于",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 55,
+      "section": "关云长",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://lxbwvnfv.3gwtt-z9y8n-wsxdfy.xyz:16677/",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "0头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 56,
+      "section": "五点来料",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "url": "https://ehqtty.tvtyn-iojf9-seeocb.xyz:16677/",
+      "parse_hint": "table_column",
+      "content_hint": "澳门五点来料域名",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "1头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 57,
+      "section": "举足轻重",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://nxtoep.9at21-abkka-svfjrm.xyz:16677/topic/547511.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "举足轻重",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "2头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 58,
+      "section": "猪八戒",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://kxglojup.fao5v-9u0oz-okhubb.work:16677/",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "猪八戒",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 59,
+      "section": "大吉大利",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://mhpayza.30mg9-m9j7l-obwrmb.xyz/topic/766659.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "大吉大利",
+      "passed": false,
+      "hits": {},
+      "status": "failed",
+      "record_period": "",
+      "record_value": "",
+      "error": "EOF occurred in violation of protocol (_ssl.c:1007)"
+    },
+    {
+      "index": 60,
+      "section": "洪七公",
+      "field": "绝杀①头",
+      "position": "顶部",
+      "url": "https://jtmjfqq.ewlkg-dp3xr-hebqil.xyz:16677/",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "洪七公",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "2头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 61,
+      "section": "前程似锦",
+      "field": "精杀一头",
+      "position": "顶部",
+      "url": "https://avfzesda.v3g7d-e00td-idgbab.xyz:16677/topic/464136.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "前程似锦",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "2头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 62,
+      "section": "今日闲情",
+      "field": "杀一头",
+      "position": "顶部",
+      "url": "https://gabqzzz.ahv8c-6713g-otpeiy.xyz:16677/",
+      "parse_hint": "table_column",
+      "content_hint": "今日闲情《综合绝杀》",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "2头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 63,
+      "section": "澳门签牌",
+      "field": "杀一头",
+      "position": "顶部",
+      "url": "https://agdxewl.wbp19-8gop3-avrnle.xyz:16677/",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "絕殺一頭",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 64,
+      "section": "金手指",
+      "field": "杀一头",
+      "position": "顶部",
+      "url": "https://jxrmrrq.cdyhw-dah0l-ibxfvw.xyz:16677/",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "絕殺一頭",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 65,
+      "section": "金手指高手",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "url": "https://jxrmrrq.cdyhw-dah0l-ibxfvw.xyz:16677/topic/312159.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "4头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 66,
+      "section": "广东八二",
+      "field": "稳杀(1)头",
+      "position": "顶部",
+      "url": "https://cdlmrp.etrum-l5k1c-wcasxz.work:16677/#am",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "绝杀一头",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 67,
+      "section": "花团锦簇",
+      "field": "精杀一头",
+      "position": "顶部",
+      "url": "https://pjaliv.o53jc-9p80e-xxbelu.xyz:16677/topic/626096.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "花团锦簇",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "3头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 68,
+      "section": "骄横跋扈",
+      "field": "精杀一头",
+      "position": "顶部",
+      "url": "https://pjaliv.o53jc-9p80e-xxbelu.xyz:16677/topic/625513.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "2头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 69,
+      "section": "名列前茅",
+      "field": "精杀一头",
+      "position": "顶部",
+      "url": "https://pjaliv.o53jc-9p80e-xxbelu.xyz:16677/topic/625993.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "4头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 70,
+      "section": "一衣带水",
+      "field": "精杀一头",
+      "position": "尾部",
+      "url": "https://pjaliv.o53jc-9p80e-xxbelu.xyz:16677/topic/626032.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "2头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 71,
+      "section": "德高望重",
+      "field": "精杀一头",
+      "position": "顶部",
+      "url": "https://pjaliv.o53jc-9p80e-xxbelu.xyz:16677/topic/626100.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "3头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 72,
+      "section": "错过的她",
+      "field": "精杀一头",
+      "position": "顶部",
+      "url": "https://pjaliv.o53jc-9p80e-xxbelu.xyz:16677/topic/626067.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "错过的她",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "4头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 73,
+      "section": "三阳开泰",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://estsghu.t7gsm-xl1x8-uohlna.xyz:16677/topic/356092.html",
+      "parse_hint": "bracket_field_head",
+      "content_hint": "",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "4头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 74,
+      "section": "聪明绝顶",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://wdkcwvg.ihm0v-x2ge2-muiqdd.xyz:16677/topic/236456.html",
+      "parse_hint": "strict_position_three",
+      "content_hint": "作者:聪明绝顶",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "3头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 75,
+      "section": "角力中原",
+      "field": "绝杀①头",
+      "position": "顶部",
+      "url": "https://wdkcwvg.ihm0v-x2ge2-muiqdd.xyz:16677/topic/209429.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "绝杀一头",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "1头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 76,
+      "section": "奋起直追",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/admin/6a1437ef4346bc68aea4f091?url=lqz",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "4头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 77,
+      "section": "澳彩传奇",
+      "field": "大杀一头",
+      "position": "顶部",
+      "url": "https://rqvvaxwq.w30m7-xd23l-ebrbbj.xyz/topic/768567.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "人心所向",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "3头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 78,
+      "section": "福星抱抱",
+      "field": "必杀一头",
+      "position": "顶部",
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15356509",
+      "parse_hint": "full_period_list",
+      "content_hint": "福星报",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "0头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 79,
+      "section": "惠泽咯",
+      "field": "绝杀①头",
+      "position": "顶部",
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357872",
+      "parse_hint": "full_period_list",
+      "content_hint": "绝杀①头",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "4头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 80,
+      "section": "澳门挂椅",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://qvuuqqs.8imf7-hteuh-ylwuqv.xyz/#/forums/15357866",
+      "parse_hint": "full_period_list",
+      "content_hint": "绝杀一头",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "0头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 81,
+      "section": "直木必伐",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/272923.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "直木必伐",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "0头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 82,
+      "section": "讨恶翦暴",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/272723.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "讨恶翦暴",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "0头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 83,
+      "section": "破甑生尘",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/291127.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "0头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 84,
+      "section": "叔季之世",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://pwqviw.1tcpi-45qgo-qddfnk.work:16677/topic/291136.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "叔季之世",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "4头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 85,
+      "section": "财运必通",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://vqxzuc.fggtp-huz0q-sbrraa.xyz:16677/topic/458658.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "财运必通",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "1头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 86,
+      "section": "離別之前",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://vqxzuc.fggtp-huz0q-sbrraa.xyz:16677/topic/383843.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "離別之前",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "2头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 87,
+      "section": "老中医生",
+      "field": "精杀一头",
+      "position": "顶部",
+      "url": "https://vqxzuc.fggtp-huz0q-sbrraa.xyz:16677/topic/457529.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "老中医生",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "2头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 88,
+      "section": "肆言如狂",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://ryfbdty.p4a53-f1hew-diwcrg.xyz:16677/topic/244751.html",
+      "parse_hint": "top_primary_ten_periods",
+      "content_hint": "肆言如狂",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "3头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 89,
+      "section": "段干益浮",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "url": "https://gjyzpnkx.1r42a-pilbo-hfynxw.xyz:16677/topic/680680.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "1头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 90,
+      "section": "六玄",
+      "field": "绝杀①头",
+      "position": "顶部",
+      "url": "https://tjetrfr.jocy8-cy4wk-fmpeer.xyz:16677/",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "六玄",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "2头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 91,
+      "section": "赤兔",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://zwpwuwq.fxnb4-uer1b-uftjcw.work:16677/#am",
+      "parse_hint": "kill_head_phrase",
+      "content_hint": "赤兔",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "4头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 92,
+      "section": "呆头呆脚",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://zwpwuwq.fxnb4-uer1b-uftjcw.work:16677/topic/556287.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "呆头呆脚",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "2头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 93,
+      "section": "花天酒地",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://uixhmfb.1fxgs-oj4yy-fzfkdw.work:16677/",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "花天酒地",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "2头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 94,
+      "section": "横行霸道",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://uvfsumi.v1t4x-1wx9k-vlvefm.xyz:16677/topic/249383.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "横行霸道",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "1头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 95,
+      "section": "顺其自然",
+      "field": "稳杀一头",
+      "position": "顶部",
+      "url": "https://qgstvun.sp1n9-txvca-jmfjgh.work:16677/topic/649642.html",
+      "parse_hint": "strict_position_three",
+      "content_hint": "顺其自然",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "3头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 96,
+      "section": "钱能通神",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "url": "https://kfkxqua.vohzh-s0pbh-vhwsal.xyz:16677/topic/247428.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "钱能通神",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "4头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 97,
+      "section": "绝世一战",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "url": "https://kfkxqua.vohzh-s0pbh-vhwsal.xyz:16677/topic/247459.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "绝世一战",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "0头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 98,
+      "section": "爱憎分明",
+      "field": "绝杀①头",
+      "position": "顶部",
+      "url": "https://kfkxqua.vohzh-s0pbh-vhwsal.xyz:16677/topic/247453.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "爱憎分明",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "3头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 99,
+      "section": "辽城鹤化",
+      "field": "大杀一头",
+      "position": "顶部",
+      "url": "https://shuqhbq.654o7-lyreu-rzcudi.xyz:16677/topic/687157.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "辽城鹤化",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "3头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 100,
+      "section": "温婉如水",
+      "field": "特码(4)头",
+      "position": "顶部",
+      "url": "https://akqasqa.drr11-soh5x-jcaafg.xyz:16677/",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "温婉如水",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 101,
+      "section": "无名侠客",
+      "field": "特码四头",
+      "position": "顶部",
+      "url": "https://mm.737799b.com:1888/art_gsb/8160",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "无名侠客",
+      "passed": true,
+      "hits": {
+        "189期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 102,
+      "section": "神童资讯",
+      "field": "四头中特",
+      "position": "顶部",
+      "url": "https://77.969353m.com:1888/",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "神童资讯",
+      "passed": true,
+      "hits": {
+        "188期": "3头"
+      },
+      "status": "failed",
+      "record_period": "",
+      "record_value": "",
+      "error": "189期同一期出现多个冲突候选（0头: 189期四头中特【1234】开:15准神童资讯【精准四行】；3头: 189期四头中特【0124】开:15准），已拒绝写入成功"
+    },
+    {
+      "index": 103,
+      "section": "老五主",
+      "field": "四头中特",
+      "position": "顶部",
+      "url": "https://77.969353m.com:1888/",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "老五主",
+      "passed": true,
+      "hits": {
+        "188期": "3头"
+      },
+      "status": "failed",
+      "record_period": "",
+      "record_value": "",
+      "error": "189期同一期出现多个冲突候选（0头: 189期四头中特【1234】开:15准神童资讯【精准四行】；3头: 189期四头中特【0124】开:15准），已拒绝写入成功"
+    },
+    {
+      "index": 104,
+      "section": "似水柔情",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://rwraojf.l54vq-9httr-cmdnip.work:29477/article/admin/6a041b284ea5c20141013dc6?url=xdr",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "似水柔情",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "0头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 105,
+      "section": "送福推荐",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://fymxwnyg.ttmzc-muvns-udlfln.work:29455/article/admin/6a096fa5291caff3edcb8c19?url=lhbd",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "送福推荐",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "0头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 106,
+      "section": "人心所向-④头中特",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://aszmkf.c3z3l-qrlqm-mwgccr.work:29411/article/admin/6a0837b308adb5ed7357efc9?url=lhw",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "人心所向",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "0头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 107,
+      "section": "金彩报喜",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://aszmkf.c3z3l-qrlqm-mwgccr.work:29411/article/admin/6a083cd708adb5ed7357f032?url=lhw",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "金彩报喜",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "3头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 108,
+      "section": "火爆全网",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://zxlfxpp.2n0je-9ecrg-kadbbu.work:29411/article/admin/6a1417e74346bc68aea4ef91?url=tmw",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "火爆全网",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "1头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 109,
+      "section": "水泄不通",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://zqrtppa.9swju-6haxn-dlkint.work:29455/article/admin/6a33a647dfa16552b923cb17?url=yjs",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "水泄不通",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "2头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 110,
+      "section": "高手如林",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://sndaygl.egjtc-sgs8w-taclan.work:29400/article/admin/6a140f13597e16d57eacb4b2?url=nmw",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "高手如林",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "3头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 111,
+      "section": "卡布奇诺",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a04340f4ea5c20141013e2c?url=qdz",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "卡布奇诺",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "4头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 112,
+      "section": "悬崖峭壁",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02da196bedb2a8313d5863?url=home",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "悬崖峭壁",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "1头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 113,
+      "section": "玩彩相公",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a031f7e56a1d26b77744555?url=hj",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "玩彩相公",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "1头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 114,
+      "section": "洁白晶莹",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a03409acd2fbc900f6db842?url=hj",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "洁白晶莹",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "3头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 115,
+      "section": "偏听偏信",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://yqjfwqsc.1dayz-aetgp-kbjidr.xyz:16677/topic/677893.html",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "偏听偏信",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "1头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 116,
+      "section": "绝杀一头",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://zwpwuwq.fxnb4-uer1b-uftjcw.work:16677/topic/556287.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "绝杀一头",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "2头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 117,
+      "section": "秋收冬藏",
+      "field": "四头中特",
+      "position": "顶部",
+      "url": "https://znnpwd.p42g1-zqmsb-jjrsfg.xyz:16677/topic/476485.html",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "秋收冬藏",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "2头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 118,
+      "section": "丘壑泾渭",
+      "field": "四头中特",
+      "position": "顶部",
+      "url": "https://akqasqa.drr11-soh5x-jcaafg.xyz:16677/topic/543239.html",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "丘壑泾渭",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "0头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 119,
+      "section": "风声鹤唳",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://kxhnibht.49x6o-xyonh-swqkpv.xyz:16677/topic/263501.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "风声鹤唳",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "2头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 120,
+      "section": "精神抖擞",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://xeyzmutd.ulazy-l7v28-mgqrqs.xyz:16677/topic/470790.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "精神抖擞",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "1头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 121,
+      "section": "开心果",
+      "field": "禁头",
+      "position": "顶部",
+      "url": "https://ykkpjdgv.d1ju4-kbfjr-zexdzd.xyz:16677/",
+      "parse_hint": "table_column",
+      "content_hint": "综合绝杀",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "2头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 122,
+      "section": "特码输尽光",
+      "field": "特码输尽光",
+      "position": "顶部",
+      "url": "https://bemgrnty.o1uab-4e5oe-yyddxc.xyz:16677/",
+      "parse_hint": "head_tail_phrase",
+      "content_hint": "特码输尽光",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "2头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 123,
+      "section": "牛头马面",
+      "field": "稳杀(1)头",
+      "position": "顶部",
+      "url": "https://yqjfwqsc.1dayz-aetgp-kbjidr.xyz:16677/",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "稳杀(1)头",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "3头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 124,
+      "section": "姜太公白姐輸盡光",
+      "field": "白姐輸盡光",
+      "position": "顶部",
+      "url": "https://mhbrhe.yng6t-7rqul-ximlot.xyz:16677/",
+      "parse_hint": "head_tail_phrase",
+      "content_hint": "白姐輸盡光",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "3头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 125,
+      "section": "输尽光玄机",
+      "field": "输尽光玄机",
+      "position": "顶部",
+      "url": "https://ocnrhq.du156-vb27w-tmhsed.xyz:16677/",
+      "parse_hint": "head_tail_phrase",
+      "content_hint": "输尽光玄机",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "3头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 126,
+      "section": "全网最准",
+      "field": "四头中特",
+      "position": "顶部",
+      "url": "https://estsghu.t7gsm-xl1x8-uohlna.xyz:16677/",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "四头中特",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "4头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 127,
+      "section": "全网最准综合",
+      "field": "杀一头",
+      "position": "顶部",
+      "url": "https://estsghu.t7gsm-xl1x8-uohlna.xyz:16677/",
+      "parse_hint": "table_column",
+      "content_hint": "综合绝杀",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "2头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 128,
+      "section": "猜特输尽光",
+      "field": "猜特输尽光",
+      "position": "顶部",
+      "url": "https://gjyzpnkx.1r42a-pilbo-hfynxw.xyz:16677/",
+      "parse_hint": "head_tail_phrase",
+      "content_hint": "猜特输尽光",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "3头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 129,
+      "section": "满堂红输尽光玄机",
+      "field": "输尽光玄机",
+      "position": "顶部",
+      "url": "https://znnpwd.p42g1-zqmsb-jjrsfg.xyz:16677/",
+      "parse_hint": "head_tail_phrase",
+      "content_hint": "输尽光玄机",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "2头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 130,
+      "section": "满堂红稳杀一头",
+      "field": "稳杀一头",
+      "position": "顶部",
+      "url": "https://znnpwd.p42g1-zqmsb-jjrsfg.xyz:16677/",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "稳杀一头",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 131,
+      "section": "港澳彩资讯网",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://azvlnfh.sl965-zqdd3-igdewf.xyz:16677/",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "绝杀一头",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "4头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 132,
+      "section": "管家婆",
+      "field": "特码四头",
+      "position": "顶部",
+      "url": "https://22.868393c.com:1888/",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "特码四头",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 133,
+      "section": "赚发中彩",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://xozgdo.um2zi-vbge0-emngyq.work:29422/article/admin/6a1413a5bf0a6cb1dd38fa17?url=sgnn",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "赚发中彩",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "1头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 134,
+      "section": "我见犹怜",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://xozgdo.um2zi-vbge0-emngyq.work:29422/article/admin/6a1402b34346bc68aea4ef09?url=sgnn",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "我见犹怜",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "4头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 135,
+      "section": "心照不宣",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://czcvzk.4n5g7-o871g-hqmkwz.work:29422/article/admin/6a0969cb291caff3edcb8b72?url=tsp",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "心照不宣",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "2头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 136,
+      "section": "神算通天",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://zqrtppa.9swju-6haxn-dlkint.work:29455/article/admin/6a33a175dfa16552b923cae3?url=yjs",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "神算通天",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "4头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 137,
+      "section": "横财计算",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://ifnkblf.e4kce-krr7o-vuvqhd.work:29411/article/admin/6a145d4a31b8505dcf06200f?url=scyd",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "横财计算",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "0头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 138,
+      "section": "金玉良缘",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://ifnkblf.e4kce-krr7o-vuvqhd.work:29411/article/admin/6a143f8fbf0a6cb1dd38fb91?url=scyd",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "金玉良缘",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "3头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 139,
+      "section": "对方过后",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a2ec734de36e960239c6d47?url=fcw",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "对方过后",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "4头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 140,
+      "section": "周而复始",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a106caf45d22fb4b70fa8ce?url=fcw",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "周而复始",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "3头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 141,
+      "section": "招财进宝",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a09b435291caff3edcb90ab?url=fcw",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "招财进宝",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "0头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 142,
+      "section": "日益精进",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://dgjdlk.0hrwo-8qjsc-spwvba.xyz:29411/article/admin/6a12e3d1741e3e91a04e5238?url=cf",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "日益精进",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "3头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 143,
+      "section": "月亮弯弯",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a0441144ea5c20141013e6c?url=qdz",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "月亮弯弯",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "4头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 144,
+      "section": "吉祥特码",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://utklnwvn.xt8d7-kd9kc-csprqr.work:29488/article/admin/6a04465e4ea5c20141013e86?url=qdz",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "吉祥特码",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "4头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 145,
+      "section": "弦歌不辍",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/article/admin/6a02d06b8bad0a3579e9f744?url=tdg",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "弦歌不辍",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "3头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 146,
+      "section": "万彩资料",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02d3b18bad0a3579e9f75a?url=home",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "万彩资料",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "4头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 147,
+      "section": "花朵之蓝",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a040fcd4ea5c20141013d94?url=lbw",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "花朵之蓝",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "2头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 148,
+      "section": "财宝霸业",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04121c4ea5c20141013da1?url=lbw",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "财宝霸业",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "0头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 149,
+      "section": "同舟共济",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a04198c4ea5c20141013dbd?url=lbw",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "同舟共济",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "3头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 150,
+      "section": "万中无一",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://uqdccnri.oy2bh-swrfr-gvzxkk.work:29499/article/admin/6a03349fe09a39d316b223bb?url=lcz",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "万中无一",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "4头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 151,
+      "section": "聪明绝顶二版",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://qgyhdauu.avht7-lah7b-oavfmr.work:29444/article/admin/6a01a3309dbe5d9cedc4eb90?url=wzw",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "四头中特",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "0头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 152,
+      "section": "高屋建瓴",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a0326f7e09a39d316b2239f?url=hj",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "高屋建瓴",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "2头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 153,
+      "section": "扬眉吐气",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/admin/6a144dffbf0a6cb1dd38fbf3?url=lqz",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "扬眉吐气",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "1头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 154,
+      "section": "不吐不快-杀一头",
+      "field": "杀一头",
+      "position": "尾部",
+      "url": "https://993345.com/gsb1.aspx?id=2266",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "不吐不快",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "2头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 155,
+      "section": "战神政策",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://sheuzjss.tgpcj-9w0vl-mwyhly.work:29422/article/admin/6a045ccd4ea5c20141013ece?url=zfw",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "战神政策",
+      "passed": false,
+      "hits": {},
+      "status": "failed",
+      "record_period": "",
+      "record_value": "",
+      "error": "admin文章接口未返回目标文章，无法读取目标原始内容"
+    },
+    {
+      "index": 156,
+      "section": "国色天香",
+      "field": "杀一头",
+      "position": "尾部",
+      "url": "https://993345.com/gsb1.aspx?id=2509",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "国色天香",
+      "passed": true,
+      "hits": {
+        "188期": "2头",
+        "187期": "3头"
+      },
+      "status": "failed",
+      "record_period": "",
+      "record_value": "",
+      "error": "已定位栏目，但未解析出189期值"
+    },
+    {
+      "index": 157,
+      "section": "声气相求#1",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://njkzdcwj.nql6i-8t6su-hytife.xyz:16677/topic/308315.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "声气相求",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "0头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 158,
+      "section": "张嘴结舌",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "url": "https://ykkpjdgv.d1ju4-kbfjr-zexdzd.xyz:16677/topic/681948.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "张嘴结舌",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "4头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 159,
+      "section": "漆雕墨染",
+      "field": "杀一头",
+      "position": "顶部",
+      "url": "https://msbqxti.zhx2n-7v5x3-ivdpud.xyz:16677/topic/682734.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "漆雕墨染",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "4头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 160,
+      "section": "十成九稳",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://estsghu.t7gsm-xl1x8-uohlna.xyz:16677/topic/356083.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "十成九稳",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "1头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 161,
+      "section": "浩如烟海",
+      "field": "杀一头",
+      "position": "顶部",
+      "url": "https://qarppl.154bo-trld9-qppors.xyz:16677/topic/326554.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "浩如烟海",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "3头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 162,
+      "section": "东奔西走",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://xoxtpupt.bvptr-i3mv8-pbjxin.work:17455/topic/792915.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "东奔西走",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "3头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 163,
+      "section": "高风峻节",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://akqasqa.drr11-soh5x-jcaafg.xyz:16677/topic/543285.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "高风峻节",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "4头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 164,
+      "section": "天下为笼",
+      "field": "四头中特",
+      "position": "顶部",
+      "url": "https://akqasqa.drr11-soh5x-jcaafg.xyz:16677/topic/543256.html",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "天下为笼",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "3头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 165,
+      "section": "金多宝四头中特",
+      "field": "必中四头",
+      "position": "顶部",
+      "url": "https://993345.com/",
+      "parse_hint": "missing_head_from_four_combo",
+      "content_hint": "金多宝】四头中特",
+      "passed": true,
+      "hits": {
+        "188期": "0头",
+        "187期": "2头"
+      },
+      "status": "failed",
+      "record_period": "",
+      "record_value": "",
+      "error": "已定位栏目，但未解析出189期值"
+    },
+    {
+      "index": 166,
+      "section": "七剑下天山",
+      "field": "第四剑",
+      "position": "顶部",
+      "url": "https://kcyeko.bzx7a-tl1us-cfcaei.xyz:16677/",
+      "parse_hint": "sword_head",
+      "content_hint": "七剑下天山",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "3头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 167,
+      "section": "竞星剑",
+      "field": "中四头",
+      "position": "顶部",
+      "url": "https://ykeejph.z9koz-18xjn-pvglgy.xyz:16677/",
+      "parse_hint": "four_combo_after_marker",
+      "content_hint": "竞星剑",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "0头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 168,
+      "section": "彩吧",
+      "field": "杀一头",
+      "position": "顶部",
+      "url": "https://kxhnibht.49x6o-xyonh-swqkpv.xyz:16677/",
+      "parse_hint": "table_column",
+      "content_hint": "澳门彩吧",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "2头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 169,
+      "section": "八步毛哥",
+      "field": "杀头",
+      "position": "顶部",
+      "url": "https://2.www39169b.com:888/#62111",
+      "parse_hint": "table_column",
+      "content_hint": "八步毛哥",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "3头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 170,
+      "section": "横财富",
+      "field": "绝杀一头",
+      "position": "尾部",
+      "url": "https://a.995546.com/",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "绝杀一头",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "3头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 171,
+      "section": "烈日炎炎",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://18118.73829.com/read.php?tid=420",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "烈日炎炎",
+      "passed": false,
+      "hits": {},
+      "status": "failed",
+      "record_period": "",
+      "record_value": "",
+      "error": "页面提示无权限或链接无效，无法读取目标原始内容"
+    },
+    {
+      "index": 172,
+      "section": "夜不闭户",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://18118.73829.com/read.php?tid=642",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "夜不闭户",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "1头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 173,
+      "section": "富丽堂皇",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://szfzml.mfuw8-bnsfa-gdaxhk.xyz/view.php?id=253",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "富丽堂皇",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "2头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 174,
+      "section": "如坐春风",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://szfzml.mfuw8-bnsfa-gdaxhk.xyz/view.php?id=294",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "如坐春风",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "0头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 175,
+      "section": "吉星照耀",
+      "field": "④头中特",
+      "position": "尾部",
+      "url": "https://flllxn.8w08j-eua1c-atygor.xyz/view.php?id=96",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "吉星照耀",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "2头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 176,
+      "section": "千呼后拥",
+      "field": "中特四头",
+      "position": "顶部",
+      "url": "https://kcyeko.bzx7a-tl1us-cfcaei.xyz:16677/topic/466586.html",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "千呼后拥",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "3头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 177,
+      "section": "执笔抒情",
+      "field": "必中一头",
+      "position": "顶部",
+      "url": "https://zdwcig.iyo4d-81klf-udwkqg.work:16677/topic/350544.html",
+      "parse_hint": "must_win_head",
+      "content_hint": "必中一头",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 178,
+      "section": "大难不死",
+      "field": "四头中特",
+      "position": "顶部",
+      "url": "https://cxmdjok.8wtwc-boven-glylvt.xyz:16677/topic/437791.html",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "大难不死",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "0头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 179,
+      "section": "一望无边",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://ymkakun.dwgml-7jbcy-ohrbrq.xyz:16677/topic/547537.html",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "一望无边",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "4头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 180,
+      "section": "梦醒时分",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://ninbwa.7bmc7-mxwy9-uwkcem.xyz:16677/topic/283452.html",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "梦醒时分",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "0头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 181,
+      "section": "大显身手",
+      "field": "四头中特",
+      "position": "顶部",
+      "url": "https://wmdhoki.6su07-7lpw6-gudkzl.xyz:16677/topic/727505.html",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "大显身手",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "0头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 182,
+      "section": "无可取代",
+      "field": "四头中特",
+      "position": "顶部",
+      "url": "https://kk.375737m.com:1888/art_zhuanqu/7497.html",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "无可取代",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 183,
+      "section": "旺角资料",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://bbs28.880280.xyz/bbs/topic.php?id=18331",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "四头中特",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "0头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 184,
+      "section": "好好学习",
+      "field": "四头中特",
+      "position": "顶部",
+      "url": "https://cxmdjok.8wtwc-boven-glylvt.xyz:16677/topic/437726.html",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "好好学习",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "0头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 185,
+      "section": "取长补短",
+      "field": "四头中特",
+      "position": "顶部",
+      "url": "https://cxmdjok.8wtwc-boven-glylvt.xyz:16677/topic/437773.html",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "取长补短",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "0头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 186,
+      "section": "琪花瑶草",
+      "field": "精英四头",
+      "position": "顶部",
+      "url": "https://fszatrw.xhwqs-gffny-zzdfsq.work:16677/topic/678174.html",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "琪花瑶草",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "0头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 187,
+      "section": "白鹤晾翅",
+      "field": "精准四头",
+      "position": "尾部",
+      "url": "https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/451543.html",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "白鹤晾翅",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "1头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 188,
+      "section": "链路聚合",
+      "field": "四头中特",
+      "position": "顶部",
+      "url": "https://bbuueerm.pxcma-jyfok-mvduyw.xyz:16633/topic/455099.html",
+      "parse_hint": "strict_position_three_missing_head_from_four_combo",
+      "content_hint": "链路聚合",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 189,
+      "section": "大智若愚",
+      "field": "四头中特",
+      "position": "顶部",
+      "url": "https://hnzbrzl.2n783-iuaof-dczvqm.xyz/topic/764767.html",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "四头中特",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "1头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 190,
+      "section": "倾暖未颜",
+      "field": "四头中特",
+      "position": "顶部",
+      "url": "https://huqtzej.vvlq2-j4i8n-lisghq.xyz:16677/topic/463771.html",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "倾暖未颜",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "4头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 191,
+      "section": "功成名就",
+      "field": "精杀一头",
+      "position": "顶部",
+      "url": "https://huqtzej.vvlq2-j4i8n-lisghq.xyz:16677/topic/281521.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "功成名就",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "3头",
+        "187期": "0头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    },
+    {
+      "index": 192,
+      "section": "自取灭亡",
+      "field": "精杀一头",
+      "position": "顶部",
+      "url": "https://huqtzej.vvlq2-j4i8n-lisghq.xyz:16677/topic/327050.html",
+      "parse_hint": "full_period_list",
+      "content_hint": "自取灭亡",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "0头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 193,
+      "section": "悠然自得",
+      "field": "④头中特",
+      "position": "顶部",
+      "url": "https://peubwtt.t3vdj-h3294-qpbmtj.work:16677/topic/453381.html",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "悠然自得",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "1头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 194,
+      "section": "财富快车",
+      "field": "四头中特",
+      "position": "顶部",
+      "url": "https://nynzbhfy.mqmnp-uzvc3-rfrukm.xyz/topic/770001.html",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "四头中特",
+      "passed": true,
+      "hits": {
+        "189期": "1头",
+        "188期": "4头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "1头",
+      "error": ""
+    },
+    {
+      "index": 195,
+      "section": "财富快车第二",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://nynzbhfy.mqmnp-uzvc3-rfrukm.xyz/topic/769995.html",
+      "parse_hint": "period_bracket_head",
+      "content_hint": "绝杀一头",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "1头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 196,
+      "section": "闭月羞花",
+      "field": "四头中特",
+      "position": "顶部",
+      "url": "https://cdlmrp.etrum-l5k1c-wcasxz.work:16677/topic/440103.html",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "闭月羞花",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "3头",
+        "187期": "2头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 197,
+      "section": "宁波商人",
+      "field": "公式四头",
+      "position": "顶部",
+      "url": "https://xmdrbud.eqpr2-6tpvi-pjqztv.xyz:16677/topic/503025.html",
+      "parse_hint": "strict_position_three_missing_head_from_four_combo",
+      "content_hint": "宁波商人",
+      "passed": true,
+      "hits": {
+        "189期": "0头",
+        "188期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "0头",
+      "error": ""
+    },
+    {
+      "index": 198,
+      "section": "张三李四",
+      "field": "四头中特",
+      "position": "尾部",
+      "url": "https://yaaxgud.xg0eu-qjubd-yneksw.xyz:16677/topic/436706.html",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "张三李四",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "188期": "2头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 199,
+      "section": "尽释前嫌",
+      "field": "四头中特",
+      "position": "顶部",
+      "url": "https://qygfz.g0e5q-ese45-poafdu.xyz/topic/215971.html",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "尽释前嫌",
+      "passed": true,
+      "hits": {
+        "189期": "4头",
+        "188期": "4头",
+        "187期": "3头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "4头",
+      "error": ""
+    },
+    {
+      "index": 200,
+      "section": "小沈怕怕",
+      "field": "特码四头",
+      "position": "顶部",
+      "url": "https://kk.212557a.com:1888/art_zhuanqu/8160.html",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "content_hint": "小沈怕怕",
+      "passed": true,
+      "hits": {
+        "189期": "3头",
+        "187期": "1头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "3头",
+      "error": ""
+    },
+    {
+      "index": 201,
+      "section": "喜欢药",
+      "field": "绝杀一头",
+      "position": "顶部",
+      "url": "https://zcphjs.ce83x-ms2rz-orwude.work:12277/#/users/3727",
+      "parse_hint": "user_kill_head",
+      "content_hint": "喜欢药",
+      "passed": true,
+      "hits": {
+        "189期": "2头",
+        "188期": "1头",
+        "187期": "4头"
+      },
+      "status": "success",
+      "record_period": "189期",
+      "record_value": "2头",
+      "error": ""
+    }
+  ]
+}

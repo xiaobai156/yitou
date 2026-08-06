@@ -1,0 +1,24 @@
+[
+  {
+    "url": "https://example.test/1",
+    "position": "顶部",
+    "section": "甲",
+    "field": "绝杀一头",
+    "period": "193期",
+    "value": "1头",
+    "raw_line": "",
+    "status": "success",
+    "error": ""
+  },
+  {
+    "url": "https://example.test/2",
+    "position": "尾部",
+    "section": "乙",
+    "field": "绝杀一头",
+    "period": "193期",
+    "value": "2头",
+    "raw_line": "",
+    "status": "failed",
+    "error": "网络失败"
+  }
+]
