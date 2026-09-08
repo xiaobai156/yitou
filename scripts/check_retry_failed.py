@@ -8,6 +8,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from lottery_head.models import HeadRecord, SiteRule
 from lottery_head.output_transaction import commit_artifacts_transaction
 from lottery_head.retry_failed import format_head_ranking, match_failed_rules, merge_failed_txt, merge_success_txt, read_failed_targets
+from lottery_head.selection import _global_direction_window, collect_ordered_candidates
+from lottery_head.models import SourceDocument
 from scripts.retry_failed_sites import ensure_retry_inputs_unchanged, validate_retry_window
 
 
@@ -16,7 +18,7 @@ def main():
         root = Path(folder)
         failed = root / "failed.txt"
         a = "失败 A https://example.com/a 方向: 顶部 期数: 251期\r\n阶段: 指定期数校验 原因: 251期不在顶部第一条"
-        b = a.replace(" A ", " B ").replace("/a ", "/b ")
+        b = "  " + a.replace(" A ", " B ").replace("/a ", "/b ")
         failed.write_bytes(b"\xef\xbb\xbf" + (a + "\r\n\r\n" + b + "\r\n\r\n失败分类统计\r\n方向范围外 2条").encode())
         rules = [SiteRule("https://example.com/" + name.lower(), "顶部", name, "头", parse_hint="period") for name in ("A", "B", "C")]
         assert [r.section for r in match_failed_rules(read_failed_targets(failed, "251期"), rules)] == ["A", "B"]
@@ -72,6 +74,14 @@ def main():
         assert first.read_bytes() == before
     assert format_head_ranking(["2头", "2头"]).count("2头\t2\t1") == 1
     _check_main_scope_and_snapshot()
+    candidates = [{"period": "251期", "value": "2头", "document_key": "a", "document_order": 0, "original_position": 0}, {"period": "251期", "value": "2头", "document_key": "b", "document_order": 1, "original_position": 1}]
+    assert len(_global_direction_window(candidates, "顶部")) == 2
+    try:
+        collect_ordered_candidates([SourceDocument("", "", "x", resource_error="script failed", resource_required=True)], rules[0])
+    except ValueError:
+        pass
+    else:
+        raise AssertionError("必需资源失败被跳过")
     print("PASS: 导入、定点身份、窗口、BOM/CRLF、精确表头、去重、回滚")
 
 
@@ -108,7 +118,7 @@ def _check_main_scope_and_snapshot():
         entry.build_cache_payload = lambda *args, **kwargs: snapshot
         entry.merge_success_txt = lambda path, records: b"success"
         entry.merge_failed_txt = lambda path, records, period: b"failed"
-        entry.commit_artifacts_transaction = lambda artifacts: committed.append(artifacts)
+        entry.commit_artifacts_transaction = lambda artifacts, **kwargs: committed.append(artifacts)
         validation.validate_cache_snapshot = lambda value, rules: value
         cache_module.validate_cache_snapshot = lambda value, rules: value
         assert entry.main(["251期"]) == 0

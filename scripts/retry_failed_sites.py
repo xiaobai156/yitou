@@ -13,6 +13,7 @@ from lottery_head.cli_collect import collect_rules
 from lottery_head.cli_support import _period_number
 from lottery_head.config import load_rules
 from lottery_head.output import commit_artifacts_transaction
+from lottery_head.output_transaction import ArtifactCleanupWarning, ArtifactTransactionRollbackError
 from lottery_head.retry_failed import (
     match_failed_rules,
     merge_failed_txt,
@@ -50,18 +51,23 @@ def main(argv: list[str] | None = None) -> int:
     if not failure_path.exists():
         print(f"失败TXT不存在：{failure_path}")
         return 2
-    targets = read_failed_targets(failure_path, target_period)
+    failure_original = failure_path.read_bytes()
+    targets = read_failed_targets(failure_original, target_period)
     if not targets:
         print(f"失败TXT中没有{target_period}的失败站点")
         return 2
     all_rules = load_rules()
     rules = match_failed_rules(targets, all_rules)
     cache_original = RECENT_10_CACHE_PATH.read_bytes() if RECENT_10_CACHE_PATH.exists() else None
-    if cache_original is None:
-        existing = None
-    else:
-        from lottery_head.cache_validation import validate_cache_snapshot
-        existing = validate_cache_snapshot(json.loads(cache_original.decode("utf-8")), all_rules)
+    try:
+        if cache_original is None:
+            existing = None
+        else:
+            from lottery_head.cache_validation import validate_cache_snapshot
+            existing = validate_cache_snapshot(json.loads(cache_original.decode("utf-8")), all_rules)
+    except (OSError, ValueError, json.JSONDecodeError) as exc:
+        print(f"提交前停止：缓存无法验证：{exc}")
+        return 1
     if existing is None:
         print("缓存无效，未写入任何结果")
         return 1
@@ -72,8 +78,14 @@ def main(argv: list[str] | None = None) -> int:
         return 1
     success_path = SUMMARY_DIR / f"{period_number}期-头.txt"
     failed_path = FAILURE_SUMMARY_DIR / f"{period_number}期失败-一头.txt"
-    expected = {path: path.read_bytes() if path.exists() else None for path in (success_path, failed_path)}
+    expected = {success_path: success_path.read_bytes() if success_path.exists() else None, failure_path: failure_original}
     expected[RECENT_10_CACHE_PATH] = cache_original
+    try:
+        merge_success_txt(success_path, [])
+        merge_failed_txt(failed_path, [], target_period)
+    except (OSError, ValueError) as exc:
+        print(f"提交前停止：正式TXT无法验证：{exc}")
+        return 1
     print(f"retry-failed | period={target_period} sites={len(rules)}", flush=True)
 
     records, _ = collect_rules(rules, target_period, [target_period], 1)
@@ -114,7 +126,13 @@ def main(argv: list[str] | None = None) -> int:
     }
     try:
         ensure_retry_inputs_unchanged(expected)
-        commit_artifacts_transaction(artifacts)
+        commit_artifacts_transaction(artifacts, expected=expected)
+    except ArtifactCleanupWarning as exc:
+        print(f"提交成功但备份清理失败：{exc}")
+        return 0
+    except ArtifactTransactionRollbackError as exc:
+        print(f"回滚不完整：{exc}")
+        return 1
     except RuntimeError as exc:
         print(f"写入停止：{exc}")
         return 1
