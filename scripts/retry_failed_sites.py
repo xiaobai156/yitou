@@ -42,7 +42,15 @@ def main(argv: list[str] | None = None) -> int:
     if not targets:
         print(f"失败TXT中没有{target_period}的失败站点")
         return 2
-    rules = match_failed_rules(targets, load_rules())
+    all_rules = load_rules()
+    rules = match_failed_rules(targets, all_rules)
+    existing = read_validated_cache(RECENT_10_CACHE_PATH, all_rules)
+    if existing is None:
+        print("缓存无效，未写入任何结果")
+        return 1
+    if target_period not in existing.get("periods", []):
+        print(f"目标期数{target_period}不在缓存窗口，三份文件保持原样")
+        return 1
     print(f"retry-failed | period={target_period} sites={len(rules)}", flush=True)
 
     records, _ = collect_rules(rules, target_period, [target_period], 1)
@@ -51,11 +59,6 @@ def main(argv: list[str] | None = None) -> int:
         print("本轮全部仍失败，所有正式文件保持不变")
         return 1
 
-    all_rules = load_rules()
-    existing = read_validated_cache(RECENT_10_CACHE_PATH, all_rules)
-    if existing is None:
-        print("缓存无效，未写入任何结果")
-        return 1
     cache = build_cache_payload(
         records,
         all_rules,
@@ -68,12 +71,16 @@ def main(argv: list[str] | None = None) -> int:
     from copy import deepcopy
     merged = deepcopy(existing)
     names = {record.section for record in records}
-    generated = {entry["identity"]["section"]: entry for entry in cache["sites"]}
+    generated = {
+        (entry["identity"]["section"], entry["identity"]["url"], entry["identity"]["position"], entry["identity"]["parse_hint"]): entry
+        for entry in cache["sites"]
+    }
     for entry in merged["sites"]:
-        name = entry["identity"]["section"]
-        if name in names:
+        identity = entry["identity"]
+        key = (identity["section"], identity["url"], identity["position"], identity["parse_hint"])
+        if key in generated:
             for key in ("values", "positions", "provenance", "missing"):
-                new = generated[name][key]
+                new = generated[(identity["section"], identity["url"], identity["position"], identity["parse_hint"])] [key]
                 if target_period in new:
                     entry[key][target_period] = new[target_period]
                 else:
