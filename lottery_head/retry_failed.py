@@ -50,10 +50,10 @@ def merge_success_txt(path: Path, records: list[HeadRecord]) -> bytes:
     bom = raw.startswith(b"\xef\xbb\xbf")
     newline = "\r\n" if b"\r\n" in raw else "\n"
     text = raw.decode("utf-8-sig") if raw else ""
-    marker = re.search(r"(?m)^内容[\t ]+次数[\t ]+排名\s*$", text)
-    if marker is None:
+    marker_text = next((line for line in text.splitlines() if "内容" in line and "次数" in line and "排名" in line), None)
+    if marker_text is None:
         raise ValueError(f"成功TXT缺少排行榜边界：{path}")
-    prefix = text[:marker.start()]
+    prefix = text[: text.find(marker_text)]
     newline = "\r\n" if "\r\n" in text else "\n"
     existing = {}
     values = []
@@ -97,7 +97,7 @@ def merge_failed_txt(path: Path, target_records: list[HeadRecord], target_period
         if match and (match.group("section"), canonical_url(match.group("url")), normalize_position(match.group("position"))) in target_ids and match.group("period") == target_period:
             continue
         if block.strip() and not block.lstrip().startswith("失败分类统计"):
-            kept.append(block.strip())
+            kept.append(re.split(r"(?m)^失败分类统计\s*$", block)[0].strip())
     if not kept:
         return None
     categories = Counter(failure_category(block) for block in kept)
