@@ -32,6 +32,13 @@ def validate_retry_window(existing: dict, target_period: str) -> None:
         raise ValueError(f"目标期数{target_period}不在缓存窗口")
 
 
+def ensure_retry_inputs_unchanged(expected: dict[Path, bytes | None]) -> None:
+    for path, original in expected.items():
+        current = path.read_bytes() if path.exists() else None
+        if current != original:
+            raise RuntimeError(f"正式文件在重抓期间发生变化，已停止写入：{path}")
+
+
 def main(argv: list[str] | None = None) -> int:
     argv = list(sys.argv[1:] if argv is None else argv)
     if len(argv) != 1:
@@ -103,10 +110,7 @@ def main(argv: list[str] | None = None) -> int:
         RECENT_10_CACHE_PATH: json.dumps(merged, ensure_ascii=False, indent=2).encode("utf-8"),
     }
     try:
-        for path, original in expected.items():
-            current = path.read_bytes() if path.exists() else None
-            if current != original:
-                raise RuntimeError(f"正式文件在重抓期间发生变化，已停止写入：{path}")
+        ensure_retry_inputs_unchanged(expected)
         commit_artifacts_transaction(artifacts)
     except RuntimeError as exc:
         print(f"写入停止：{exc}")

@@ -8,7 +8,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from lottery_head.models import HeadRecord, SiteRule
 from lottery_head.output_transaction import commit_artifacts_transaction
 from lottery_head.retry_failed import format_head_ranking, match_failed_rules, merge_failed_txt, merge_success_txt, read_failed_targets
-from scripts.retry_failed_sites import validate_retry_window
+from scripts.retry_failed_sites import ensure_retry_inputs_unchanged, validate_retry_window
 
 
 def main():
@@ -36,6 +36,16 @@ def main():
             pass
         else:
             raise AssertionError("窗口外期数未拒绝")
+        watched = root / "watched.json"
+        watched.write_text("old", encoding="utf-8")
+        expected = {watched: watched.read_bytes()}
+        watched.write_text("other-update", encoding="utf-8")
+        try:
+            ensure_retry_inputs_unchanged(expected)
+        except RuntimeError:
+            pass
+        else:
+            raise AssertionError("抓取期间外部更新未被拒绝")
         first, second = root / "first.txt", root / "second.txt"
         first.write_text("old", encoding="utf-8")
         second.write_text("old2", encoding="utf-8")
