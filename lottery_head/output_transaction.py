@@ -8,11 +8,8 @@ from pathlib import Path
 
 import msvcrt
 
-from .settings import TMP_DIR
-
-
 _ARTIFACT_WRITE_LOCK = threading.Lock()
-_ARTIFACT_LOCK_PATH = TMP_DIR / "artifact-write.lock"
+_ARTIFACT_LOCK_PATH = Path(".tmp") / "artifact-write.lock"
 
 
 class ArtifactTransactionRollbackError(RuntimeError):
