@@ -7,11 +7,21 @@ from .documents.collector_details import FIRST_THREE_PAGES_PARSE_HINT
 from .models import HeadRecord, SitePeriodData, SiteRule
 from .network import build_client, get_text
 from .selection import describe_conflicting_candidates, extract_period_candidates_by_period, find_latest_available_record, invalid_target_value_error, period_boundary_ambiguity, period_value_conflict, position_three_label, select_period_records, select_period_values
-from .service_results import failed_head_record, head_record_from_extracted, locked_target_period_error, make_site_period_data, required_resource_error
+from .service_results import failed_head_record, head_record_from_extracted, locked_target_period_error, make_site_period_data
 
 
 def load_initial_source_html(client, source_url: str, *, get_text_fn=get_text) -> str:
     return get_text_fn(client, source_url)
+
+
+def required_resource_error(fragments) -> str:
+    errors = [
+        str(getattr(fragment, "resource_error", ""))
+        for fragment in fragments
+        if getattr(fragment, "resource_required", False)
+        and str(getattr(fragment, "resource_error", "")).strip()
+    ]
+    return f"页面资源不完整：{'；'.join(dict.fromkeys(errors))}" if errors else ""
 
 
 def fetch_rule_with_period_data(
