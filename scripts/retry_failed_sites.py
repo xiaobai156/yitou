@@ -27,6 +27,11 @@ from lottery_head.settings import (
 from lottery_head.validation import parse_target_period
 
 
+def validate_retry_window(existing: dict, target_period: str) -> None:
+    if target_period not in existing.get("periods", []):
+        raise ValueError(f"目标期数{target_period}不在缓存窗口")
+
+
 def main(argv: list[str] | None = None) -> int:
     argv = list(sys.argv[1:] if argv is None else argv)
     if len(argv) != 1:
@@ -48,9 +53,17 @@ def main(argv: list[str] | None = None) -> int:
     if existing is None:
         print("缓存无效，未写入任何结果")
         return 1
-    if target_period not in existing.get("periods", []):
+    try:
+        validate_retry_window(existing, target_period)
+    except ValueError:
         print(f"目标期数{target_period}不在缓存窗口，三份文件保持原样")
         return 1
+    success_path = SUMMARY_DIR / f"{period_number}期-头.txt"
+    failed_path = FAILURE_SUMMARY_DIR / f"{period_number}期失败-一头.txt"
+    expected = {
+        path: path.read_bytes() if path.exists() else None
+        for path in (success_path, failed_path, RECENT_10_CACHE_PATH)
+    }
     print(f"retry-failed | period={target_period} sites={len(rules)}", flush=True)
 
     records, _ = collect_rules(rules, target_period, [target_period], 1)
@@ -66,11 +79,8 @@ def main(argv: list[str] | None = None) -> int:
         existing,
         attempted_period=target_period,
     )
-    success_path = SUMMARY_DIR / f"{period_number}期-头.txt"
-    failed_path = FAILURE_SUMMARY_DIR / f"{period_number}期失败-一头.txt"
     from copy import deepcopy
     merged = deepcopy(existing)
-    names = {record.section for record in records}
     generated = {
         (entry["identity"]["section"], entry["identity"]["url"], entry["identity"]["position"], entry["identity"]["parse_hint"]): entry
         for entry in cache["sites"]
@@ -92,7 +102,15 @@ def main(argv: list[str] | None = None) -> int:
         failed_path: merge_failed_txt(failed_path, records, target_period),
         RECENT_10_CACHE_PATH: json.dumps(merged, ensure_ascii=False, indent=2).encode("utf-8"),
     }
-    commit_artifacts_transaction(artifacts)
+    try:
+        for path, original in expected.items():
+            current = path.read_bytes() if path.exists() else None
+            if current != original:
+                raise RuntimeError(f"正式文件在重抓期间发生变化，已停止写入：{path}")
+        commit_artifacts_transaction(artifacts)
+    except RuntimeError as exc:
+        print(f"写入停止：{exc}")
+        return 1
     success = sum(record.status == "success" for record in records)
     print(f"完成 | 成功={success} 失败={len(rules) - success}", flush=True)
     return 0 if success else 1

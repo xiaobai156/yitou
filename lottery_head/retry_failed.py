@@ -6,7 +6,12 @@ from pathlib import Path
 from .config import canonical_url, normalize_position
 from .models import HeadRecord, SiteRule
 from collections import Counter
-from .output_text import failure_category, format_head_ranking
+from .output_text import failure_category
+
+
+def format_head_ranking(values: list[str]) -> list[str]:
+    counts = Counter(value for value in values if re.fullmatch(r"[0-4]头", value))
+    return ["内容\t次数\t排名", *[f"{value}\t{count}\t{rank}" for rank, (value, count) in enumerate(sorted(counts.items(), key=lambda item: (-item[1], item[0])), 1)]]
 
 
 def record_identity(record: HeadRecord) -> tuple[str, str, str, str]:
@@ -50,7 +55,7 @@ def merge_success_txt(path: Path, records: list[HeadRecord]) -> bytes:
     bom = raw.startswith(b"\xef\xbb\xbf")
     newline = "\r\n" if b"\r\n" in raw else "\n"
     text = raw.decode("utf-8-sig") if raw else ""
-    marker_text = next((line for line in text.splitlines() if "内容" in line and "次数" in line and "排名" in line), None)
+    marker_text = next((line for line in text.splitlines() if re.fullmatch(r"内容[\t ]+次数[\t ]+排名[\t ]*", line)), None)
     if marker_text is None:
         raise ValueError(f"成功TXT缺少排行榜边界：{path}")
     prefix = text[: text.find(marker_text)]
@@ -74,7 +79,8 @@ def merge_success_txt(path: Path, records: list[HeadRecord]) -> bytes:
         if old is None:
             if f"{record.value} {record.section}" not in additions:
                 additions.append(f"{record.value} {record.section}")
-            values.extend(re.findall(r"[0-4]头", record.value))
+            if record.value not in values:
+                values.append(record.value)
         elif old != record.value:
             raise ValueError(f"成功TXT已有同期值冲突：{record.section} 当前{old}，实抓{record.value}")
     body = prefix.rstrip("\r\n") + (newline + newline.join(additions) if additions else "") + newline + newline
