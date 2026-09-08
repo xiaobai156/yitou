@@ -2,12 +2,16 @@ from __future__ import annotations
 
 import httpx
 
-from .documents import collect_fragments, load_initial_source_html, load_period_title_detail_fragments
+from .documents import collect_fragments, load_period_title_detail_fragments
 from .documents.collector_details import FIRST_THREE_PAGES_PARSE_HINT
 from .models import HeadRecord, SitePeriodData, SiteRule
 from .network import build_client, get_text
 from .selection import describe_conflicting_candidates, extract_period_candidates_by_period, find_latest_available_record, invalid_target_value_error, period_boundary_ambiguity, period_value_conflict, position_three_label, select_period_records, select_period_values
 from .service_results import failed_head_record, head_record_from_extracted, locked_target_period_error, make_site_period_data, required_resource_error
+
+
+def load_initial_source_html(client, source_url: str, *, get_text_fn=get_text) -> str:
+    return get_text_fn(client, source_url)
 
 
 def fetch_rule_with_period_data(
