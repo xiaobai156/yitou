@@ -55,10 +55,10 @@ def merge_success_txt(path: Path, records: list[HeadRecord]) -> bytes:
     bom = raw.startswith(b"\xef\xbb\xbf")
     newline = "\r\n" if b"\r\n" in raw else "\n"
     text = raw.decode("utf-8-sig") if raw else ""
-    marker_text = next((line for line in text.splitlines() if re.fullmatch(r"内容[\t ]+次数[\t ]+排名[\t ]*", line)), None)
-    if marker_text is None:
+    marker = next(((offset, line) for offset, line in _lines_with_offsets(text) if re.fullmatch(r"内容[\t ]+次数[\t ]+排名[\t ]*", line.rstrip("\r\n"))), None)
+    if marker is None:
         raise ValueError(f"成功TXT缺少排行榜边界：{path}")
-    prefix = text[: text.find(marker_text)]
+    prefix = text[: marker[0]]
     newline = "\r\n" if "\r\n" in text else "\n"
     existing = {}
     values = []
@@ -72,20 +72,29 @@ def merge_success_txt(path: Path, records: list[HeadRecord]) -> bytes:
     for record in records:
         if record.status != "success":
             continue
-        if record.section in batch and batch[record.section] != record.value:
-            raise ValueError(f"本批成功值冲突：{record.section}")
-        batch[record.section] = record.value
+        identity = record_identity(record)
+        if identity in batch:
+            if batch[identity] != record.value:
+                raise ValueError(f"本批成功值冲突：{record.section}")
+            continue
+        batch[identity] = record.value
         old = existing.get(record.section)
         if old is None:
             if f"{record.value} {record.section}" not in additions:
                 additions.append(f"{record.value} {record.section}")
-            if record.value not in values:
-                values.append(record.value)
+            values.append(record.value)
         elif old != record.value:
             raise ValueError(f"成功TXT已有同期值冲突：{record.section} 当前{old}，实抓{record.value}")
     body = prefix.rstrip("\r\n") + (newline + newline.join(additions) if additions else "") + newline + newline
     result = (body + newline.join(format_head_ranking(values)) + newline).encode("utf-8")
     return (b"\xef\xbb\xbf" if bom else b"") + result
+
+
+def _lines_with_offsets(text: str):
+    offset = 0
+    for line in text.splitlines(keepends=True):
+        yield offset, line
+        offset += len(line)
 
 
 def merge_failed_txt(path: Path, target_records: list[HeadRecord], target_period: str) -> bytes | None:

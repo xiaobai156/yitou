@@ -56,7 +56,12 @@ def main(argv: list[str] | None = None) -> int:
         return 2
     all_rules = load_rules()
     rules = match_failed_rules(targets, all_rules)
-    existing = read_validated_cache(RECENT_10_CACHE_PATH, all_rules)
+    cache_original = RECENT_10_CACHE_PATH.read_bytes() if RECENT_10_CACHE_PATH.exists() else None
+    if cache_original is None:
+        existing = None
+    else:
+        from lottery_head.cache_validation import validate_cache_snapshot
+        existing = validate_cache_snapshot(json.loads(cache_original.decode("utf-8")), all_rules)
     if existing is None:
         print("缓存无效，未写入任何结果")
         return 1
@@ -67,10 +72,8 @@ def main(argv: list[str] | None = None) -> int:
         return 1
     success_path = SUMMARY_DIR / f"{period_number}期-头.txt"
     failed_path = FAILURE_SUMMARY_DIR / f"{period_number}期失败-一头.txt"
-    expected = {
-        path: path.read_bytes() if path.exists() else None
-        for path in (success_path, failed_path, RECENT_10_CACHE_PATH)
-    }
+    expected = {path: path.read_bytes() if path.exists() else None for path in (success_path, failed_path)}
+    expected[RECENT_10_CACHE_PATH] = cache_original
     print(f"retry-failed | period={target_period} sites={len(rules)}", flush=True)
 
     records, _ = collect_rules(rules, target_period, [target_period], 1)
