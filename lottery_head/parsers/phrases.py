@@ -26,7 +26,7 @@ def parse_head_tail_phrase_records(
         body = block.group(2)
         if match_marker not in canonical_text(body):
             continue
-        phrase_match = re.search(r"([0-4０-４零一二三四两])头[0-9０-９零一二三四五六七八九十两]+尾", body)
+        phrase_match = re.search(r"([0-4０-４零一二三四两])头[0-9０-９零一二三四五六七八九十两就]+尾", body)
         if phrase_match:
             records.append({
                 "period": period,

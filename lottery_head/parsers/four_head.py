@@ -226,6 +226,9 @@ def extract_four_combo_values(text: str) -> list[str]:
         digits = re.findall(r"[0-4]", body)
         if len(digits) == 4:
             return digits
+    plain_combo = re.search(r"(?<![0-4])([0-4]{4})\s*[头頭]", text)
+    if plain_combo:
+        return list(plain_combo.group(1))
     return []
 
 
