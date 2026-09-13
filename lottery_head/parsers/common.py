@@ -25,7 +25,7 @@ def has_open_marker(text: str) -> bool:
 
 def normalize_head_value(value: str) -> str:
     value = re.sub(r"[【】\[\]()（）「」『』\s]", "", value)
-    value = value.replace("頭", "头")
+    value = value.replace("頭", "头").replace("二", "2")
     return value if value.endswith("头") else f"{value}头"
 
 
