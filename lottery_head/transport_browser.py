@@ -65,7 +65,13 @@ class BrowserService:
 
             page.on("response", capture_response)
             timeout_ms = max(1, int(timeout * 1000))
-            page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
+            # Some sites keep a broken script pending although the main
+            # document already contains the records we need.
+            page.goto(url, wait_until="commit", timeout=timeout_ms)
+            try:
+                page.wait_for_load_state("domcontentloaded", timeout=min(timeout_ms, 5000))
+            except Exception:
+                pass
             if urlsplit(url).scheme.lower() == "https" and urlsplit(page.url).scheme.lower() != "https":
                 raise RequestFailure(f"HTTPS页面禁止降级到HTTP：{page.url}")
             try:
