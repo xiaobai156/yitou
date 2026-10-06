@@ -1,9 +1,16 @@
 from __future__ import annotations
 
+import re
+
 from bs4 import BeautifulSoup
 
 from ..settings import BARE_HEAD_VALUE_RE, HEAD_VALUE_RE, PERIOD_RE
-from .common import contains_text, display_head_value, has_open_marker, normalize_head_value, period_matches, unique_extracted_records
+from .common import canonical_text, contains_text, display_head_value, has_open_marker, normalize_head_value, period_matches, unique_extracted_records
+from .period import find_non_marker_head_value
+
+# 极窄容错：站方把「指定列」单元格写成缺左括号的形式（如 275期 杀一头 `4)`），
+# 只在整格文本恰为单个 0-4 数字、可选跟一个右括号时取值，不放宽全局正则。
+CELL_BARE_HEAD_VALUE_RE = re.compile(r"\s*([0-4０-４])\s*[)）]?\s*")
 
 
 def parse_fragment_tables(fragment_html: str, field: str, target_period: str = "") -> dict[str, str] | None:
@@ -80,19 +87,11 @@ def parse_fragment_table_records(fragment_html: str, field: str, target_period: 
             period = next((PERIOD_RE.search(cell).group(1) for cell in row if PERIOD_RE.search(cell)), "")
             if not period_matches(period, target_period):
                 continue
-            value_matches = list(HEAD_VALUE_RE.finditer(row[target_index]))
-            if period and value_matches:
+            value = extract_head_value_from_cell(row[target_index], field)
+            if period and value:
                 records.append({
                     "period": period,
-                    "value": normalize_head_value(value_matches[-1].group(0)),
-                    "raw_line": " ".join(row),
-                })
-                continue
-            bare_value_matches = list(BARE_HEAD_VALUE_RE.finditer(row[target_index]))
-            if period and bare_value_matches:
-                records.append({
-                    "period": period,
-                    "value": normalize_head_value(bare_value_matches[-1].group(1)),
+                    "value": value,
                     "raw_line": " ".join(row),
                 })
     return unique_extracted_records(records)
@@ -136,7 +135,7 @@ def parse_vertical_table_column_records(text: str, field: str, target_period: st
                 else:
                     period_index = next_period_index
                 continue
-            value = extract_head_value_from_cell(lines[value_index])
+            value = extract_head_value_from_cell(lines[value_index], field)
             if value:
                 records.append({
                     "period": period,
@@ -150,11 +149,23 @@ def parse_vertical_table_column_records(text: str, field: str, target_period: st
     return unique_extracted_records(records)
 
 
-def extract_head_value_from_cell(text: str) -> str | None:
-    value_matches = list(HEAD_VALUE_RE.finditer(text))
-    if value_matches:
-        return normalize_head_value(value_matches[-1].group(0))
-    bare_value_matches = list(BARE_HEAD_VALUE_RE.finditer(text))
-    if bare_value_matches:
-        return normalize_head_value(bare_value_matches[-1].group(1))
-    return None
+def extract_head_value_from_cell(text: str, field: str = "") -> str | None:
+    if field:
+        value = find_non_marker_head_value(text, canonical_text(field))
+        if value:
+            return display_head_value(value)
+        bare_match = CELL_BARE_HEAD_VALUE_RE.fullmatch(text)
+        if not bare_match:
+            return None
+        bare_value = display_head_value(normalize_head_value(bare_match.group(1)))
+        return bare_value or None
+    values = {
+        display_head_value(normalize_head_value(match.group(0)))
+        for match in HEAD_VALUE_RE.finditer(text)
+    }
+    values.update(
+        display_head_value(normalize_head_value(match.group(1)))
+        for match in BARE_HEAD_VALUE_RE.finditer(text)
+    )
+    values.discard("")
+    return next(iter(values)) if len(values) == 1 else None
