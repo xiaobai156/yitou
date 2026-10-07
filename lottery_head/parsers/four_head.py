@@ -12,6 +12,13 @@ from .common import (
     unique_extracted_records,
 )
 
+_RESULT_TAIL_RE = re.compile(r"[】\]〗］]\s*\d{0,4}\s*[准錯错]")
+
+
+def has_result_tail(text: str) -> bool:
+    """四组合括号后紧跟「NN准/NN错」结算尾巴（站方最新一行可能不带 `开` 标记）。"""
+    return bool(_RESULT_TAIL_RE.search(re.sub(r"<[^>]+>", "", text)))
+
 
 def parse_four_combo_after_marker_records(
     compact: str, field: str, target_period: str = ""
@@ -151,7 +158,7 @@ def parse_manager_anchored_four_combo_missing_head_records(
         if (
             not contains_text(body, anchor_marker)
             or not contains_text(body, field)
-            or not has_open_marker(body)
+            or not (has_open_marker(body) or has_result_tail(body))
         ):
             continue
         values = extract_four_combo_values_after_field(body, field)
