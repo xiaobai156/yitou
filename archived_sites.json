@@ -709,6 +709,39 @@
       "parse_hint": "manager_anchored_missing_head_from_four_combo",
       "archived_at": "2026-10-04",
       "reason": "用户要求封存，不再抓取（站方已删除该文章：动态接口对该文章ID返回404 AdminArticle 不存在，页面无该记录）"
+    },
+    {
+      "url": "https://whsbrmz.qclrc-4mk42-vnxbyg.work:16677/topic/248031.html",
+      "position": "顶部",
+      "section": "人心所向-绝杀一头",
+      "field": "绝杀一头",
+      "content_hint": "大杀一头",
+      "parse_hint": "full_period_list",
+      "code": "38",
+      "archived_at": "2026-10-08",
+      "reason": "用户明确要求封存，不再抓取（与同源站 段干益浮 近 10 期逐期记录完全一致，按用户点名去重）"
+    },
+    {
+      "url": "https://zwpwuwq.fxnb4-uer1b-uftjcw.work:16677/topic/556287.html",
+      "position": "顶部",
+      "section": "绝杀一头",
+      "field": "绝杀一头",
+      "content_hint": "绝杀一头",
+      "parse_hint": "period_bracket_head",
+      "code": "117",
+      "archived_at": "2026-10-08",
+      "reason": "用户明确要求封存，不再抓取（与同源站 呆头呆脚 近 10 期逐期记录完全一致，按用户点名去重）"
+    },
+    {
+      "url": "https://ykkpjdgv.d1ju4-kbfjr-zexdzd.xyz:16677/",
+      "position": "顶部",
+      "section": "开心果",
+      "field": "禁头",
+      "content_hint": "综合绝杀",
+      "parse_hint": "table_column",
+      "code": "122",
+      "archived_at": "2026-10-08",
+      "reason": "用户明确要求封存，不再抓取（与同源站 虚室生白 近 10 期逐期记录完全一致，按用户点名去重）"
     }
   ]
 }
