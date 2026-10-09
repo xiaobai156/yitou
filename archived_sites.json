@@ -742,6 +742,16 @@
       "code": "122",
       "archived_at": "2026-10-08",
       "reason": "用户明确要求封存，不再抓取（与同源站 虚室生白 近 10 期逐期记录完全一致，按用户点名去重）"
+    },
+    {
+      "url": "https://hl.90216a.com/read.php?tid=679",
+      "position": "尾部",
+      "section": "成竹在胸",
+      "field": "④头中特",
+      "content_hint": "成竹在胸",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "archived_at": "2026-10-09",
+      "reason": "用户要求封存，不再抓取（站方登录墙：页面正文仅 160 字，提示「您没有登录或者没有权限访问此页面 / 请先登录论坛」，0 处期号，无法取得当期数据）"
     }
   ]
 }
