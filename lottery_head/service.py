@@ -3,12 +3,12 @@ from __future__ import annotations
 import httpx
 
 from .documents import collect_fragments, load_period_title_detail_fragments
-from .models import HeadRecord, SitePeriodData, SiteRule
+from .models import HeadRecord, SiteRule
 from .network import build_client, get_text
 from .parsers.common import period_number
-from .selection import describe_conflicting_candidates, extract_period_candidates_by_period, find_latest_available_record, find_target_record, period_boundary_ambiguity, period_value_conflict, position_three_label, select_period_records, select_period_values
+from .selection import describe_conflicting_candidates, extract_period_candidates_by_period, find_latest_available_record, find_target_record, invalid_target_value_error, period_boundary_ambiguity, period_value_conflict, position_three_label, select_period_records, select_period_values
 from .service_periods import fetch_rule_for_any_period as _fetch_rule_for_any_period, fetch_rule_with_period_data as _fetch_rule_with_period_data, fetch_site_period_data as _fetch_site_period_data
-from .service_results import contains_access_denied_message, failed_head_record, fragment_source, head_record_from_extracted, locked_target_period_error, make_site_period_data, unresolved_rule_error
+from .service_results import failed_head_record, head_record_from_extracted, locked_target_period_error, make_site_period_data, unresolved_rule_error
 from .service_single import fetch_rule as _fetch_rule
 
 
@@ -21,6 +21,7 @@ def fetch_rule(rule: SiteRule, *, client: httpx.Client, target_period: str = "")
         collect_fragments_fn=collect_fragments,
         find_target_fn=find_target_record,
         find_latest_fn=find_latest_available_record,
+        invalid_target_error_fn=invalid_target_value_error,
         period_number_fn=period_number,
         unresolved_error_fn=unresolved_rule_error,
         failed_record_fn=failed_head_record,
@@ -50,6 +51,7 @@ def fetch_rule_with_period_data(
         failed_record_fn=failed_head_record,
         success_record_fn=head_record_from_extracted,
         locked_error_fn=locked_target_period_error,
+        invalid_error_fn=invalid_target_value_error,
         position_label_fn=position_three_label,
         select_values_fn=select_period_values,
         make_period_data_fn=make_site_period_data,
@@ -77,6 +79,7 @@ def fetch_rule_for_any_period(
         success_record_fn=head_record_from_extracted,
         failed_record_fn=failed_head_record,
         latest_record_fn=find_latest_available_record,
+        invalid_error_fn=invalid_target_value_error,
     )
 
 

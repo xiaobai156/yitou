@@ -63,7 +63,12 @@ def fetch_rule_with_period_data(
         resource_error = required_resource_error(fragments)
         if resource_error:
             raise RuntimeError(resource_error)
-        period_candidates = extract_candidates_fn(fragments, rule, [target_period, *periods])
+        period_candidates = extract_candidates_fn(
+            fragments,
+            rule,
+            [target_period, *periods],
+            strict_conflict_periods=[target_period],
+        )
         records_by_period = select_records_fn(period_candidates)
         target_conflict = conflict_check_fn(period_candidates.get(target_period, []))
         extracted = records_by_period.get(target_period)
@@ -184,7 +189,12 @@ def fetch_rule_for_any_period(
         resource_error = required_resource_error(fragments)
         if resource_error:
             raise RuntimeError(resource_error)
-        period_candidates = extract_candidates_fn(fragments, rule, wanted_periods)
+        period_candidates = extract_candidates_fn(
+            fragments,
+            rule,
+            wanted_periods,
+            strict_conflict_periods=wanted_periods[:1],
+        )
         records_by_period = select_records_fn(period_candidates)
         conflict_details = []
         for period in wanted_periods:

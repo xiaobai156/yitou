@@ -15,6 +15,8 @@ class SiteRule:
     parse_hint: str = ""
     api_url: str = ""
     tls_compat: bool = False
+    browser_render: bool = False
+    browser_selector: str = ""
 
     @property
     def anchor(self) -> str:

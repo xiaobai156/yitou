@@ -752,6 +752,57 @@
       "parse_hint": "missing_head_from_four_combo_full_period_list",
       "archived_at": "2026-10-09",
       "reason": "用户要求封存，不再抓取（站方登录墙：页面正文仅 160 字，提示「您没有登录或者没有权限访问此页面 / 请先登录论坛」，0 处期号，无法取得当期数据）"
+    },
+    {
+      "url": "https://mhpayza.30mg9-m9j7l-obwrmb.xyz/topic/766659.html",
+      "position": "顶部",
+      "section": "大吉大利",
+      "field": "绝杀一头",
+      "content_hint": "大吉大利",
+      "parse_hint": "full_period_list",
+      "code": "59",
+      "archived_at": "2026-10-17",
+      "reason": "用户要求封存，不再抓取（站方 443 TLS 握手被拒：本机 curl 直连与本地代理、httpx、Playwright 均无法完成握手，http 明文返回 404；连续 3 期（287–289）不可达，无法取得当期数据）"
+    },
+    {
+      "url": "https://czcvzk.4n5g7-o871g-hqmkwz.work:29422/article/manager/6a79f907ee4739fbe9e8d461?url=tsp",
+      "position": "尾部",
+      "section": "喷薄而出",
+      "field": "四头中特",
+      "content_hint": "喷薄而出",
+      "parse_hint": "manager_anchored_missing_head_from_four_combo",
+      "archived_at": "2026-10-18",
+      "reason": "用户要求封存，不再抓取（站方已删文章：详情接口 /api/proxy/manager-articles/6a79f907ee4739fbe9e8d461 返回 404 AdminArticle 不存在，浏览器渲染同源载荷 0 命中，近 10 期均无数据）"
+    },
+    {
+      "url": "https://0130190827.673454.xyz/bbs/topic.php?id=21803",
+      "position": "尾部",
+      "section": "财运归来",
+      "field": "④头中特",
+      "content_hint": "财运归来",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "archived_at": "2026-10-18",
+      "reason": "用户要求封存，不再抓取（站方已删帖：bbs/topic.php?id=21803 页面显示「该帖子不存在或已被下架」，近 10 期均无数据）"
+    },
+    {
+      "url": "https://88888020827.983654.xyz/bbs/topic.php?id=21575",
+      "position": "尾部",
+      "section": "浪漫枫林",
+      "field": "四头中特",
+      "content_hint": "浪漫枫林",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "archived_at": "2026-10-18",
+      "reason": "用户要求封存，不再抓取（站方已删帖：bbs/topic.php?id=21575 页面显示「该帖子不存在或已被下架」，291/290 期无数据）"
+    },
+    {
+      "url": "https://0130190827.673454.xyz/bbs/topic.php?id=20250",
+      "position": "尾部",
+      "section": "綬傷迗使",
+      "field": "四头中特",
+      "content_hint": "綬傷迗使",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "archived_at": "2026-10-31T18:53:31+08:00",
+      "reason": "304期帖子已被站方下架（页面显示「此帖子ID已被下架」），大掌柜/曾道人论坛站内搜无该站，属无数据，用户点名封存"
     }
   ]
 }

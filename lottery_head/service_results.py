@@ -72,13 +72,9 @@ def failed_head_record(rule: SiteRule, error: str) -> HeadRecord:
 
 
 def unresolved_rule_error(rule: SiteRule, fragments: list[str], target_period: str = "") -> str:
-    resource_errors = [
-        str(getattr(fragment, "resource_error", ""))
-        for fragment in fragments
-        if str(getattr(fragment, "resource_error", "")).strip()
-    ]
-    if resource_errors:
-        return f"页面资源不完整：{'；'.join(dict.fromkeys(resource_errors))}"
+    resource_error = required_resource_error(fragments)
+    if resource_error:
+        return resource_error
     locked_error = locked_target_period_error(fragments, target_period)
     if locked_error:
         return locked_error
@@ -92,6 +88,18 @@ def unresolved_rule_error(rule: SiteRule, fragments: list[str], target_period: s
     if re.search(r"/article/(?:admin|manager|lottery)/", rule.url):
         return "admin文章接口未返回目标文章，无法读取目标原始内容"
     return f"已定位栏目，但未解析出{target_period or '一头'}值"
+
+
+def required_resource_error(fragments) -> str:
+    resource_errors = [
+        str(getattr(fragment, "resource_error", ""))
+        for fragment in fragments
+        if bool(getattr(fragment, "resource_required", False))
+        and str(getattr(fragment, "resource_error", "")).strip()
+    ]
+    if resource_errors:
+        return f"页面资源不完整：{'；'.join(dict.fromkeys(resource_errors))}"
+    return ""
 
 
 def fragment_source(fragment) -> str:

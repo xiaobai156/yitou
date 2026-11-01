@@ -12,31 +12,6 @@ from ..selection import is_bottom_position
 from ..settings import PERIOD_RE
 
 
-def load_forum_article_fragment(client: httpx.Client, source_url: str) -> str:
-    return "\n".join(load_forum_article_fragments(client, source_url))
-
-
-def load_user_forum_fragments(
-    client: httpx.Client,
-    source_url: str,
-    *,
-    rule: SiteRule | None = None,
-    target_periods: list[str] | None = None,
-) -> list[str]:
-    documents = load_user_forum_documents(
-        client,
-        source_url,
-        rule=rule,
-        target_periods=target_periods,
-    )
-    if not documents:
-        return []
-    return [
-        "\n".join(part for part in (document.author, document.title, document.source) if part)
-        for document in documents
-    ]
-
-
 def load_user_forum_documents(
     client: httpx.Client,
     source_url: str,
@@ -278,32 +253,6 @@ def normalize_user_forum_topic(value: str) -> str:
     return re.sub(r"[^0-9A-Za-z\u4e00-\u9fff①④]+", "", text)
 
 
-def load_forum_article_fragments(
-    client: httpx.Client,
-    source_url: str,
-    *,
-    include_current: bool = True,
-    include_history: bool = False,
-) -> list[str]:
-    parsed = urlparse(source_url)
-    match = re.search(r"/forums/(\d+)", parsed.fragment)
-    if not match:
-        return []
-    api_url = forum_api_url(parsed, match.group(1))
-    try:
-        data = get_json(client, api_url)
-    except Exception:
-        return []
-    if not isinstance(data, dict) or str(data.get("id")) != str(match.group(1)):
-        return []
-    fragments = []
-    if include_current:
-        fragments.append("\n".join(forum_article_parts(data)))
-    if include_history:
-        fragments.extend(load_forum_history_fragments(client, parsed, data))
-    return [fragment for fragment in fragments if fragment.strip()]
-
-
 def forum_api_url(parsed, forum_id: int | str) -> str:
     return f"{parsed.scheme}://{parsed.netloc}/api/v1/forums/{forum_id}"
 
@@ -315,107 +264,6 @@ def forum_article_parts(data: dict) -> list[str]:
         if isinstance(value, str) and value:
             parts.append(value)
     return parts
-
-
-def load_forum_history_fragments(client: httpx.Client, parsed, current: dict) -> list[str]:
-    user_id = current.get("user_id")
-    sub_topic = current.get("sub_topic")
-    topic = current.get("topic")
-    if not user_id or not sub_topic:
-        return []
-    history_items = []
-    for species in ("references", "forums"):
-        history_url = f"{parsed.scheme}://{parsed.netloc}/api/v1/users/{user_id}/{species}/history"
-        try:
-            data = get_json(client, history_url)
-        except Exception:
-            continue
-        if isinstance(data, list):
-            history_items = data
-            break
-    matching_items = [
-        item
-        for item in history_items
-        if item.get("id")
-        and item.get("id") != current.get("id")
-        and item.get("sub_topic") == sub_topic
-        and (not topic or item.get("topic") == topic)
-    ]
-    matching_items.sort(key=lambda item: int(item.get("draw") or 0), reverse=True)
-    fragments = []
-    for item in matching_items[:1]:
-        try:
-            detail = get_json(client, forum_api_url(parsed, item["id"]))
-        except Exception:
-            continue
-        fragment = "\n".join(forum_article_parts(detail))
-        if fragment.strip():
-            fragments.append(fragment)
-    return fragments
-
-
-def load_forum_target_history_fragments(
-    client: httpx.Client,
-    source_url: str,
-    rule: SiteRule,
-    target_periods: list[str],
-) -> list[str]:
-    if not target_periods:
-        return []
-    parsed = urlparse(source_url)
-    match = re.search(r"/forums/(\d+)", parsed.fragment)
-    if not match:
-        return []
-    current = get_json(client, forum_api_url(parsed, match.group(1)))
-    if not isinstance(current, dict) or str(current.get("id")) != match.group(1):
-        raise RuntimeError("论坛当前记录ID与URL不一致")
-    user_id = str(current.get("user_id") or "")
-    topic = str(current.get("topic") or "")
-    sub_topic = str(current.get("sub_topic") or "")
-    anchor_text = "\n".join(forum_article_parts(current))
-    if not user_id or sub_topic != rule.field:
-        raise RuntimeError("论坛历史记录栏目锚点与配置不一致")
-    if rule.content_hint and not contains_text(anchor_text, rule.content_hint):
-        raise RuntimeError("论坛历史记录站名锚点与配置不一致")
-    history_items = []
-    for species in ("references", "forums"):
-        try:
-            data = get_json(client, f"{parsed.scheme}://{parsed.netloc}/api/v1/users/{user_id}/{species}/history")
-        except Exception:
-            continue
-        if isinstance(data, list) and data:
-            history_items = data
-            break
-    fragments = []
-    for wanted in list(dict.fromkeys(target_periods)):
-        candidates = [
-            item
-            for item in history_items
-            if isinstance(item, dict)
-            and str(item.get("user_id")) == user_id
-            and str(item.get("topic")) == topic
-            and str(item.get("sub_topic")) == sub_topic
-            and str(item.get("id")) != match.group(1)
-            and period_matches(str(item.get("draw") or ""), wanted)
-        ]
-        if len(candidates) > 1:
-            raise RuntimeError(f"论坛历史{wanted}存在多个同栏目目标记录")
-        if not candidates:
-            continue
-        detail = get_json(client, forum_api_url(parsed, candidates[0]["id"]))
-        if not isinstance(detail, dict) or str(detail.get("id")) != str(candidates[0]["id"]):
-            raise RuntimeError(f"论坛历史{wanted}记录ID校验失败")
-        if (
-            str(detail.get("user_id")) != user_id
-            or str(detail.get("topic")) != topic
-            or str(detail.get("sub_topic")) != sub_topic
-        ):
-            raise RuntimeError(f"论坛历史{wanted}记录边界校验失败")
-        content = detail.get("content") if isinstance(detail.get("content"), str) else ""
-        if not any(period_matches(found, wanted) for found in PERIOD_RE.findall(html_to_text(content))):
-            raise RuntimeError(f"论坛历史{wanted}正文未包含目标期数")
-        fragments.append("\n".join(forum_article_parts(detail)))
-    return fragments
 
 
 def load_forum_target_history_documents(

@@ -39,6 +39,7 @@ class ResponsePayload:
 class RenderedPayload:
     html: str
     payloads: tuple[Any, ...] = ()
+    url: str = ""
 
 
 @dataclass(frozen=True)
@@ -71,11 +72,25 @@ def response_text(response: Any) -> str:
     if not isinstance(content, (bytes, bytearray)) or not content:
         return str(text or "")
     candidates = [str(text or "")]
-    for encoding in (getattr(response, "encoding", None), "utf-8", "gb18030", "gbk"):
-        if not encoding:
+    declared_encoding = str(getattr(response, "encoding", None) or "").lower()
+    is_ascii = all(byte < 0x80 for byte in content)
+    seen_encodings: set[str] = set()
+    for encoding in ("utf-8", declared_encoding, "gb18030", "gbk"):
+        normalized = str(encoding or "").lower()
+        if not normalized or normalized in seen_encodings:
             continue
+        seen_encodings.add(normalized)
         try:
-            candidates.append(bytes(content).decode(encoding, "replace"))
+            decoded = bytes(content).decode(normalized)
+            candidates.append(decoded)
+            if (
+                is_ascii
+                or any("\u4e00" <= char <= "\u9fff" for char in decoded)
+            ):
+                return decoded
         except Exception:
-            continue
+            try:
+                candidates.append(bytes(content).decode(normalized, "replace"))
+            except Exception:
+                continue
     return max(candidates, key=lambda item: sum("\u4e00" <= char <= "\u9fff" for char in item) - item.count("�") * 20)

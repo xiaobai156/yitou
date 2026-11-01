@@ -81,7 +81,7 @@ def main(argv: list[str] | None = None) -> int:
     expected = {success_path: success_path.read_bytes() if success_path.exists() else None, failure_path: failure_original}
     expected[RECENT_10_CACHE_PATH] = cache_original
     try:
-        merge_success_txt(success_path, [])
+        merge_success_txt(success_path, [], target_period)
         merge_failed_txt(failed_path, [], target_period)
     except (OSError, ValueError) as exc:
         print(f"提交前停止：正式TXT无法验证：{exc}")
@@ -120,7 +120,7 @@ def main(argv: list[str] | None = None) -> int:
     from lottery_head.cache import validate_cache_snapshot
     validate_cache_snapshot(merged, all_rules)
     artifacts = {
-        success_path: merge_success_txt(success_path, records),
+        success_path: merge_success_txt(success_path, records, target_period),
         failed_path: merge_failed_txt(failed_path, records, target_period),
         RECENT_10_CACHE_PATH: json.dumps(merged, ensure_ascii=False, indent=2).encode("utf-8"),
     }

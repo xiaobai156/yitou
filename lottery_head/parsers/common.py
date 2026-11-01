@@ -4,6 +4,8 @@ import re
 
 from bs4 import BeautifulSoup
 
+from ..validation import validate_head_value
+
 
 _PERIOD_INPUT_RE = re.compile(r"^\s*(\d{1,3})\s*(?:期)?\s*$")
 
@@ -30,25 +32,10 @@ def normalize_head_value(value: str) -> str:
 
 
 def display_head_value(value: str) -> str:
-    replacements = {
-        "零": "0",
-        "一": "1",
-        "二": "2",
-        "两": "2",
-        "三": "3",
-        "四": "4",
-    }
-    value = normalize_head_value(value)
-    value = value.translate(str.maketrans("０１２３４", "01234"))
-    for chinese, digit in replacements.items():
-        value = value.replace(chinese, digit)
-    digits = re.fullmatch(r"([0-4]+)头", value)
-    if not digits:
+    try:
+        return validate_head_value(value)
+    except ValueError:
         return ""
-    raw_digits = digits.group(1)
-    if len(set(raw_digits)) != 1:
-        return ""
-    return f"{raw_digits[0]}头"
 
 
 def contains_text(text: str, needle: str) -> bool:

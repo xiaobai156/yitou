@@ -55,12 +55,17 @@ def main(argv: list[str] | None = None) -> int:
     records, site_data = _collect(rules, target_period, collection_periods, workers)
     # Decide the live outcome before touching the optional duplicate-check cache.
     adjusted_records = records
-    success_count = sum(
-        record.status == "success"
-        and record.period
-        and parse_target_period(record.period) == target_period
-        for record in adjusted_records
-    )
+
+    def _is_target_success(record) -> bool:
+        if record.status != "success" or not record.period:
+            return False
+        # 单站脏期数不得把整轮打挂：无法归一即视为非目标期。
+        try:
+            return parse_target_period(record.period) == target_period
+        except ValueError:
+            return False
+
+    success_count = sum(_is_target_success(record) for record in adjusted_records)
     total_count = len(rules)
     current_success = success_count > 0
     cache_allowed = cache_update_allowed(success_count, total_count)

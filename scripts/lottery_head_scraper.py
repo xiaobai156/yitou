@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+# ruff: noqa: E402 - project root must be inserted before package imports
+
 import sys
 from pathlib import Path
 

@@ -2,16 +2,38 @@ from __future__ import annotations
 
 import re
 from dataclasses import replace
+from urllib.parse import urlsplit
 
 import httpx
+from bs4 import BeautifulSoup
 
 from ..models import SiteRule, SourceDocument
 from ..network import get_text
-from .admin import load_admin_article_fragment_result, render_dynamic_page_result, should_render_admin_article_page
+from ..transport_types import normalize_request_url
+from .admin import load_admin_article_fragment_result
+from .admin_render import render_dynamic_page_result, should_render_admin_article_page
 from .collector_assets import collect_linked_documents
-from .collector_decode import _article_id_from_url, _forum_id_from_url, decode_inline_gbk_decrypt_blocks, decode_inline_gbk_decrypt_calls, decode_script_document_writes, should_collect_script_fragment
+from .collector_decode import _article_id_from_url, decode_inline_gbk_decrypt_blocks, should_collect_script_fragment
 from .collector_details import FIRST_THREE_PAGES_PARSE_HINT, load_period_title_detail_fragments as _load_period_title_detail_fragments
-from .forum import load_forum_article_documents, load_forum_article_fragments, load_forum_target_history_documents, load_forum_target_history_fragments, load_user_forum_documents, load_user_forum_fragments
+from .forum import load_forum_article_documents, load_forum_target_history_documents, load_user_forum_documents
+
+
+# 首页静态脚本块滞后一期的专属解析：静态脚本取不到目标期时渲染一次 DOM 再解析。
+JS_LAG_RENDER_PARSE_HINTS = frozenset({"AI斩头"})
+
+
+def _readable_text_length(html: str) -> int:
+    """页面主文档的可读文本长度（剔除 script/style），用于识别纯 JS 渲染页。"""
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in soup(("script", "style")):
+        tag.decompose()
+    return len(re.sub(r"\s+", "", soup.get_text()))
+
+
+def load_initial_source_html(client, source_url: str, *, get_text_fn=get_text) -> str:
+    if re.search(r"/article/(?:admin|manager|lottery)/", source_url):
+        return ""
+    return get_text_fn(client, source_url)
 
 
 def collect_fragments(
@@ -29,14 +51,12 @@ def collect_fragments(
     site_rule: SiteRule | None = None,
 ) -> list[SourceDocument]:
     is_admin_article = bool(re.search(r"/article/(?:admin|manager|lottery)/", source_url))
-    fragments: list[SourceDocument] = [] if is_admin_article else [
+    uses_browser_page = bool(not is_admin_article and site_rule is not None and site_rule.browser_render)
+    fragments: list[SourceDocument] = [] if is_admin_article or uses_browser_page else [
         SourceDocument(html, source_url, "page")
     ]
     inline_blocks = decode_inline_gbk_decrypt_blocks(html)
-    if not is_admin_article and not inline_blocks:
-        inline_decoded = decode_inline_gbk_decrypt_calls(html)
-        inline_blocks = [inline_decoded] if inline_decoded.strip() else []
-    if not is_admin_article:
+    if not is_admin_article and not uses_browser_page:
         fragments.extend(
             SourceDocument(
                 block,
@@ -48,7 +68,9 @@ def collect_fragments(
             for index, block in enumerate(inline_blocks)
             if block.strip()
         )
-    if not is_admin_article and parse_hint in {"period_title_detail", FIRST_THREE_PAGES_PARSE_HINT}:
+    if uses_browser_page:
+        fragments.append(_load_browser_page_document(client, source_url, site_rule.browser_selector))
+    if not is_admin_article and not uses_browser_page and parse_hint in {"period_title_detail", FIRST_THREE_PAGES_PARSE_HINT}:
         fragments.extend(
             load_period_title_detail_fragments(
                 client,
@@ -61,17 +83,77 @@ def collect_fragments(
                 max_list_pages=3 if parse_hint == FIRST_THREE_PAGES_PARSE_HINT else None,
             )
         )
-    fragments.extend(
-        collect_linked_documents(
-            html,
-            client=client,
-            source_url=source_url,
-            include_scripts=not is_admin_article,
-            get_text_fn=get_text,
-            script_filter_fn=should_collect_script_fragment,
-            decode_script_fn=decode_script_document_writes,
+    if not is_admin_article and not uses_browser_page:
+        fragments.extend(
+            collect_linked_documents(
+                html,
+                client=client,
+                source_url=source_url,
+                include_scripts=True,
+                get_text_fn=get_text,
+                script_filter_fn=should_collect_script_fragment,
+            )
         )
+    browser_fallback_used = False
+    has_script_error = any(
+        fragment.route == "resource_error"
+        and str(fragment.source_block_id).startswith("script:")
+        for fragment in fragments
     )
+    has_target_detail = any(
+        fragment.route == "period_detail"
+        and target_period
+        and target_period in re.sub(r"\s+", "", fragment.source)
+        for fragment in fragments
+    )
+    page_is_script_only = (
+        bool(re.search(r"<script[^>]+src=", html, re.IGNORECASE))
+        and _readable_text_length(html) < 200
+    )
+    target_in_html = target_period in re.sub(r"\s+", "", html)
+    detail_missing = (
+        parse_hint in {"period_title_detail", FIRST_THREE_PAGES_PARSE_HINT}
+        and not has_target_detail
+    )
+    # 这类首页的静态脚本块会滞后一期，只有浏览器渲染后的 DOM 才含当期行；
+    # 仅纯脚本页 + 目标期不在原始 HTML 时才渲染一次，避免全站无谓开销。
+    static_script_lags_target = (
+        bool(target_period)
+        and page_is_script_only
+        and parse_hint in JS_LAG_RENDER_PARSE_HINTS
+        and not target_in_html
+        and not (site_rule is not None and site_rule.tls_compat)
+    )
+    if (
+        not is_admin_article
+        and not uses_browser_page
+        and bool(target_period)
+        and (
+            (not target_in_html and has_script_error)
+            or (has_script_error and detail_missing)
+            or static_script_lags_target
+        )
+    ):
+        browser_document = _load_browser_fallback_document(client, source_url)
+        if browser_document is not None:
+            if parse_hint in {"period_title_detail", FIRST_THREE_PAGES_PARSE_HINT}:
+                detail_fragments = load_period_title_detail_fragments(
+                    client,
+                    browser_document.source,
+                    source_url,
+                    content_hint,
+                    field,
+                    periods=target_periods or [target_period],
+                    position=site_rule.position if site_rule else "顶部",
+                    max_list_pages=3 if parse_hint == FIRST_THREE_PAGES_PARSE_HINT else None,
+                    detail_get_text_fn=lambda detail_client, detail_url: _load_detail_text_with_browser_fallback(
+                        detail_client, detail_url, target_period
+                    ),
+                )
+                fragments = detail_fragments or [browser_document]
+            else:
+                fragments = [browser_document]
+            browser_fallback_used = True
     admin_article = load_admin_article_fragment_result(
         client,
         source_url,
@@ -129,85 +211,116 @@ def collect_fragments(
                     source_identity=f"article:{browser_article.record_id or _article_id_from_url(source_url)}",
                 )
             )
-    forum_record_id = _forum_id_from_url(source_url)
-    forum_documents = load_forum_article_documents(
-        client,
-        source_url,
-        include_history=include_forum_history,
-    )
-    if forum_documents:
-        fragments.extend(forum_documents)
-    else:
-        fragments.extend(
-            SourceDocument(
-                fragment,
-                source_url,
-                "forum",
-                record_id=forum_record_id,
-                source_block_id=f"forum:{forum_record_id}:{index}",
-                source_identity=f"forum:{forum_record_id}",
-                source_list_position=index,
-            )
-            for index, fragment in enumerate(
-                load_forum_article_fragments(client, source_url, include_history=include_forum_history)
-            )
-        )
-    if site_rule and site_rule.parse_hint == "full_period_list":
-        history_documents = load_forum_target_history_documents(
+    if not browser_fallback_used:
+        forum_documents = load_forum_article_documents(
             client,
             source_url,
-            site_rule,
-            target_periods or ([target_period] if target_period else []),
+            include_history=include_forum_history,
         )
-        if history_documents:
-            fragments.extend(history_documents)
-        elif not _forum_id_from_url(source_url):
-            fragments.extend(
-                SourceDocument(
-                    fragment,
-                    source_url,
-                    "forum_history",
-                    record_id=forum_record_id,
-                    source_block_id=f"forum_history:{forum_record_id}:{index}",
-                    source_identity=f"forum:{forum_record_id}",
-                    source_list_position=index,
-                )
-                for index, fragment in enumerate(
-                    load_forum_target_history_fragments(
-                        client,
-                        source_url,
-                        site_rule,
-                        target_periods or ([target_period] if target_period else []),
-                    )
-                )
-            )
-    user_documents = load_user_forum_documents(
-        client,
-        source_url,
-        rule=site_rule,
-        target_periods=target_periods or ([target_period] if target_period else []),
-    )
-    if user_documents:
-        fragments.extend(user_documents)
-    elif not re.search(r"/users/\d+", source_url):
-        fragments.extend(
-            SourceDocument(
-                fragment,
+        fragments.extend(forum_documents)
+        if site_rule and site_rule.parse_hint == "full_period_list":
+            history_documents = load_forum_target_history_documents(
+                client,
                 source_url,
-                "user_forum",
-                source_block_id=f"user_forum:{index}",
-                source_list_position=index,
+                site_rule,
+                target_periods or ([target_period] if target_period else []),
             )
-            for index, fragment in enumerate(
-                load_user_forum_fragments(
-                    client,
-                    source_url,
-                    rule=site_rule,
-                    target_periods=target_periods or ([target_period] if target_period else []),
-                )
-            )
+            fragments.extend(history_documents)
+        user_documents = load_user_forum_documents(
+            client,
+            source_url,
+            rule=site_rule,
+            target_periods=target_periods or ([target_period] if target_period else []),
         )
+        fragments.extend(user_documents)
     return _finalize_document_order(fragments)
+
+
+def _load_browser_page_document(client, source_url: str, selector: str) -> SourceDocument:
+    if not source_url or not hasattr(client, "render_dynamic"):
+        raise RuntimeError("配置要求浏览器渲染，但浏览器渲染不可用")
+    try:
+        rendered = client.render_dynamic(source_url)
+    except Exception as exc:
+        raise RuntimeError(f"浏览器渲染失败：{exc}") from exc
+    final_url = str(getattr(rendered, "url", "") or "")
+    if not final_url:
+        raise RuntimeError("浏览器渲染未返回最终URL")
+    if normalize_request_url(final_url) != normalize_request_url(source_url):
+        raise RuntimeError(f"浏览器渲染URL不匹配：{final_url}")
+    rendered_html = str(getattr(rendered, "html", "") or "")
+    if not rendered_html.strip():
+        raise RuntimeError("浏览器渲染页面为空")
+    if not selector.strip():
+        raise RuntimeError("浏览器渲染缺少唯一正文选择器")
+    selected = BeautifulSoup(rendered_html, "html.parser").select(selector)
+    if len(selected) != 1:
+        raise RuntimeError(f"浏览器渲染正文选择器未唯一命中：{selector}（命中{len(selected)}处）")
+    selected_html = str(selected[0])
+    parsed = urlsplit(source_url)
+    topic_match = re.search(r"/topic/(\d+)\.html$", parsed.path, re.IGNORECASE)
+    if not topic_match:
+        raise RuntimeError("浏览器渲染topic URL缺少唯一帖子ID")
+    topic_id = topic_match.group(1)
+    return SourceDocument(
+        selected_html,
+        source_url,
+        "browser_page",
+        record_id=topic_id,
+        record_path=parsed.path,
+        parent_url=source_url,
+        source_block_id=f"browser_topic:{topic_id}",
+        source_identity=f"topic:{topic_id}",
+    )
+
+
+def _load_browser_fallback_document(client, source_url: str) -> SourceDocument | None:
+    if not source_url or not hasattr(client, "render_dynamic"):
+        return None
+    try:
+        rendered = client.render_dynamic(source_url)
+    except Exception as exc:
+        return SourceDocument(
+            "",
+            source_url,
+            "resource_error",
+            source_block_id=f"browser:{source_url}",
+            resource_error=f"浏览器渲染失败：{exc}",
+            resource_required=True,
+        )
+    final_url = str(getattr(rendered, "url", "") or "")
+    rendered_html = str(getattr(rendered, "html", "") or "")
+    if normalize_request_url(final_url) != normalize_request_url(source_url):
+        return SourceDocument(
+            "",
+            source_url,
+            "resource_error",
+            source_block_id=f"browser:{source_url}",
+            resource_error=f"浏览器渲染URL不匹配：{final_url}",
+            resource_required=True,
+        )
+    if not rendered_html.strip():
+        return SourceDocument(
+            "",
+            source_url,
+            "resource_error",
+            source_block_id=f"browser:{source_url}",
+            resource_error="浏览器渲染页面为空",
+            resource_required=True,
+        )
+    parsed = urlsplit(source_url)
+    topic_match = re.search(r"/topic/(\d+)\.html$", parsed.path, re.IGNORECASE)
+    topic_id = topic_match.group(1) if topic_match else ""
+    return SourceDocument(
+        rendered_html,
+        source_url,
+        "browser_page" if topic_id else "page",
+        record_id=topic_id,
+        record_path=parsed.path if topic_id else "",
+        parent_url=source_url,
+        source_block_id=f"browser:{topic_id or source_url}",
+        source_identity=f"topic:{topic_id}" if topic_id else "",
+    )
 
 
 def _finalize_document_order(fragments: list[SourceDocument]) -> list[SourceDocument]:
@@ -241,6 +354,7 @@ def load_period_title_detail_fragments(
     *,
     max_list_pages: int | None = None,
     list_items_per_page: int = 20,
+    detail_get_text_fn=get_text,
 ) -> list[SourceDocument]:
     return _load_period_title_detail_fragments(
         client,
@@ -251,8 +365,23 @@ def load_period_title_detail_fragments(
         periods,
         limit,
         position,
-        get_text_fn=get_text,
+        get_text_fn=detail_get_text_fn,
         collect_fn=collect_fragments,
         max_list_pages=max_list_pages,
         list_items_per_page=list_items_per_page,
     )
+
+
+def _load_detail_text_with_browser_fallback(client, detail_url: str, target_period: str) -> str:
+    try:
+        detail_html = get_text(client, detail_url)
+        visible_text = re.sub(r"\s+", "", BeautifulSoup(detail_html, "html.parser").get_text(" ", strip=True))
+        if target_period and target_period in visible_text:
+            return detail_html
+    except Exception:
+        pass
+    rendered = client.render_dynamic(detail_url)
+    final_url = str(getattr(rendered, "url", "") or "")
+    if normalize_request_url(final_url) != normalize_request_url(detail_url):
+        raise RuntimeError(f"浏览器渲染详情URL不匹配：{final_url}")
+    return str(getattr(rendered, "html", "") or "")

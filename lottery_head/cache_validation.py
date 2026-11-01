@@ -12,6 +12,7 @@ from .validation import parse_target_period, validate_head_value
 CACHE_SCHEMA = "lottery_head_recent_10.v3"
 DYNAMIC_ROUTES = {"admin_api", "admin_browser", "forum", "forum_history", "user_forum"}
 FORUM_ROUTES = {"forum", "forum_history", "user_forum"}
+TOPIC_BROWSER_ROUTES = {"browser_page"}
 MAX_CACHE_PERIODS = 10
 
 
@@ -121,5 +122,9 @@ def _validate_cache_entry(entry: dict[str, Any], periods: list[str]) -> None:
                 raise ValueError("近10期缓存论坛来源身份不完整")
             if not isinstance(source.get("source_list_position"), int) or source["source_list_position"] < 0:
                 raise ValueError("近10期缓存论坛原始列表位置异常")
+        if str(source.get("route")) in TOPIC_BROWSER_ROUTES:
+            required_topic = ("record_id", "record_path", "source_block_id", "source_identity")
+            if any(not str(source.get(key) or "").strip() for key in required_topic):
+                raise ValueError("近10期缓存浏览器topic来源身份不完整")
     if any(not str(reason or "").strip() for reason in missing.values()):
         raise ValueError("近10期缓存缺少期数失败原因")

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
@@ -21,6 +22,29 @@ def canonical_url(value: str) -> str:
     default_port = 443 if parsed.scheme.lower() == "https" else 80
     netloc = host if port is None or port == default_port else f"{host}:{port}"
     return urlunsplit((parsed.scheme.lower(), netloc, parsed.path or "/", parsed.query, ""))
+
+
+def canonical_source_url(value: str) -> str:
+    """Normalize a source URL while retaining SPA/user identity fragments."""
+    parsed = urlsplit(value.strip())
+    base = canonical_url(value)
+    return f"{base}#{parsed.fragment}" if parsed.fragment else base
+
+
+def source_record_identity(value: str) -> tuple[str, ...] | None:
+    parsed = urlsplit(value.strip())
+    candidates = (
+        ("article", r"/article/(?:admin|manager|lottery)/([^/?#]+)", parsed.path),
+        ("topic", r"/topic/(\d+)(?:\.html)?$", parsed.path),
+        ("article_content", r"/article/ar_content/id/(\d+)/tid/(\d+)(?:\.html)?$", parsed.path.lower()),
+        ("user", r"/users/(\d+)", parsed.fragment),
+        ("forum", r"/forums/(\d+)", parsed.fragment),
+    )
+    for kind, pattern, source in candidates:
+        match = re.search(pattern, source, re.IGNORECASE)
+        if match:
+            return (kind, *match.groups())
+    return None
 
 
 def rule_identity(rule: SiteRule) -> tuple[str, str, str, str]:
@@ -51,6 +75,10 @@ def validate_rules(rules: list[SiteRule]) -> None:
             raise ValueError(f"{label}专属解析未注册：{rule.parse_hint}")
         if not has_dedicated_parser(rule.parse_hint):
             raise ValueError(f"{label}专属解析未绑定实现：{rule.parse_hint}")
+        if rule.browser_render and not rule.browser_selector:
+            raise ValueError(f"{label}启用浏览器渲染但缺少唯一正文选择器")
+        if rule.browser_selector and not rule.browser_render:
+            raise ValueError(f"{label}配置了浏览器正文选择器但未启用浏览器渲染")
         identity = rule_identity(rule)
         if identity in identities:
             raise ValueError(f"业务身份重复：{rule.section} {rule.url} {rule.position} {rule.parse_hint}")
@@ -69,6 +97,8 @@ def load_rules(path: Path = SITES_PATH) -> list[SiteRule]:
             parse_hint=item.get("parse_hint", ""),
             api_url=item.get("api_url", ""),
             tls_compat=bool(item.get("tls_compat", False)),
+            browser_render=bool(item.get("browser_render", False)),
+            browser_selector=str(item.get("browser_selector", "")).strip(),
         )
         for item in items
     ]
@@ -87,6 +117,8 @@ def rules_config_fingerprint(rules: list[SiteRule]) -> str:
             "parse_hint": rule.parse_hint,
             "api_url": rule.api_url,
             "tls_compat": rule.tls_compat,
+            **({"browser_render": True} if rule.browser_render else {}),
+            **({"browser_selector": rule.browser_selector} if rule.browser_selector else {}),
         }
         for rule in rules
     ]

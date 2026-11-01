@@ -284,12 +284,65 @@ def parse_bracket_field_head_records(
     return unique_extracted_records(records)
 
 
+def parse_article_result_line_head_records(
+    text: str,
+    field: str,
+    target_period: str = "",
+) -> list[dict[str, str]]:
+    """Parse one article result line without treating the title as a result.
+
+    Some static article pages put ``绝杀一头`` in the title and use a shorter
+    label such as ``绝杀`` on the actual result line.  The generic period
+    parser sees both the title's ``一头`` and the body's head value.  This
+    parser only accepts a line that contains the configured field, a bracketed
+    head value after that field, and an opening-result marker after the value.
+    """
+
+    marker = canonical_text(field)
+    if not marker:
+        return []
+    value_pattern = re.compile(
+        r"[【\[\(（《〈]\s*([0-4０-４零一二三四两]{1,4})\s*[头頭]?\s*[】\]\)）》〉]"
+    )
+    records: list[dict[str, str]] = []
+    for raw_line in text.splitlines():
+        line = re.sub(r"\s+", "", raw_line)
+        period_match = re.search(r"(?<!\d)(\d{2,3}期)", line)
+        if not period_match or not period_matches(period_match.group(1), target_period):
+            continue
+        compact_line = canonical_text(line)
+        marker_index = compact_line.find(marker)
+        if marker_index < 0:
+            continue
+        body = compact_line[marker_index + len(marker) :]
+        open_match = re.search(r"(?:开奖|開獎|[开開])", body)
+        if not open_match:
+            continue
+        values = {
+            display_head_value(normalize_head_value(match.group(1)))
+            for match in value_pattern.finditer(body[: open_match.start()])
+        }
+        values.discard("")
+        if len(values) != 1:
+            continue
+        records.append(
+            {
+                "period": period_match.group(1),
+                "value": next(iter(values)),
+                "raw_line": line,
+            }
+        )
+    return unique_extracted_records(records)
+
+
 def parse_miaosha_bracket_head_records(compact: str, target_period: str = "") -> list[dict[str, str]]:
     records = []
     pattern = re.compile(r"(\d{2,3}期)㊣秒杀[【\[]([0-4０-４零一二三四两]{1,4})[头頭]?[】\]](.*?)(?=\d{2,3}期|$)")
     for match in pattern.finditer(compact):
         period = match.group(1)
         if not period_matches(period, target_period):
+            continue
+        if not has_open_marker(match.group(0)):
             continue
         value = normalize_head_value(match.group(2))
         raw_line = period + "㊣秒杀" + match.group(0).split("㊣秒杀", 1)[1]

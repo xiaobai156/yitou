@@ -64,7 +64,7 @@ def parse_period_block_records(compact: str, marker: str, target_period: str = "
         match_body = canonical_text(body)
         if match_marker not in match_body or not has_open_marker(body):
             continue
-        value = find_non_marker_head_value(body, match_marker)
+        value = display_head_value(find_non_marker_head_value(body, match_marker) or "")
         if value:
             records.append({
                 "period": period,
@@ -85,7 +85,7 @@ def parse_period_bracket_head_records(compact: str, marker: str, target_period: 
         match_body = canonical_text(body)
         if match_marker not in match_body or not has_open_marker(body):
             continue
-        value = find_non_marker_head_value(body, match_marker)
+        value = display_head_value(find_non_marker_head_value(body, match_marker) or "")
         if not value:
             continue
         records.append({

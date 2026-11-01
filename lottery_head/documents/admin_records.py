@@ -40,16 +40,6 @@ def find_admin_article_matches(data, article_id: str) -> list[tuple[str, dict]]:
     return matches
 
 
-def unique_admin_article_matches(data_items: list[object], article_id: str) -> list[tuple[str, dict]]:
-    return [
-        (path, record)
-        for path, record, _source in unique_admin_article_matches_with_sources(
-            [("", item) for item in data_items],
-            article_id,
-        )
-    ]
-
-
 def rendered_payload_sources(rendered, fallback_url: str) -> list[tuple[str, object]]:
     payloads: list[tuple[str, object]] = []
     for payload in getattr(rendered, "payloads", ()):
@@ -77,17 +67,22 @@ def unique_admin_article_matches_with_sources(
     data_items: list[tuple[str, object]], article_id: str
 ) -> list[tuple[str, dict, str]]:
     matches: list[tuple[str, dict, str]] = []
+    seen_records: set[tuple[str, str, str, str]] = set()
     for index, (source_url, data) in enumerate(data_items):
         for path, record in find_admin_article_matches(data, article_id):
             if not is_admin_article_payload(record, article_id):
                 continue
+            signature = (
+                str(record.get("id")),
+                decode_admin_value(record.get("title", "")),
+                admin_article_author(record),
+                admin_article_text(record),
+            )
+            if signature in seen_records:
+                continue
+            seen_records.add(signature)
             matches.append((f"payload[{index}]{path}", record, source_url))
     return matches
-
-
-def find_admin_article(data, article_id: str) -> dict | None:
-    matches = find_admin_article_matches(data, article_id)
-    return matches[0][1] if len(matches) == 1 else None
 
 
 def decode_admin_value(value: str) -> str:
@@ -144,31 +139,6 @@ def validate_admin_article_record(
             continue
         if is_bottom_position(str(value)) != expected_bottom:
             return False, "目标记录方向与配置不一致"
-    return True, ""
-
-
-def validate_admin_article_text(
-    text: str,
-    *,
-    rule: SiteRule | None,
-    target_period: str,
-    target_periods: list[str] | None,
-) -> tuple[bool, str]:
-    if not text.strip():
-        return False, "浏览器未返回目标记录"
-    if rule is None:
-        return True, ""
-    identity_markers = admin_identity_markers(rule)
-    if identity_markers and not any(contains_text(text, marker) for marker in identity_markers):
-        return False, "浏览器结果未命中站名锚点"
-    if rule.field and not contains_text(text, rule.field):
-        return False, "浏览器结果未命中指定栏目字段"
-    wanted_periods = [target_period] if target_period else list(target_periods or [])
-    if wanted_periods and not any(
-        any(period_matches(found, wanted) for found in PERIOD_RE.findall(text))
-        for wanted in wanted_periods
-    ):
-        return False, "浏览器结果未命中指定期数"
     return True, ""
 
 

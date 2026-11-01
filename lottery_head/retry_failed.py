@@ -6,7 +6,7 @@ from pathlib import Path
 from .config import canonical_url, normalize_position, rule_identity
 from .models import HeadRecord, SiteRule
 from collections import Counter
-from .output_text import failure_category
+from .output_text import failure_category, unique_success_records
 
 
 def format_head_ranking(values: list[str]) -> list[str]:
@@ -73,7 +73,11 @@ def match_failed_rules(targets, rules: list[SiteRule]) -> list[SiteRule]:
     return selected
 
 
-def merge_success_txt(path: Path, records: list[HeadRecord]) -> bytes:
+def merge_success_txt(
+    path: Path, records: list[HeadRecord], target_period: str = ""
+) -> bytes:
+    # 期数硬校验：记录期数不等于目标期时不得写进成功 TXT（与缓存侧口径一致）。
+    records = unique_success_records(records, target_period)
     raw = path.read_bytes() if path.exists() else b""
     bom = raw.startswith(b"\xef\xbb\xbf")
     newline = "\r\n" if b"\r\n" in raw else "\n"

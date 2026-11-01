@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+# ruff: noqa: E402 - project root must be inserted before package imports
+
 import json
 import sys
 import time
@@ -17,7 +19,7 @@ from lottery_head.config import load_rules
 from lottery_head.models import HeadRecord, SiteRule
 from lottery_head.output import commit_artifacts_transaction, format_failure_reason
 from lottery_head.service import fetch_rule_for_any_period
-from lottery_head.settings import FAILURE_SUMMARY_DIR, MAX_WORKERS, SUCCESS_TAIL_LINES, SUMMARY_DIR
+from lottery_head.settings import FAILURE_SUMMARY_DIR, MAX_WORKERS, SUCCESS_TAIL_LINES, SUMMARY_DIR, TMP_DIR
 from lottery_head.transport import FetchContext
 from lottery_head.validation import parse_target_period
 
@@ -35,7 +37,7 @@ def write_multi_period_outputs(
     periods: list[str],
 ) -> tuple[Path, Path, Path]:
     label = output_label(periods)
-    json_path = Path(".tmp") / f"multi_period_any_{label}.json"
+    json_path = TMP_DIR / f"multi_period_any_{label}.json"
     success_path = SUMMARY_DIR / f"{label}多期抓取成功-一头.txt"
     failed_path = FAILURE_SUMMARY_DIR / f"{label}多期汇总失败-一头.txt"
     success_lines = ["名称 字段 命中期数 数据 网站"]

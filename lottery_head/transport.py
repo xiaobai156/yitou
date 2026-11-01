@@ -1,18 +1,19 @@
 from __future__ import annotations
 
 import json
+import os
+import socket
 import threading
 import time
 from collections import defaultdict
-from concurrent.futures import TimeoutError as FutureTimeoutError
-from typing import Any, Callable
+from typing import Any, Callable, Iterable
 from urllib.parse import urlsplit
 
 import httpx
 
-from .settings import MAX_WORKERS, USER_AGENT
+from .settings import USER_AGENT
 from .transport_browser import BrowserService
-from .transport_types import RETRYABLE_HTTP_STATUSES, TLS_CERTIFICATE_FAILURE_MARKERS, RenderedJsonPayload, RenderedPayload, RequestFailure, ResponsePayload, _Flight, normalize_request_url, response_text, tls_failure_is_retryable
+from .transport_types import RETRYABLE_HTTP_STATUSES, RenderedPayload, RequestFailure, ResponsePayload, _Flight, normalize_request_url, response_text, tls_failure_is_retryable
 
 
 def build_http_client() -> httpx.Client:
@@ -23,6 +24,54 @@ def build_http_client() -> httpx.Client:
         timeout=httpx.Timeout(12.0, connect=8.0),
         headers={"User-Agent": USER_AGENT, "Accept-Language": "zh-CN,zh;q=0.9"},
     )
+
+
+LOCAL_PROXY_CANDIDATES = ("127.0.0.1:7897", "127.0.0.1:7890", "127.0.0.1:10809", "127.0.0.1:1080")
+
+
+def detect_local_proxy() -> str | None:
+    """无 HTTPS_PROXY 时探测本机已监听的代理端口（仅 tls_compat 域名使用）。"""
+    for candidate in LOCAL_PROXY_CANDIDATES:
+        host, _, port = candidate.partition(":")
+        try:
+            with socket.create_connection((host, int(port)), timeout=0.3):
+                return f"http://{candidate}"
+        except (OSError, ValueError):
+            continue
+    return None
+
+
+def build_insecure_http_client() -> httpx.Client:
+    """仅用于站点显式声明 tls_compat 的域名（默认路径仍严格校验证书）。
+
+    这些域名在本机直连会被拒（TLS 握手 EOF），必须经本机代理：优先使用
+    环境里的 HTTPS_PROXY，未设置时探测本机已监听的代理端口；都没有才直连。
+    """
+    proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy") or detect_local_proxy()
+    options: dict[str, Any] = {}
+    if proxy:
+        options["proxy"] = proxy
+    return httpx.Client(
+        follow_redirects=True,
+        verify=False,
+        trust_env=False,
+        timeout=httpx.Timeout(12.0, connect=8.0),
+        headers={"User-Agent": USER_AGENT, "Accept-Language": "zh-CN,zh;q=0.9"},
+        **options,
+    )
+
+
+def tls_compat_hosts(rules: Iterable[Any] | None = None) -> set[str]:
+    """收集声明了 tls_compat 的站点域名（配置是唯一来源；缺配置时返回空集）。"""
+    if rules is None:
+        try:
+            from .config import load_rules
+
+            rules = load_rules()
+        except Exception:
+            return set()
+    hosts = {urlsplit(str(getattr(rule, "url", "") or "")).hostname or "" for rule in rules if getattr(rule, "tls_compat", False)}
+    return {host for host in hosts if host}
 
 
 class FetchContext:
@@ -38,6 +87,7 @@ class FetchContext:
         retry_backoff_seconds: float = 0.25,
         site_timeout_seconds: float = 35.0,
         browser_renderer: Callable[[str, float], Any] | None = None,
+        insecure_hosts: Iterable[str] | None = None,
     ) -> None:
         self.max_workers = max(1, int(max_workers))
         self.domain_limit = max(1, int(domain_limit))
@@ -46,6 +96,10 @@ class FetchContext:
         self.site_timeout_seconds = max(1.0, float(site_timeout_seconds))
         self._client = client or build_http_client()
         self._owns_client = client is None
+        self._insecure_hosts = (
+            {str(host) for host in insecure_hosts if host} if insecure_hosts is not None else tls_compat_hosts()
+        )
+        self._insecure_client: Any | None = None
         self._lock = threading.Lock()
         self._flights: dict[str, _Flight] = {}
         self._domains: dict[str, threading.BoundedSemaphore] = defaultdict(
@@ -62,11 +116,26 @@ class FetchContext:
 
     def close(self) -> None:
         self._browser_service.close()
+        if self._insecure_client is not None:
+            close = getattr(self._insecure_client, "close", None)
+            if callable(close):
+                close()
+            self._insecure_client = None
         if self._owns_client:
             close = getattr(self._client, "close", None)
             if callable(close):
                 close()
             self._owns_client = False
+
+    def _is_insecure(self, url: str) -> bool:
+        return (urlsplit(url).hostname or "") in self._insecure_hosts
+
+    def _client_for(self, url: str) -> Any:
+        if not self._is_insecure(url):
+            return self._client
+        if self._insecure_client is None:
+            self._insecure_client = build_insecure_http_client()
+        return self._insecure_client
 
     def get_text(self, url: str) -> str:
         return self.fetch(url).text
@@ -97,7 +166,7 @@ class FetchContext:
             assert isinstance(flight.payload, RenderedPayload)
             return flight.payload
         try:
-            payload = self._browser_service.render(key, self.site_timeout_seconds)
+            payload = self._browser_service.render(key, self.site_timeout_seconds, insecure=self._is_insecure(key))
             flight.payload = payload
             return payload
         except BaseException as exc:
@@ -105,10 +174,6 @@ class FetchContext:
             raise
         finally:
             flight.ready.set()
-
-    def render_dynamic_fresh(self, url: str) -> RenderedPayload:
-        key = normalize_request_url(url)
-        return self._browser_service.render(key, self.site_timeout_seconds)
 
     def fetch(self, url: str) -> ResponsePayload:
         key = normalize_request_url(url)
@@ -159,7 +224,7 @@ class FetchContext:
             raise RequestFailure("单站总时限已用尽：等待同域请求超时", retryable=True)
         try:
             try:
-                response = self._client.get(url)
+                response = self._client_for(url).get(url)
             except httpx.TimeoutException as exc:
                 raise RequestFailure(f"网络超时：{url}", retryable=True) from exc
             except httpx.ConnectError as exc:

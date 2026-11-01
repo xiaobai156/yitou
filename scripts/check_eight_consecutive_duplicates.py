@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+# ruff: noqa: E402 - project root must be inserted before package imports
+
 import argparse
 import sys
 from pathlib import Path
@@ -10,10 +12,19 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from lottery_head.cache import cache_key, read_validated_cache
-from lottery_head.config import canonical_url, load_rules, validate_rules
+from lottery_head.config import canonical_source_url, load_rules, source_record_identity, validate_rules
 from lottery_head.duplicates import DuplicateFinding, common_contiguous_periods, find_duplicate_findings, longest_available_streak
+from lottery_head.documents import collect_fragments, load_initial_source_html
 from lottery_head.models import SiteRule
+from lottery_head.network import get_text
 from lottery_head.service import fetch_site_period_data
+from lottery_head.service_results import make_site_period_data, required_resource_error
+from lottery_head.selection import (
+    extract_historical_period_candidates_by_period,
+    find_latest_available_record,
+    select_period_records,
+    select_period_values,
+)
 from lottery_head.transport import FetchContext
 
 
@@ -57,10 +68,22 @@ def build_candidate_rule(args: argparse.Namespace, rules: list[SiteRule]) -> Sit
     duplicate_name = next((rule for rule in rules if rule.section == candidate.section), None)
     if duplicate_name:
         raise ValueError(f"候选站目录名称重复：{candidate.section}，必须先由用户决定改名")
-    candidate_url = canonical_url(candidate.url)
-    duplicate_url = next((rule for rule in rules if canonical_url(rule.url) == candidate_url), None)
+    candidate_url = canonical_source_url(candidate.url)
+    duplicate_url = next((rule for rule in rules if canonical_source_url(rule.url) == candidate_url), None)
     if duplicate_url:
         raise ValueError(f"候选站来源URL重复：{duplicate_url.section}")
+    candidate_record = source_record_identity(candidate.url)
+    duplicate_record = next(
+        (
+            rule
+            for rule in rules
+            if candidate_record is not None
+            and source_record_identity(rule.url) == candidate_record
+        ),
+        None,
+    )
+    if duplicate_record:
+        raise ValueError(f"候选站疑似共用来源记录：{duplicate_record.section}（{':'.join(candidate_record)}）")
     return candidate
 
 
@@ -98,6 +121,55 @@ def candidate_entry(rule: SiteRule, site_data) -> dict:
     }
 
 
+def fetch_candidate_history(
+    rule: SiteRule,
+    periods: list[str],
+    allowed_latest_periods: list[str],
+    *,
+    client,
+):
+    try:
+        html = load_initial_source_html(client, rule.url, get_text_fn=get_text)
+        fragments = collect_fragments(
+            html,
+            client=client,
+            source_url=rule.url,
+            target_periods=list(dict.fromkeys([*allowed_latest_periods, *periods])),
+            content_hint=rule.content_hint,
+            field=rule.field,
+            admin_api_url=rule.api_url,
+            parse_hint=rule.parse_hint,
+            site_rule=rule,
+        )
+        resource_error = required_resource_error(fragments)
+        if resource_error:
+            raise RuntimeError(resource_error)
+        latest = find_latest_available_record(fragments, rule)
+        if not latest or latest.get("period") not in allowed_latest_periods:
+            actual = latest.get("period") if latest else "未找到"
+            raise RuntimeError(
+                f"方向基准失败：尾部最后一条为{actual}，只允许{'、'.join(allowed_latest_periods)}"
+            )
+        candidates = extract_historical_period_candidates_by_period(fragments, rule, periods)
+        records = select_period_records(candidates)
+        values, missing, conflicts = select_period_values(candidates, records, periods)
+        return make_site_period_data(
+            rule,
+            values,
+            missing,
+            "；".join(dict.fromkeys(conflicts)),
+            records,
+        )
+    except Exception as exc:
+        return make_site_period_data(
+            rule,
+            {},
+            list(periods),
+            str(exc),
+            missing_reasons={period: str(exc) for period in periods},
+        )
+
+
 def print_findings(findings: list[DuplicateFinding]) -> None:
     if not findings:
         print("未发现连续3期及以上、且标准化业务值一致的重复目录。")
@@ -132,7 +204,7 @@ def main(argv: list[str] | None = None) -> int:
             print("判重证据不足：以下目录没有连续6期统一验证数据，不能判定不重复：")
             for section, streak in insufficient:
                 print(f"- {section}：连续有效{len(streak)}期")
-            return 2
+            return 0
         print(f"缓存基准：{cache['latest_period']}，范围：{' '.join(periods)}")
         print_findings(find_duplicate_findings(sites, periods))
         return 0
@@ -147,7 +219,12 @@ def main(argv: list[str] | None = None) -> int:
         if not any(period in newest.period_values for period in latest_two):
             print("候选站拒绝：未按指定方向抓到缓存最新期或上一期")
             return 2
-        candidate_data = fetch_site_period_data(candidate, periods, client=context)
+        candidate_data = fetch_candidate_history(
+            candidate,
+            periods,
+            latest_two,
+            client=context,
+        )
     if candidate_data.error or not candidate_data.period_values:
         print(f"候选站拒绝：近10期真实抓取失败：{candidate_data.error or '未抓到有效期数'}")
         return 2

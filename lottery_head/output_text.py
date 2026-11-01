@@ -6,10 +6,18 @@ from collections import Counter
 from .models import HeadRecord
 from .parsers.common import display_head_value
 from .settings import SUCCESS_TAIL_LINES
+from .validation import parse_target_period
 
 
-def format_success_txt(records: list[HeadRecord]) -> str:
-    success_records = unique_success_records(records)
+def format_success_txt(
+    records: list[HeadRecord], target_period: str = ""
+) -> str:
+    success_records = unique_success_records(records, target_period)
+    values = [
+        value
+        for record in success_records
+        if (value := display_head_value(record.value))
+    ]
     lines = [
         f"{display_head_value(record.value)} {record.section}"
         for record in success_records
@@ -17,15 +25,18 @@ def format_success_txt(records: list[HeadRecord]) -> str:
     ]
     lines.extend(SUCCESS_TAIL_LINES)
     lines.append("")
-    lines.append(f"{'内容':<4} {'次数':>4} {'排名':>4}")
-    counts = Counter(
-        value
-        for record in success_records
-        if (value := display_head_value(record.value))
-    )
-    for rank, (value, count) in enumerate(sorted(counts.items(), key=lambda item: (-item[1], item[0])), start=1):
-        lines.append(f"{value:<4} {count:>4} {rank:>4}")
+    lines.extend(format_head_ranking(values))
     return "\n".join(lines)
+
+
+def format_head_ranking(values: list[str]) -> list[str]:
+    counts = Counter(head for value in values for head in re.findall(r"[0-4]头", value))
+    lines = ["内容\t次数\t排名"]
+    for rank, (value, count) in enumerate(
+        sorted(counts.items(), key=lambda item: (-item[1], item[0])), start=1
+    ):
+        lines.append(f"{value}\t{count}\t{rank}")
+    return lines
 
 
 def format_failed_txt(records: list[HeadRecord], target_period: str = "") -> str:
@@ -66,15 +77,37 @@ def result_file_period_label(target_period: str) -> str:
     return f"{digits.group(0)}期" if digits else target_period
 
 
-def unique_success_records(records: list[HeadRecord]) -> list[HeadRecord]:
+def unique_success_records(
+    records: list[HeadRecord], target_period: str = ""
+) -> list[HeadRecord]:
+    """去重并做期数硬校验：记录期数必须等于目标期，否则不写入成功 TXT。
+
+    缓存侧对同样的不一致会抛错，输出侧若不校验就会出现「TXT 写了、缓存拒绝」
+    的两边结论不一致。
+    """
+    wanted = _period_number(target_period)
     seen: set[str] = set()
     unique_records = []
     for record in records:
         if record.status != "success" or record.section in seen:
             continue
+        if wanted and _period_number(record.period) != wanted:
+            continue
         seen.add(record.section)
         unique_records.append(record)
     return unique_records
+
+
+def _period_number(value: str) -> str:
+    """归一化期数：优先走项目统一的 parse_target_period（全等匹配）。
+
+    不要用 re.search(r"\\d{1,3}") 这种子串提取——"1298期" 会取成 129、
+    "2989期" 会取成 298，与 selection 侧的 period_matches 结论相反。
+    """
+    try:
+        return parse_target_period(str(value or ""))
+    except ValueError:
+        return ""
 
 
 def format_failure_reason(error: str) -> str:
@@ -143,6 +176,10 @@ def _is_access_error(error: str) -> bool:
             "页面资源",
             "浏览器",
             "接口请求",
+            "专属接口",
+            "接口未返回",
+            "记录ID",
+            "跨域",
             "权限",
             "链接无效",
         )

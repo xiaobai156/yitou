@@ -22,7 +22,7 @@ def build_single_period_artifacts(
     debug_json_path = debug_dir / "lottery_head_records.json"
     debug_txt_path = debug_dir / "lottery_head_records.txt"
     artifacts = {
-        success_path: format_success_txt(records).encode("utf-8"),
+        success_path: format_success_txt(records, target_period).encode("utf-8"),
         failed_path: format_failed_txt(records, target_period).encode("utf-8") if any(record.status != "success" for record in records) else None,
         debug_json_path: json.dumps([asdict(record) for record in records], ensure_ascii=False, indent=2).encode("utf-8"),
         debug_txt_path: format_debug_txt(records).encode("utf-8"),
@@ -32,9 +32,11 @@ def build_single_period_artifacts(
     return artifacts
 
 
-def write_success_txt(records: list[HeadRecord], path: Path) -> None:
+def write_success_txt(
+    records: list[HeadRecord], path: Path, target_period: str = ""
+) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(format_success_txt(records), encoding="utf-8")
+    path.write_text(format_success_txt(records, target_period), encoding="utf-8")
 
 
 def write_failed_txt(records: list[HeadRecord], path: Path, target_period: str = "") -> None:

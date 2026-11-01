@@ -69,6 +69,8 @@ def build_cache_payload(
 ) -> dict[str, Any]:
     target = parse_target_period(attempted_period or latest_period)
     periods = rolling_cache_periods(existing, parse_target_period(latest_period))
+    if target not in periods:
+        raise ValueError(f"指定期数{target}不在当前缓存窗口，保持原缓存不变")
     existing_by_key = _entries_by_key(existing) if existing else {}
     records_by_key: dict[tuple[str, str, str, str], HeadRecord] = {}
     for record in records:

@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-from .four_head import parse_anchored_four_combo_missing_head_records, parse_four_combo_after_marker_records, parse_four_combo_missing_head_records, parse_manager_anchored_four_combo_missing_head_records, parse_topic_title_anchored_four_combo_missing_head_records, should_parse_missing_head_from_four_combo
+from .four_head import parse_anchored_four_combo_missing_head_records, parse_four_combo_after_marker_records, parse_four_combo_missing_head_records, parse_manager_anchored_four_combo_missing_head_records, parse_three_combo_excluded_head_records, parse_topic_title_anchored_four_combo_missing_head_records, should_parse_missing_head_from_four_combo
 from .period import SITE_SPECIFIC_CURRENT_WINDOW_PROFILES, parse_period_bracket_head_records, parse_site_specific_current_window_records
-from .phrases import parse_bisha_yitou_bracket_records, parse_bisha_yitou_plain_records, parse_bracket_field_head_records, parse_bracket_sha_yi_tou_records, parse_dash_head_phrase_records, parse_head_tail_phrase_records, parse_kill_head_phrase_records, parse_miaosha_bracket_head_records, parse_must_win_head_records, parse_number_code_to_head_records, parse_sword_head_records, parse_user_kill_head_records
+from .phrases import parse_article_result_line_head_records, parse_bisha_yitou_bracket_records, parse_bisha_yitou_plain_records, parse_bracket_field_head_records, parse_bracket_sha_yi_tou_records, parse_dash_head_phrase_records, parse_head_tail_phrase_records, parse_kill_head_phrase_records, parse_miaosha_bracket_head_records, parse_must_win_head_records, parse_number_code_to_head_records, parse_sword_head_records, parse_user_kill_head_records
 from .site_specific import (
     parse_ai_kill_head_records,
     parse_huakai_kill_head_records,
@@ -25,6 +25,7 @@ FIELD_MARKER_HINTS = {
     "missing_head_from_four_combo_full_period_list",
     "top_primary_ten_periods",
     "bracket_field_head",
+    "article_result_line_head",
     "dash_head_phrase",
     "head_tail_phrase",
     "jingshendousou_kill_head_line",
@@ -41,6 +42,7 @@ FIELD_MARKER_HINTS = {
     "topic_title_anchored_missing_head_from_four_combo",
     "period_title_detail",
     "period_title_detail_first_three_pages",
+    "excluded_heads_from_three_combo",
     "AI斩头",
     "绝杀①头",
 }
@@ -54,6 +56,7 @@ KNOWN_PARSE_HINTS = {
     "bisha_yitou_bracket",
     "bisha_yitou_plain",
     "bracket_field_head",
+    "article_result_line_head",
     "bracket_sha_yi_tou",
     "caifu_gaoshou_bottom_kill_head_table",
     "dash_head_phrase",
@@ -70,6 +73,7 @@ KNOWN_PARSE_HINTS = {
     "period_bracket_head",
     "period_title_detail",
     "period_title_detail_first_three_pages",
+    "excluded_heads_from_three_combo",
     "strict_position_three",
     "strict_position_three_miaosha",
     "strict_position_three_missing_head_from_four_combo",
@@ -92,6 +96,7 @@ DEDICATED_PARSE_HINTS = frozenset(
         "bisha_yitou_bracket",
         "bisha_yitou_plain",
         "bracket_field_head",
+        "article_result_line_head",
         "bracket_sha_yi_tou",
         "caifu_gaoshou_bottom_kill_head_table",
         "dash_head_phrase",
@@ -108,6 +113,7 @@ DEDICATED_PARSE_HINTS = frozenset(
         "period_bracket_head",
         "period_title_detail",
         "period_title_detail_first_three_pages",
+        "excluded_heads_from_three_combo",
         "strict_position_three",
         "strict_position_three_miaosha",
         "strict_position_three_missing_head_from_four_combo",
@@ -173,6 +179,8 @@ def dispatch_specialized_head_records(
         return True, parse_manager_anchored_four_combo_missing_head_records(compact, anchor_marker or field, field, target_period)
     if hint == "manager_anchored_missing_head_from_four_combo":
         return True, parse_manager_anchored_four_combo_missing_head_records(compact, anchor_marker or field, field, target_period)
+    if hint == "excluded_heads_from_three_combo":
+        return True, parse_three_combo_excluded_head_records(compact, anchor_marker or field, field, target_period)
     if hint == "topic_title_anchored_missing_head_from_four_combo":
         return True, parse_topic_title_anchored_four_combo_missing_head_records(compact, anchor_marker or field, field, target_period)
     if hint == "strict_position_three_miaosha":
@@ -185,6 +193,8 @@ def dispatch_specialized_head_records(
         return True, parse_bisha_yitou_bracket_records(compact, target_period)
     if hint == "bracket_field_head":
         return True, parse_bracket_field_head_records(compact, field, target_period)
+    if hint == "article_result_line_head":
+        return True, parse_article_result_line_head_records(text, field, target_period)
     if hint == "head_tail_phrase":
         return True, parse_head_tail_phrase_records(compact, field, target_period)
     if hint == "jingshendousou_kill_head_line":

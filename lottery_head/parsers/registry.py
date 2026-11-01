@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+# ruff: noqa: F401 - parser export surface
+
 import re
 
 from .common import html_to_text, unique_extracted_records

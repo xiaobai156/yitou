@@ -14,6 +14,12 @@ from .common import (
 
 _RESULT_TAIL_RE = re.compile(r"[】\]〗］]\s*\d{0,4}\s*[准錯错]")
 
+# 括号内只允许「数字 / 分隔符（.、,，-）/ 空白 / 头頭」等组合元素，
+# 避免把占位提示（如「开奖日20:00更新」）里的数字当成四头组合。
+_BRACKET_COMBO_CHARS_RE = re.compile(r"[\s0-4.、,，\-头頭]*")
+# 明确的「x.x.x.x」分隔写法：只有这种形式才保留重复头值（站方笔误）的诊断。
+_BRACKET_COMBO_GROUPS_RE = re.compile(r"[0-4](?:\s*[.、,，\-]\s*[0-4]){3}\s*[头頭]?")
+
 
 def has_result_tail(text: str) -> bool:
     """四组合括号后紧跟「NN准/NN错」结算尾巴（站方最新一行可能不带 `开` 标记）。"""
@@ -230,9 +236,16 @@ def extract_four_combo_values(text: str) -> list[str]:
         r"[【\[〖［\(（《〈]([^】\]〗］\)）》〉]{1,30})[】\]〗］\)）》〉]", text
     ):
         body = bracket_match.group(1)
+        if not _BRACKET_COMBO_CHARS_RE.fullmatch(body):
+            continue
         digits = re.findall(r"[0-4]", body)
-        if len(digits) == 4:
-            return digits
+        if len(digits) != 4:
+            continue
+        if len(set(digits)) != 4 and not _BRACKET_COMBO_GROUPS_RE.fullmatch(body.strip()):
+            # 「2000」这类连续重复数字（站方占位/时间样式）不是组合；
+            # 只有明确「x.x.x.x」写法才保留重复值，用于数据格式失败报告。
+            continue
+        return digits
     plain_combo = re.search(r"(?<![0-4])([0-4]{4})\s*[头頭]", text)
     if plain_combo:
         return list(plain_combo.group(1))

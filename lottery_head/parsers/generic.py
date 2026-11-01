@@ -37,15 +37,15 @@ def parse_generic_head_records(
     match_marker = canonical_text(marker)
     marker_indexes = [match.start() for match in re.finditer(re.escape(match_marker), match_compact)]
     for marker_index in marker_indexes:
-        previous_periods = list(PERIOD_RE.finditer(compact[:marker_index]))
+        previous_periods = list(PERIOD_RE.finditer(match_compact[:marker_index]))
         if previous_periods:
             previous_period = previous_periods[-1]
             if not period_matches(previous_period.group(1), target_period):
                 continue
             if marker_index - previous_period.end() <= 30:
-                next_period = PERIOD_RE.search(compact, marker_index + len(marker))
-                end = next_period.start() if next_period else len(compact)
-                body = compact[previous_period.end() : end]
+                next_period = PERIOD_RE.search(match_compact, marker_index + len(match_marker))
+                end = next_period.start() if next_period else len(match_compact)
+                body = match_compact[previous_period.end() : end]
                 value = find_non_marker_head_value(body, match_marker)
                 if has_open_marker(body) and value:
                     records.append({
@@ -55,7 +55,7 @@ def parse_generic_head_records(
                     })
 
     for marker_index in marker_indexes:
-        tail = compact[marker_index:]
+        tail = match_compact[marker_index:]
         for block in re.finditer(r"(\d{2,3}期)(.*?)(?=\d{2,3}期|$)", tail):
             period = block.group(1)
             if not period_matches(period, target_period):

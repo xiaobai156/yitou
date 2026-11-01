@@ -36,23 +36,6 @@ def page_has_head_data(text: str) -> bool:
     )
 
 
-def render_dynamic_page(
-    url: str,
-    *,
-    context=None,
-    rule: SiteRule | None = None,
-    target_period: str = "",
-    target_periods: list[str] | None = None,
-) -> str:
-    return render_dynamic_page_result(
-        url,
-        context=context,
-        rule=rule,
-        target_period=target_period,
-        target_periods=target_periods,
-    ).text
-
-
 def render_dynamic_page_result(
     url: str,
     *,
@@ -71,19 +54,18 @@ def render_dynamic_page_result(
         rendered = context.render_dynamic(url)
     except Exception as exc:
         return AdminArticleFragmentResult("", source=url, error=f"浏览器渲染失败：{exc}")
+    final_url = str(getattr(rendered, "url", "") or "")
+    final_article = re.search(r"/article/(?:admin|manager|lottery)/([^/?#]+)", final_url)
+    if (
+        not final_url
+        or not is_same_origin(final_url, url)
+        or final_article is None
+        or final_article.group(1) != article_id
+    ):
+        return AdminArticleFragmentResult("", source=final_url or url, error="浏览器最终URL与目标文章ID不一致")
     matches, match_error = rendered_admin_article_matches(rendered, url, article_id)
     if match_error:
         return AdminArticleFragmentResult("", source=url, error=match_error)
-    for _attempt in range(3):
-        if matches or not hasattr(context, "render_dynamic_fresh"):
-            break
-        try:
-            rendered = context.render_dynamic_fresh(url)
-        except Exception as exc:
-            return AdminArticleFragmentResult("", source=url, error=f"浏览器重试失败：{exc}")
-        matches, match_error = rendered_admin_article_matches(rendered, url, article_id)
-        if match_error:
-            return AdminArticleFragmentResult("", source=url, error=match_error)
     if len(matches) != 1:
         return AdminArticleFragmentResult(
             "",
@@ -133,15 +115,3 @@ def rendered_admin_article_matches(
     ]
     matches = unique_admin_article_matches_with_sources(payloads, article_id)
     return matches, ""
-
-
-def dynamic_page_cache_key(url: str, rule: SiteRule | None) -> str:
-    if rule is None:
-        return url
-    return "|".join((url, rule.section, rule.field, rule.position, rule.content_hint))
-
-
-def sync_playwright():
-    from playwright.sync_api import sync_playwright as playwright_sync
-
-    return playwright_sync()
