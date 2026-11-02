@@ -1,10 +1,14 @@
 from __future__ import annotations
 
+import gzip
+import http.client
 import json
 import os
 import socket
+import ssl
 import threading
 import time
+import zlib
 from collections import defaultdict
 from typing import Any, Callable, Iterable
 from urllib.parse import urlsplit
@@ -59,6 +63,113 @@ def build_insecure_http_client() -> httpx.Client:
         headers={"User-Agent": USER_AGENT, "Accept-Language": "zh-CN,zh;q=0.9"},
         **options,
     )
+
+
+DOH_ENDPOINTS = ("https://223.5.5.5/resolve", "https://1.1.1.1/dns-query")
+_REAL_IP_CACHE: dict[str, list[str]] = {}
+
+
+def resolve_real_ips(host: str) -> list[str]:
+    """经 DoH 取真实 A 记录。
+
+    本机 DNS 被代理接管时部分域名只返回代理假地址（198.18.0.0/15），直连必然
+    握手失败；这里改用 DoH 拿真实 IP，作为直连失败后的最后一次尝试。
+    """
+    if host in _REAL_IP_CACHE:
+        return _REAL_IP_CACHE[host]
+    for endpoint in DOH_ENDPOINTS:
+        try:
+            with httpx.Client(verify=False, trust_env=False, timeout=httpx.Timeout(8.0)) as client:
+                response = client.get(
+                    endpoint,
+                    params={"name": host, "type": "A"},
+                    headers={"accept": "application/dns-json", "User-Agent": USER_AGENT},
+                )
+                payload = response.json()
+            ips = [str(item["data"]) for item in payload.get("Answer", []) if item.get("type") == 1]
+            if ips:
+                _REAL_IP_CACHE[host] = ips
+                return ips
+        except (httpx.HTTPError, ValueError, KeyError, TypeError):
+            continue
+    return []
+
+
+class _SniConnection(http.client.HTTPSConnection):
+    """连接真实 IP，但用原域名做 SNI 和 Host（证书仍按域名严格校验）。"""
+
+    def __init__(self, host: str, ip: str, timeout: float) -> None:
+        super().__init__(host, timeout=timeout)
+        self._ip = ip
+
+    def connect(self) -> None:
+        raw = socket.create_connection((self._ip, self.port), self.timeout)
+        self.sock = ssl.create_default_context().wrap_socket(raw, server_hostname=self.host)
+
+
+def _decode_body(body: bytes, content_encoding: str) -> str:
+    encoding = (content_encoding or "").lower()
+    if encoding == "gzip":
+        body = gzip.decompress(body)
+    elif encoding == "deflate":
+        body = zlib.decompress(body)
+    for charset in ("utf-8", "gb18030"):
+        try:
+            return body.decode(charset)
+        except UnicodeDecodeError:
+            continue
+    return body.decode("utf-8", "ignore")
+
+
+def fetch_via_real_ip(url: str, timeout: float = 20.0, depth: int = 0) -> ResponsePayload:
+    """按真实 IP 完成一次 HTTPS GET，返回与 httpx 一致的响应载荷。"""
+    parsed = urlsplit(url)
+    host = parsed.hostname or ""
+    if parsed.scheme.lower() != "https" or not host or depth > 3:
+        raise RequestFailure(f"真实IP回退不支持：{url}", retryable=False)
+    ips = resolve_real_ips(host)
+    if not ips:
+        raise RequestFailure(f"真实IP回退无法解析域名：{host}", retryable=False)
+    path = parsed.path or "/"
+    if parsed.query:
+        path = f"{path}?{parsed.query}"
+    last_error: Exception | None = None
+    for ip in ips[:2]:
+        connection = _SniConnection(host, ip, timeout)
+        try:
+            connection.request(
+                "GET",
+                path,
+                headers={
+                    "Host": parsed.netloc,
+                    "User-Agent": USER_AGENT,
+                    "Accept-Language": "zh-CN,zh;q=0.9",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Connection": "close",
+                },
+            )
+            response = connection.getresponse()
+            status = int(response.status)
+            body = response.read()
+            content_encoding = response.getheader("content-encoding", "")
+            location = response.getheader("location", "")
+        except (OSError, ssl.SSLError, http.client.HTTPException) as exc:
+            last_error = exc
+            continue
+        finally:
+            connection.close()
+        if status in {301, 302, 303, 307, 308} and location:
+            if location.startswith("/"):
+                location = f"{parsed.scheme}://{parsed.netloc}{location}"
+            return fetch_via_real_ip(location, timeout, depth + 1)
+        if status < 200 or status >= 300:
+            raise RequestFailure(
+                f"HTTP {status}：{url}",
+                retryable=status in RETRYABLE_HTTP_STATUSES,
+                status_code=status,
+            )
+        return ResponsePayload(url=url, status_code=status, text=_decode_body(body, content_encoding))
+    raise RequestFailure(f"真实IP回退连接失败：{url}：{last_error}", retryable=False)
 
 
 def tls_compat_hosts(rules: Iterable[Any] | None = None) -> set[str]:
@@ -217,6 +328,13 @@ class FetchContext:
                     time.sleep(delay)
                 attempt += 1
 
+    def _real_ip_fallback(self, url: str) -> ResponsePayload | None:
+        """直连失败后按 DoH 真实 IP 重试一次（本机 DNS 返回代理假地址时用）。"""
+        try:
+            return fetch_via_real_ip(url, timeout=float(self.site_timeout_seconds))
+        except RequestFailure:
+            return None
+
     def _fetch_once(self, url: str) -> ResponsePayload:
         host = urlsplit(url).netloc
         limiter = self._domains[host]
@@ -228,12 +346,18 @@ class FetchContext:
             except httpx.TimeoutException as exc:
                 raise RequestFailure(f"网络超时：{url}", retryable=True) from exc
             except httpx.ConnectError as exc:
+                fallback = self._real_ip_fallback(url)
+                if fallback is not None:
+                    return fallback
                 if "ssl" in str(exc).lower():
                     raise RequestFailure(
                         f"SSL/TLS失败：{url}", retryable=tls_failure_is_retryable(exc)
                     ) from exc
                 raise RequestFailure(f"网络连接失败：{url}", retryable=True) from exc
             except httpx.TransportError as exc:
+                fallback = self._real_ip_fallback(url)
+                if fallback is not None:
+                    return fallback
                 category = "SSL/TLS失败" if "ssl" in str(exc).lower() else "网络请求失败"
                 retryable = category != "SSL/TLS失败" or tls_failure_is_retryable(exc)
                 raise RequestFailure(f"{category}：{url}", retryable=retryable) from exc
