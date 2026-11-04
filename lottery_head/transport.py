@@ -30,7 +30,7 @@ def build_http_client() -> httpx.Client:
     )
 
 
-LOCAL_PROXY_CANDIDATES = ("127.0.0.1:7900", "127.0.0.1:7897", "127.0.0.1:7890", "127.0.0.1:10809", "127.0.0.1:1080")
+LOCAL_PROXY_CANDIDATES = ("127.0.0.1:7897", "127.0.0.1:7900", "127.0.0.1:7890", "127.0.0.1:10809", "127.0.0.1:1080")
 
 
 def detect_local_proxy() -> str | None:
