@@ -40,6 +40,7 @@ python -u scripts/retry_failed_sites.py 252期
 - 失败 TXT：上级 `七类数据统一归纳失败\{期数}期失败-一头.txt`。
 - 近 10 期缓存：本项目 `.tmp\recent_10_cache.json`；缓存按完整配置身份绑定。
 - `recent_10_cache.json` 必须入库；`.gitattributes` 对其设 `-text`，避免换行转换改写文件内容。
+- 封存记录 `archived_sites.json` 以及任何封存目录、快照必须入库并提交，不得只留在本地。
 - `.tmp` 下的调试脚本、渲染快照、凭据和临时产物不得提交或推送。
 
 ## 开发与同步
