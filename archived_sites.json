@@ -803,6 +803,16 @@
       "parse_hint": "missing_head_from_four_combo_full_period_list",
       "archived_at": "2026-10-31T18:53:31+08:00",
       "reason": "304期帖子已被站方下架（页面显示「此帖子ID已被下架」），大掌柜/曾道人论坛站内搜无该站，属无数据，用户点名封存"
+    },
+    {
+      "url": "https://0130190827.673454.xyz/bbs/topic.php?id=20263",
+      "position": "尾部",
+      "section": "实力推荐",
+      "field": "四头中特",
+      "content_hint": "实力推荐",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "archived_at": "2026-11-08",
+      "reason": "312期原帖页面已变成「139559.com大掌柜」门户外壳（46520 字符里只有 4 处“期”，0 处“四头中特”，带 cookie 二次访问结果相同），站点改版/疑似需登录，无法取得当期数据，用户点名封存"
     }
   ]
 }
