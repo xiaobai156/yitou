@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import base64
 import json
+import re
 from urllib.parse import urlparse
 
 from bs4 import BeautifulSoup
@@ -127,8 +128,11 @@ def validate_admin_article_record(
     if rule.field and not any(contains_text(part, rule.field) for part in (title, body)):
         return False, "目标记录未命中指定栏目字段"
     wanted_periods = [target_period] if target_period else list(target_periods or [])
+    # 站方会在最新一行的期号中间插入标签（如 314<strong>期</strong>），
+    # 必须先转成纯文本再匹配期号，否则最新期永远被判为“未命中”。
+    period_text = re.sub(r"\s+", "", BeautifulSoup(body, "html.parser").get_text(""))
     if wanted_periods and not any(
-        any(period_matches(found, wanted) for found in PERIOD_RE.findall(body))
+        any(period_matches(found, wanted) for found in PERIOD_RE.findall(period_text))
         for wanted in wanted_periods
     ):
         return False, "目标记录未命中指定期数"
