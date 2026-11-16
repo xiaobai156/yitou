@@ -813,6 +813,48 @@
       "parse_hint": "missing_head_from_four_combo_full_period_list",
       "archived_at": "2026-11-08",
       "reason": "312期原帖页面已变成「139559.com大掌柜」门户外壳（46520 字符里只有 4 处“期”，0 处“四头中特”，带 cookie 二次访问结果相同），站点改版/疑似需登录，无法取得当期数据，用户点名封存"
+    },
+    {
+      "url": "https://993345.com/gsb1.aspx?id=2266",
+      "position": "尾部",
+      "section": "不吐不快-杀一头",
+      "field": "杀一头",
+      "content_hint": "必杀一头",
+      "parse_hint": "bisha_yitou_plain",
+      "code": "155",
+      "archived_at": "2026-11-12",
+      "reason": "316期帖内数据仍止于 311期（`311期: 必杀一头 【1头】 开 ？00准`），312–316 连续 5 期未更新；静态页、渲染 DOM、cache-buster 结果一致，非 CDN 旧缓存；同论坛其他配置站正常发帖，属该帖停更，用户点名封存"
+    },
+    {
+      "url": "https://0130190827.657954.xyz/bbs/topic.php?id=20280",
+      "position": "尾部",
+      "section": "拭目以待",
+      "field": "④头中特",
+      "content_hint": "拭目以待",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "archived_at": "2026-11-12",
+      "reason": "域名 0130190827.657954.xyz 已停放：DNS 解析到 91.195.240.94，TLS 报 [SSL: TLSV1_UNRECOGNIZED_NAME]，HTTP 根页空响应，Playwright 渲染报 ERR_SSL_UNRECOGNIZED_NAME_ALERT，316期整站不可访问，用户点名封存"
+    },
+    {
+      "url": "https://0130190827.657954.xyz/bbs/topic.php?id=20347",
+      "position": "尾部",
+      "section": "真龙玄机",
+      "field": "④头中特",
+      "content_hint": "真龙玄机",
+      "parse_hint": "missing_head_from_four_combo_full_period_list",
+      "archived_at": "2026-11-12",
+      "reason": "与「拭目以待」同域名 0130190827.657954.xyz，域名已停放（DNS 91.195.240.94、TLS UNRECOGNIZED_NAME、渲染 ERR_SSL_UNRECOGNIZED_NAME_ALERT），316期整站不可访问，用户点名封存"
+    },
+    {
+      "url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a03409acd2fbc900f6db842?url=hj",
+      "position": "尾部",
+      "section": "洁白晶莹",
+      "field": "④头中特",
+      "content_hint": "洁白晶莹",
+      "parse_hint": "admin_anchored_missing_head_from_four_combo",
+      "code": "115",
+      "archived_at": "2026-11-16",
+      "reason": "帖子被站点删除：320期详情页对应接口 /api/proxy/manager-articles/6a03409acd2fbc900f6db842 返回 404「AdminArticle 不存在」，浏览器渲染正文只剩 Failed to fetch；整站 landing-page-data（5.4MB、114 条记录）中该 ID 出现 0 次，所属「实力公开👉绝杀区」9 帖里已无「④头中特」系列，作者停更，用户点名封存"
     }
   ]
 }

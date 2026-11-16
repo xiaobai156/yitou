@@ -440,7 +440,7 @@
     "position": "顶部",
     "section": "千变万化",
     "field": "精杀一头",
-    "content_hint": "千变万化 发表于",
+    "content_hint": "心心相印 发表于",
     "parse_hint": "strict_position_three",
     "code": "54"
   },
@@ -891,15 +891,6 @@
     "code": "114"
   },
   {
-    "url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a03409acd2fbc900f6db842?url=hj",
-    "position": "尾部",
-    "section": "洁白晶莹",
-    "field": "④头中特",
-    "content_hint": "洁白晶莹",
-    "parse_hint": "admin_anchored_missing_head_from_four_combo",
-    "code": "115"
-  },
-  {
     "url": "https://yqjfwqsc.1dayz-aetgp-kbjidr.xyz:16677/topic/677893.html",
     "position": "顶部",
     "section": "偏听偏信",
@@ -1179,15 +1170,6 @@
     "content_hint": "扬眉吐气",
     "parse_hint": "missing_head_from_four_combo",
     "code": "154"
-  },
-  {
-    "url": "https://993345.com/gsb1.aspx?id=2266",
-    "position": "尾部",
-    "section": "不吐不快-杀一头",
-    "field": "杀一头",
-    "content_hint": "必杀一头",
-    "parse_hint": "bisha_yitou_plain",
-    "code": "155"
   },
   {
     "url": "https://993345.com/gsb1.aspx?id=2509",
@@ -2027,22 +2009,6 @@
     "field": "绝杀一头",
     "content_hint": "总坛",
     "parse_hint": "article_result_line_head"
-  },
-  {
-    "url": "https://0130190827.657954.xyz/bbs/topic.php?id=20280",
-    "position": "尾部",
-    "section": "拭目以待",
-    "field": "④头中特",
-    "content_hint": "拭目以待",
-    "parse_hint": "missing_head_from_four_combo_full_period_list"
-  },
-  {
-    "url": "https://0130190827.657954.xyz/bbs/topic.php?id=20347",
-    "position": "尾部",
-    "section": "真龙玄机",
-    "field": "④头中特",
-    "content_hint": "真龙玄机",
-    "parse_hint": "missing_head_from_four_combo_full_period_list"
   },
   {
     "url": "https://rjqiolk.fpr58-a6ldz-okyczd.work:17477/topic/682104.html",
